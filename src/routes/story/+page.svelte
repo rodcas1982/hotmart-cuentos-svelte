@@ -1,7 +1,6 @@
 <script lang="ts">
-    import { stories, type Story } from '$lib/data/stories';
+    import { stories } from '$lib/data/stories';
     
-    // Get story from URL
     const urlParams = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '');
     const storyId = urlParams.get('story') || '01-valiente';
     const story: Story = stories.find(s => s.id === storyId) || stories[0];
@@ -10,7 +9,24 @@
     let lang: 'es' | 'en' = 'es';
     let isFlipping = false;
     
-    // Calculate total pages (pairs for book view)
+    // Get gradient based on story
+    const gradients: Record<string, string> = {
+        '01-valiente': 'linear-gradient(135deg, #FF6B6B, #FFE66D)',
+        '02-luna': 'linear-gradient(135deg, #667eea, #764ba2)',
+        '03-max': 'linear-gradient(135deg, #11998e, #38ef7d)',
+        '04-sofia': 'linear-gradient(135deg, #56ab2f, #a8e063)',
+        '05-tito': 'linear-gradient(135deg, #F7971E, #FFD200)',
+        '06-dragon': 'linear-gradient(135deg, #2C3E50, #4CA1AF)',
+        '07-lunaviaje': 'linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d)',
+        '08-selva': 'linear-gradient(135deg, #134E5E, #71B280)',
+        '09-castillo': 'linear-gradient(135deg, #8E2DE2, #4A00E0)',
+        '10-contando': 'linear-gradient(135deg, #FC466B, #3F5EFB)',
+        '11-abc': 'linear-gradient(135deg, #F093FB, #F5576C)',
+        '12-colores': 'linear-gradient(135deg, #FF416C, #FF4B2B)'
+    };
+    
+    $: gradient = gradients[story.id] || gradients['01-valiente'];
+    
     $: totalPages = Math.ceil(story.pages.length / 2);
     $: currentPair = Math.floor(currentPage / 2);
     $: currentLeftPage = currentPage;
@@ -51,30 +67,30 @@
     }
 </script>
 
-<div class="app">
-    <!-- Hero Image -->
+<div class="app" style="--gradient: {gradient}">
+    <!-- Hero con patrón -->
     <header class="hero">
-        <img src="/images/{story.image}" alt={story.title[lang]} />
-        <div class="hero-overlay">
+        <div class="hero-pattern"></div>
+        <div class="hero-content">
+            <img src="/images/{story.image}" alt={story.title[lang]} class="hero-img" />
             <h1>{story.title[lang]}</h1>
         </div>
     </header>
     
     <!-- Controls -->
     <nav class="controls">
-        <button class="back-btn" on:click={goBack}>← Volver</button>
-        <div class="controls-right">
-            <div class="lang-toggle">
-                <button class:active={lang === 'es'} on:click={() => setLang('es')}>ES</button>
-                <button class:active={lang === 'en'} on:click={() => setLang('en')}>EN</button>
-            </div>
+        <button class="back-btn" on:click={goBack}>
+            <span class="icon">←</span> Volver
+        </button>
+        <div class="lang-toggle">
+            <button class:active={lang === 'es'} on:click={() => setLang('es')}>ES</button>
+            <button class:active={lang === 'en'} on:click={() => setLang('en')}>EN</button>
         </div>
     </nav>
     
-    <!-- Book Carousel -->
+    <!-- Book -->
     <main class="book-container">
         <div class="book" class:flipping={isFlipping}>
-            <!-- Left Page -->
             <div class="page left" class:visible={currentLeftPage < story.pages.length}>
                 {#if currentLeftPage < story.pages.length}
                     <div class="page-content">
@@ -82,8 +98,6 @@
                     </div>
                 {/if}
             </div>
-            
-            <!-- Right Page -->
             <div class="page right" class:visible={hasRightPage}>
                 {#if hasRightPage}
                     <div class="page-content">
@@ -91,21 +105,27 @@
                     </div>
                 {/if}
             </div>
+            <div class="book-spine"></div>
         </div>
         
         <!-- Navigation -->
         <div class="navigation">
-            <button class="nav-btn" on:click={prevPage} disabled={currentPage === 0}>◀</button>
+            <button class="nav-btn" on:click={prevPage} disabled={currentPage === 0}>
+                <span>◀</span>
+            </button>
             <div class="page-indicator">
                 {#each Array(totalPages) as _, i}
                     <button 
                         class="page-dot" 
                         class:active={currentPair === i}
                         on:click={() => goToPage(i)}
+                        aria-label="Página {i + 1}"
                     ></button>
                 {/each}
             </div>
-            <button class="nav-btn" on:click={nextPage} disabled={currentPage >= story.pages.length - 1}>▶</button>
+            <button class="nav-btn" on:click={nextPage} disabled={currentPage >= story.pages.length - 1}>
+                <span>▶</span>
+            </button>
         </div>
     </main>
 </div>
@@ -118,8 +138,8 @@
     }
     
     :global(body) {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        background: #fafafa;
+        font-family: 'Baloo 2', 'Fredoka', -apple-system, BlinkMacSystemFont, sans-serif;
+        background: var(--gradient);
         min-height: 100vh;
     }
     
@@ -132,32 +152,49 @@
     /* Hero */
     .hero {
         position: relative;
-        width: 100%;
-        height: 250px;
-        background: white;
+        height: 220px;
         overflow: hidden;
     }
     
-    .hero img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
+    .hero-pattern {
+        position: absolute;
+        inset: 0;
+        background-image: 
+            radial-gradient(circle at 20% 80%, rgba(255,255,255,0.2) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, rgba(255,255,255,0.15) 0%, transparent 40%),
+            radial-gradient(circle at 40% 40%, rgba(255,255,255,0.1) 0%, transparent 30%);
     }
     
-    .hero-overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding: 20px;
-        background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    }
+    
+    .hero-img {
+        width: 140px;
+        height: 140px;
+        object-fit: contain;
+        filter: drop-shadow(0 8px 16px rgba(0,0,0,0.2));
+        animation: float 3s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
     }
     
     .hero h1 {
         color: white;
-        font-size: 1.8rem;
-        font-weight: 300;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        font-size: 2rem;
+        font-weight: 800;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        margin-top: 10px;
     }
     
     /* Controls */
@@ -167,65 +204,83 @@
         align-items: center;
         padding: 12px 20px;
         background: white;
-        border-bottom: 1px solid #eee;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         position: sticky;
         top: 0;
         z-index: 10;
     }
     
     .back-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
         background: none;
         border: none;
         font-size: 1rem;
-        color: #666;
+        font-weight: 600;
+        color: #555;
         cursor: pointer;
+        padding: 8px 16px;
+        border-radius: 25px;
+        transition: all 0.2s;
+    }
+    
+    .back-btn:hover {
+        background: #f5f5f5;
+    }
+    
+    .back-btn .icon {
+        font-size: 1.2rem;
     }
     
     .lang-toggle {
         display: flex;
         gap: 4px;
-        background: #f5f5f5;
+        background: #f0f0f0;
         padding: 4px;
-        border-radius: 20px;
+        border-radius: 25px;
     }
     
     .lang-toggle button {
         background: none;
         border: none;
-        padding: 6px 14px;
-        border-radius: 16px;
-        font-size: 0.85rem;
-        font-weight: 600;
+        padding: 8px 20px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 700;
         cursor: pointer;
-        color: #999;
-        transition: all 0.2s;
+        color: #888;
+        transition: all 0.3s;
     }
     
     .lang-toggle button.active {
-        background: #222;
+        background: var(--gradient);
         color: white;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
     
-    /* Book Container */
+    /* Book */
     .book-container {
         flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 20px;
-        background: #f5f5f5;
+        padding: 30px 20px;
     }
     
     .book {
         display: flex;
         width: 100%;
-        max-width: 800px;
-        height: 400px;
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        max-width: 900px;
+        height: 380px;
+        background: #FFFEF5;
+        border-radius: 12px;
+        box-shadow: 
+            0 10px 40px rgba(0,0,0,0.15),
+            inset 0 0 60px rgba(0,0,0,0.03);
         overflow: hidden;
+        position: relative;
         transition: transform 0.3s ease;
     }
     
@@ -238,9 +293,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px;
-        opacity: 0.4;
-        transition: opacity 0.3s;
+        padding: 30px 40px;
+        opacity: 0.5;
+        transition: all 0.4s;
     }
     
     .page.visible {
@@ -248,7 +303,21 @@
     }
     
     .page.left {
-        border-right: 1px solid #eee;
+        background: linear-gradient(90deg, #FFFEF5, #FFFEF0);
+    }
+    
+    .page.right {
+        background: linear-gradient(90deg, #FFFEF0, #FFFEF5);
+    }
+    
+    .book-spine {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: linear-gradient(90deg, #ddd, #eee, #ddd);
+        transform: translateX(-50%);
     }
     
     .page-content {
@@ -256,35 +325,38 @@
     }
     
     .page-content p {
-        font-size: 1.1rem;
-        line-height: 1.8;
-        color: #333;
+        font-size: 1.15rem;
+        line-height: 2;
+        color: #444;
     }
     
     /* Navigation */
     .navigation {
         display: flex;
         align-items: center;
-        gap: 20px;
-        margin-top: 20px;
+        gap: 25px;
+        margin-top: 25px;
     }
     
     .nav-btn {
-        width: 44px;
-        height: 44px;
+        width: 56px;
+        height: 56px;
         border-radius: 50%;
         border: none;
         background: white;
         color: #333;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        transition: all 0.2s;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .nav-btn:hover:not(:disabled) {
-        background: #222;
-        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.2);
     }
     
     .nav-btn:disabled {
@@ -294,22 +366,27 @@
     
     .page-indicator {
         display: flex;
-        gap: 8px;
+        gap: 10px;
     }
     
     .page-dot {
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
         border-radius: 50%;
         border: none;
-        background: #ddd;
+        background: rgba(255,255,255,0.4);
         cursor: pointer;
-        transition: all 0.2s;
+        transition: all 0.3s;
+    }
+    
+    .page-dot:hover {
+        background: rgba(255,255,255,0.7);
     }
     
     .page-dot.active {
-        background: #222;
-        transform: scale(1.2);
+        background: white;
+        transform: scale(1.3);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
     
     /* Mobile */
@@ -318,18 +395,35 @@
             height: 180px;
         }
         
+        .hero-img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .hero h1 {
+            font-size: 1.5rem;
+        }
+        
         .book {
             flex-direction: column;
-            height: 300px;
+            height: 320px;
         }
         
         .page {
-            border-right: none;
-            border-bottom: 1px solid #eee;
+            padding: 20px;
         }
         
         .page-content p {
             font-size: 1rem;
+        }
+        
+        .book-spine {
+            left: 0;
+            right: 0;
+            top: 50%;
+            width: auto;
+            height: 2px;
+            transform: none;
         }
     }
 </style>
