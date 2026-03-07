@@ -178,7 +178,7 @@
         </div>
     </header>
     
-    <!-- Testimonios (10 total, rotan de 2 en 2) -->
+    <!-- Testimonios (10 total, rotan automáticamente cada 8 segundos) -->
     <section class="testimonials">
         {#each currentTestimonials as t}
             <div class="testimonial">
@@ -186,9 +186,6 @@
                 <p class="autor"><strong>{t.autor}</strong> - {t.cargo}</p>
             </div>
         {/each}
-        <button class="more-btn" on:click={nextTestimonials}>
-            {lang === 'es' ? 'Ver más testimonios →' : 'See more testimonials →'}
-        </button>
     </section>
     
     <!-- Series agrupadas -->
