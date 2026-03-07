@@ -7,19 +7,20 @@
     let searchQuery = '';
     let selectedAge = 'all';
     
-    // Metadata de cada cuento
-    const storyAge: Record<string, string> = {
-        '01-valiente': '3-6', '02-luna': '3-6', '03-max': '3-6',
-        '04-sofia': '3-6', '05-tito': '0-3', '06-dragon': '0-3',
-        '07-lunaviaje': '3-6', '08-selva': '0-3', '09-castillo': '3-6',
-        '10-contando': '3-6', '11-abc': '3-6', '12-colores': '0-3'
-    };
-    
-    const storyValues: Record<string, string> = {
-        '01-valiente': 'valentía', '02-luna': 'honestidad', '03-max': 'amistad',
-        '04-sofia': 'respeto', '05-tito': 'compartir', '06-dragon': 'sueño',
-        '07-lunaviaje': 'imaginación', '08-selva': 'naturaleza', '09-castillo': 'fantasía',
-        '10-contando': 'matemáticas', '11-abc': 'alfabeto', '12-colores': 'colores'
+    // Metadata de cada cuento (bilingüe)
+    const storyData: Record<string, { age: { es: string, en: string }, value: { es: string, en: string } }> = {
+        '01-valiente': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'valentía', en: 'bravery' } },
+        '02-luna': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'honestidad', en: 'honesty' } },
+        '03-max': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'amistad', en: 'friendship' } },
+        '04-sofia': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'respeto', en: 'respect' } },
+        '05-tito': { age: { es: '0-3 años', en: '0-3 years' }, value: { es: 'compartir', en: 'sharing' } },
+        '06-dragon': { age: { es: '0-3 años', en: '0-3 years' }, value: { es: 'sueño', en: 'sleep' } },
+        '07-lunaviaje': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'imaginación', en: 'imagination' } },
+        '08-selva': { age: { es: '0-3 años', en: '0-3 years' }, value: { es: 'naturaleza', en: 'nature' } },
+        '09-castillo': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'fantasía', en: 'fantasy' } },
+        '10-contando': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'matemáticas', en: 'math' } },
+        '11-abc': { age: { es: '3-6 años', en: '3-6 years' }, value: { es: 'alfabeto', en: 'alphabet' } },
+        '12-colores': { age: { es: '0-3 años', en: '0-3 years' }, value: { es: 'colores', en: 'colors' } }
     };
     
     // Colecciones sin números
@@ -205,8 +206,8 @@
                                 </div>
                                 <div class="card-body">
                                     <h2>{story.title[lang]}</h2>
-                                    <p class="age-tag">👶 {storyAge[story.id] || '3-6'}</p>
-                                    <p class="value-tag">⭐ {storyValues[story.id] || 'valores'}</p>
+                                    <p class="age-tag">👶 {storyData[story.id]?.age[lang] || (lang === 'es' ? '3-6 años' : '3-6 years')}</p>
+                                    <p class="value-tag">⭐ {storyData[story.id]?.value[lang] || (lang === 'es' ? 'valores' : 'values')}</p>
                                 </div>
                                 <div class="card-decoration"></div>
                             </a>
@@ -219,7 +220,7 @@
                                 </div>
                                 <div class="card-body">
                                     <h2>{story.title[lang]}</h2>
-                                    <p class="age-tag">👶 {storyAge[story.id] || '3-6'}</p>
+                                    <p class="age-tag">👶 {storyData[story.id]?.age[lang] || (lang === 'es' ? '3-6 años' : '3-6 years')}</p>
                                 </div>
                                 <div class="card-decoration"></div>
                             </a>
