@@ -41,7 +41,7 @@
             {#each stories as story, i}
                 <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {colors[i]}">
                     <div class="card-img-wrap">
-                        <img src="/images/{story.image}" alt={story.title.es} />
+                        <img src="{base}/images/{story.image}" alt={story.title.es} />
                     </div>
                     <div class="card-body">
                         <h2>{story.title.es}</h2>

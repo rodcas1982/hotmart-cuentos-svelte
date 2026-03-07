@@ -74,7 +74,7 @@
     <header class="hero">
         <div class="hero-pattern"></div>
         <div class="hero-content">
-            <img src="/images/{story.image}" alt={story.title[lang]} class="hero-img" />
+            <img src="{base}/images/{story.image}" alt={story.title[lang]} class="hero-img" />
             <h1>{story.title[lang]}</h1>
         </div>
     </header>
