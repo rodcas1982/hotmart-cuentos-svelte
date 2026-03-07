@@ -4,8 +4,41 @@
     
     let lang: 'es' | 'en' = 'es';
     let currentTestimonialIndex = 0;
+    let searchQuery = '';
+    let selectedAge = 'all';
     
-    // Agrupar por series (3 cuentos cada una = 4 series)
+    // Metadata de cada cuento
+    const storyAge: Record<string, string> = {
+        '01-valiente': '3-6', '02-luna': '3-6', '03-max': '3-6',
+        '04-sofia': '3-6', '05-tito': '0-3', '06-dragon': '0-3',
+        '07-lunaviaje': '3-6', '08-selva': '0-3', '09-castillo': '3-6',
+        '10-contando': '3-6', '11-abc': '3-6', '12-colores': '0-3'
+    };
+    
+    const storyValues: Record<string, string> = {
+        '01-valiente': 'valentía', '02-luna': 'honestidad', '03-max': 'amistad',
+        '04-sofia': 'respeto', '05-tito': 'compartir', '06-dragon': 'sueño',
+        '07-lunaviaje': 'imaginación', '08-selva': 'naturaleza', '09-castillo': 'fantasía',
+        '10-contando': 'matemáticas', '11-abc': 'alfabeto', '12-colores': 'colores'
+    };
+    
+    // Colecciones sin números
+    const collections = [
+        { name: 'Colección Valores', name_en: 'Values Collection', stories: stories.slice(0, 5), color: '#FF6B6B' },
+        { name: 'Colección Para Dormir', name_en: 'Bedtime Stories', stories: stories.slice(5, 8), color: '#4ECDC4' },
+        { name: 'Colección Aprende', name_en: 'Learn Collection', stories: stories.slice(8, 12), color: '#45B7D1' }
+    ];
+    
+    // Rangos de edad
+    const ageRanges = [
+        { id: 'all', label: 'Todas' },
+        { id: '0-3', label: '0-3 años' },
+        { id: '3-6', label: '3-6 años' },
+        { id: '6-8', label: '6-8 años' },
+        { id: '8-12', label: '8-12 años' }
+    ];
+    
+    // Series Agrupar por series (3 cuentos cada una = 4 series)
     const series = [
         { name: 'Serie 1: Valores en Acción', stories: stories.slice(0, 3), color: '#FF6B6B' },
         { name: 'Serie 2: Cuentos para Dormir', stories: stories.slice(3, 6), color: '#4ECDC4' },
@@ -119,6 +152,21 @@
             <div class="logo">📚</div>
             <h1>{lang === 'es' ? 'Biblioteca de Cuentos' : 'Story Library'}</h1>
             <p>{lang === 'es' ? '12 historias bilingües mágicas para crecer con valores' : '12 magical bilingual stories to grow with values'}</p>
+            
+            <!-- Buscador -->
+            <div class="search-box">
+                <input type="text" placeholder={lang === 'es' ? 'Buscar por valor o emoción...' : 'Search by value or emotion...'} bind:value={searchQuery} />
+            </div>
+            
+            <!-- Filtros edad -->
+            <div class="age-filters">
+                {#each ageRanges as age}
+                    <button class="age-btn" class:active={selectedAge === age.id} on:click={() => selectedAge = age.id}>
+                        {age.label}
+                    </button>
+                {/each}
+            </div>
+            
             <div class="badges">
                 <button class="badge" class:active={lang === 'es'} on:click={() => lang = 'es'}>
                     {lang === 'es' ? '🇪🇸' : 'ES'} Español
@@ -145,24 +193,42 @@
     
     <!-- Series agrupadas -->
     <main class="container">
-        {#each series as serie}
+        {#each collections as col}
             <div class="serie-section">
-                <h2 class="serie-title" style="--serie-color: {serie.color}">
-                    {lang === 'es' ? serie.name : serie.name.replace('Serie ', 'Series ').replace('Valores en Acción', 'Values in Action').replace('Cuentos para Dormir', 'Bedtime Stories').replace('Aprende y Descubre', 'Learn and Discover').replace('Colección Extra', 'Extra Collection')}
+                <h2 class="serie-title" style="--serie-color: {col.color}">
+                    {lang === 'es' ? col.name : col.name_en}
                 </h2>
-                <div class="stories-grid">
-                    {#each serie.stories as story}
-                        <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {serie.color}">
-                            <div class="card-img-wrap">
-                                <img src="{base}/images/{story.image}" alt={story.title[lang]} />
-                            </div>
-                            <div class="card-body">
-                                <h2>{story.title[lang]}</h2>
-                                <p class="pages">{story.pages.length} {lang === 'es' ? 'páginas' : 'pages'}</p>
-                            </div>
-                            <div class="card-decoration"></div>
-                        </a>
-                    {/each}
+                <div class="carousel">
+                    <button class="carousel-btn" on:click={() => document.getElementById('carr-' + col.name)?.scrollBy({left: -300, behavior: 'smooth'})}>◀</button>
+                    <div class="carousel-inner" id="carr-{col.name}">
+                        {#each col.stories as story}
+                            <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {col.color}">
+                                <div class="card-img-wrap">
+                                    <img src="{base}/images/{story.image}" alt={story.title[lang]} />
+                                </div>
+                                <div class="card-body">
+                                    <h2>{story.title[lang]}</h2>
+                                    <p class="age-tag">👶 {storyAge[story.id] || '3-6'}</p>
+                                    <p class="value-tag">⭐ {storyValues[story.id] || 'valores'}</p>
+                                </div>
+                                <div class="card-decoration"></div>
+                            </a>
+                        {/each}
+                        <!-- Duplicar para efecto infinito -->
+                        {#each col.stories as story}
+                            <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {col.color}">
+                                <div class="card-img-wrap">
+                                    <img src="{base}/images/{story.image}" alt={story.title[lang]} />
+                                </div>
+                                <div class="card-body">
+                                    <h2>{story.title[lang]}</h2>
+                                    <p class="age-tag">👶 {storyAge[story.id] || '3-6'}</p>
+                                </div>
+                                <div class="card-decoration"></div>
+                            </a>
+                        {/each}
+                    </div>
+                    <button class="carousel-btn" on:click={() => document.getElementById('carr-' + col.name)?.scrollBy({left: 300, behavior: 'smooth'})}>▶</button>
                 </div>
             </div>
         {/each}
@@ -477,5 +543,96 @@
         .card-body h2 {
             font-size: 1rem;
         }
+    }
+    
+    /* Buscador */
+    .search-box {
+        margin: 20px auto;
+        max-width: 400px;
+    }
+    
+    .search-box input {
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 25px;
+        border: none;
+        font-size: 1rem;
+        font-family: inherit;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    /* Filtros edad */
+    .age-filters {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .age-btn {
+        background: rgba(255,255,255,0.2);
+        border: none;
+        padding: 8px 14px;
+        border-radius: 15px;
+        color: white;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    
+    .age-btn:hover, .age-btn.active {
+        background: white;
+        color: #FF6B6B;
+    }
+    
+    /* Carrusel */
+    .carousel {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .carousel-btn {
+        background: white;
+        border: 2px solid #eee;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: all 0.3s;
+        flex-shrink: 0;
+    }
+    
+    .carousel-btn:hover {
+        background: #FF6B6B;
+        color: white;
+        border-color: #FF6B6B;
+    }
+    
+    .carousel-inner {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        padding: 10px 5px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .carousel-inner::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .carousel-inner .story-card {
+        min-width: 240px;
+        flex-shrink: 0;
+    }
+    
+    .age-tag, .value-tag {
+        font-size: 0.75rem;
+        color: #888;
+        margin-top: 4px;
     }
 </style>
