@@ -1,5 +1,7 @@
 <script lang="ts">
     import { stories } from '$lib/data/stories';
+    import { base } from '$app/paths';
+    import type { Story } from '$lib/data/stories';
     
     const urlParams = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '');
     const storyId = urlParams.get('story') || '01-valiente';
@@ -63,7 +65,7 @@
     }
     
     function goBack() {
-        window.location.href = '/';
+        window.location.href = '{base}/';
     }
 </script>
 

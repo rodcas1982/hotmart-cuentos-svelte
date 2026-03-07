@@ -1,5 +1,6 @@
 <script lang="ts">
     import { stories } from '$lib/data/stories';
+    import { base } from '$app/paths';
     
     const colors = [
         '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4',
@@ -38,7 +39,7 @@
     <main class="container">
         <div class="stories-grid">
             {#each stories as story, i}
-                <a href="/story?id={story.id}" class="story-card" style="--card-color: {colors[i]}">
+                <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {colors[i]}">
                     <div class="card-img-wrap">
                         <img src="/images/{story.image}" alt={story.title.es} />
                     </div>
