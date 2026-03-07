@@ -4,7 +4,24 @@
     
     let lang: 'es' | 'en' = 'es';
     let currentTestimonialIndex = 0;
-    let searchQuery = '';
+    let selectedValue = '';
+    
+    // Categorías de valores para filtrar
+    const valueCategories = [
+        { id: '', label_es: 'Todos', label_en: 'All' },
+        { id: 'valentía', label_es: 'Valentía', label_en: 'Bravery' },
+        { id: 'honestidad', label_es: 'Honestidad', label_en: 'Honesty' },
+        { id: 'amistad', label_es: 'Amistad', label_en: 'Friendship' },
+        { id: 'respeto', label_es: 'Respeto', label_en: 'Respect' },
+        { id: 'compartir', label_es: 'Compartir', label_en: 'Sharing' },
+        { id: 'sueño', label_es: 'Sueño', label_en: 'Sleep' },
+        { id: 'imaginación', label_es: 'Imaginación', label_en: 'Imagination' },
+        { id: 'naturaleza', label_es: 'Naturaleza', label_en: 'Nature' },
+        { id: 'fantasía', label_es: 'Fantasía', label_en: 'Fantasy' },
+        { id: 'matemáticas', label_es: 'Matemáticas', label_en: 'Math' },
+        { id: 'alfabeto', label_es: 'Alfabeto', label_en: 'Alphabet' },
+        { id: 'colores', label_es: 'Colores', label_en: 'Colors' }
+    ];
     let selectedAge = 'all';
     
     // Metadata de cada cuento (bilingüe)
@@ -154,9 +171,17 @@
             <h1>{lang === 'es' ? 'Biblioteca de Cuentos' : 'Story Library'}</h1>
             <p>{lang === 'es' ? '12 historias bilingües mágicas para crecer con valores' : '12 magical bilingual stories to grow with values'}</p>
             
-            <!-- Buscador -->
-            <div class="search-box">
-                <input type="text" placeholder={lang === 'es' ? 'Buscar por valor o emoción...' : 'Search by value or emotion...'} bind:value={searchQuery} />
+            <!-- Filtros por valor/categoría -->
+            <div class="value-filters">
+                {#each valueCategories as cat}
+                    <button 
+                        class="value-btn" 
+                        class:active={selectedValue === cat.id}
+                        on:click={() => selectedValue = cat.id}
+                    >
+                        {lang === 'es' ? cat.label_es : cat.label_en}
+                    </button>
+                {/each}
             </div>
             
             <!-- Filtros edad -->
@@ -191,7 +216,36 @@
     
     <!-- Series agrupadas -->
     <main class="container">
-        {#each collections as col}
+        {#if selectedValue}
+            <!-- Resultados filtrados por valor -->
+            {@const filteredByValue = stories.filter(s => storyData[s.id]?.value.es === selectedValue || storyData[s.id]?.value.en === selectedValue)}
+            <section class="results-section">
+                <h2 class="section-title" style="--cole-color: #FF6B6B">
+                    {lang === 'es' ? 'Cuentos de ' + selectedValue : 'Stories about ' + selectedValue}
+                    ({filteredByValue.length})
+                </h2>
+                <div class="carousel">
+                    <button class="carousel-btn" on:click={() => document.getElementById('carr-results')?.scrollBy({left: -300, behavior: 'smooth'})}>◀</button>
+                    <div class="carousel-inner" id="carr-results">
+                        {#each filteredByValue as story}
+                            <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: #FF6B6B">
+                                <div class="card-img-wrap">
+                                    <img src="{base}/images/{story.image}" alt={story.title[lang]} />
+                                </div>
+                                <div class="card-body">
+                                    <h2>{story.title[lang]}</h2>
+                                    <p class="age-tag">👶 {storyData[story.id]?.age[lang]}</p>
+                                    <p class="value-tag">⭐ {storyData[story.id]?.value[lang]}</p>
+                                </div>
+                            </a>
+                        {/each}
+                    </div>
+                    <button class="carousel-btn" on:click={() => document.getElementById('carr-results')?.scrollBy({left: 300, behavior: 'smooth'})}>▶</button>
+                </div>
+            </section>
+        {:else}
+            <!-- Colecciones normales -->
+            {#each collections as col}
             <div class="serie-section">
                 <h2 class="serie-title" style="--serie-color: {col.color}">
                     {lang === 'es' ? col.name : col.name_en}
@@ -230,6 +284,7 @@
                 </div>
             </div>
         {/each}
+        {/if}
     </main>
     
     <footer>
@@ -565,7 +620,36 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 8px;
+        margin-bottom: 15px;
+    }
+    
+    /* Filtros por valor */
+    .value-filters {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
         margin-bottom: 20px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .value-btn {
+        background: rgba(255,255,255,0.25);
+        border: none;
+        padding: 8px 14px;
+        border-radius: 15px;
+        color: white;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-family: inherit;
+    }
+    
+    .value-btn:hover, .value-btn.active {
+        background: white;
+        color: #FF6B6B;
     }
     
     .age-btn {
