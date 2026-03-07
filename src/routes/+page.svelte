@@ -2,6 +2,9 @@
     import { stories } from '$lib/data/stories';
     import { base } from '$app/paths';
     
+    let lang: 'es' | 'en' = 'es';
+    let currentTestimonialIndex = 0;
+    
     // Agrupar por series (3 cuentos cada una = 4 series)
     const series = [
         { name: 'Serie 1: Valores en Acción', stories: stories.slice(0, 3), color: '#FF6B6B' },
@@ -10,19 +13,91 @@
         { name: 'Serie 4: Colección Extra', stories: stories.slice(9, 12), color: '#96CEB4' }
     ];
     
-    // Comentarios de psicólogos y padres
+    // 10 Comentarios de psicólogos, padres y educadores
     const testimonials = [
         { 
-            text: "Estos cuentos ayudan a los niños a desarrollar valores desde temprana edad. La personalización hace que se identifiquen con los personajes.",
+            text_es: "Estos cuentos ayudan a los niños a desarrollar valores desde temprana edad. La personalización hace que se identifiquen con los personajes.",
+            text_en: "These stories help children develop values from an early age. Personalization makes them identify with the characters.",
             autor: "Dra. María García",
             cargo: "Psicóloga Infantil"
         },
         {
-            text: "Mi hija de 5 años no quiere dormir sin escuchar un cuento. Ha aprendido a compartir y ser honesta gracias a estas historias.",
+            text_es: "Mi hija de 5 años no quiere dormir sin escuchar un cuento. Ha aprendido a compartir y ser honesta gracias a estas historias.",
+            text_en: "My 5-year-old daughter doesn't want to sleep without hearing a story. She has learned to share and be honest thanks to these stories.",
             autor: "Carlos Mendoza",
             cargo: "Padre de familia"
+        },
+        {
+            text_es: "Como maestro de primaria, recomiendo estos cuentos. Teach values in a way that children understand and apply in their daily lives.",
+            text_en: "As an elementary school teacher, I recommend these stories. They teach values in a way that children understand and apply in their daily lives.",
+            autor: "Prof. Roberto Sánchez",
+            cargo: "Maestro de Primaria"
+        },
+        {
+            text_es: "Mi hijo hiperactivo se calmaba al escuchar estos cuentos. La combinación de valores y narración suave es perfecta.",
+            text_en: "My hyperactive child calmed down when listening to these stories. The combination of values and soft narration is perfect.",
+            autor: "Ana López",
+            cargo: "Madre de tres niños"
+        },
+        {
+            text_es: "Los cuentos no solo enseñan a los niños, sino que también ayudan a los padres a conectar con sus hijos a través de la lectura.",
+            text_en: "The stories not only teach children, but also help parents connect with their children through reading.",
+            autor: "Dr. Javier Pérez",
+            cargo: "Doctor en Neurolingüística"
+        },
+        {
+            text_es: "Mis estudiantes mejoran su vocabulario y comprensión lectora mientras aprenden valores importantes para la vida.",
+            text_en: "My students improve their vocabulary and reading comprehension while learning important life values.",
+            autor: "Mtra. Carmen Ruiz",
+            cargo: "Maestra de Kinder"
+        },
+        {
+            text_es: "La personalize with the child's name makes them feel special and creates a unique bond with history.",
+            text_en: "Personalizing with the child's name makes them feel special and creates a unique bond with the story.",
+            autor: "Dra. Isabel Torres",
+            cargo: "Psicopedagoga"
+        },
+        {
+            text_es: "Estos cuentos son perfectos para la rutina nocturna. Mis hijos relajan y duermen feliz después de escuchar uno.",
+            text_en: "These stories are perfect for the bedtime routine. My children relax and sleep happily after listening to one.",
+            autor: "Miguel Ángel González",
+            cargo: "Padre de dos niños"
+        },
+        {
+            text_es: "Teach children to diversity y respeto por el medio ambiente de manera divertida y understandable.",
+            text_en: "Teaching children about diversity and respect for the environment in a fun and understandable way.",
+            autor: "Lic. Fernando Díaz",
+            cargo: "Educador Ambiental"
+        },
+        {
+            text_es: "Como padre primerizo, estos cuentos me han dado herramientas para hablar de emociones difíciles con mi bebé.",
+            text_en: "As a first-time parent, these stories have given me tools to talk about difficult emotions with my baby.",
+            autor: "Diego Hernández",
+            cargo: "Padre primerizo"
         }
     ];
+    
+    // Obtener 2 testimonios actuales
+    $: currentTestimonials = testimonials.slice(currentTestimonialIndex, currentTestimonialIndex + 2);
+    
+    function toggleLang() {
+        lang = lang === 'es' ? 'en' : 'es';
+    }
+    
+    function nextTestimonials() {
+        if (currentTestimonialIndex < testimonials.length - 2) {
+            currentTestimonialIndex += 2;
+        } else {
+            currentTestimonialIndex = 0;
+        }
+    }
+    
+    // Auto-rotar testimonios cada 8 segundos
+    import { onMount } from 'svelte';
+    onMount(() => {
+        const interval = setInterval(nextTestimonials, 8000);
+        return () => clearInterval(interval);
+    });
 </script>
 
 <svelte:head>
@@ -42,41 +117,48 @@
         </div>
         <div class="header-content">
             <div class="logo">📚</div>
-            <h1>Biblioteca de Cuentos</h1>
-            <p>12 historias bilingües mágicas para crecer con valores</p>
+            <h1>{lang === 'es' ? 'Biblioteca de Cuentos' : 'Story Library'}</h1>
+            <p>{lang === 'es' ? '12 historias bilingües mágicas para crecer con valores' : '12 magical bilingual stories to grow with values'}</p>
             <div class="badges">
-                <span class="badge">Español</span>
-                <span class="badge">English</span>
+                <button class="badge" class:active={lang === 'es'} on:click={() => lang = 'es'}>
+                    {lang === 'es' ? '🇪🇸' : 'ES'} Español
+                </button>
+                <button class="badge" class:active={lang === 'en'} on:click={() => lang = 'en'}>
+                    {lang === 'en' ? '🇬🇧' : 'EN'} English
+                </button>
             </div>
         </div>
     </header>
     
-    <!-- Testimonios de psicólogos y padres -->
+    <!-- Testimonios (10 total, rotan de 2 en 2) -->
     <section class="testimonials">
-        {#each testimonials as t}
+        {#each currentTestimonials as t}
             <div class="testimonial">
-                <p class="quote">"{t.text}"</p>
+                <p class="quote">"{lang === 'es' ? t.text_es : t.text_en}"</p>
                 <p class="autor"><strong>{t.autor}</strong> - {t.cargo}</p>
             </div>
         {/each}
+        <button class="more-btn" on:click={nextTestimonials}>
+            {lang === 'es' ? 'Ver más testimonios →' : 'See more testimonials →'}
+        </button>
     </section>
     
-    <!-- Series分组 -->
+    <!-- Series agrupadas -->
     <main class="container">
         {#each series as serie}
             <div class="serie-section">
-                <h2 class="serie-title" style="--serie-color: {serie.color}">{serie.name}</h2>
+                <h2 class="serie-title" style="--serie-color: {serie.color}">
+                    {lang === 'es' ? serie.name : serie.name.replace('Serie ', 'Series ').replace('Valores en Acción', 'Values in Action').replace('Cuentos para Dormir', 'Bedtime Stories').replace('Aprende y Descubre', 'Learn and Discover').replace('Colección Extra', 'Extra Collection')}
+                </h2>
                 <div class="stories-grid">
-                    {#each serie.stories as story, i}
-                        {@const globalIndex = stories.indexOf(story)}
+                    {#each serie.stories as story}
                         <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {serie.color}">
                             <div class="card-img-wrap">
-                                <img src="{base}/images/{story.image}" alt={story.title.es} />
+                                <img src="{base}/images/{story.image}" alt={story.title[lang]} />
                             </div>
                             <div class="card-body">
-                                <h2>{story.title.es}</h2>
-                                <p class="en">{story.title.en}</p>
-                                <span class="pages">{story.pages.length} páginas</span>
+                                <h2>{story.title[lang]}</h2>
+                                <p class="pages">{story.pages.length} {lang === 'es' ? 'páginas' : 'pages'}</p>
                             </div>
                             <div class="card-decoration"></div>
                         </a>
@@ -87,7 +169,7 @@
     </main>
     
     <footer>
-        <p>Hecho con amor para familias que quieren criar hijos con valores</p>
+        <p>{lang === 'es' ? 'Hecho con amor para familias que quieren criar hijos con valores' : 'Made with love for families who want to raise children with values'}</p>
         <p class="sub">Gerardo Rodríguez C</p>
     </footer>
 </div>
@@ -111,7 +193,7 @@
         flex-direction: column;
     }
     
-    /* Header - colores mejorados */
+    /* Header */
     header {
         position: relative;
         padding: 50px 20px 60px;
@@ -186,6 +268,18 @@
         font-size: 0.9rem;
         color: white;
         font-weight: 600;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    
+    .badge:hover {
+        background: rgba(255,255,255,0.4);
+    }
+    
+    .badge.active {
+        background: white;
+        color: #FF6B6B;
     }
     
     /* Testimonios */
@@ -208,7 +302,7 @@
         border-bottom: 1px solid #eee;
     }
     
-    .testimonial:last-child {
+    .testimonial:last-of-type {
         border-bottom: none;
     }
     
@@ -229,6 +323,24 @@
         color: #FF6B6B;
     }
     
+    .more-btn {
+        display: block;
+        margin: 15px auto 0;
+        background: none;
+        border: 2px solid #FF6B6B;
+        color: #FF6B6B;
+        padding: 8px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .more-btn:hover {
+        background: #FF6B6B;
+        color: white;
+    }
+    
     /* Container */
     .container {
         flex: 1;
@@ -237,7 +349,6 @@
         padding: 40px 20px;
     }
     
-    /* Serie */
     .serie-section {
         margin-bottom: 50px;
     }
@@ -257,7 +368,7 @@
         gap: 25px;
     }
     
-    /* Card - imagen más grande */
+    /* Card */
     .story-card {
         background: white;
         border-radius: 20px;
@@ -274,7 +385,7 @@
     }
     
     .card-img-wrap {
-        height: 220px; /* Más grande que antes (180px) */
+        height: 220px;
         background: linear-gradient(135deg, var(--card-color) 0%, color-mix(in srgb, var(--card-color) 70%, white) 100%);
         display: flex;
         align-items: center;
@@ -296,15 +407,8 @@
     .card-body h2 {
         font-size: 1.15rem;
         font-weight: 800;
-        color: #333; /* NO blanco - legible */
+        color: #333;
         margin-bottom: 4px;
-    }
-    
-    .card-body .en {
-        font-size: 0.95rem;
-        color: #666;
-        font-style: italic;
-        margin-bottom: 12px;
     }
     
     .pages {
