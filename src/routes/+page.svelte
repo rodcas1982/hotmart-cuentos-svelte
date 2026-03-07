@@ -53,61 +53,61 @@
             text_es: "Estos cuentos ayudan a los niños a desarrollar valores desde temprana edad. La personalización hace que se identifiquen con los personajes.",
             text_en: "These stories help children develop values from an early age. Personalization makes them identify with the characters.",
             autor: "Dra. María García",
-            cargo: "Psicóloga Infantil"
+            cargo_es: "Psicóloga Infantil", cargo_en: "Child Psychologist"
         },
         {
             text_es: "Mi hija de 5 años no quiere dormir sin escuchar un cuento. Ha aprendido a compartir y ser honesta gracias a estas historias.",
             text_en: "My 5-year-old daughter doesn't want to sleep without hearing a story. She has learned to share and be honest thanks to these stories.",
             autor: "Carlos Mendoza",
-            cargo: "Padre de familia"
+            cargo_es: "Padre de familia", cargo_en: "Father"
         },
         {
             text_es: "Como maestro de primaria, recomiendo estos cuentos. Teach values in a way that children understand and apply in their daily lives.",
             text_en: "As an elementary school teacher, I recommend these stories. They teach values in a way that children understand and apply in their daily lives.",
             autor: "Prof. Roberto Sánchez",
-            cargo: "Maestro de Primaria"
+            cargo_es: "Maestro de Primaria", cargo_en: "Elementary Teacher"
         },
         {
             text_es: "Mi hijo hiperactivo se calmaba al escuchar estos cuentos. La combinación de valores y narración suave es perfecta.",
             text_en: "My hyperactive child calmed down when listening to these stories. The combination of values and soft narration is perfect.",
             autor: "Ana López",
-            cargo: "Madre de tres niños"
+            cargo_es: "Madre de tres niños", cargo_en: "Mother of three"
         },
         {
             text_es: "Los cuentos no solo enseñan a los niños, sino que también ayudan a los padres a conectar con sus hijos a través de la lectura.",
             text_en: "The stories not only teach children, but also help parents connect with their children through reading.",
             autor: "Dr. Javier Pérez",
-            cargo: "Doctor en Neurolingüística"
+            cargo_es: "Doctor en Neurolingüística", cargo_en: "PhD in Neurolinguistics"
         },
         {
             text_es: "Mis estudiantes mejoran su vocabulario y comprensión lectora mientras aprenden valores importantes para la vida.",
             text_en: "My students improve their vocabulary and reading comprehension while learning important life values.",
             autor: "Mtra. Carmen Ruiz",
-            cargo: "Maestra de Kinder"
+            cargo_es: "Maestra de Kinder", cargo_en: "Kindergarten Teacher"
         },
         {
             text_es: "La personalize with the child's name makes them feel special and creates a unique bond with history.",
             text_en: "Personalizing with the child's name makes them feel special and creates a unique bond with the story.",
             autor: "Dra. Isabel Torres",
-            cargo: "Psicopedagoga"
+            cargo_es: "Psicopedagoga", cargo_en: "Psychopedagogue"
         },
         {
             text_es: "Estos cuentos son perfectos para la rutina nocturna. Mis hijos relajan y duermen feliz después de escuchar uno.",
             text_en: "These stories are perfect for the bedtime routine. My children relax and sleep happily after listening to one.",
             autor: "Miguel Ángel González",
-            cargo: "Padre de dos niños"
+            cargo_es: "Padre de dos niños", cargo_en: "Father of two"
         },
         {
             text_es: "Teach children to diversity y respeto por el medio ambiente de manera divertida y understandable.",
             text_en: "Teaching children about diversity and respect for the environment in a fun and understandable way.",
             autor: "Lic. Fernando Díaz",
-            cargo: "Educador Ambiental"
+            cargo_es: "Educador Ambiental", cargo_en: "Environmental Educator"
         },
         {
             text_es: "Como padre primerizo, estos cuentos me han dado herramientas para hablar de emociones difíciles con mi bebé.",
             text_en: "As a first-time parent, these stories have given me tools to talk about difficult emotions with my baby.",
             autor: "Diego Hernández",
-            cargo: "Padre primerizo"
+            cargo_es: "Padre primerizo", cargo_en: "First-time Dad"
         }
     ];
     
@@ -184,7 +184,7 @@
         {#each currentTestimonials as t}
             <div class="testimonial">
                 <p class="quote">"{lang === 'es' ? t.text_es : t.text_en}"</p>
-                <p class="autor"><strong>{t.autor}</strong> - {t.cargo}</p>
+                <p class="autor"><strong>{t.autor}</strong> - {lang === 'es' ? t.cargo_es : t.cargo_en}</p>
             </div>
         {/each}
     </section>
