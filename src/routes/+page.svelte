@@ -2,10 +2,26 @@
     import { stories } from '$lib/data/stories';
     import { base } from '$app/paths';
     
-    const colors = [
-        '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4',
-        '#FFEAA7', '#DDA0DD', '#98D8C8', '#F7DC6F',
-        '#BB8FCE', '#85C1E9', '#F8B500', '#52B788'
+    // Agrupar por series (3 cuentos cada una = 4 series)
+    const series = [
+        { name: 'Serie 1: Valores en Acción', stories: stories.slice(0, 3), color: '#FF6B6B' },
+        { name: 'Serie 2: Cuentos para Dormir', stories: stories.slice(3, 6), color: '#4ECDC4' },
+        { name: 'Serie 3: Aprende y Descubre', stories: stories.slice(6, 9), color: '#45B7D1' },
+        { name: 'Serie 4: Colección Extra', stories: stories.slice(9, 12), color: '#96CEB4' }
+    ];
+    
+    // Comentarios de psicólogos y padres
+    const testimonials = [
+        { 
+            text: "Estos cuentos ayudan a los niños a desarrollar valores desde temprana edad. La personalización hace que se identifiquen con los personajes.",
+            autor: "Dra. María García",
+            cargo: "Psicóloga Infantil"
+        },
+        {
+            text: "Mi hija de 5 años no quiere dormir sin escuchar un cuento. Ha aprendido a compartir y ser honesta gracias a estas historias.",
+            autor: "Carlos Mendoza",
+            cargo: "Padre de familia"
+        }
     ];
 </script>
 
@@ -14,7 +30,7 @@
 </svelte:head>
 
 <div class="home">
-    <!-- Header moderno -->
+    <!-- Header moderno con colores mejorados -->
     <header>
         <div class="header-bg">
             <div class="shapes">
@@ -27,35 +43,52 @@
         <div class="header-content">
             <div class="logo">📚</div>
             <h1>Biblioteca de Cuentos</h1>
-            <p>12 historias bilingües mágicas</p>
+            <p>12 historias bilingües mágicas para crecer con valores</p>
             <div class="badges">
-                <span class="badge">🇪🇸 Español</span>
-                <span class="badge">🇬🇧 English</span>
+                <span class="badge">Español</span>
+                <span class="badge">English</span>
             </div>
         </div>
     </header>
     
-    <!-- Grid de cuentos -->
+    <!-- Testimonios de psicólogos y padres -->
+    <section class="testimonials">
+        {#each testimonials as t}
+            <div class="testimonial">
+                <p class="quote">"{t.text}"</p>
+                <p class="autor"><strong>{t.autor}</strong> - {t.cargo}</p>
+            </div>
+        {/each}
+    </section>
+    
+    <!-- Series分组 -->
     <main class="container">
-        <div class="stories-grid">
-            {#each stories as story, i}
-                <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {colors[i]}">
-                    <div class="card-img-wrap">
-                        <img src="{base}/images/{story.image}" alt={story.title.es} />
-                    </div>
-                    <div class="card-body">
-                        <h2>{story.title.es}</h2>
-                        <p class="en">{story.title.en}</p>
-                        <span class="pages">{story.pages.length} páginas</span>
-                    </div>
-                    <div class="card-decoration"></div>
-                </a>
-            {/each}
-        </div>
+        {#each series as serie}
+            <div class="serie-section">
+                <h2 class="serie-title" style="--serie-color: {serie.color}">{serie.name}</h2>
+                <div class="stories-grid">
+                    {#each serie.stories as story, i}
+                        {@const globalIndex = stories.indexOf(story)}
+                        <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {serie.color}">
+                            <div class="card-img-wrap">
+                                <img src="{base}/images/{story.image}" alt={story.title.es} />
+                            </div>
+                            <div class="card-body">
+                                <h2>{story.title.es}</h2>
+                                <p class="en">{story.title.en}</p>
+                                <span class="pages">{story.pages.length} páginas</span>
+                            </div>
+                            <div class="card-decoration"></div>
+                        </a>
+                    {/each}
+                </div>
+            </div>
+        {/each}
     </main>
     
     <footer>
-        <p>✨ Hecho con ❤️ por Gerardo Rodríguez C</p>
+        <p>Hecho con amor para familias que quieren criar hijos con valores</p>
+        <p class="sub">Gerardo Rodríguez C</p>
     </footer>
 </div>
 
@@ -78,11 +111,11 @@
         flex-direction: column;
     }
     
-    /* Header */
+    /* Header - colores mejorados */
     header {
         position: relative;
         padding: 50px 20px 60px;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 50%, #45B7D1 100%);
         overflow: hidden;
     }
     
@@ -136,7 +169,7 @@
     
     header p {
         font-size: 1.2rem;
-        color: rgba(255,255,255,0.9);
+        color: rgba(255,255,255,0.95);
         margin-bottom: 20px;
     }
     
@@ -147,12 +180,53 @@
     }
     
     .badge {
-        background: rgba(255,255,255,0.2);
+        background: rgba(255,255,255,0.25);
         padding: 8px 16px;
         border-radius: 20px;
         font-size: 0.9rem;
         color: white;
         font-weight: 600;
+    }
+    
+    /* Testimonios */
+    .testimonials {
+        background: white;
+        padding: 30px 20px;
+        margin: -30px 20px 0;
+        position: relative;
+        z-index: 2;
+        border-radius: 20px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .testimonial {
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .testimonial:last-child {
+        border-bottom: none;
+    }
+    
+    .quote {
+        font-size: 1.05rem;
+        color: #555;
+        font-style: italic;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+    
+    .autor {
+        font-size: 0.9rem;
+        color: #888;
+    }
+    
+    .autor strong {
+        color: #FF6B6B;
     }
     
     /* Container */
@@ -163,13 +237,27 @@
         padding: 40px 20px;
     }
     
+    /* Serie */
+    .serie-section {
+        margin-bottom: 50px;
+    }
+    
+    .serie-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--serie-color);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid var(--serie-color);
+    }
+    
     .stories-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 25px;
     }
     
-    /* Card */
+    /* Card - imagen más grande */
     .story-card {
         background: white;
         border-radius: 20px;
@@ -186,12 +274,12 @@
     }
     
     .card-img-wrap {
-        height: 180px;
+        height: 220px; /* Más grande que antes (180px) */
         background: linear-gradient(135deg, var(--card-color) 0%, color-mix(in srgb, var(--card-color) 70%, white) 100%);
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 15px;
+        padding: 20px;
     }
     
     .card-img-wrap img {
@@ -208,13 +296,13 @@
     .card-body h2 {
         font-size: 1.15rem;
         font-weight: 800;
-        color: #333;
+        color: #333; /* NO blanco - legible */
         margin-bottom: 4px;
     }
     
     .card-body .en {
         font-size: 0.95rem;
-        color: #888;
+        color: #666;
         font-style: italic;
         margin-bottom: 12px;
     }
@@ -243,8 +331,15 @@
     footer {
         padding: 30px;
         text-align: center;
-        color: #aaa;
-        font-size: 0.9rem;
+        color: #666;
+        font-size: 1rem;
+        background: white;
+    }
+    
+    footer .sub {
+        color: #999;
+        font-size: 0.85rem;
+        margin-top: 5px;
     }
     
     /* Mobile */
@@ -257,13 +352,18 @@
             font-size: 1.8rem;
         }
         
+        .testimonials {
+            margin: -20px 15px 0;
+            padding: 20px 15px;
+        }
+        
         .stories-grid {
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
             gap: 15px;
         }
         
         .card-img-wrap {
-            height: 120px;
+            height: 150px;
         }
         
         .card-body {

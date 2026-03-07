@@ -65,7 +65,7 @@
     }
     
     function goBack() {
-        window.location.href = '{base}/';
+        window.location.href = $base + '/';
     }
 </script>
 
