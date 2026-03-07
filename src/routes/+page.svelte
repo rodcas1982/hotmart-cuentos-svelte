@@ -1,6 +1,9 @@
 <script lang="ts">
-    import { stories } from '$lib/data/stories';
+    import { newStories } from '$lib/data/nuevos';
     import { base } from '$app/paths';
+    
+    // Usar nuevos cuentos
+    const stories = newStories;
     
     let lang: 'es' | 'en' = 'es';
     let currentTestimonialIndex = 0;

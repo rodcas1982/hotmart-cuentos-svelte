@@ -1,7 +1,9 @@
 <script lang="ts">
-    import { stories } from '$lib/data/stories';
+    import { newStories } from '$lib/data/nuevos';
     import { base } from '$app/paths';
-    import type { Story } from '$lib/data/stories';
+    import type { Story } from '$lib/data/nuevos';
+    
+    const stories = newStories;
     
     const urlParams = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '');
     const storyId = urlParams.get('story') || '01-valiente';
