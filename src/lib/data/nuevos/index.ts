@@ -18,7 +18,8 @@ export const 01_valiente = {
         {
             "es": "Había una vez, en un pequeño pueblo entre montañas verdes, un niño llamado {NOMBRE_NIÑO}. Era un niño de seis años con ojos curiosos que brillaban como estrellas. {NOMBRE_NIÑO} tenía un amigo muy especial: un peluche de {ANIMAL_FAVORITO} que le regaló su abuelita. Lo llamaba Valientín porque le daba coraje cuando tenía miedo. Pero había un problema: {NOMBRE_NIÑO} le tenía mucho miedo a la oscuridad. Cada noche temblaba cuando apagaban la luz.",
             "en": "Once upon a time, in a small village between green mountains, there was a child named {NOMBRE_NIÑO}. Era un six-year-old with curious eyes that sparkled like stars. {NOMBRE_NIÑO} had a very special friend: a {ANIMAL_FAVORITO} plush that his grandmother gave him. He called it Valientín because it gave him courage when era scared. Pero there was a problem: {NOMBRE_NIÑO} was very afraid del dark. Cada noche he trembled when the light was turned off.",
-            "bgImage": "/images/1772942086337_fondo_montana_nocturna_1.png"
+            "bgImage": "/images/1772942086337_fondo_montana_nocturna_1.png",
+            "image": "/images/1772942577079_nino_cama_corregido_1.png"
         },
         {
             "es": "Su mamá lo abrazaba y le decía: Los monstruos solo existen en nuestra imaginación, tesoro. Y tú tienes a Valientín para protegerte. Un día llegó un nuevo vecino: Don Miguel, un antiguo bombero de 75 años. Todo el mundo lo conocía como El Héroe del Pueblo. {NOMBRE_NIÑO} fue a visitarlo y perguntó: ¿Es verdad que eras bombero? Don Miguel sonrió y dijo: Sí, pequeño. Y te voy a contar un secreto: yo también tenía mucho miedo cuando era niño.",
