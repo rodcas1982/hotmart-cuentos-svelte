@@ -44,7 +44,11 @@
         { id: 'lavanda', hex: '#B4A7D6', nombre: 'Lavanda' },
     ];
     
+    // Colores claros que necesitan texto oscuro
+    const coloresClaros = ['amarillo', 'celeste', 'lavanda', 'turquesa'];
+    
     let gradient = 'linear-gradient(135deg, #FF6B6B, #FFE66D)';
+    let textoOscuro = false;
     
     onMount(() => {
         const id = $page.params.id;
@@ -63,13 +67,14 @@
     }
     
     function iniciarCuento() {
-        // Usar el animal personalizado si existe, sino usar el seleccionado
         const animalFinal = mostrarAnimalOtro ? animalPersonalizado : animalFavorito;
         
         if (nombreNino && animalFinal && colorFavorito) {
             const color = coloresDisponibles.find(c => c.id === colorFavorito);
             if (color) {
                 gradient = `linear-gradient(135deg, ${color.hex}, ${adjustColor(color.hex, 30)})`;
+                // Detectar si el color es claro
+                textoOscuro = coloresClaros.includes(colorFavorito);
             }
             animalFavorito = animalFinal;
             showPersonalizacion = false;
@@ -83,6 +88,10 @@
         const g = Math.min(255, ((num >> 8) & 0x00FF) + amount);
         const b = Math.min(255, (num & 0x0000FF) + amount);
         return '#' + (1 << 24 | r << 16 | g << 8 | b).toString(16).slice(1);
+    }
+    
+    function isLightColor(colorId: string): boolean {
+        return coloresClaros.includes(colorId);
     }
     
     function replaceVariables(text: string): string {
@@ -162,25 +171,25 @@
             </button>
         </div>
     {:else}
-        <div class="header">
-            <a href="{base}/" class="back-btn">← Volver</a>
+        <div class="header" class:oscuro={textoOscuro}>
+            <a href="{base}/" class="back-btn" class:oscuro={textoOscuro}>← Volver</a>
             <div class="controls-row">
-                <button on:click={toggleLang} class="btn">{lang === 'es' ? '🇪🇸 ES' : '🇺🇸 EN'}</button>
-                <button on:click={() => changeFontSize(-2)} class="btn">A-</button>
-                <button on:click={() => changeFontSize(2)} class="btn">A+</button>
-                <button on:click={downloadPDF} class="btn">📥 PDF</button>
+                <button on:click={toggleLang} class="btn" class:oscuro={textoOscuro}>{lang === 'es' ? '🇪🇸 ES' : '🇺🇸 EN'}</button>
+                <button on:click={() => changeFontSize(-2)} class="btn" class:oscuro={textoOscuro}>A-</button>
+                <button on:click={() => changeFontSize(2)} class="btn" class:oscuro={textoOscuro}>A+</button>
+                <button on:click={downloadPDF} class="btn" class:oscuro={textoOscuro}>📥 PDF</button>
             </div>
         </div>
         
         <div class="book">
             <div class="page" class:flipping={isFlipping}>
-                <h1 style="font-size: {fontSize + 8}px">{story?.title?.[lang] || ''}</h1>
+                <h1 class="titulo-decorativo" style="font-size: {fontSize + 8}px">{story?.title?.[lang] || ''}</h1>
                 <p class="content" style="font-size: {fontSize}px; line-height: {fontSize * 1.6}px">{currentContent}</p>
                 <div class="page-number">{currentPage + 1} / {totalPages}</div>
             </div>
         </div>
         
-        <div class="controls">
+        <div class="controls" class:oscuro={textoOscuro}>
             <button on:click={prevPage} disabled={currentPage === 0} class="nav-btn">◀ Anterior</button>
             <div class="dots">
                 {#each pages as _, i}<span class="dot" class:active={i === currentPage}></span>{/each}
@@ -191,6 +200,8 @@
 </div>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Pinyon+Script&display=swap');
+    
     .story-container { min-height: 100vh; padding: 20px; color: white; }
     .personalizacion { max-width: 500px; margin: 50px auto; background: white; border-radius: 20px; padding: 40px; color: #333; text-align: center; }
     .icono { font-size: 50px; margin-bottom: 10px; }
@@ -212,17 +223,36 @@
     .color-btn.selected { border-color: #333; transform: scale(1.15); }
     .iniciar-btn { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: white; border: none; padding: 15px 40px; border-radius: 30px; font-size: 18px; cursor: pointer; font-weight: bold; }
     .iniciar-btn:disabled { opacity: 0.5; }
-    .header { display: flex; justify-content: space-between; margin-bottom: 30px; flex-wrap: wrap; gap: 10px; }
-    .back-btn, .btn { background: rgba(255,255,255,0.2); border: none; padding: 10px 16px; border-radius: 8px; color: white; cursor: pointer; font-size: 14px; }
+    
+    .header { display: flex; justify-content: space-between; margin-bottom: 30px; flex-wrap: wrap; gap: 10px; background: rgba(0,0,0,0.3); padding: 15px; border-radius: 15px; }
+    .header.oscuro { background: rgba(255,255,255,0.9); }
+    .back-btn, .btn { background: rgba(255,255,255,0.25); border: none; padding: 10px 16px; border-radius: 8px; color: white; cursor: pointer; font-size: 14px; font-weight: bold; }
+    .back-btn.oscuro, .btn.oscuro { color: #333; background: rgba(0,0,0,0.1); }
     .controls-row { display: flex; gap: 8px; }
+    
     .book { background: white; color: #333; border-radius: 10px; padding: 40px; min-height: 450px; max-width: 700px; margin: 0 auto; box-shadow: 0 10px 40px rgba(0,0,0,0.3); }
+    .titulo-decorativo {
+        font-family: 'Dancing Script', 'Pinyon Script', cursive;
+        font-weight: 700;
+        background: linear-gradient(135deg, #8E2DE2, #4A00E0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+        margin-bottom: 20px;
+    }
     .content { margin: 30px 0; text-align: justify; }
     .page-number { text-align: center; color: #666; margin-top: 20px; }
-    .controls { display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 30px; }
-    .nav-btn { background: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; }
+    
+    .controls { display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 30px; background: rgba(0,0,0,0.3); padding: 15px; border-radius: 15px; }
+    .controls.oscuro { background: rgba(255,255,255,0.9); }
+    .nav-btn { background: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: bold; }
     .nav-btn:disabled { opacity: 0.5; }
     .dots { display: flex; gap: 8px; }
     .dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.5); }
     .dot.active { background: white; }
+    .controls.oscuro .dot { background: rgba(0,0,0,0.3); }
+    .controls.oscuro .dot.active { background: #8E2DE2; }
+    
     @media print { .header, .controls, .personalizacion { display: none; } }
 </style>
