@@ -1,15 +1,15 @@
 <script lang="ts">
-    import { newStories } from '$lib/data/nuevos';
     import { base } from '$app/paths';
     import { page } from '$app/stores';
     import { onMount } from 'svelte';
     
-    const stories = newStories;
-    let story: any = stories[0];
+    let stories: any[] = [];
+    let story: any = null;
     let currentPage = 0;
     let lang: 'es' | 'en' = 'es';
     let isFlipping = false;
     let fontSize = 18;
+    let loading = true;
     
     let nombreNino = '';
     let animalFavorito = '';
@@ -49,10 +49,36 @@
     let gradient = 'linear-gradient(135deg, #FF6B6B, #FFE66D)';
     let textoOscuro = false;
     
-    onMount(() => {
-        const id = $page.params.id;
-        const found = stories.find(s => s.id === id);
-        if (found) story = found;
+    onMount(async () => {
+        try {
+            // Cargar datos desde GitHub
+            const response = await fetch('https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/src/lib/data/nuevos/index.ts');
+            const text = await response.text();
+            // Extraer los stories del código
+            const match = text.match(/export const newStories = \[([\s\S]*?)\];/);
+            if (match) {
+                // Crear objeto con las variables
+                const storyVars = {};
+                const exports = text.match(/export const \w+ = \{[\s\S]*?\};/g) || [];
+                exports.forEach((exp: string) => {
+                    const nameMatch = exp.match(/export const (\w+) = /);
+                    if (nameMatch) {
+                        try {
+                            const varContent = exp.replace('export const ' + nameMatch[1] + ' = ', '');
+                            storyVars[nameMatch[1].replace(/_/g, '-')] = eval('(' + varContent + ')');
+                        } catch(e) {}
+                    }
+                });
+                stories = Object.values(storyVars);
+                const id = $page.params.id;
+                const found = stories.find((s: any) => s.id === id);
+                if (found) story = found;
+            }
+        } catch(e) {
+            console.error('Error cargando stories:', e);
+            story = { id: 'error', title: { es: 'Error', en: 'Error' }, pages: [] };
+        }
+        loading = false;
     });
     
     function seleccionarAnimal(id: string) {
@@ -115,7 +141,12 @@
 </script>
 
 <div class="story-container" style="background: {gradient}">
-    {#if showPersonalizacion}
+    {#if loading}
+        <div class="personalizacion">
+            <div class="icono">⏳</div>
+            <h1>Cargando cuento...</h1>
+        </div>
+    {:else if showPersonalizacion}
         <div class="personalizacion">
             <div class="icono">✏️🖍️🎨</div>
             <h1>Personaliza tu cuento</h1>
@@ -249,4 +280,6 @@
     .controls.oscuro .dot.active { background: #8E2DE2; }
     
     @media print { .header, .controls, .personalizacion { display: none; } }
+    
+    .loading { text-align: center; padding: 50px; font-size: 24px; }
 </style>
