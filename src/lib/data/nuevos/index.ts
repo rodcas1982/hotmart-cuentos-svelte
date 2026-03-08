@@ -51,14 +51,7 @@ export const 02_luna = {
     "pages": [
         {
             "es": "En un pueblo cerca del mar vivía una niña llamada Luna. Tenía cinco años y cabello rizado castaño que brillaba con la luz del sol. Luna adoraba dibujar. Cada tarde dibujaba flores, animales y a su familia. Dibujaba con pasión y amor. Un día, su maestra anunció: Habrá un concurso de dibujo. El mejor representación nuestra escuela en el concurso municipal.",
-            "en": "In a village near the sea lived a girl named Luna. Era five years old with curly brown hair that shone in the sunlight. Luna loved to draw. Every afternoon she drew flowers, animals, and her family. She drew with passion and love. Un día, her teacher announced: There will be a drawing contest. The best will represent our school in the municipal contest.",
-            "image": "${BASE_URL}/images/1772953961000_Niña_Luna_en_pueblo_.png",
-            "images": [
-                {
-                    "url": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772953961000_Niña_Luna_en_pueblo_.png",
-                    "posicion": "centro"
-                }
-            ]
+            "en": "In a village near the sea lived a girl named Luna. Era five years old with curly brown hair that shone in the sunlight. Luna loved to draw. Every afternoon she drew flowers, animals, and her family. She drew with passion and love. Un día, her teacher announced: There will be a drawing contest. The best will represent our school in the municipal contest."
         },
         {
             "es": "Luna trabajó días en un dibujo especial: una escuela con niños felices, un sol sonriente y un arcoíris en el cielo. Era hermoso. Pero entonces su amiga María se acercó triste: Olvidé mi dibujo en casa. Estaba a punto de llorar. Luna, sin pensarlo, dijo: Puedes dibujar el mío si quieres. María sonrió y tomó el dibujo de Luna. Lo presentó como si fuera suyo.",
@@ -72,8 +65,7 @@ export const 02_luna = {
             "es": "",
             "en": ""
         }
-    ],
-    "fondoGlobal": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/fondo_global_1772953873786_Fondo_de_pantalla_de.png"
+    ]
 };
 
 export const 03_max = {
@@ -195,14 +187,7 @@ export const 06_dragon = {
     "pages": [
         {
             "es": "En una montaña muy alta vivía un pequeño dragón llamado Draco. Draco tenía escamas de color azul brillante como el cielo nocturno. Pero Draco no podía dormir. Cada noche daba vueltas y vueltas en su cueva. Era muy triste.",
-            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad.",
-            "image": "${BASE_URL}/images/1772953664107_Draco_el_dragón_azul.png",
-            "images": [
-                {
-                    "url": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772953664107_Draco_el_dragón_azul.png",
-                    "posicion": "centro"
-                }
-            ]
+            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad."
         },
         {
             "es": "Su mamá dragona estaba preocupada: Draco, ¿por qué no duermes? Tengo mucho sueño pero no puedo dormir, mamá. Me wake up con los ojos abiertos. Un día, Draco conoció a Luna, una lechuza sabia que vivía en el árbol más alto de la montaña. Draco, ¿qué haces antes de dormir?",
@@ -216,7 +201,8 @@ export const 06_dragon = {
             "es": "Draco probó la rutina esa noche. Y algo mágico pasó: durmió profundamente por primera vez en semanas. Desde entonces, Draco siempre hacía su rutina before dormir. Moraleja: Una buena rutina nos ayuda a descansar bien.",
             "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well."
         }
-    ]
+    ],
+    "fondoGlobal": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/fondo_global_1772954132917_Paisaje_nocturno_con.png"
 };
 
 export const 07_lunaviaje = {
