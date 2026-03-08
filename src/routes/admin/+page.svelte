@@ -20,6 +20,7 @@
     let mostrarModalToken = false;
     
     function abrirModalToken() {
+        console.log('Abriendo modal...');
         mostrarModalToken = true;
     }
     
@@ -393,8 +394,7 @@
     {/if}
     
     <!-- Token Modal -->
-    {#if mostrarModalToken}
-    <div class="token-modal" on:click={cerrarModalToken}>
+    <div class="token-modal {mostrarModalToken ? 'show' : ''}" on:click={cerrarModalToken}>
         <div class="token-modal-content" on:click|stopPropagation>
             <h3>🔐 Configurar GitHub Token</h3>
             <p>Pegá tu token para poder guardar cambios</p>
@@ -405,7 +405,6 @@
             </div>
         </div>
     </div>
-    {/if}
 </div>
 
 <style>
@@ -446,8 +445,9 @@
     .preview-dot.active{background:white}
     
     /* Token Modal */
-    .token-modal{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:2000;align-items:center;justify-content:center}
-    .token-modal.show{display:flex}
+    /* Token Modal */
+    .token-modal{visibility:hidden;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9999;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.3s}
+    .token-modal.show{visibility:visible;opacity:1}
     .token-modal-content{background:white;padding:30px;border-radius:20px;max-width:400px;width:90%;text-align:center}
     .token-modal-content h3{color:#8E2DE2;margin:0 0 10px 0}
     .token-modal-content p{color:#666;margin:0 0 20px 0;font-size:14px}
