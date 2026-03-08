@@ -5,6 +5,7 @@
     let storySeleccionada: number = -1;
     let guardado = false;
     let guardando = false;
+    let subiendo = false;
     let password = '';
     let autenticado = false;
     let tokenInput = '';
@@ -31,6 +32,55 @@
     function selectStory(index: number) {
         storySeleccionada = index;
         guardado = false;
+    }
+    
+    async function uploadImagen(event: Event, tipo: 'imagen' | 'fondo', pageIndex: number) {
+        const input = event.target as HTMLInputElement;
+        const file = input.files?.[0];
+        if (!file) return;
+        
+        const token = localStorage.getItem('github_token');
+        if (!token) { alert('Configurá el token primero'); return; }
+        
+        subiendo = true;
+        const fileName = `${Date.now()}_${file.name.replace(/\s/g, '_')}`;
+        
+        try {
+            // Convertir a base64
+            const reader = new FileReader();
+            reader.onload = async () => {
+                const base64 = (reader.result as string).split(',')[1];
+                
+                // Subir a GitHub
+                const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: `Subir imagen: ${fileName}`,
+                        content: base64
+                    })
+                });
+                
+                if (response.ok) {
+                    const urlImagen = `/images/${fileName}`;
+                    if (tipo === 'imagen') stories[storySeleccionada].pages[pageIndex].image = urlImagen;
+                    else stories[storySeleccionada].pages[pageIndex].bgImage = urlImagen;
+                    stories = [...stories];
+                    alert('✅ Imagen subida: ' + urlImagen);
+                } else {
+                    alert('Error al subir imagen');
+                }
+                subiendo = false;
+            };
+            reader.readAsDataURL(file);
+        } catch (err) {
+            alert('Error: ' + err);
+            subiendo = false;
+        }
     }
     
     async function guardarEnGitHub() {
@@ -132,8 +182,22 @@
                                     <div class="lang-column es">
                                         <div class="lang-header">🇪🇸 Español</div>
                                         <textarea bind:value={page.es} placeholder="Texto en español..."></textarea>
-                                        <input bind:value={page.image} placeholder="🖼️ Imagen" class="img-input" />
-                                        <input bind:value={page.bgImage} placeholder="🎨 Fondo" class="img-input" />
+                                        
+                                        <div class="img-upload-row">
+                                            <label class="upload-btn">
+                                                📤 Subir Imagen
+                                                <input type="file" accept="image/*" on:change={(e) => uploadImagen(e, 'imagen', pi)} hidden />
+                                            </label>
+                                            <span class="img-url">{page.image || 'Sin imagen'}</span>
+                                        </div>
+                                        
+                                        <div class="img-upload-row">
+                                            <label class="upload-btn fondo">
+                                                🎨 Subir Fondo
+                                                <input type="file" accept="image/*" on:change={(e) => uploadImagen(e, 'fondo', pi)} hidden />
+                                            </label>
+                                            <span class="img-url">{page.bgImage || 'Sin fondo'}</span>
+                                        </div>
                                     </div>
                                     <div class="lang-column en">
                                         <div class="lang-header">🇺🇸 English</div>
@@ -145,7 +209,8 @@
                     </div>
                     <div class="save-bar">
                         {#if guardado}<span class="saved-msg">✅ Guardado</span>{/if}
-                        <button class="btn-guardar" on:click={guardarEnGitHub} disabled={guardando}>{guardando ? '⏳' : '💾'} GUARDAR</button>
+                        {#if subiendo}<span class="subiendo-msg">⏳ Subiendo imagen...</span>{/if}
+                        <button class="btn-guardar" on:click={guardarEnGitHub} disabled={guardando || subiendo}>{guardando ? '⏳' : '💾'} GUARDAR</button>
                     </div>
                 {:else}
                     <div class="empty-state"><h2>👈 Selecciona un cuento</h2></div>
@@ -162,7 +227,8 @@
     .editor-main{flex:1;overflow-y:auto;padding:20px;display:flex;flex-direction:column}.editor-header{background:white;padding:20px;border-radius:15px;margin-bottom:20px;box-shadow:0 2px 10px rgba(0,0,0,0.05)}.header-info{display:flex;align-items:center;gap:15px;margin-bottom:15px;flex-wrap:wrap}.story-id{background:#8E2DE2;color:white;padding:5px 12px;border-radius:8px;font-weight:bold}.title-input{flex:1;min-width:200px;padding:10px 15px;border:2px solid #e0e0e0;border-radius:10px;font-size:16px}.title-input:focus{border-color:#8E2DE2;outline:none}.header-meta{display:flex;gap:10px;flex-wrap:wrap}.meta-input{padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px}
     .pages-container{flex:1}.pages-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.pages-header h3{margin:0;color:#333}.btn-add{background:#4CAF50;color:white;border:none;padding:10px 20px;border-radius:8px;cursor:pointer}
     .page-card{background:white;border-radius:15px;margin-bottom:20px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.05)}.page-header{background:#f8f9fa;padding:12px 20px;display:flex;justify-content:space-between;align-items:center}.page-num{font-weight:bold;color:#8E2DE2}.btn-del{background:#f44336;color:white;border:none;padding:6px 12px;border-radius:6px;cursor:pointer;font-size:12px}
-    .page-content{display:flex;gap:20px;padding:20px}.lang-column{flex:1;display:flex;flex-direction:column;gap:10px}.lang-header{font-weight:bold;font-size:14px;padding-bottom:8px;border-bottom:2px solid}.lang-column.es .lang-header{border-color:#4CAF50;color:#4CAF50}.lang-column.en .lang-header{border-color:#2196F3;color:#2196F3}.lang-column textarea{flex:1;min-height:150px;padding:12px;border:1px solid #ddd;border-radius:10px;font-size:14px;resize:vertical}.img-input{padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:13px}
-    .save-bar{position:sticky;bottom:20px;background:white;padding:15px 25px;border-radius:50px;box-shadow:0 4px 20px rgba(0,0,0,0.15);display:flex;justify-content:center;align-items:center;gap:15px;margin-top:auto}.saved-msg{color:#4CAF50;font-weight:bold}.btn-guardar{background:linear-gradient(135deg,#8E2DE2,#4A00E0);color:white;border:none;padding:12px 30px;border-radius:25px;font-size:15px;font-weight:bold;cursor:pointer}.btn-guardar:disabled{opacity:0.6}.empty-state{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#999}
+    .page-content{display:flex;gap:20px;padding:20px}.lang-column{flex:1;display:flex;flex-direction:column;gap:10px}.lang-header{font-weight:bold;font-size:14px;padding-bottom:8px;border-bottom:2px solid}.lang-column.es .lang-header{border-color:#4CAF50;color:#4CAF50}.lang-column.en .lang-header{border-color:#2196F3;color:#2196F3}.lang-column textarea{flex:1;min-height:150px;padding:12px;border:1px solid #ddd;border-radius:10px;font-size:14px;resize:vertical}
+    .img-upload-row{display:flex;align-items:center;gap:10px}.upload-btn{background:#2196F3;color:white;border:none;padding:8px 14px;border-radius:6px;cursor:pointer;font-size:13px}.upload-btn.fondo{background:#9C27B0}.img-url{font-size:12px;color:#666;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .save-bar{position:sticky;bottom:20px;background:white;padding:15px 25px;border-radius:50px;box-shadow:0 4px 20px rgba(0,0,0,0.15);display:flex;justify-content:center;align-items:center;gap:15px;margin-top:auto}.saved-msg{color:#4CAF50;font-weight:bold}.subiendo-msg{color:#FF9800;font-weight:bold}.btn-guardar{background:linear-gradient(135deg,#8E2DE2,#4A00E0);color:white;border:none;padding:12px 30px;border-radius:25px;font-size:15px;font-weight:bold;cursor:pointer}.btn-guardar:disabled{opacity:0.6}.empty-state{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#999}
     @media(max-width:768px){.admin-layout{flex-direction:column}.sidebar{width:100%;height:auto;max-height:200px}.page-content{flex-direction:column}}
 </style>
