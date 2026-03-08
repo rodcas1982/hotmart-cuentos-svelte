@@ -119,7 +119,7 @@
         const reader = new FileReader();
         reader.onload = async () => {
             const base64 = (reader.result as string).split(',')[1];
-            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static${BASE_URL}/images/${fileName}`, {
+            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`, {
                 method: 'PUT',
                 headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: `Subir fondo global`, content: base64 })
@@ -144,7 +144,7 @@
         const reader = new FileReader();
         reader.onload = async () => {
             const base64 = (reader.result as string).split(',')[1];
-            const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static${BASE_URL}/images/${fileName}`;
+            const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`;
             console.log('URL:', url);
             const response = await fetch(url, {
                 method: 'PUT',
