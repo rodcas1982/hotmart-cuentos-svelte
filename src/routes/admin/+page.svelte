@@ -14,7 +14,7 @@
     let pagePreview = 0;
     let langPreview: 'es' | 'en' = 'es';
     const PASSWORD_ADMIN = 'RinconAdmin2026!';
-    const BASE_URL = "/hotmart-cuentos-svelte"; const REPO_OWNER = 'rodcas1982';
+    const BASE_URL = "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main"; const REPO_OWNER = 'rodcas1982';
     const REPO_NAME = 'hotmart-cuentos-svelte';
     
     let mostrarModalToken = false;
