@@ -1,9 +1,34 @@
 <script lang="ts">
     import { newStories } from '$lib/data/nuevos';
     import { base } from '$app/paths';
+    import { onMount } from 'svelte';
     
-    // Usar nuevos cuentos
-    const stories = newStories;
+    // Usar datos por defecto para build/SSR
+    let stories: any[] = [...newStories];
+    let loading = true;
+    
+    // Cargar datos actualizados desde GitHub en el navegador
+    onMount(async () => {
+        try {
+            const response = await fetch('https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/src/lib/data/nuevos/index.ts');
+            const text = await response.text();
+            const storyVars: any = {};
+            const exports = text.match(/export const \w+ = \{[\s\S]*?\};/g) || [];
+            exports.forEach((exp: string) => {
+                const nameMatch = exp.match(/export const (\w+) = /);
+                if (nameMatch) {
+                    try {
+                        const varContent = exp.replace('export const ' + nameMatch[1] + ' = ', '');
+                        storyVars[nameMatch[1].replace(/_/g, '-')] = eval('(' + varContent + ')');
+                    } catch(e) {}
+                }
+            });
+            stories = Object.values(storyVars);
+        } catch(e) {
+            console.log('Usando datos locales');
+        }
+        loading = false;
+    });
     
     let lang: 'es' | 'en' = 'es';
     let currentTestimonialIndex = 0;
@@ -147,7 +172,6 @@
     }
     
     // Auto-rotar testimonios cada 8 segundos
-    import { onMount } from 'svelte';
     onMount(() => {
         const interval = setInterval(nextTestimonials, 2000);
         return () => clearInterval(interval);

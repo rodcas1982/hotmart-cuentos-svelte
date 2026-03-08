@@ -1,7 +1,7 @@
 <script lang="ts">
-    import { newStories } from '$lib/data/nuevos';
+    import { onMount } from 'svelte';
     
-    let stories: any[] = [...newStories];
+    let stories: any[] = [];
     let storySeleccionada: number = -1;
     let guardado = false;
     let guardando = false;
@@ -10,6 +10,30 @@
     let autenticado = false;
     let tokenInput = '';
     let tokenConfigurado = false;
+    
+    // Cargar stories desde GitHub al iniciar
+    onMount(async () => {
+        try {
+            const response = await fetch('https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/src/lib/data/nuevos/index.ts');
+            const text = await response.text();
+            const storyVars: any = {};
+            const exports = text.match(/export const \w+ = \{[\s\S]*?\};/g) || [];
+            exports.forEach((exp: string) => {
+                const nameMatch = exp.match(/export const (\w+) = /);
+                if (nameMatch) {
+                    try {
+                        const varContent = exp.replace('export const ' + nameMatch[1] + ' = ', '');
+                        storyVars[nameMatch[1].replace(/_/g, '-')] = eval('(' + varContent + ')');
+                    } catch(e) { console.error('Error:', e); }
+                }
+            });
+            stories = Object.values(storyVars);
+            console.log('Cargados:', stories.length, 'cuentos');
+        } catch(e) {
+            console.error('Error cargando stories:', e);
+            alert('Error al cargar datos. ¿Tienes token configurado?');
+        }
+    });
     let mostrarPreview = false;
     let pagePreview = 0;
     let langPreview: 'es' | 'en' = 'es';
