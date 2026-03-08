@@ -159,11 +159,11 @@
                 const fileNameMostrar = fileName;
                 
                 if (tipo === 'imagen') {
-                    stories[storySeleccionada].pages[pageIndex].image = fileNameMostrar;
+                    stories[storySeleccionada].pages[pageIndex].image = "/images/" + fileNameMostrar;
                     if (!stories[storySeleccionada].pages[pageIndex].images) stories[storySeleccionada].pages[pageIndex].images = [];
                     stories[storySeleccionada].pages[pageIndex].images.push({ url: urlImagen, posicion: 'centro' });
                 } else {
-                    stories[storySeleccionada].pages[pageIndex].bgImage = fileNameMostrar;
+                    stories[storySeleccionada].pages[pageIndex].bgImage = "/images/" + fileNameMostrar;
                 }
                 stories = [...stories];
                 console.log('Imagen guardada:', fileNameMostrar);
