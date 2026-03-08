@@ -207,7 +207,8 @@ export const 06_dragon = {
             "es": "Draco probó la rutina esa noche. Y algo mágico pasó: durmió profundamente por primera vez en semanas. Desde entonces, Draco siempre hacía su rutina before dormir. Moraleja: Una buena rutina nos ayuda a descansar bien.",
             "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well."
         }
-    ]
+    ],
+    "fondoGlobal": "/images/fondo_global_1772950475823_Paisaje_nocturno_con.png"
 };
 
 export const 07_lunaviaje = {
