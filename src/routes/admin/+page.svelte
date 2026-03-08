@@ -17,6 +17,16 @@
     const REPO_OWNER = 'rodcas1982';
     const REPO_NAME = 'hotmart-cuentos-svelte';
     
+    let mostrarModalToken = false;
+    
+    function abrirModalToken() {
+        mostrarModalToken = true;
+    }
+    
+    function cerrarModalToken() {
+        mostrarModalToken = false;
+    }
+    
     function login() {
         if (password === PASSWORD_ADMIN) {
             autenticado = true;
@@ -174,7 +184,7 @@
                     <div class="token-status" class:ok={tokenConfigurado}>
                         {tokenConfigurado ? '✅ Token OK' : '❌ Sin Token'}
                     </div>
-                    <button class="token-btn" on:click={() => document.getElementById('tokenModal')?.classList.add('show')}>
+                    <button class="token-btn" on:click={abrirModalToken}>
                         {tokenConfigurado ? '🔄 Cambiar Token' : '➕ Agregar Token'}
                     </button>
                 </div>
@@ -314,17 +324,19 @@
     {/if}
     
     <!-- Token Modal -->
-    <div id="tokenModal" class="token-modal">
-        <div class="token-modal-content">
+    {#if mostrarModalToken}
+    <div class="token-modal" on:click={cerrarModalToken}>
+        <div class="token-modal-content" on:click|stopPropagation>
             <h3>🔐 Configurar GitHub Token</h3>
             <p>Pegá tu token para poder guardar cambios</p>
             <input type="password" bind:value={tokenInput} placeholder="ghp_..." class="token-input-modal" />
             <div class="token-modal-btns">
-                <button class="token-save" on:click={() => { guardarToken(); document.getElementById('tokenModal')?.classList.remove('show'); }}>💾 Guardar</button>
-                <button class="token-cancel" on:click={() => document.getElementById('tokenModal')?.classList.remove('show')}>Cancelar</button>
+                <button class="token-save" on:click={() => { guardarToken(); mostrarModalToken = false; }}>💾 Guardar</button>
+                <button class="token-cancel" on:click={cerrarModalToken}>Cancelar</button>
             </div>
         </div>
     </div>
+    {/if}
 </div>
 
 <style>
