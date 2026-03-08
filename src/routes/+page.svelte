@@ -5,29 +5,45 @@
     
     // Usar datos por defecto para build/SSR
     let stories: any[] = [...newStories];
-    let loading = false;
+    let loading = true;
     
     // Cargar datos actualizados desde GitHub en el navegador
     onMount(async () => {
+        // Ya tenemos datos locales en "stories" mostrando inmediatamente
+        loading = false;
+        
+        // Intentamos cargar versión actualizada desde GitHub
         try {
-            const response = await fetch('https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/src/lib/data/nuevos/index.ts');
+            const response = await fetch('https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/src/lib/data/nuevos/index.ts?t=' + Date.now());
+            if (!response.ok) return;
+            
             const text = await response.text();
-            const storyVars: any = {};
-            const exports = text.match(/export const \w+ = \{[\s\S]*?\};/g) || [];
-            exports.forEach((exp: string) => {
-                const nameMatch = exp.match(/export const (\w+) = /);
-                if (nameMatch) {
-                    try {
-                        const varContent = exp.replace('export const ' + nameMatch[1] + ' = ', '');
-                        storyVars[nameMatch[1].replace(/_/g, '-')] = eval('(' + varContent + ')');
-                    } catch(e) {}
+            // Buscar el array newStories directamente
+            const match = text.match(/export const newStories = \[([\s\S]*?)\];/);
+            if (match) {
+                // Crear objeto temporal para parsear
+                const storyVars: any = {};
+                const exports = text.match(/export const \w+ = \{[\s\S]*?\};/g) || [];
+                exports.forEach((exp: string) => {
+                    const nameMatch = exp.match(/export const (\w+) = /);
+                    if (nameMatch) {
+                        try {
+                            const varContent = exp.replace('export const ' + nameMatch[1] + ' = ', '');
+                            storyVars[nameMatch[1].replace(/_/g, '-')] = JSON.parse(varContent);
+                        } catch(e) {
+                            console.log('Error parseando:', nameMatch[1], e);
+                        }
+                    }
+                });
+                const nuevos = Object.values(storyVars);
+                if (nuevos.length > 0) {
+                    stories = nuevos;
+                    console.log('Cargados', stories.length, 'cuentos desde GitHub');
                 }
-            });
-            stories = Object.values(storyVars);
+            }
         } catch(e) {
             console.log('Usando datos locales');
         }
-        loading = false;
     });
     
     let lang: 'es' | 'en' = 'es';

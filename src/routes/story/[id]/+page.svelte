@@ -51,14 +51,40 @@
     let gradient = 'linear-gradient(135deg, #FF6B6B, #FFE66D)';
     let textoOscuro = false;
     
-    onMount(() => {
+    onMount(async () => {
         // Buscar el story en los datos locales
         const id = $page.params.id;
         const found = stories.find((s) => s.id === id);
         if (found) {
             story = found;
         }
-        initialized = true;
+        
+        // Intentar cargar versión actualizada desde GitHub
+        try {
+            const response = await fetch('https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/src/lib/data/nuevos/index.ts?t=' + Date.now());
+            if (!response.ok) return;
+            
+            const text = await response.text();
+            const storyVars: any = {};
+            const exports = text.match(/export const \w+ = \{[\s\S]*?\};/g) || [];
+            exports.forEach((exp: string) => {
+                const nameMatch = exp.match(/export const (\w+) = /);
+                if (nameMatch) {
+                    try {
+                        const varContent = exp.replace('export const ' + nameMatch[1] + ' = ', '');
+                        storyVars[nameMatch[1].replace(/_/g, '-')] = JSON.parse(varContent);
+                    } catch(e) {}
+                }
+            });
+            const todos = Object.values(storyVars);
+            const foundNew = todos.find((s: any) => s.id === id);
+            if (foundNew) {
+                story = foundNew;
+                console.log('Story actualizado desde GitHub');
+            }
+        } catch(e) {
+            console.log('Usando datos locales');
+        }
     });
     
     function seleccionarAnimal(id: string) {
