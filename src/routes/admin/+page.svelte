@@ -170,17 +170,14 @@
                     <h2>📚 Cuentos</h2>
                     <span class="count">{stories.length}</span>
                 </div>
-                <div class="token-status" class:ok={tokenConfigurado}>
-                    {tokenConfigurado ? '✅ Token OK' : '❌ Sin Token'}
-                    <button class="token-refresh" on:click={() => tokenConfigurado = false}>🔄</button>
-                </div>
-                {#if !tokenConfigurado}
-                    <div class="token-setup">
-                        <p>📌 Pegá tu GitHub Token</p>
-                        <input type="password" bind:value={tokenInput} placeholder="Token" />
-                        <button on:click={guardarToken}>Guardar</button>
+                <div class="token-section">
+                    <div class="token-status" class:ok={tokenConfigurado}>
+                        {tokenConfigurado ? '✅ Token OK' : '❌ Sin Token'}
                     </div>
-                {/if}
+                    <button class="token-btn" on:click={() => document.getElementById('tokenModal')?.classList.add('show')}>
+                        {tokenConfigurado ? '🔄 Cambiar Token' : '➕ Agregar Token'}
+                    </button>
+                </div>
                 <div class="story-list">
                     {#each stories as story, i}
                         <button class="story-item" class:selected={storySeleccionada === i} on:click={() => selectStory(i)}>
@@ -315,6 +312,19 @@
             </div>
         </div>
     {/if}
+    
+    <!-- Token Modal -->
+    <div id="tokenModal" class="token-modal">
+        <div class="token-modal-content">
+            <h3>🔐 Configurar GitHub Token</h3>
+            <p>Pegá tu token para poder guardar cambios</p>
+            <input type="password" bind:value={tokenInput} placeholder="ghp_..." class="token-input-modal" />
+            <div class="token-modal-btns">
+                <button class="token-save" on:click={() => { guardarToken(); document.getElementById('tokenModal')?.classList.remove('show'); }}>💾 Guardar</button>
+                <button class="token-cancel" on:click={() => document.getElementById('tokenModal')?.classList.remove('show')}>Cancelar</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <style>
@@ -353,4 +363,20 @@
     .preview-dots{display:flex;gap:8px}
     .preview-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.5)}
     .preview-dot.active{background:white}
+    
+    /* Token Modal */
+    .token-modal{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:2000;align-items:center;justify-content:center}
+    .token-modal.show{display:flex}
+    .token-modal-content{background:white;padding:30px;border-radius:20px;max-width:400px;width:90%;text-align:center}
+    .token-modal-content h3{color:#8E2DE2;margin:0 0 10px 0}
+    .token-modal-content p{color:#666;margin:0 0 20px 0;font-size:14px}
+    .token-input-modal{width:100%;padding:12px;border:2px solid #ddd;border-radius:10px;font-size:14px;margin-bottom:15px;box-sizing:border-box}
+    .token-modal-btns{display:flex;gap:10px;justify-content:center}
+    .token-save{background:#4CAF50;color:white;border:none;padding:12px 25px;border-radius:10px;cursor:pointer;font-size:14px}
+    .token-cancel{background:#ddd;color:#333;border:none;padding:12px 25px;border-radius:10px;cursor:pointer;font-size:14px}
+    .token-section{padding:10px;border-bottom:1px solid #e0e0e0}
+    .token-status{padding:10px;font-size:13px;border-radius:8px;text-align:center;margin-bottom:5px}
+    .token-status.ok{background:#d4edda;color:#155724}
+    .token-status:not(.ok){background:#f8d7da;color:#721c24}
+    .token-btn{width:100%;background:#8E2DE2;color:white;border:none;padding:10px;border-radius:8px;cursor:pointer;font-size:13px}
 </style>
