@@ -187,7 +187,13 @@ export const 06_dragon = {
     "pages": [
         {
             "es": "En una montaña muy alta vivía un pequeño dragón llamado Draco. Draco tenía escamas de color azul brillante como el cielo nocturno. Pero Draco no podía dormir. Cada noche daba vueltas y vueltas en su cueva. Era muy triste.",
-            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad."
+            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad.",
+            "images": [
+                {
+                    "url": "/images/1772950031603_Draco_el_dragón_azul.png",
+                    "posicion": "centro"
+                }
+            ]
         },
         {
             "es": "Su mamá dragona estaba preocupada: Draco, ¿por qué no duermes? Tengo mucho sueño pero no puedo dormir, mamá. Me wake up con los ojos abiertos. Un día, Draco conoció a Luna, una lechuza sabia que vivía en el árbol más alto de la montaña. Draco, ¿qué haces antes de dormir?",
