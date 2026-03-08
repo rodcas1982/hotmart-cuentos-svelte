@@ -33,36 +33,30 @@
     async function guardarEnGitHub() {
         guardando = true;
         
-        // Obtener el contenido actual del archivo
-        const filePath = 'src/lib/data/nuevos';
-        
         try {
             // Obtener SHA del archivo actual
-            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}/index.ts`, {
+            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
                 headers: {
                     'Authorization': `token ${localStorage.getItem('github_token')}`,
                     'Accept': 'application/vnd.github.v3+json'
                 }
             });
             
-            if (!response.ok) {
-                throw new Error('Error al conectar con GitHub');
-            }
+            if (!response.ok) throw new Error('Error al conectar con GitHub');
             
             const fileData = await response.json();
             const sha = fileData.sha;
             
-            // Generar el nuevo contenido del archivo
+            // Generar el nuevo contenido
             let nuevoContenido = '// Cuentos actualizados desde admin\n';
             for (const story of stories) {
-                nuevoContenido += `\nexport const ${story.id.replace('-', '_')} = ${JSON.stringify(story, null, 4)};\n`;
+                nuevoContenido += `\nexport const ${story.id.replace(/-/g, '_')} = ${JSON.stringify(story, null, 4)};\n`;
             }
-            nuevoContenido += `\n\nexport const newStories = [\n`;
-            nuevoContenido += stories.map((s, i) => `    ${s.id.replace('-', '_')}${i < stories.length - 1 ? ',' : ''}`).join('\n');
+            nuevoContenido += '\n\nexport const newStories = [\n';
+            nuevoContenido += stories.map((s, i) => `    ${s.id.replace(/-/g, '_')}${i < stories.length - 1 ? ',' : ''}`).join('\n');
             nuevoContenido += '\n];\n';
             
-            // Commitear los cambios
-            const commitResponse = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${filePath}/index.ts`, {
+            const commitResponse = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
                 method: 'PUT',
                 headers: {
                     'Authorization': `token ${localStorage.getItem('github_token')}`,
@@ -95,20 +89,23 @@
         guardado = false;
     }
     
-    // Cargar cambios guardados
+    function agregarPagina(index: number) {
+        stories[index].pages.push({ es: '', en: '' });
+        stories = [...stories];
+    }
+    
+    function eliminarPagina(storyIndex: number, pageIndex: number) {
+        if (stories[storyIndex].pages.length > 1) {
+            stories[storyIndex].pages.splice(pageIndex, 1);
+            stories = [...stories];
+        }
+    }
+    
     onMount(() => {
         const token = localStorage.getItem('github_token');
-        if (token) {
-            githubToken = token;
-            tokenGuardado = true;
-        }
-        
+        if (token) { githubToken = token; tokenGuardado = true; }
         const guardados = localStorage.getItem('cuentos_editados');
-        if (guardados) {
-            try {
-                stories = JSON.parse(guardados);
-            } catch (e) {}
-        }
+        if (guardados) { try { stories = JSON.parse(guardados); } catch (e) {} }
     });
 </script>
 
@@ -125,7 +122,7 @@
                 <h1>📝 Panel de Administración</h1>
                 <div class="token-section">
                     {#if !tokenGuardado}
-                        <input type="password" bind:value={githubToken} placeholder="GitHub Token (Personal Access Token)" class="token-input" />
+                        <input type="password" bind:value={githubToken} placeholder="GitHub Token" class="token-input" />
                         <button on:click={guardarToken}>Guardar Token</button>
                     {:else}
                         <span class="token-ok">✅ Token de GitHub configurado</span>
@@ -133,8 +130,15 @@
                 </div>
             </header>
             
+            <div class="help-box">
+                <strong>📌 Variables disponibles:</strong>
+                <code>{NOMBRE_NIÑO}</code> - Se reemplaza por el nombre del niño<br/>
+                <code>{ANIMAL_FAVORITO}</code> - Se reemplaza por el animal elegido<br/>
+                <code>{COLOR}</code> - Se reemplaza por el color elegido
+            </div>
+            
             {#if guardado}
-                <div class="alert success">✅ Cambios guardados en GitHub - El sitio se actualizará en breve</div>
+                <div class="alert success">✅ Cambios guardados en GitHub</div>
             {/if}
             
             <div class="stories-list">
@@ -143,11 +147,7 @@
                         <div class="story-header">
                             <span class="story-id">{story.id}</span>
                             <h3>{story.title.es}</h3>
-                            {#if storyEditando === i}
-                                <button class="btn-save" on:click={guardado = false} disabled>Editando...</button>
-                            {:else}
-                                <button class="btn-edit" on:click={() => editarHistoria(i)}>✏️ Editar</button>
-                            {/if}
+                            <button class="btn-edit" on:click={() => editarHistoria(i)}>✏️ Editar</button>
                         </div>
                         
                         {#if storyEditando === i}
@@ -161,26 +161,38 @@
                                     <input bind:value={story.title.en} />
                                 </div>
                                 <div class="campo">
+                                    <label>Imagen principal (portada):</label>
+                                    <input bind:value={story.image} placeholder="ej: 01-valiente.jpg" />
+                                </div>
+                                <div class="campo">
                                     <label>Tema:</label>
                                     <input bind:value={story.theme} />
                                 </div>
                                 <div class="campo">
-                                    <label>Rango edad:</label>
+                                    <label>Edad:</label>
                                     <input bind:value={story.ageRange} />
                                 </div>
-                                <div class="campo full">
-                                    <label>Páginas (formato: ES | EN):</label>
-                                    <textarea rows="6" 
-                                        value={story.pages.map(p => `${p.es} | ${p.en}`).join('\n\n')}
-                                        on:change={(e) => {
-                                            const lines = e.target.value.split('\n\n');
-                                            story.pages = lines.map(l => {
-                                                const idx = l.indexOf(' | ');
-                                                if (idx === -1) return { es: l, en: '' };
-                                                return { es: l.substring(0, idx), en: l.substring(idx + 3) };
-                                            });
-                                        }}
-                                    ></textarea>
+                                
+                                <div class="pages-editor">
+                                    <div class="pages-header">
+                                        <label>📄 Páginas del cuento:</label>
+                                        <button class="btn-add" on:click={() => agregarPagina(i)}>➕ Agregar Página</button>
+                                    </div>
+                                    
+                                    {#each story.pages as page, pi}
+                                        <div class="page-editor">
+                                            <div class="page-num">Página {pi + 1}</div>
+                                            <div class="page-fields">
+                                                <input bind:value={page.es} placeholder="Texto en español..." class="text-es" />
+                                                <input bind:value={page.en} placeholder="English text..." class="text-en" />
+                                                <input bind:value={page.image} placeholder="URL imagen contenido (opcional)" class="img-url" />
+                                                <input bind:value={page.bgImage} placeholder="URL imagen fondo (opcional)" class="bg-url" />
+                                            </div>
+                                            {#if story.pages.length > 1}
+                                                <button class="btn-del" on:click={() => eliminarPagina(i, pi)}>🗑️</button>
+                                            {/if}
+                                        </div>
+                                    {/each}
                                 </div>
                             </div>
                         {/if}
@@ -191,12 +203,12 @@
             {#if storyEditando !== null}
                 <div class="save-bar">
                     <button class="btn-guardar-todo" on:click={guardarEnGitHub} disabled={guardando || !tokenGuardado}>
-                        {guardando ? '⏳ Guardando en GitHub...' : '💾 GUARDAR TODOS LOS CAMBIOS'}
+                        {guardando ? '⏳ Guardando...' : '💾 GUARDAR TODOS LOS CAMBIOS'}
                     </button>
                 </div>
             {/if}
             
-            <p class="info">💡 Los cambios se guardan directamente en GitHub. Necesitás un Personal Access Token con permisos de repo.</p>
+            <p class="info">💡 <code>image</code> = imagen en el contenido | <code>bgImage</code> = imagen de fondo</p>
         </div>
     {/if}
 </div>
@@ -214,6 +226,9 @@
     .token-input { flex: 1; min-width: 250px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
     .token-ok { background: #d4edda; color: #155724; padding: 10px 15px; border-radius: 8px; }
     
+    .help-box { background: #e3f2fd; padding: 15px; border-radius: 10px; margin-bottom: 20px; }
+    .help-box code { background: #fff; padding: 2px 6px; border-radius: 4px; color: #d63384; }
+    
     .alert { padding: 15px; border-radius: 10px; margin-bottom: 20px; }
     .alert.success { background: #d4edda; color: #155724; }
     
@@ -223,18 +238,31 @@
     .story-id { background: #8E2DE2; color: white; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; }
     .story-header h3 { flex: 1; margin: 0; }
     .btn-edit { border: none; padding: 8px 15px; border-radius: 8px; cursor: pointer; font-size: 14px; background: #FF9800; color: white; }
-    .btn-save { border: none; padding: 8px 15px; border-radius: 8px; font-size: 14px; background: #4CAF50; color: white; }
     
     .editor { padding: 20px; display: flex; flex-wrap: wrap; gap: 15px; }
     .campo { flex: 1 1 200px; }
-    .campo.full { flex: 1 1 100%; }
-    .campo label { display: block; font-weight: bold; margin-bottom: 5px; color: #333; }
-    .campo input, .campo textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; font-family: inherit; }
-    .campo textarea { resize: vertical; }
+    .campo label { display: block; font-weight: bold; margin-bottom: 5px; color: #333; font-size: 14px; }
+    .campo input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
+    
+    .pages-editor { flex: 1 1 100%; margin-top: 15px; }
+    .pages-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+    .pages-header label { font-weight: bold; }
+    .btn-add { background: #2196F3; color: white; border: none; padding: 8px 15px; border-radius: 8px; cursor: pointer; }
+    
+    .page-editor { background: #fafafa; padding: 15px; border-radius: 10px; margin-bottom: 10px; display: flex; gap: 10px; align-items: flex-start; }
+    .page-num { background: #8E2DE2; color: white; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; white-space: nowrap; }
+    .page-fields { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+    .page-fields input { padding: 8px; border: 1px solid #ddd; border-radius: 6px; font-size: 13px; }
+    .text-es { border-left: 3px solid #4CAF50 !important; }
+    .text-en { border-left: 3px solid #2196F3 !important; }
+    .img-url { border-left: 3px solid #FF9800 !important; }
+    .bg-url { border-left: 3px solid #9C27B0 !important; }
+    .btn-del { background: #f44336; color: white; border: none; padding: 8px; border-radius: 6px; cursor: pointer; }
     
     .save-bar { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: white; padding: 15px 30px; border-radius: 50px; box-shadow: 0 4px 20px rgba(0,0,0,0.2); }
     .btn-guardar-todo { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: white; border: none; padding: 15px 30px; border-radius: 30px; font-size: 16px; font-weight: bold; cursor: pointer; }
     .btn-guardar-todo:disabled { opacity: 0.6; cursor: not-allowed; }
     
     .info { text-align: center; color: #666; margin-top: 80px; font-size: 14px; }
+    .info code { background: #eee; padding: 2px 6px; border-radius: 4px; }
 </style>

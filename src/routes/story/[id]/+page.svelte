@@ -5,7 +5,7 @@
     import { onMount } from 'svelte';
     
     const stories = newStories;
-    let story: Story = stories[0];
+    let story: any = stories[0];
     let currentPage = 0;
     let lang: 'es' | 'en' = 'es';
     let isFlipping = false;
@@ -44,7 +44,6 @@
         { id: 'lavanda', hex: '#B4A7D6', nombre: 'Lavanda' },
     ];
     
-    // Colores claros que necesitan texto oscuro
     const coloresClaros = ['amarillo', 'celeste', 'lavanda', 'turquesa'];
     
     let gradient = 'linear-gradient(135deg, #FF6B6B, #FFE66D)';
@@ -73,7 +72,6 @@
             const color = coloresDisponibles.find(c => c.id === colorFavorito);
             if (color) {
                 gradient = `linear-gradient(135deg, ${color.hex}, ${adjustColor(color.hex, 30)})`;
-                // Detectar si el color es claro
                 textoOscuro = coloresClaros.includes(colorFavorito);
             }
             animalFavorito = animalFinal;
@@ -90,20 +88,20 @@
         return '#' + (1 << 24 | r << 16 | g << 8 | b).toString(16).slice(1);
     }
     
-    function isLightColor(colorId: string): boolean {
-        return coloresClaros.includes(colorId);
-    }
-    
     function replaceVariables(text: string): string {
         if (!personalizado) return text;
         return text
             .replace(/{NOMBRE_NIÑO}/g, nombreNino)
-            .replace(/{ANIMAL_FAVORITO}/g, animalFavorito);
+            .replace(/{ANIMAL_FAVORITO}/g, animalFavorito)
+            .replace(/{COLOR}/g, colorFavorito);
     }
     
     $: pages = story?.pages || [];
     $: totalPages = pages.length;
-    $: currentContent = replaceVariables(pages[currentPage]?.[lang] || '');
+    $: currentPageData = pages[currentPage] || {};
+    $: currentContent = replaceVariables(currentPageData[lang] || '');
+    $: currentImage = currentPageData.image || '';
+    $: currentBgImage = currentPageData.bgImage || '';
     
     function nextPage() {
         if (currentPage < totalPages - 1) { isFlipping = true; setTimeout(() => { currentPage++; isFlipping = false; }, 150); }
@@ -181,8 +179,11 @@
             </div>
         </div>
         
-        <div class="book">
+        <div class="book" class:has-bg={!!currentBgImage} style={currentBgImage ? `background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('${currentBgImage}'); background-size: cover; background-position: center;` : ''}>
             <div class="page" class:flipping={isFlipping}>
+                {#if currentImage}
+                    <img src={currentImage} alt="" class="page-image" />
+                {/if}
                 <h1 class="titulo-decorativo" style="font-size: {fontSize + 8}px">{story?.title?.[lang] || ''}</h1>
                 <p class="content" style="font-size: {fontSize}px; line-height: {fontSize * 1.6}px">{currentContent}</p>
                 <div class="page-number">{currentPage + 1} / {totalPages}</div>
@@ -231,16 +232,9 @@
     .controls-row { display: flex; gap: 8px; }
     
     .book { background: white; color: #333; border-radius: 10px; padding: 40px; min-height: 450px; max-width: 700px; margin: 0 auto; box-shadow: 0 10px 40px rgba(0,0,0,0.3); }
-    .titulo-decorativo {
-        font-family: 'Dancing Script', 'Pinyon Script', cursive;
-        font-weight: 700;
-        background: linear-gradient(135deg, #8E2DE2, #4A00E0);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+    .book.has-bg { background-size: cover; background-position: center; }
+    .page-image { max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto; }
+    .titulo-decorativo { font-family: 'Dancing Script', 'Pinyon Script', cursive; font-weight: 700; background: linear-gradient(135deg, #8E2DE2, #4A00E0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-align: center; margin-bottom: 20px; }
     .content { margin: 30px 0; text-align: justify; }
     .page-number { text-align: center; color: #666; margin-top: 20px; }
     
