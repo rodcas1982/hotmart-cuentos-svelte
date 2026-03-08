@@ -382,19 +382,19 @@
                 
                 <!-- Preview completo estilo página real -->
                 <div class="preview-story-container" style="background: linear-gradient(135deg, #FF6B6B, #FFE66D)">
-                    <div class="preview-book" style={pageData.bgImage || story.fondoGlobal ? `background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('${BASE_URL}${pageData.bgImage || story.fondoGlobal}'); background-size: cover; background-position: center;` : ''}>
+                    <div class="preview-book" style={pageData.bgImage || story.fondoGlobal ? `background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('${pageData.bgImage?.startsWith('http') ? '' : BASE_URL}${pageData.bgImage || story.fondoGlobal}'); background-size: cover; background-position: center;` : ''}>
                         <!-- Imágenes del contenido (nuevo formato con array) -->
                         {#if pageData.images && pageData.images.length > 0}
                             {#each pageData.images as img}
                                 {#if img.url}
-                                    <img src={BASE_URL + img.url} alt="" class="preview-content-img" style="float: {img.posicion || 'none'}" />
+                                    <img src={img.url && img.url.startsWith('http') ? img.url : BASE_URL + img.url} alt="" class="preview-content-img" style="float: {img.posicion || 'none'}" />
                                 {/if}
                             {/each}
                         {/if}
                         
                         <!-- Imagen individual (formato anterior) -->
                         {#if pageData.image && !pageData.images}
-                            <img src={BASE_URL + pageData.image} alt="" class="preview-content-img" style="display:block;margin:10px auto" />
+                            <img src={pageData.image && pageData.image.startsWith('http') ? pageData.image : BASE_URL + pageData.image} alt="" class="preview-content-img" style="display:block;margin:10px auto" />
                         {/if}
                         
                         <h1 class="preview-title">{story.title[langPreview]}</h1>

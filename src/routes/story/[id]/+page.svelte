@@ -100,8 +100,8 @@
     $: totalPages = pages.length;
     $: currentPageData = pages[currentPage] || {};
     $: currentContent = replaceVariables(currentPageData[lang] || '');
-    $: currentImage = currentPageData.image ? base + currentPageData.image : '';
-    $: currentBgImage = currentPageData.bgImage ? base + currentPageData.bgImage : '';
+    $: currentImage = currentPageData.image ? (currentPageData.image.startsWith('http') ? currentPageData.image : base + currentPageData.image) : '';
+    $: currentBgImage = currentPageData.bgImage ? (currentPageData.bgImage.startsWith('http') ? currentPageData.bgImage : base + currentPageData.bgImage) : '';
     
     function nextPage() {
         if (currentPage < totalPages - 1) { isFlipping = true; setTimeout(() => { currentPage++; isFlipping = false; }, 150); }
