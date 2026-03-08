@@ -231,7 +231,7 @@
                     <button class="carousel-btn" on:click={() => document.getElementById('carr-results')?.scrollBy({left: -300, behavior: 'smooth'})}>◀</button>
                     <div class="carousel-inner" id="carr-results">
                         {#each filteredByValue as story}
-                            <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: #FF6B6B">
+                            <a href="{base}/story/{story.id}" class="story-card" style="--card-color: #FF6B6B">
                                 <div class="card-img-wrap">
                                     <img src="{base}/images/{story.image}" alt={story.title[lang]} />
                                 </div>
@@ -257,7 +257,7 @@
                     <button class="carousel-btn" on:click={() => document.getElementById('carr-' + col.name)?.scrollBy({left: -300, behavior: 'smooth'})}>◀</button>
                     <div class="carousel-inner" id="carr-{col.name}">
                         {#each col.stories as story}
-                            <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {col.color}">
+                            <a href="{base}/story/{story.id}" class="story-card" style="--card-color: {col.color}">
                                 <div class="card-img-wrap">
                                     <img src="{base}/images/{story.image}" alt={story.title[lang]} />
                                 </div>
@@ -271,7 +271,7 @@
                         {/each}
                         <!-- Duplicar para efecto infinito -->
                         {#each col.stories as story}
-                            <a href="{base}/story?id={story.id}" class="story-card" style="--card-color: {col.color}">
+                            <a href="{base}/story/{story.id}" class="story-card" style="--card-color: {col.color}">
                                 <div class="card-img-wrap">
                                     <img src="{base}/images/{story.image}" alt={story.title[lang]} />
                                 </div>
