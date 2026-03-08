@@ -3,11 +3,12 @@
     import { base } from '$app/paths';
     import type { Story } from '$lib/data/nuevos';
     
-    const stories = newStories;
+    // Datos pasados desde +page.ts
+    export let data;
     
-    const urlParams = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '');
-    const storyId = urlParams.get('story') || '01-valiente';
-    const story: Story = stories.find(s => s.id === storyId) || stories[0];
+    const stories = newStories;
+    const storyId = data?.storyId || '01-valiente';
+    const story = stories.find(s => s.id === storyId) || stories[0];
     
     let currentPage = 0;
     let lang: 'es' | 'en' = 'es';
