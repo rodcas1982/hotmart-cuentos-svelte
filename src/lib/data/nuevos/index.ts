@@ -202,7 +202,7 @@ export const 06_dragon = {
             "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well."
         }
     ],
-    "fondoGlobal": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/static/images/fondo_global_1772954132917_Paisaje_nocturno_con.png"
+    "fondoGlobal": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/fondo_global_1772954132917_Paisaje_nocturno_con.png"
 };
 
 export const 07_lunaviaje = {
