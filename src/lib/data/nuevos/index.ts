@@ -51,7 +51,7 @@ export const 02_luna = {
     "pages": [
         {
             "es": "En un pueblo cerca del mar vivía una niña llamada Luna. Tenía cinco años y cabello rizado castaño que brillaba con la luz del sol. Luna adoraba dibujar. Cada tarde dibujaba flores, animales y a su familia. Dibujaba con pasión y amor. Un día, su maestra anunció: Habrá un concurso de dibujo. El mejor representación nuestra escuela en el concurso municipal.",
-            "en": "In a village near the sea lived a girl named Luna. Era five years old with curly brown hair that shone in the sunlight. Luna loved to draw. Every afternoon she drew flowers, animals, and her family. She drew with passion and love. Un día, her teacher announced: There will be a drawing contest. The best will represent our school in the municipal contest.",
+            "en": "In a village near the sea lived a girl named Luna. She was five years old with curly brown hair that shone in the sunlight. Luna loved to draw. Every afternoon she drew flowers, animals, and her family. She drew with passion and love. Un día, her teacher announced: There will be a drawing contest. The best will represent our school in the municipal contest.",
             "image": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772956174447_Niña_Luna_en_pueblo_.png",
             "images": [
                 {
