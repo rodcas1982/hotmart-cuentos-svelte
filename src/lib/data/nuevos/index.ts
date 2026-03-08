@@ -50,8 +50,8 @@ export const 02_luna = {
     ],
     "pages": [
         {
-            "es": "En un pueblo cerca del mar vivía una niña llamada Luna. Tenía cinco años y cabello rizado castaño que brillaba con la luz del sol. Luna adoraba dibujar. Cada tarde dibujaba flores, animales y a su familia. Dibujaba con pasión y amor. Un día, su maestra anunció: Habrá un concurso de dibujo. El mejor representación nuestra escuela en el concurso municipal.",
-            "en": "In a village near the sea lived a girl named Luna. She was five years old with curly brown hair that shone in the sunlight. Luna loved to draw. Every afternoon she drew flowers, animals, and her family. She drew with passion and love. Un día, her teacher announced: There will be a drawing contest. The best will represent our school in the municipal contest.",
+            "es": "En un pueblo cerca del mar vivía una niña llamada <b>Luna</b>. Tenía cinco años y cabello rizado castaño que brillaba con la luz del sol. Luna adoraba dibujar, su color favorito era  {COLOR} . Cada tarde dibujaba flores, animales y a su familia. Dibujaba con pasión y amor. Un día, su maestra anunció: Habrá un concurso de dibujo. El mejor representación nuestra escuela en el concurso municipal.",
+            "en": "In a village near the sea lived a girl named Luna. She was five years old with curly brown hair that shone in the sunlight. Luna loved to draw, her favorite colour was  {COLOR} . Every afternoon she drew flowers, animals, and her family. She drew with passion and love. Un día, her teacher announced: There will be a drawing contest. The best will represent our school in the municipal contest.",
             "image": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772956174447_Niña_Luna_en_pueblo_.png",
             "images": [
                 {
@@ -74,8 +74,8 @@ export const 02_luna = {
             "bgImage": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772956231212_Fondo_de_pantalla_de.png"
         },
         {
-            "es": "Cuando anunciaron que el dibujo de Luna era el ganador, María se acercó: Yo... yo no lo dibujé. Fue Luna. La honestidad brilla más que cualquier premio. Las dos amigas aprendieron algo importante: la honestidad hace que nos sintamos bien con nosotros mismos, y siempre es mejor decir la verdad. Moraleja: La honestidad nos hace libres y fuertes. Siempre es mejor decir la verdad.",
-            "en": "When they announced that Luna's drawing was the winner, María approached: I... I didn't draw it. It was Luna. Honesty shines brighter than any prize. The two friends learned something important: honesty makes us feel good about ourselves, and it's always better to tell the truth. Moral: Honesty makes us free and strong. It's always better to tell the truth.",
+            "es": "Cuando anunciaron que el dibujo de Luna era el ganador, María se acercó: Yo... yo no lo dibujé. Fue Luna. La honestidad brilla más que cualquier premio. Las dos amigas aprendieron algo importante: la honestidad hace que nos sintamos bien con nosotros mismos, y siempre es mejor decir la verdad. \n\nMoraleja: La honestidad nos hace libres y fuertes. Siempre es mejor decir la verdad.",
+            "en": "When they announced that Luna's drawing was the winner, María approached: I... I didn't draw it. It was Luna. Honesty shines brighter than any prize. The two friends learned something important: honesty makes us feel good about ourselves, and it's always better to tell the truth. \n\nMoral: Honesty makes us free and strong. It's always better to tell the truth.",
             "image": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772956251334_Niñas_abrazadas_con2_.png",
             "images": [
                 {
