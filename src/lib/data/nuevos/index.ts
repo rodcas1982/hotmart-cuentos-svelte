@@ -190,7 +190,7 @@ export const 06_dragon = {
             "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad.",
             "images": [
                 {
-                    "url": "/images/1772950295180_Draco_el_dragón_azul.png",
+                    "url": "/images/1772950398401_Draco_el_dragón_azul.png",
                     "posicion": "centro"
                 }
             ]
