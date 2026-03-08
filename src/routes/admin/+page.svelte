@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
     
     let stories = [...newStories];
-    let storyEditando: number | null = null;
+    let storySeleccionada: number | null = null;
     let guardado = false;
     let guardando = false;
     let password = '';
@@ -22,32 +22,20 @@
         }
     }
     
-    function guardarToken() {
-        if (githubToken.length > 10) {
-            localStorage.setItem('github_token', githubToken);
-            tokenGuardado = true;
-            alert('Token guardado correctamente');
-        }
-    }
-    
     async function guardarEnGitHub() {
         guardando = true;
-        
         try {
-            // Obtener SHA del archivo actual
             const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
                 headers: {
                     'Authorization': `token ${localStorage.getItem('github_token')}`,
                     'Accept': 'application/vnd.github.v3+json'
                 }
             });
-            
             if (!response.ok) throw new Error('Error al conectar con GitHub');
             
             const fileData = await response.json();
             const sha = fileData.sha;
             
-            // Generar el nuevo contenido
             let nuevoContenido = '// Cuentos actualizados desde admin\n';
             for (const story of stories) {
                 nuevoContenido += `\nexport const ${story.id.replace(/-/g, '_')} = ${JSON.stringify(story, null, 4)};\n`;
@@ -72,31 +60,27 @@
             
             if (commitResponse.ok) {
                 guardado = true;
-                alert('✅ Cambios guardados en GitHub! El sitio se actualizará en 1-2 minutos.');
+                setTimeout(() => guardado = false, 3000);
             } else {
                 const error = await commitResponse.json();
-                alert('Error al guardar: ' + (error.message || 'Verifica el token'));
+                alert('Error: ' + (error.message || 'Verifica el token'));
             }
         } catch (err) {
             alert('Error: ' + err.message);
         }
-        
         guardando = false;
     }
     
-    function editarHistoria(index: number) {
-        storyEditando = index;
-        guardado = false;
+    function agregarPagina() {
+        if (storySeleccionada !== null) {
+            stories[storySeleccionada].pages.push({ es: '', en: '' });
+            stories = [...stories];
+        }
     }
     
-    function agregarPagina(index: number) {
-        stories[index].pages.push({ es: '', en: '' });
-        stories = [...stories];
-    }
-    
-    function eliminarPagina(storyIndex: number, pageIndex: number) {
-        if (stories[storyIndex].pages.length > 1) {
-            stories[storyIndex].pages.splice(pageIndex, 1);
+    function eliminarPagina(pageIndex: number) {
+        if (storySeleccionada !== null && stories[storySeleccionada].pages.length > 1) {
+            stories[storySeleccionada].pages.splice(pageIndex, 1);
             stories = [...stories];
         }
     }
@@ -104,8 +88,6 @@
     onMount(() => {
         const token = localStorage.getItem('github_token');
         if (token) { githubToken = token; tokenGuardado = true; }
-        const guardados = localStorage.getItem('cuentos_editados');
-        if (guardados) { try { stories = JSON.parse(guardados); } catch (e) {} }
     });
 </script>
 
@@ -117,152 +99,157 @@
             <button on:click={login}>Entrar</button>
         </div>
     {:else}
-        <div class="admin-panel">
-            <header>
-                <h1>📝 Panel de Administración</h1>
-                <div class="token-section">
-                    {#if !tokenGuardado}
-                        <input type="password" bind:value={githubToken} placeholder="GitHub Token" class="token-input" />
-                        <button on:click={guardarToken}>Guardar Token</button>
-                    {:else}
-                        <span class="token-ok">✅ Token de GitHub configurado</span>
-                    {/if}
+        <div class="admin-layout">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h2>📚 Cuentos</h2>
+                    <span class="count">{stories.length}</span>
                 </div>
-            </header>
+                <div class="story-list">
+                    {#each stories as story, i}
+                        <button 
+                            class="story-item" 
+                            class:selected={storySeleccionada === i}
+                            on:click={() => storySeleccionada = i}
+                        >
+                            <span class="story-num">{story.id}</span>
+                            <span class="story-title">{story.title.es}</span>
+                        </button>
+                    {/each}
+                </div>
+            </aside>
             
-            <div class="help-box">
-                <strong>📌 Variables disponibles:</strong>
-                <code>{NOMBRE_NIÑO}</code> - Se reemplaza por el nombre del niño<br/>
-                <code>{ANIMAL_FAVORITO}</code> - Se reemplaza por el animal elegido<br/>
-                <code>{COLOR}</code> - Se reemplaza por el color elegido
-            </div>
-            
-            {#if guardado}
-                <div class="alert success">✅ Cambios guardados en GitHub</div>
-            {/if}
-            
-            <div class="stories-list">
-                {#each stories as story, i}
-                    <div class="story-item">
-                        <div class="story-header">
+            <!-- Editor -->
+            <main class="editor-main">
+                {#if storySeleccionada !== null}
+                    {@const story = stories[storySeleccionada]}
+                    <header class="editor-header">
+                        <div class="header-info">
                             <span class="story-id">{story.id}</span>
-                            <h3>{story.title.es}</h3>
-                            <button class="btn-edit" on:click={() => editarHistoria(i)}>✏️ Editar</button>
+                            <input bind:value={story.title.es} placeholder="Título ES" class="title-input" />
+                            <input bind:value={story.title.en} placeholder="Título EN" class="title-input" />
+                        </div>
+                        <div class="header-meta">
+                            <input bind:value={story.theme} placeholder="Tema" class="meta-input" />
+                            <input bind:value={story.ageRange} placeholder="Edad" class="meta-input" style="width: 80px" />
+                            <input bind:value={story.image} placeholder="Imagen" class="meta-input" style="width: 150px" />
+                        </div>
+                    </header>
+                    
+                    <div class="pages-container">
+                        <div class="pages-header">
+                            <h3>📄 Páginas</h3>
+                            <button class="btn-add" on:click={agregarPagina}>➕ Nueva Página</button>
                         </div>
                         
-                        {#if storyEditando === i}
-                            <div class="editor">
-                                <div class="campo">
-                                    <label>Título ES:</label>
-                                    <input bind:value={story.title.es} />
-                                </div>
-                                <div class="campo">
-                                    <label>Título EN:</label>
-                                    <input bind:value={story.title.en} />
-                                </div>
-                                <div class="campo">
-                                    <label>Imagen principal (portada):</label>
-                                    <input bind:value={story.image} placeholder="ej: 01-valiente.jpg" />
-                                </div>
-                                <div class="campo">
-                                    <label>Tema:</label>
-                                    <input bind:value={story.theme} />
-                                </div>
-                                <div class="campo">
-                                    <label>Edad:</label>
-                                    <input bind:value={story.ageRange} />
+                        {#each story.pages as page, pi}
+                            <div class="page-card">
+                                <div class="page-header">
+                                    <span class="page-num">Página {pi + 1}</span>
+                                    {#if story.pages.length > 1}
+                                        <button class="btn-del" on:click={() => eliminarPagina(pi)}>🗑️ Eliminar</button>
+                                    {/if}
                                 </div>
                                 
-                                <div class="pages-editor">
-                                    <div class="pages-header">
-                                        <label>📄 Páginas del cuento:</label>
-                                        <button class="btn-add" on:click={() => agregarPagina(i)}>➕ Agregar Página</button>
+                                <div class="page-content">
+                                    <div class="lang-column es">
+                                        <div class="lang-header">🇪🇸 Español</div>
+                                        <textarea bind:value={page.es} placeholder="Escribe el cuento en español... {NOMBRE_NIÑO}, {ANIMAL_FAVORITO}, {COLOR}"></textarea>
+                                        <input bind:value={page.image} placeholder="🖼️ Imagen contenido (URL)" class="img-input" />
+                                        <input bind:value={page.bgImage} placeholder="🎨 Imagen fondo (URL)" class="img-input" />
                                     </div>
-                                    
-                                    {#each story.pages as page, pi}
-                                        <div class="page-editor">
-                                            <div class="page-num">Página {pi + 1}</div>
-                                            <div class="page-fields">
-                                                <input bind:value={page.es} placeholder="Texto en español..." class="text-es" />
-                                                <input bind:value={page.en} placeholder="English text..." class="text-en" />
-                                                <input bind:value={page.image} placeholder="URL imagen contenido (opcional)" class="img-url" />
-                                                <input bind:value={page.bgImage} placeholder="URL imagen fondo (opcional)" class="bg-url" />
-                                            </div>
-                                            {#if story.pages.length > 1}
-                                                <button class="btn-del" on:click={() => eliminarPagina(i, pi)}>🗑️</button>
-                                            {/if}
-                                        </div>
-                                    {/each}
+                                    <div class="lang-column en">
+                                        <div class="lang-header">🇺🇸 English</div>
+                                        <textarea bind:value={page.en} placeholder="Write the story in English... {NOMBRE_NIÑO}, {ANIMAL_FAVORITO}, {COLOR}"></textarea>
+                                    </div>
                                 </div>
                             </div>
-                        {/if}
+                        {/each}
                     </div>
-                {/each}
-            </div>
-            
-            {#if storyEditando !== null}
-                <div class="save-bar">
-                    <button class="btn-guardar-todo" on:click={guardarEnGitHub} disabled={guardando || !tokenGuardado}>
-                        {guardando ? '⏳ Guardando...' : '💾 GUARDAR TODOS LOS CAMBIOS'}
-                    </button>
-                </div>
-            {/if}
-            
-            <p class="info">💡 <code>image</code> = imagen en el contenido | <code>bgImage</code> = imagen de fondo</p>
+                    
+                    <div class="save-bar">
+                        {#if guardado}
+                            <span class="saved-msg">✅ Guardado</span>
+                        {/if}
+                        <button class="btn-guardar" on:click={guardarEnGitHub} disabled={guardando}>
+                            {guardando ? '⏳ Guardando...' : '💾 GUARDAR EN GITHUB'}
+                        </button>
+                    </div>
+                {:else}
+                    <div class="empty-state">
+                        <h2>👈 Selecciona un cuento para editar</h2>
+                        <p>Elige uno de la lista de la izquierda</p>
+                    </div>
+                {/if}
+            </main>
         </div>
     {/if}
 </div>
 
 <style>
-    .admin-container { min-height: 100vh; background: #f5f5f5; padding: 20px; }
+    .admin-container { min-height: 100vh; background: #f0f2f5; }
     .login-box { max-width: 400px; margin: 100px auto; background: white; padding: 40px; border-radius: 20px; text-align: center; }
     .login-box h1 { color: #8E2DE2; margin-bottom: 20px; }
     .login-box input { width: 100%; padding: 15px; border: 2px solid #ddd; border-radius: 10px; font-size: 16px; margin-bottom: 15px; }
     .login-box button { background: #8E2DE2; color: white; border: none; padding: 15px 40px; border-radius: 10px; font-size: 16px; cursor: pointer; }
     
-    .admin-panel header { margin-bottom: 20px; }
-    .admin-panel h1 { color: #333; margin-bottom: 15px; }
-    .token-section { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-    .token-input { flex: 1; min-width: 250px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
-    .token-ok { background: #d4edda; color: #155724; padding: 10px 15px; border-radius: 8px; }
+    .admin-layout { display: flex; height: 100vh; }
     
-    .help-box { background: #e3f2fd; padding: 15px; border-radius: 10px; margin-bottom: 20px; }
-    .help-box code { background: #fff; padding: 2px 6px; border-radius: 4px; color: #d63384; }
+    /* Sidebar */
+    .sidebar { width: 280px; background: white; border-right: 1px solid #e0e0e0; display: flex; flex-direction: column; }
+    .sidebar-header { padding: 20px; border-bottom: 1px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; }
+    .sidebar-header h2 { margin: 0; font-size: 18px; color: #333; }
+    .count { background: #8E2DE2; color: white; padding: 2px 10px; border-radius: 12px; font-size: 14px; }
+    .story-list { flex: 1; overflow-y: auto; padding: 10px; }
+    .story-item { width: 100%; display: flex; align-items: center; gap: 10px; padding: 12px 15px; border: none; background: transparent; border-radius: 10px; cursor: pointer; text-align: left; margin-bottom: 5px; transition: all 0.2s; }
+    .story-item:hover { background: #f5f5f5; }
+    .story-item.selected { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: white; }
+    .story-num { background: rgba(0,0,0,0.1); padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold; }
+    .story-item.selected .story-num { background: rgba(255,255,255,0.2); }
+    .story-title { flex: 1; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     
-    .alert { padding: 15px; border-radius: 10px; margin-bottom: 20px; }
-    .alert.success { background: #d4edda; color: #155724; }
+    /* Editor Main */
+    .editor-main { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; }
     
-    .stories-list { display: flex; flex-direction: column; gap: 15px; }
-    .story-item { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-    .story-header { display: flex; align-items: center; gap: 15px; padding: 15px 20px; background: #f8f8f8; }
-    .story-id { background: #8E2DE2; color: white; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; }
-    .story-header h3 { flex: 1; margin: 0; }
-    .btn-edit { border: none; padding: 8px 15px; border-radius: 8px; cursor: pointer; font-size: 14px; background: #FF9800; color: white; }
+    .editor-header { background: white; padding: 20px; border-radius: 15px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .header-info { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; flex-wrap: wrap; }
+    .story-id { background: #8E2DE2; color: white; padding: 5px 12px; border-radius: 8px; font-weight: bold; font-size: 14px; }
+    .title-input { flex: 1; min-width: 200px; padding: 10px 15px; border: 2px solid #e0e0e0; border-radius: 10px; font-size: 16px; font-weight: 500; }
+    .title-input:focus { border-color: #8E2DE2; outline: none; }
+    .header-meta { display: flex; gap: 10px; flex-wrap: wrap; }
+    .meta-input { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
     
-    .editor { padding: 20px; display: flex; flex-wrap: wrap; gap: 15px; }
-    .campo { flex: 1 1 200px; }
-    .campo label { display: block; font-weight: bold; margin-bottom: 5px; color: #333; font-size: 14px; }
-    .campo input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
-    
-    .pages-editor { flex: 1 1 100%; margin-top: 15px; }
+    /* Pages */
+    .pages-container { flex: 1; }
     .pages-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
-    .pages-header label { font-weight: bold; }
-    .btn-add { background: #2196F3; color: white; border: none; padding: 8px 15px; border-radius: 8px; cursor: pointer; }
+    .pages-header h3 { margin: 0; color: #333; }
+    .btn-add { background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: 500; }
     
-    .page-editor { background: #fafafa; padding: 15px; border-radius: 10px; margin-bottom: 10px; display: flex; gap: 10px; align-items: flex-start; }
-    .page-num { background: #8E2DE2; color: white; padding: 5px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; white-space: nowrap; }
-    .page-fields { flex: 1; display: flex; flex-direction: column; gap: 8px; }
-    .page-fields input { padding: 8px; border: 1px solid #ddd; border-radius: 6px; font-size: 13px; }
-    .text-es { border-left: 3px solid #4CAF50 !important; }
-    .text-en { border-left: 3px solid #2196F3 !important; }
-    .img-url { border-left: 3px solid #FF9800 !important; }
-    .bg-url { border-left: 3px solid #9C27B0 !important; }
-    .btn-del { background: #f44336; color: white; border: none; padding: 8px; border-radius: 6px; cursor: pointer; }
+    .page-card { background: white; border-radius: 15px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .page-header { background: #f8f9fa; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; }
+    .page-num { font-weight: bold; color: #8E2DE2; }
+    .btn-del { background: #f44336; color: white; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; }
     
-    .save-bar { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: white; padding: 15px 30px; border-radius: 50px; box-shadow: 0 4px 20px rgba(0,0,0,0.2); }
-    .btn-guardar-todo { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: white; border: none; padding: 15px 30px; border-radius: 30px; font-size: 16px; font-weight: bold; cursor: pointer; }
-    .btn-guardar-todo:disabled { opacity: 0.6; cursor: not-allowed; }
+    .page-content { display: flex; gap: 20px; padding: 20px; }
+    .lang-column { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+    .lang-header { font-weight: bold; font-size: 14px; padding-bottom: 8px; border-bottom: 2px solid; }
+    .lang-column.es .lang-header { border-color: #4CAF50; color: #4CAF50; }
+    .lang-column.en .lang-header { border-color: #2196F3; color: #2196F3; }
+    .lang-column textarea { flex: 1; min-height: 150px; padding: 12px; border: 1px solid #ddd; border-radius: 10px; font-size: 14px; font-family: inherit; resize: vertical; line-height: 1.6; }
+    .img-input { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; }
     
-    .info { text-align: center; color: #666; margin-top: 80px; font-size: 14px; }
-    .info code { background: #eee; padding: 2px 6px; border-radius: 4px; }
+    .save-bar { position: sticky; bottom: 20px; background: white; padding: 15px 25px; border-radius: 50px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: auto; }
+    .saved-msg { color: #4CAF50; font-weight: bold; }
+    .btn-guardar { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: white; border: none; padding: 12px 30px; border-radius: 25px; font-size: 15px; font-weight: bold; cursor: pointer; }
+    .btn-guardar:disabled { opacity: 0.6; }
+    
+    .empty-state { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #999; }
+    .empty-state h2 { margin: 0 0 10px 0; }
+    
+    @media (max-width: 768px) {
+        .admin-layout { flex-direction: column; }
+        .sidebar { width: 100%; height: auto; max-height: 200px; }
+        .page-content { flex-direction: column; }
+    }
 </style>
