@@ -187,13 +187,7 @@ export const 06_dragon = {
     "pages": [
         {
             "es": "En una montaña muy alta vivía un pequeño dragón llamado Draco. Draco tenía escamas de color azul brillante como el cielo nocturno. Pero Draco no podía dormir. Cada noche daba vueltas y vueltas en su cueva. Era muy triste.",
-            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad.",
-            "images": [
-                {
-                    "url": "/images/1772949737022_Draco_el_dragón_azul.png",
-                    "posicion": "centro"
-                }
-            ]
+            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad."
         },
         {
             "es": "Su mamá dragona estaba preocupada: Draco, ¿por qué no duermes? Tengo mucho sueño pero no puedo dormir, mamá. Me wake up con los ojos abiertos. Un día, Draco conoció a Luna, una lechuza sabia que vivía en el árbol más alto de la montaña. Draco, ¿qué haces antes de dormir?",
@@ -208,7 +202,7 @@ export const 06_dragon = {
             "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well."
         }
     ],
-    "fondoGlobal": "/images/fondo_global_1772949702325_Paisaje_nocturno_con.png"
+    "fondoGlobal": "/images/fondo_global_1772950000738_Paisaje_nocturno_con.png"
 };
 
 export const 07_lunaviaje = {
