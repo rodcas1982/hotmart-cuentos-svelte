@@ -100,13 +100,15 @@
         const token = localStorage.getItem('github_token');
         if (!token) { alert('Configurá el token primero'); guardando = false; return; }
         try {
+            // Siempre obtener SHA primero
             let sha = '';
-            if (!force) {
+            try {
                 const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
                     headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
                 });
                 if (response.ok) { const fileData = await response.json(); sha = fileData.sha; }
-            }
+            } catch (e) { /* archivo nuevo, sin SHA */ }
+            
             let nuevoContenido = '// Cuentos actualizados desde admin\n';
             for (const story of stories) { nuevoContenido += `\nexport const ${story.id.replace(/-/g, '_')} = ${JSON.stringify(story, null, 4)};\n`; }
             nuevoContenido += '\nexport const newStories = [\n';
@@ -114,6 +116,7 @@
             nuevoContenido += '\n];\n';
             const body: any = { message: 'Actualización de cuentos desde admin', content: btoa(unescape(encodeURIComponent(nuevoContenido))) };
             if (sha) body.sha = sha;
+            
             const commitResponse = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
                 method: 'PUT',
                 headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
