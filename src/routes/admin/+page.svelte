@@ -134,17 +134,25 @@
         const file = input.files?.[0];
         if (!file) return;
         const token = localStorage.getItem('github_token');
+        console.log('Token:', token ? 'presente' : 'ausente');
+        console.log('Repo:', REPO_OWNER, REPO_NAME);
         if (!token) { alert('Configurá el token primero'); return; }
         subiendo = true;
         const fileName = `${Date.now()}_${file.name.replace(/\s/g, '_')}`;
+        console.log('Subiendo:', fileName);
         const reader = new FileReader();
         reader.onload = async () => {
             const base64 = (reader.result as string).split(',')[1];
-            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`, {
+            const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`;
+            console.log('URL:', url);
+            const response = await fetch(url, {
                 method: 'PUT',
                 headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: `Subir imagen: ${fileName}`, content: base64 })
             });
+            console.log('Response:', response.status, response.statusText);
+            const data = await response.json();
+            console.log('Data:', data);
             if (response.ok) {
                 const urlImagen = `/images/${fileName}`;
                 // Mostrar nombre del archivo
