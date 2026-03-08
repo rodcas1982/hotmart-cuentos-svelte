@@ -197,7 +197,13 @@ export const 06_dragon = {
         },
         {
             "es": "Su mamá dragona estaba preocupada: Draco, ¿por qué no duermes? Tengo mucho sueño pero no puedo dormir, mamá. Me wake up con los ojos abiertos. Un día, Draco conoció a Luna, una lechuza sabia que vivía en el árbol más alto de la montaña. Draco, ¿qué haces antes de dormir?",
-            "en": "His dragon mom was worried: Draco, why don't you sleep? I'm very sleepy but I can't sleep, mom. I wake up with my eyes open. Un día, Draco met Luna, a wise owl who lived on the highest tree on the mountain. Draco, what do you do before sleeping?"
+            "en": "His dragon mom was worried: Draco, why don't you sleep? I'm very sleepy but I can't sleep, mom. I wake up with my eyes open. Un día, Draco met Luna, a wise owl who lived on the highest tree on the mountain. Draco, what do you do before sleeping?",
+            "images": [
+                {
+                    "url": "/images/1772950782300_Draco_en_cama_con_su.png",
+                    "posicion": "centro"
+                }
+            ]
         },
         {
             "es": "Nada. Solo me acuesto y pienso en todo. Ahí está el problema. Necesitas una rutina. Luna le enseñó a Draco: 1. Tomar un baño tibio, 2. Tomar leche tibia con miel, 3. Escuchar canción de cuna suave, 4. Cerrar ojos y respirar profundo.",
