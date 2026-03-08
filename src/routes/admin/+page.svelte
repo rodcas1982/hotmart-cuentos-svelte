@@ -204,23 +204,54 @@
         </div>
     {/if}
     
-    <!-- Preview Modal -->
+    <!-- Preview Modal - Versión completa -->
     {#if mostrarPreview && storySeleccionada >= 0}
         {@const story = stories[storySeleccionada]}
+        {@const pageData = story.pages[pagePreview]}
         <div class="preview-modal" on:click={() => mostrarPreview = false}>
-            <div class="preview-content" on:click|stopPropagation>
+            <div class="preview-content preview-full" on:click|stopPropagation>
                 <div class="preview-header">
-                    <h2>👁️ Preview</h2>
+                    <h2>👁️ Preview: {story.title[langPreview]}</h2>
                     <button class="preview-close" on:click={() => mostrarPreview = false}>✕</button>
                 </div>
                 <div class="preview-controls">
                     <button on:click={() => pagePreview = Math.max(0, pagePreview - 1)} disabled={pagePreview === 0}>◀</button>
                     <span>Pág {pagePreview + 1}/{story.pages.length}</span>
                     <button on:click={() => pagePreview = Math.min(story.pages.length - 1, pagePreview + 1)} disabled={pagePreview === story.pages.length - 1}>▶</button>
-                    <button class="lang-btn" on:click={() => langPreview = langPreview === 'es' ? 'en' : 'es'}>{langPreview === 'es' ? '🇪🇸' : '🇺🇸'}</button>
+                    <button class="lang-btn" on:click={() => langPreview = langPreview === 'es' ? 'en' : 'es'}>{langPreview === 'es' ? '🇪🇸 ES' : '🇺🇸 EN'}</button>
                 </div>
-                <div class="preview-page" style={story.fondoGlobal ? `background-image: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url('${story.fondoGlobal}'); background-size: cover;` : ''}>
-                    <div class="preview-text">{@html story.pages[pagePreview][langPreview]}</div>
+                
+                <!-- Preview completo estilo página real -->
+                <div class="preview-story-container" style="background: linear-gradient(135deg, #FF6B6B, #FFE66D)">
+                    <div class="preview-book" style={pageData.bgImage || story.fondoGlobal ? `background-image: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('${pageData.bgImage || story.fondoGlobal}'); background-size: cover; background-position: center;` : ''}>
+                        <!-- Imágenes del contenido -->
+                        {#if pageData.images}
+                            {#each pageData.images as img}
+                                {#if img.url}
+                                    <img src={img.url} alt="" class="preview-content-img" style="float: {img.posicion}" />
+                                {/if}
+                            {/each}
+                        {/if}
+                        
+                        <h1 class="preview-title">{story.title[langPreview]}</h1>
+                        <div class="preview-text">
+                            {@html pageData[langPreview]
+                                .replace(/{NOMBRE_NIÑO}/g, '<span class="var-highlight">{NOMBRE_NIÑO}</span>')
+                                .replace(/{ANIMAL_FAVORITO}/g, '<span class="var-highlight">{ANIMAL_FAVORITO}</span>')
+                                .replace(/{COLOR}/g, '<span class="var-highlight">{COLOR}</span>')}
+                        </div>
+                        <div class="preview-page-num">{pagePreview + 1} / {story.pages.length}</div>
+                    </div>
+                    
+                    <div class="preview-nav">
+                        <button on:click={() => pagePreview = Math.max(0, pagePreview - 1)} disabled={pagePreview === 0}>◀ Anterior</button>
+                        <div class="preview-dots">
+                            {#each story.pages as _, i}
+                                <span class="preview-dot" class:active={i === pagePreview}></span>
+                            {/each}
+                        </div>
+                        <button on:click={() => pagePreview = Math.min(story.pages.length - 1, pagePreview + 1)} disabled={pagePreview === story.pages.length - 1}>Siguiente ▶</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -239,14 +270,28 @@
     .save-bar{position:sticky;bottom:20px;background:white;padding:15px 25px;border-radius:50px;box-shadow:0 4px 20px rgba(0,0,0,0.15);display:flex;justify-content:center;align-items:center;gap:15px;margin-top:auto}.saved-msg{color:#4CAF50;font-weight:bold}.subiendo-msg{color:#FF9800;font-weight:bold}.btn-preview{background:#FF9800;color:white;border:none;padding:10px 18px;border-radius:25px;font-size:14px;font-weight:bold;cursor:pointer}.btn-guardar{background:linear-gradient(135deg,#8E2DE2,#4A00E0);color:white;border:none;padding:10px 18px;border-radius:25px;font-size:14px;font-weight:bold;cursor:pointer}.btn-force{background:linear-gradient(135deg,#f44336,#d32f2f);color:white;border:none;padding:10px 18px;border-radius:25px;font-size:14px;font-weight:bold;cursor:pointer}.btn-guardar:disabled,.btn-force:disabled{opacity:0.6}.empty-state{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#999}
     @media(max-width:768px){.admin-layout{flex-direction:column}.sidebar{width:100%;height:auto;max-height:200px}.page-content{flex-direction:column}}
     
-    /* Preview Modal */
-    .preview-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.85);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px}
-    .preview-content{background:white;border-radius:20px;max-width:650px;width:100%;max-height:90vh;overflow:hidden;display:flex;flex-direction:column}
-    .preview-header{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;background:#8E2DE2;color:white}
+    /* Preview Modal Avanzado */
+    .preview-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.9);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px}
+    .preview-content.preview-full{max-width:750px;width:100%;max-height:95vh;overflow:hidden;display:flex;flex-direction:column;background:transparent;border-radius:0}
+    .preview-header{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;background:linear-gradient(135deg,#8E2DE2,#4A00E0);color:white}
     .preview-header h2{margin:0;font-size:18px}
     .preview-close{background:none;border:none;color:white;font-size:24px;cursor:pointer}
-    .preview-controls{display:flex;justify-content:center;align-items:center;gap:15px;padding:12px;background:#f5f5f5;border-bottom:1px solid #ddd}
+    .preview-controls{display:flex;justify-content:center;align-items:center;gap:15px;padding:12px;background:rgba(255,255,255,0.95);border-bottom:1px solid #ddd}
     .preview-controls button{background:#8E2DE2;color:white;border:none;padding:8px 14px;border-radius:6px;cursor:pointer}.preview-controls button:disabled{opacity:0.5}.lang-btn{background:#2196F3 !important}
-    .preview-page{flex:1;padding:30px;overflow-y:auto;position:relative;background:white}
-    .preview-text{font-size:16px;line-height:1.8}
+    .preview-story-container{min-height:500px;padding:20px;display:flex;flex-direction:column;align-items:center}
+    .preview-book{background:white;color:#333;border-radius:10px;padding:30px;min-height:380px;max-width:650px;width:100%;box-shadow:0 10px 40px rgba(0,0,0,0.3);position:relative}
+    .preview-content-img{max-width:180px;margin:10px;border-radius:8px}
+    .preview-content-img[style*="float: izquierda"]{float:left;margin-right:15px}
+    .preview-content-img[style*="float: derecha"]{float:right;margin-left:15px}
+    .preview-content-img[style*="float: centro"]{display:block;margin:10px auto;float:none}
+    .preview-title{font-family:'Dancing Script',cursive;font-size:24px;background:linear-gradient(135deg,#8E2DE2,#4A00E0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-align:center;margin-bottom:20px}
+    .preview-text{font-size:16px;line-height:1.8;text-align:justify;clear:both}
+    .preview-text .var-highlight{background:#FFF3CD;padding:2px 6px;border-radius:4px;border:1px solid #FFC107;color:#856404;font-weight:bold}
+    .preview-page-num{text-align:center;color:#666;margin-top:20px;font-size:14px}
+    .preview-nav{display:flex;justify-content:center;align-items:center;gap:20px;margin-top:15px;background:rgba(255,255,255,0.95);padding:15px 25px;border-radius:50px}
+    .preview-nav button{background:#8E2DE2;color:white;border:none;padding:10px 20px;border-radius:25px;cursor:pointer;font-size:14px}
+    .preview-nav button:disabled{opacity:0.5}
+    .preview-dots{display:flex;gap:8px}
+    .preview-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.5)}
+    .preview-dot.active{background:white}
 </style>
