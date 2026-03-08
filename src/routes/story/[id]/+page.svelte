@@ -13,9 +13,22 @@
     
     let nombreNino = '';
     let animalFavorito = '';
+    let animalPersonalizado = '';
+    let mostrarAnimalOtro = false;
     let colorFavorito = '';
     let showPersonalizacion = true;
     let personalizado = false;
+    
+    const animalesComunes = [
+        { id: 'perro', emoji: '🐕', nombre: 'Perro' },
+        { id: 'gato', emoji: '🐱', nombre: 'Gato' },
+        { id: 'leon', emoji: '🦁', nombre: 'León' },
+        { id: 'elefante', emoji: '🐘', nombre: 'Elefante' },
+        { id: 'dinosaurio', emoji: '🦕', nombre: 'Dinosaurio' },
+        { id: 'unicornio', emoji: '🦄', nombre: 'Unicornio' },
+        { id: 'conejo', emoji: '🐰', nombre: 'Conejo' },
+        { id: 'panda', emoji: '🐼', nombre: 'Panda' },
+    ];
     
     const coloresDisponibles = [
         { id: 'rojo', hex: '#FF6B6B', nombre: 'Rojo' },
@@ -39,12 +52,26 @@
         if (found) story = found;
     });
     
+    function seleccionarAnimal(id: string) {
+        animalFavorito = id;
+        mostrarAnimalOtro = false;
+    }
+    
+    function mostrarOtro() {
+        mostrarAnimalOtro = true;
+        animalFavorito = '';
+    }
+    
     function iniciarCuento() {
-        if (nombreNino && animalFavorito && colorFavorito) {
+        // Usar el animal personalizado si existe, sino usar el seleccionado
+        const animalFinal = mostrarAnimalOtro ? animalPersonalizado : animalFavorito;
+        
+        if (nombreNino && animalFinal && colorFavorito) {
             const color = coloresDisponibles.find(c => c.id === colorFavorito);
             if (color) {
                 gradient = `linear-gradient(135deg, ${color.hex}, ${adjustColor(color.hex, 30)})`;
             }
+            animalFavorito = animalFinal;
             showPersonalizacion = false;
             personalizado = true;
         }
@@ -94,7 +121,24 @@
             
             <div class="form-group">
                 <label>Animal favorito:</label>
-                <input type="text" bind:value={animalFavorito} placeholder="Ej: Perro, Gato, León" />
+                <div class="animales">
+                    {#each animalesComunes as animal}
+                        <button 
+                            class="animal-btn" 
+                            class:selected={animalFavorito === animal.id && !mostrarAnimalOtro}
+                            on:click={() => seleccionarAnimal(animal.id)}
+                            title={animal.nombre}
+                        >
+                            {animal.emoji}
+                        </button>
+                    {/each}
+                    <button class="animal-btn otro" on:click={mostrarOtro} title="Otro">
+                        ➕
+                    </button>
+                </div>
+                {#if mostrarAnimalOtro}
+                    <input type="text" bind:value={animalPersonalizado} placeholder="Escribe el animal" class="otro-input" />
+                {/if}
             </div>
             
             <div class="form-group">
@@ -113,7 +157,7 @@
                 </div>
             </div>
             
-            <button class="iniciar-btn" on:click={iniciarCuento} disabled={!nombreNino || !animalFavorito || !colorFavorito}>
+            <button class="iniciar-btn" on:click={iniciarCuento} disabled={!nombreNino || !(animalFavorito || animalPersonalizado) || !colorFavorito}>
                 🎢 Comenzar Aventura
             </button>
         </div>
@@ -156,8 +200,14 @@
     .form-group label { display: block; font-weight: bold; margin-bottom: 8px; }
     .form-group input { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 10px; font-size: 16px; }
     .form-group input:focus { border-color: #8E2DE2; outline: none; }
+    .animales { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+    .animal-btn { width: 50px; height: 50px; border-radius: 12px; border: 3px solid #ddd; background: white; cursor: pointer; font-size: 24px; transition: transform 0.2s; }
+    .animal-btn:hover { transform: scale(1.1); }
+    .animal-btn.selected { border-color: #8E2DE2; background: #f3e5f5; }
+    .animal-btn.otro { border-style: dashed; }
+    .otro-input { margin-top: 10px !important; }
     .colores { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-    .color-btn { width: 45px; height: 45px; border-radius: 50%; border: 3px solid transparent; cursor: pointer; transition: transform 0.2s; }
+    .color-btn { width: 38px; height: 38px; border-radius: 50%; border: 3px solid transparent; cursor: pointer; transition: transform 0.2s; }
     .color-btn:hover { transform: scale(1.1); }
     .color-btn.selected { border-color: #333; transform: scale(1.15); }
     .iniciar-btn { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: white; border: none; padding: 15px 40px; border-radius: 30px; font-size: 18px; cursor: pointer; font-weight: bold; }
