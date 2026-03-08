@@ -57,6 +57,39 @@
         tokenConfigurado = false;
     }
     
+    // Funciones de formato de texto
+    function applyFormat(lang: 'es' | 'en', pageIndex: number, format: string, value?: string) {
+        const story = stories[storySeleccionada];
+        const page = story.pages[pageIndex];
+        const textarea = document.querySelector(`#text-${lang}-${pageIndex}`) as HTMLTextAreaElement;
+        if (!textarea) return;
+        
+        const start = textarea.selectionStart;
+        const end = textarea.selectionEnd;
+        const selectedText = page[lang].substring(start, end);
+        
+        let newText = '';
+        switch(format) {
+            case 'bold': newText = `<b>${selectedText}</b>`; break;
+            case 'italic': newText = `<i>${selectedText}</i>`; break;
+            case 'underline': newText = `<u>${selectedText}</u>`; break;
+            case 'color': newText = `<span style="color:${value}">${selectedText}</span>`; break;
+            case 'size': newText = `<span style="font-size:${value}px">${selectedText}</span>`; break;
+            case 'font': newText = `<span style="font-family:${value}">${selectedText}</span>`; break;
+            case 'center': newText = `<div style="text-align:center">${selectedText}</div>`; break;
+        }
+        
+        page[lang] = page[lang].substring(0, start) + newText + page[lang].substring(end);
+        stories = [...stories];
+    }
+    
+    function insertVariable(lang: 'es' | 'en', pageIndex: number, variable: string) {
+        const story = stories[storySeleccionada];
+        const page = story.pages[pageIndex];
+        page[lang] += ' ' + variable;
+        stories = [...stories];
+    }
+    
     function selectStory(index: number) {
         storySeleccionada = index;
         guardado = false;
@@ -230,7 +263,25 @@
                                 <div class="page-content">
                                     <div class="lang-column es">
                                         <div class="lang-header">🇪🇸 Español</div>
-                                        <textarea bind:value={page.es} placeholder="Texto en español..."></textarea>
+                                        <div class="format-toolbar">
+                                            <button type="button" title="Negrita" on:click={() => applyFormat('es', pi, 'bold')}><b>B</b></button>
+                                            <button type="button" title="Cursiva" on:click={() => applyFormat('es', pi, 'italic')}><i>I</i></button>
+                                            <button type="button" title="Subrayado" on:click={() => applyFormat('es', pi, 'underline')}><u>U</u></button>
+                                            <input type="color" title="Color" on:change={(e) => applyFormat('es', pi, 'color', e.currentTarget.value)} />
+                                            <select title="Tamaño" on:change={(e) => applyFormat('es', pi, 'size', e.currentTarget.value)}>
+                                                <option value="">Tamaño</option>
+                                                <option value="14">14px</option>
+                                                <option value="18">18px</option>
+                                                <option value="22">22px</option>
+                                                <option value="28">28px</option>
+                                            </select>
+                                            <button type="button" title="Centrar" on:click={() => applyFormat('es', pi, 'center')}>≡</button>
+                                            <span class="toolbar-sep">|</span>
+                                            <button type="button" class="var-btn" on:click={() => insertVariable('es', pi, '{NOMBRE_NIÑO}')}>#nombre</button>
+                                            <button type="button" class="var-btn" on:click={() => insertVariable('es', pi, '{ANIMAL_FAVORITO}')}>#animal</button>
+                                            <button type="button" class="var-btn" on:click={() => insertVariable('es', pi, '{COLOR}')}>#color</button>
+                                        </div>
+                                        <textarea id="text-es-{pi}" bind:value={page.es} placeholder="Texto en español..."></textarea>
                                         
                                         <div class="img-upload-row">
                                             <label class="upload-btn">
@@ -250,7 +301,25 @@
                                     </div>
                                     <div class="lang-column en">
                                         <div class="lang-header">🇺🇸 English</div>
-                                        <textarea bind:value={page.en} placeholder="English..."></textarea>
+                                        <div class="format-toolbar">
+                                            <button type="button" title="Bold" on:click={() => applyFormat('en', pi, 'bold')}><b>B</b></button>
+                                            <button type="button" title="Italic" on:click={() => applyFormat('en', pi, 'italic')}><i>I</i></button>
+                                            <button type="button" title="Underline" on:click={() => applyFormat('en', pi, 'underline')}><u>U</u></button>
+                                            <input type="color" title="Color" on:change={(e) => applyFormat('en', pi, 'color', e.currentTarget.value)} />
+                                            <select title="Size" on:change={(e) => applyFormat('en', pi, 'size', e.currentTarget.value)}>
+                                                <option value="">Size</option>
+                                                <option value="14">14px</option>
+                                                <option value="18">18px</option>
+                                                <option value="22">22px</option>
+                                                <option value="28">28px</option>
+                                            </select>
+                                            <button type="button" title="Center" on:click={() => applyFormat('en', pi, 'center')}>≡</button>
+                                            <span class="toolbar-sep">|</span>
+                                            <button type="button" class="var-btn" on:click={() => insertVariable('en', pi, '{NOMBRE_NIÑO}')}>#name</button>
+                                            <button type="button" class="var-btn" on:click={() => insertVariable('en', pi, '{ANIMAL_FAVORITO}')}>#animal</button>
+                                            <button type="button" class="var-btn" on:click={() => insertVariable('en', pi, '{COLOR}')}>#color</button>
+                                        </div>
+                                        <textarea id="text-en-{pi}" bind:value={page.en} placeholder="English..."></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -391,4 +460,11 @@
     .token-status.ok{background:#d4edda;color:#155724}
     .token-status:not(.ok){background:#f8d7da;color:#721c24}
     .token-btn{width:100%;background:#8E2DE2;color:white;border:none;padding:10px;border-radius:8px;cursor:pointer;font-size:13px}
+    .format-toolbar{display:flex;gap:5px;padding:8px;background:#f5f5f5;border-radius:8px 8px 0 0;align-items:center;flex-wrap:wrap}
+    .format-toolbar button{width:28px;height:28px;border:1px solid #ddd;background:white;border-radius:4px;cursor:pointer;font-size:14px}
+    .format-toolbar button:hover{background:#e0e0e0}
+    .format-toolbar input[type="color"]{width:28px;height:28px;padding:0;border:none;cursor:pointer}
+    .format-toolbar select{padding:4px;border:1px solid #ddd;border-radius:4px;font-size:12px}
+    .format-toolbar .toolbar-sep{color:#ccc;margin:0 5px}
+    .format-toolbar .var-btn{width:auto;padding:0 8px;font-size:11px;background:#e3f2fd;color:#1976d2}
 </style>
