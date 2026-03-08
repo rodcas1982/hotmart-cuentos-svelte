@@ -11,7 +11,6 @@
     let isFlipping = false;
     let fontSize = 18;
     
-    // Variables de personalización
     let nombreNino = '';
     let animalFavorito = '';
     let colorFavorito = '';
@@ -20,11 +19,16 @@
     
     const coloresDisponibles = [
         { id: 'rojo', hex: '#FF6B6B', nombre: 'Rojo' },
+        { id: 'naranja', hex: '#FF9A56', nombre: 'Naranja' },
+        { id: 'amarillo', hex: '#FFD93D', nombre: 'Amarillo' },
+        { id: 'verde', hex: '#6BCB77', nombre: 'Verde' },
+        { id: 'celeste', hex: '#4D96FF', nombre: 'Celeste' },
         { id: 'azul', hex: '#667eea', nombre: 'Azul' },
-        { id: 'verde', hex: '#11998e', nombre: 'Verde' },
-        { id: 'amarillo', hex: '#F7971E', nombre: 'Amarillo' },
         { id: 'morado', hex: '#8E2DE2', nombre: 'Morado' },
         { id: 'rosa', hex: '#F5576C', nombre: 'Rosa' },
+        { id: 'fucsia', hex: '#FF6B9D', nombre: 'Fucsia' },
+        { id: 'turquesa', hex: '#00D9C0', nombre: 'Turquesa' },
+        { id: 'lavanda', hex: '#B4A7D6', nombre: 'Lavanda' },
     ];
     
     let gradient = 'linear-gradient(135deg, #FF6B6B, #FFE66D)';
@@ -37,10 +41,8 @@
     
     function iniciarCuento() {
         if (nombreNino && animalFavorito && colorFavorito) {
-            // Buscar el color seleccionado
             const color = coloresDisponibles.find(c => c.id === colorFavorito);
             if (color) {
-                // Crear gradiente con el color favorito
                 gradient = `linear-gradient(135deg, ${color.hex}, ${adjustColor(color.hex, 30)})`;
             }
             showPersonalizacion = false;
@@ -48,7 +50,6 @@
         }
     }
     
-    // Ajustar color para hacer gradiente
     function adjustColor(hex: string, amount: number): string {
         const num = parseInt(hex.replace('#', ''), 16);
         const r = Math.min(255, (num >> 16) + amount);
@@ -81,9 +82,9 @@
 
 <div class="story-container" style="background: {gradient}">
     {#if showPersonalizacion}
-        <!-- Pantalla de personalización -->
         <div class="personalizacion">
-            <h1>🎭 Personaliza tu cuento</h1>
+            <div class="icono">✏️🖍️🎨</div>
+            <h1>Personaliza tu cuento</h1>
             <p>Ingresa los datos para hacer el cuento único</p>
             
             <div class="form-group">
@@ -105,8 +106,8 @@
                             class:selected={colorFavorito === color.id}
                             style="background: {color.hex}"
                             on:click={() => colorFavorito = color.id}
+                            title={color.nombre}
                         >
-                            {color.nombre}
                         </button>
                     {/each}
                 </div>
@@ -117,7 +118,6 @@
             </button>
         </div>
     {:else}
-        <!-- Contenido del cuento -->
         <div class="header">
             <a href="{base}/" class="back-btn">← Volver</a>
             <div class="controls-row">
@@ -149,6 +149,7 @@
 <style>
     .story-container { min-height: 100vh; padding: 20px; color: white; }
     .personalizacion { max-width: 500px; margin: 50px auto; background: white; border-radius: 20px; padding: 40px; color: #333; text-align: center; }
+    .icono { font-size: 50px; margin-bottom: 10px; }
     .personalizacion h1 { color: #8E2DE2; margin-bottom: 10px; }
     .personalizacion p { color: #666; margin-bottom: 30px; }
     .form-group { margin-bottom: 25px; text-align: left; }
@@ -156,8 +157,9 @@
     .form-group input { width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 10px; font-size: 16px; }
     .form-group input:focus { border-color: #8E2DE2; outline: none; }
     .colores { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-    .color-btn { width: 70px; height: 70px; border-radius: 50%; border: 4px solid transparent; cursor: pointer; color: white; font-weight: bold; }
-    .color-btn.selected { border-color: #333; transform: scale(1.1); }
+    .color-btn { width: 45px; height: 45px; border-radius: 50%; border: 3px solid transparent; cursor: pointer; transition: transform 0.2s; }
+    .color-btn:hover { transform: scale(1.1); }
+    .color-btn.selected { border-color: #333; transform: scale(1.15); }
     .iniciar-btn { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: white; border: none; padding: 15px 40px; border-radius: 30px; font-size: 18px; cursor: pointer; font-weight: bold; }
     .iniciar-btn:disabled { opacity: 0.5; }
     .header { display: flex; justify-content: space-between; margin-bottom: 30px; flex-wrap: wrap; gap: 10px; }
