@@ -116,10 +116,19 @@
     
     function replaceVariables(text: string): string {
         if (!personalizado) return text;
+        
+        const animalTrans: any = { es: { Perro: "perro", Gato: "gato", Leon: "león", Elefante: "elefante", Dinosaurio: "dinosaurio", Unicornio: "unicornio", Conejo: "conejo", Panda: "panda" }, en: { Perro: "dog", Gato: "cat", Leon: "lion", Elefante: "elephant", Dinosaurio: "dinosaur", Unicornio: "unicorn", Conejo: "rabbit", Panda: "panda" }};
+        const colorTrans: any = { es: { rojo: "rojo", azul: "azul", verde: "verde", amarillo: "amarillo", morado: "morado", naranja: "naranja", rosado: "rosado", negro: "negro", blanco: "blanco" }, en: { rojo: "red", azul: "blue", verde: "green", amarillo: "yellow", morado: "purple", naranja: "orange", rosado: "pink", negro: "black", blanco: "white" }};
+        
+        const animalEmoji = animalFavorito ? Object.keys(animalTrans.es).find(k => animalTrans.es[k] === animalFavorito.toLowerCase()) || animalFavorito : "";
+        const animalEn = animalEmoji ? animalTrans.en[animalEmoji] || animalFavorito : "";
+        const colorEs = colorFavorito ? Object.keys(colorTrans.es).find(k => colorTrans.es[k] === colorFavorito.toLowerCase()) || colorFavorito : "";
+        const colorEn = colorEs ? colorTrans.en[colorEs] || colorFavorito : "";
+        
         return text
             .replace(/{NOMBRE_NIÑO}/g, nombreNino)
-            .replace(/{ANIMAL_FAVORITO}/g, animalFavorito)
-            .replace(/{COLOR}/g, colorFavorito);
+            .replace(/{ANIMAL_FAVORITO}/g, lang === 'es' ? (animalEmoji || animalFavorito) : (animalEn || animalFavorito))
+            .replace(/{COLOR}/g, lang === 'es' ? (colorEs || colorFavorito) : (colorEn || colorFavorito));
     }
     
     $: pages = story?.pages || [];
