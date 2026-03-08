@@ -87,7 +87,16 @@
     function insertVariable(lang: 'es' | 'en', pageIndex: number, variable: string) {
         const story = stories[storySeleccionada];
         const page = story.pages[pageIndex];
-        page[lang] += ' ' + variable;
+        const textarea = document.querySelector(`#text-${lang}-${pageIndex}`) as HTMLTextAreaElement;
+        if (textarea) {
+            const start = textarea.selectionStart;
+            const end = textarea.selectionEnd;
+            const before = page[lang].substring(0, start);
+            const after = page[lang].substring(end);
+            page[lang] = before + ' ' + variable + ' ' + after;
+        } else {
+            page[lang] += ' ' + variable;
+        }
         stories = [...stories];
     }
     
@@ -138,16 +147,19 @@
             });
             if (response.ok) {
                 const urlImagen = `/images/${fileName}`;
+                // Mostrar nombre del archivo
+                const fileNameMostrar = fileName;
+                
                 if (tipo === 'imagen') {
-                    // Guardar en ambos formatos para compatibilidad
-                    stories[storySeleccionada].pages[pageIndex].image = urlImagen;
+                    stories[storySeleccionada].pages[pageIndex].image = fileNameMostrar;
                     if (!stories[storySeleccionada].pages[pageIndex].images) stories[storySeleccionada].pages[pageIndex].images = [];
                     stories[storySeleccionada].pages[pageIndex].images.push({ url: urlImagen, posicion: 'centro' });
                 } else {
-                    stories[storySeleccionada].pages[pageIndex].bgImage = urlImagen;
+                    stories[storySeleccionada].pages[pageIndex].bgImage = fileNameMostrar;
                 }
                 stories = [...stories];
-                alert('✅ Imagen subida: ' + urlImagen);
+                console.log('Imagen guardada:', fileNameMostrar);
+                alert('✅ Imagen subida: ' + fileNameMostrar);
             } else {
                 alert('Error al subir imagen');
             }
