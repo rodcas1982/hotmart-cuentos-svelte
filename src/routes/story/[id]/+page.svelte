@@ -264,9 +264,9 @@
     
     .book { background: white; color: #333; border-radius: 10px; padding: 40px; min-height: 450px; max-width: 700px; margin: 0 auto; box-shadow: 0 10px 40px rgba(0,0,0,0.3); }
     .book.has-bg { background-size: cover; background-position: center; }
-    .page-image { max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto; }
-    .titulo-decorativo { font-family: 'Dancing Script', 'Pinyon Script', cursive; font-weight: 700; background: linear-gradient(135deg, #8E2DE2, #4A00E0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-align: center; margin-bottom: 20px; }
-    .content { margin: 30px 0; text-align: justify; }
+    .page-image { max-width: 35%; height: auto; border-radius: 10px; float: left; margin: 10px 25px 15px 0; shape-outside: inset(0); }
+    .titulo-decorativo { font-family: 'Dancing Script', 'Pinyon Script', cursive; font-weight: 700; background: linear-gradient(135deg, #8E2DE2, #4A00E0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-align: center; margin-bottom: 15px; clear: both; }
+    .content { margin: 20px 0; text-align: justify; }
     .page-number { text-align: center; color: #666; margin-top: 20px; }
     
     .controls { display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 30px; background: rgba(0,0,0,0.3); padding: 15px; border-radius: 15px; }
