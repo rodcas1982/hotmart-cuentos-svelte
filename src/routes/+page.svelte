@@ -233,7 +233,7 @@
                         {#each filteredByValue as story}
                             <a href="{base}/story/{story.id}" class="story-card" style="--card-color: #FF6B6B">
                                 <div class="card-img-wrap">
-                                    <img src="{base}/images/{story.image}" alt={story.title[lang]} />
+                                    <img src="{base}/images/{story.image}" loading="eager" width="300" height="200" alt={story.title[lang]} />
                                 </div>
                                 <div class="card-body">
                                     <h2>{story.title[lang]}</h2>
@@ -259,7 +259,7 @@
                         {#each col.stories as story}
                             <a href="{base}/story/{story.id}" class="story-card" style="--card-color: {col.color}">
                                 <div class="card-img-wrap">
-                                    <img src="{base}/images/{story.image}" alt={story.title[lang]} />
+                                    <img src="{base}/images/{story.image}" loading="eager" width="300" height="200" alt={story.title[lang]} />
                                 </div>
                                 <div class="card-body">
                                     <h2>{story.title[lang]}</h2>
@@ -273,7 +273,7 @@
                         {#each col.stories as story}
                             <a href="{base}/story/{story.id}" class="story-card" style="--card-color: {col.color}">
                                 <div class="card-img-wrap">
-                                    <img src="{base}/images/{story.image}" alt={story.title[lang]} />
+                                    <img src="{base}/images/{story.image}" loading="eager" width="300" height="200" alt={story.title[lang]} />
                                 </div>
                                 <div class="card-body">
                                     <h2>{story.title[lang]}</h2>
