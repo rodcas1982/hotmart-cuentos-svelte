@@ -194,7 +194,8 @@ export const 06_dragon = {
                     "url": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772955853037_Draco_el_dragón_azul.png",
                     "posicion": "centro"
                 }
-            ]
+            ],
+            "bgImage": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772955992259_Paisaje_nocturno_con.png"
         },
         {
             "es": "Su mamá dragona estaba preocupada: Draco, ¿por qué no duermes? Tengo mucho sueño pero no puedo dormir, mamá. Me wake up con los ojos abiertos. Un día, Draco conoció a Luna, una lechuza sabia que vivía en el árbol más alto de la montaña. Draco, ¿qué haces antes de dormir?",
@@ -205,7 +206,8 @@ export const 06_dragon = {
                     "url": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772955884697_Draco_en_cama_con_su.png",
                     "posicion": "centro"
                 }
-            ]
+            ],
+            "bgImage": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772956011634_Paisaje_nocturno_con.png"
         },
         {
             "es": "Nada. Solo me acuesto y pienso en todo. Ahí está el problema. Necesitas una rutina. Luna le enseñó a Draco: 1. Tomar un baño tibio, 2. Tomar leche tibia con miel, 3. Escuchar canción de cuna suave, 4. Cerrar ojos y respirar profundo.",
@@ -216,7 +218,8 @@ export const 06_dragon = {
                     "url": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772955903510_Draco_de_pie_junto_a.png",
                     "posicion": "centro"
                 }
-            ]
+            ],
+            "bgImage": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772956038099_Paisaje_nocturno_con.png"
         },
         {
             "es": "Draco probó la rutina esa noche. Y algo mágico pasó: durmió profundamente por primera vez en semanas. Desde entonces, Draco siempre hacía su rutina before dormir. Moraleja: Una buena rutina nos ayuda a descansar bien.",
@@ -227,7 +230,8 @@ export const 06_dragon = {
                     "url": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772955939550_Draco_morado_dormido.png",
                     "posicion": "centro"
                 }
-            ]
+            ],
+            "bgImage": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772956055135_Paisaje_nocturno_con.png"
         }
     ],
     "fondoGlobal": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/fondo_global_1772955832812_Paisaje_nocturno_con.png"
