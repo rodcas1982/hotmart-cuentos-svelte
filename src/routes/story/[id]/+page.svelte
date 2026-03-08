@@ -6,6 +6,7 @@
     
     let stories: any[] = [...newStories];
     let story: any = null;
+    let initialized = false;
     let currentPage = 0;
     let lang: 'es' | 'en' = 'es';
     let isFlipping = false;
@@ -51,14 +52,13 @@
     let textoOscuro = false;
     
     onMount(() => {
-        // Usar datos locales directamente
+        // Buscar el story en los datos locales
         const id = $page.params.id;
-        const found = stories.find((s: any) => s.id === id);
+        const found = stories.find((s) => s.id === id);
         if (found) {
             story = found;
-        } else {
-            story = { id: 'error', title: { es: 'Error', en: 'Error' }, pages: [] };
         }
+        initialized = true;
     });
     
     function seleccionarAnimal(id: string) {
