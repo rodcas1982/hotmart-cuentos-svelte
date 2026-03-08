@@ -198,8 +198,8 @@ export const 06_dragon = {
             "en": "Nothing. I just lie down and think about everything. That's the problem. You need a routine. Luna taught Draco: 1. Take a warm bath, 2. Drink warm milk with honey, 3. Listen to a lullaby, 4. Close eyes and breathe deeply."
         },
         {
-            "es": "Draco probó la rutina esa noche. Y algo mágico pasó: durmió profundamente por primera vez en semanas. Desde entonces, Draco siempre hacía su rutina before dormir. Moraleja: Una buena rutina nos ayuda a descansar bien.",
-            "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well."
+            "es": "Draco probó la rutina esa noche. Y algo mágico pasó: durmió profundamente por primera vez en semanas. Desde entonces, Draco siempre hacía su rutina before dormir. \n\nMoraleja: Una buena rutina nos ayuda a descansar bien.",
+            "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. \n\n\nMoral: A good routine helps us rest well."
         }
     ]
 };
