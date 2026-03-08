@@ -20,7 +20,14 @@
     function login() {
         if (password === PASSWORD_ADMIN) {
             autenticado = true;
-            if (localStorage.getItem('github_token')) tokenConfigurado = true;
+            const tokenGuardado = localStorage.getItem('github_token');
+            if (tokenGuardado) {
+                tokenConfigurado = true;
+            } else {
+                alert('📌 Necesitás configurar tu GitHub Token para guardar cambios');
+            }
+        } else {
+            alert('Contraseña incorrecta');
         }
     }
     
@@ -29,7 +36,15 @@
             localStorage.setItem('github_token', tokenInput);
             tokenConfigurado = true;
             tokenInput = '';
+            alert('✅ Token guardado');
+        } else {
+            alert('Token muy corto');
         }
+    }
+
+    function logout() {
+        autenticado = false;
+        tokenConfigurado = false;
     }
     
     function selectStory(index: number) {
@@ -151,7 +166,14 @@
     {:else}
         <div class="admin-layout">
             <aside class="sidebar">
-                <div class="sidebar-header"><h2>📚 Cuentos</h2><span class="count">{stories.length}</span></div>
+                <div class="sidebar-header">
+                    <h2>📚 Cuentos</h2>
+                    <span class="count">{stories.length}</span>
+                </div>
+                <div class="token-status" class:ok={tokenConfigurado}>
+                    {tokenConfigurado ? '✅ Token OK' : '❌ Sin Token'}
+                    <button class="token-refresh" on:click={() => tokenConfigurado = false}>🔄</button>
+                </div>
                 {#if !tokenConfigurado}
                     <div class="token-setup">
                         <p>📌 Pegá tu GitHub Token</p>
