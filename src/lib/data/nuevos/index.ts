@@ -60,10 +60,6 @@ export const 02_luna = {
         {
             "es": "Cuando anunciaron que el dibujo de Luna era el ganador, María se acercó: Yo... yo no lo dibujé. Fue Luna. La honestidad brilla más que cualquier premio. Las dos amigas aprendieron algo importante: la honestidad hace que nos sintamos bien con nosotros mismos, y siempre es mejor decir la verdad. Moraleja: La honestidad nos hace libres y fuertes. Siempre es mejor decir la verdad.",
             "en": "When they announced that Luna's drawing was the winner, María approached: I... I didn't draw it. It was Luna. Honesty shines brighter than any prize. The two friends learned something important: honesty makes us feel good about ourselves, and it's always better to tell the truth. Moral: Honesty makes us free and strong. It's always better to tell the truth."
-        },
-        {
-            "es": "",
-            "en": ""
         }
     ]
 };
@@ -187,23 +183,19 @@ export const 06_dragon = {
     "pages": [
         {
             "es": "En una montaña muy alta vivía un pequeño dragón llamado Draco. Draco tenía escamas de color azul brillante como el cielo nocturno. Pero Draco no podía dormir. Cada noche daba vueltas y vueltas en su cueva. Era muy triste.",
-            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad.",
-            "image": "/images/1772947262719_Draco_el_dragón_azul.png"
+            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad."
         },
         {
             "es": "Su mamá dragona estaba preocupada: Draco, ¿por qué no duermes? Tengo mucho sueño pero no puedo dormir, mamá. Me wake up con los ojos abiertos. Un día, Draco conoció a Luna, una lechuza sabia que vivía en el árbol más alto de la montaña. Draco, ¿qué haces antes de dormir?",
-            "en": "His dragon mom was worried: Draco, why don't you sleep? I'm very sleepy but I can't sleep, mom. I wake up with my eyes open. Un día, Draco met Luna, a wise owl who lived on the highest tree on the mountain. Draco, what do you do before sleeping?",
-            "image": "/images/1772947280947_Draco_en_cama_con_su.png"
+            "en": "His dragon mom was worried: Draco, why don't you sleep? I'm very sleepy but I can't sleep, mom. I wake up with my eyes open. Un día, Draco met Luna, a wise owl who lived on the highest tree on the mountain. Draco, what do you do before sleeping?"
         },
         {
             "es": "Nada. Solo me acuesto y pienso en todo. Ahí está el problema. Necesitas una rutina. Luna le enseñó a Draco: 1. Tomar un baño tibio, 2. Tomar leche tibia con miel, 3. Escuchar canción de cuna suave, 4. Cerrar ojos y respirar profundo.",
-            "en": "Nothing. I just lie down and think about everything. That's the problem. You need a routine. Luna taught Draco: 1. Take a warm bath, 2. Drink warm milk with honey, 3. Listen to a lullaby, 4. Close eyes and breathe deeply.",
-            "image": "/images/1772947296961_Draco_de_pie_junto_a.png"
+            "en": "Nothing. I just lie down and think about everything. That's the problem. You need a routine. Luna taught Draco: 1. Take a warm bath, 2. Drink warm milk with honey, 3. Listen to a lullaby, 4. Close eyes and breathe deeply."
         },
         {
             "es": "Draco probó la rutina esa noche. Y algo mágico pasó: durmió profundamente por primera vez en semanas. Desde entonces, Draco siempre hacía su rutina before dormir. Moraleja: Una buena rutina nos ayuda a descansar bien.",
-            "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well.",
-            "image": "/images/1772947311365_Draco_morado_dormido.png"
+            "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well."
         }
     ]
 };
