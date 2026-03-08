@@ -5,7 +5,7 @@
     
     // Usar datos por defecto para build/SSR
     let stories: any[] = [...newStories];
-    let loading = true;
+    let loading = false;
     
     // Cargar datos actualizados desde GitHub en el navegador
     onMount(async () => {
