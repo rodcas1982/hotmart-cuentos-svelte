@@ -1,7 +1,8 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     
-    let stories: any[] = [];
+    import { newStories } from '$lib/data/nuevos';
+    let stories: any[] = [...newStories];
     let storySeleccionada: number = -1;
     let guardado = false;
     let guardando = false;
@@ -27,7 +28,7 @@
                     } catch(e) { console.error('Error:', e); }
                 }
             });
-            stories = Object.values(storyVars);
+            if (Object.keys(storyVars).length > 0) { stories = Object.values(storyVars); }
             console.log('Cargados:', stories.length, 'cuentos');
         } catch(e) {
             console.error('Error cargando stories:', e);
