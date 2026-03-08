@@ -570,6 +570,26 @@
     
     /* Mobile */
     @media (max-width: 600px) {
+
+        .carousel {
+            gap: 5px;
+        }
+
+        .carousel-btn {
+            width: 32px;
+            height: 32px;
+            font-size: 1rem;
+        }
+
+        .carousel-inner {
+            gap: 12px;
+            padding: 8px;
+        }
+
+        .carousel-inner .story-card {
+            min-width: 160px;
+        }
+
         header {
             padding: 40px 20px 50px;
         }
@@ -589,7 +609,7 @@
         }
         
         .card-img-wrap {
-            height: 150px;
+            height: 120px;
         }
         
         .card-body {
