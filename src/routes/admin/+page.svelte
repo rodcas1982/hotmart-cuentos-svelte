@@ -61,6 +61,40 @@
         reader.readAsDataURL(file);
     }
     
+    async function uploadImagen(event: Event, tipo: 'imagen' | 'fondo', pageIndex: number) {
+        const input = event.target as HTMLInputElement;
+        const file = input.files?.[0];
+        if (!file) return;
+        const token = localStorage.getItem('github_token');
+        if (!token) { alert('Configurá el token primero'); return; }
+        subiendo = true;
+        const fileName = `${Date.now()}_${file.name.replace(/\s/g, '_')}`;
+        const reader = new FileReader();
+        reader.onload = async () => {
+            const base64 = (reader.result as string).split(',')[1];
+            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`, {
+                method: 'PUT',
+                headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: `Subir imagen: ${fileName}`, content: base64 })
+            });
+            if (response.ok) {
+                const urlImagen = `/images/${fileName}`;
+                if (tipo === 'imagen') {
+                    if (!stories[storySeleccionada].pages[pageIndex].images) stories[storySeleccionada].pages[pageIndex].images = [];
+                    stories[storySeleccionada].pages[pageIndex].images.push({ url: urlImagen, posicion: 'centro' });
+                } else {
+                    stories[storySeleccionada].pages[pageIndex].bgImage = urlImagen;
+                }
+                stories = [...stories];
+                alert('✅ Imagen subida: ' + urlImagen);
+            } else {
+                alert('Error al subir imagen');
+            }
+            subiendo = false;
+        };
+        reader.readAsDataURL(file);
+    }
+    
     async function guardarEnGitHub(force: boolean = false) {
         guardando = true;
         const token = localStorage.getItem('github_token');
