@@ -2,13 +2,25 @@
     import { newStories } from '$lib/data/nuevos';
     import { base } from '$app/paths';
     import type { Story } from '$lib/data/nuevos';
-    
-    // Datos pasados desde +page.ts
-    export let data;
+    import { onMount } from 'svelte';
     
     const stories = newStories;
-    const storyId = data?.storyId || '01-valiente';
-    const story = stories.find(s => s.id === storyId) || stories[0];
+    
+    // Obtener story ID desde URL en el cliente
+    let storyId = '01-valiente';
+    let story: Story = stories[0];
+    
+    onMount(() => {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('story');
+        if (id) {
+            const found = stories.find(s => s.id === id);
+            if (found) {
+                storyId = id;
+                story = found;
+            }
+        }
+    });
     
     let currentPage = 0;
     let lang: 'es' | 'en' = 'es';
