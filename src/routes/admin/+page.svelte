@@ -10,6 +10,9 @@
     let autenticado = false;
     let tokenInput = '';
     let tokenConfigurado = false;
+    let mostrarPreview = false;
+    let pagePreview = 0;
+    let langPreview: 'es' | 'en' = 'es';
     const PASSWORD_ADMIN = 'RinconAdmin2026!';
     const REPO_OWNER = 'rodcas1982';
     const REPO_NAME = 'hotmart-cuentos-svelte';
@@ -34,81 +37,54 @@
         guardado = false;
     }
     
-    async function uploadImagen(event: Event, tipo: 'imagen' | 'fondo', pageIndex: number) {
+    function abrirPreview() { mostrarPreview = true; pagePreview = 0; langPreview = 'es'; }
+    
+    async function uploadFondoGlobal(event: Event) {
         const input = event.target as HTMLInputElement;
         const file = input.files?.[0];
         if (!file) return;
-        
         const token = localStorage.getItem('github_token');
         if (!token) { alert('Configurá el token primero'); return; }
-        
         subiendo = true;
-        const fileName = `${Date.now()}_${file.name.replace(/\s/g, '_')}`;
-        
-        try {
-            // Convertir a base64
-            const reader = new FileReader();
-            reader.onload = async () => {
-                const base64 = (reader.result as string).split(',')[1];
-                
-                // Subir a GitHub
-                const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': `token ${token}`,
-                        'Accept': 'application/vnd.github.v3+json',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        message: `Subir imagen: ${fileName}`,
-                        content: base64
-                    })
-                });
-                
-                if (response.ok) {
-                    const urlImagen = `/images/${fileName}`;
-                    if (tipo === 'imagen') stories[storySeleccionada].pages[pageIndex].image = urlImagen;
-                    else stories[storySeleccionada].pages[pageIndex].bgImage = urlImagen;
-                    stories = [...stories];
-                    alert('✅ Imagen subida: ' + urlImagen);
-                } else {
-                    alert('Error al subir imagen');
-                }
-                subiendo = false;
-            };
-            reader.readAsDataURL(file);
-        } catch (err) {
-            alert('Error: ' + err);
+        const fileName = `fondo_global_${Date.now()}_${file.name.replace(/\s/g, '_')}`;
+        const reader = new FileReader();
+        reader.onload = async () => {
+            const base64 = (reader.result as string).split(',')[1];
+            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`, {
+                method: 'PUT',
+                headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: `Subir fondo global`, content: base64 })
+            });
+            if (response.ok) { stories[storySeleccionada].fondoGlobal = `/images/${fileName}`; stories = [...stories]; alert('✅ Fondo global aplicado'); }
             subiendo = false;
-        }
+        };
+        reader.readAsDataURL(file);
     }
     
-    async function guardarEnGitHub() {
+    async function guardarEnGitHub(force: boolean = false) {
         guardando = true;
         const token = localStorage.getItem('github_token');
         if (!token) { alert('Configurá el token primero'); guardando = false; return; }
         try {
-            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
-                headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
-            });
-            if (!response.ok) throw new Error('Error al conectar');
-            const fileData = await response.json();
-            const sha = fileData.sha;
-            
-            let nuevoContenido = '// Cuentos actualizados desde admin\n';
-            for (const story of stories) {
-                nuevoContenido += `\nexport const ${story.id.replace(/-/g, '_')} = ${JSON.stringify(story, null, 4)};\n`;
+            let sha = '';
+            if (!force) {
+                const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
+                    headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+                });
+                if (response.ok) { const fileData = await response.json(); sha = fileData.sha; }
             }
+            let nuevoContenido = '// Cuentos actualizados desde admin\n';
+            for (const story of stories) { nuevoContenido += `\nexport const ${story.id.replace(/-/g, '_')} = ${JSON.stringify(story, null, 4)};\n`; }
             nuevoContenido += '\nexport const newStories = [\n';
             nuevoContenido += stories.map((s, i) => `    ${s.id.replace(/-/g, '_')}${i < stories.length - 1 ? ',' : ''}`).join('\n');
             nuevoContenido += '\n];\n';
-            
+            const body: any = { message: 'Actualización de cuentos desde admin', content: btoa(unescape(encodeURIComponent(nuevoContenido))) };
+            if (sha) body.sha = sha;
             const commitResponse = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/src/lib/data/nuevos/index.ts`, {
                 method: 'PUT',
                 headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: 'Actualización de cuentos desde admin', content: btoa(unescape(encodeURIComponent(nuevoContenido))), sha })
+                body: JSON.stringify(body)
             });
-            
             if (commitResponse.ok) { guardado = true; setTimeout(() => guardado = false, 3000); }
             else { const e = await commitResponse.json(); alert('Error: ' + e.message); }
         } catch (err: any) { alert('Error: ' + err.message); }
@@ -171,7 +147,14 @@
                         </div>
                     </header>
                     <div class="pages-container">
-                        <div class="pages-header"><h3>📄 Páginas</h3><button class="btn-add" on:click={agregarPagina}>➕ Nueva</button></div>
+                        <div class="pages-header">
+                            <h3>📄 Páginas</h3>
+                            <div class="header-actions">
+                                <label class="upload-fondo-global">🌍 Fondo Global<input type="file" accept="image/*" on:change={uploadFondoGlobal} hidden /></label>
+                                <button class="btn-add" on:click={agregarPagina}>➕ Nueva</button>
+                            </div>
+                        </div>
+                        {#if story.fondoGlobal}<div class="fondo-global-msg">🌍 Fondo global activo <button class="btn-quitar" on:click={() => {story.fondoGlobal = ''; stories = [...stories]}}>✕</button></div>{/if}
                         {#each story.pages as page, pi}
                             <div class="page-card">
                                 <div class="page-header">
@@ -209,13 +192,37 @@
                     </div>
                     <div class="save-bar">
                         {#if guardado}<span class="saved-msg">✅ Guardado</span>{/if}
-                        {#if subiendo}<span class="subiendo-msg">⏳ Subiendo imagen...</span>{/if}
-                        <button class="btn-guardar" on:click={guardarEnGitHub} disabled={guardando || subiendo}>{guardando ? '⏳' : '💾'} GUARDAR</button>
+                        {#if subiendo}<span class="subiendo-msg">⏳ Subiendo...</span>{/if}
+                        <button class="btn-preview" on:click={abrirPreview}>👁️ Preview</button>
+                        <button class="btn-guardar" on:click={() => guardarEnGitHub(false)} disabled={guardando || subiendo}>{guardando ? '⏳' : '💾'} GUARDAR</button>
+                        <button class="btn-force" on:click={() => guardarEnGitHub(true)} disabled={guardando}>⚡ FORZAR</button>
                     </div>
                 {:else}
                     <div class="empty-state"><h2>👈 Selecciona un cuento</h2></div>
                 {/if}
             </main>
+        </div>
+    {/if}
+    
+    <!-- Preview Modal -->
+    {#if mostrarPreview && storySeleccionada >= 0}
+        {@const story = stories[storySeleccionada]}
+        <div class="preview-modal" on:click={() => mostrarPreview = false}>
+            <div class="preview-content" on:click|stopPropagation>
+                <div class="preview-header">
+                    <h2>👁️ Preview</h2>
+                    <button class="preview-close" on:click={() => mostrarPreview = false}>✕</button>
+                </div>
+                <div class="preview-controls">
+                    <button on:click={() => pagePreview = Math.max(0, pagePreview - 1)} disabled={pagePreview === 0}>◀</button>
+                    <span>Pág {pagePreview + 1}/{story.pages.length}</span>
+                    <button on:click={() => pagePreview = Math.min(story.pages.length - 1, pagePreview + 1)} disabled={pagePreview === story.pages.length - 1}>▶</button>
+                    <button class="lang-btn" on:click={() => langPreview = langPreview === 'es' ? 'en' : 'es'}>{langPreview === 'es' ? '🇪🇸' : '🇺🇸'}</button>
+                </div>
+                <div class="preview-page" style={story.fondoGlobal ? `background-image: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), url('${story.fondoGlobal}'); background-size: cover;` : ''}>
+                    <div class="preview-text">{@html story.pages[pagePreview][langPreview]}</div>
+                </div>
+            </div>
         </div>
     {/if}
 </div>
@@ -225,10 +232,21 @@
     .admin-layout{display:flex;height:100vh}.sidebar{width:280px;background:white;border-right:1px solid #e0e0e0;display:flex;flex-direction:column}.sidebar-header{padding:20px;border-bottom:1px solid #e0e0e0;display:flex;justify-content:space-between;align-items:center}.sidebar-header h2{margin:0;font-size:18px;color:#333}.count{background:#8E2DE2;color:white;padding:2px 10px;border-radius:12px;font-size:14px}.token-setup{padding:15px;background:#fff3cd;border-bottom:1px solid #ffc107}.token-setup p{margin:0 0 10px 0;font-size:14px}.token-setup input{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;margin-bottom:8px}.token-setup button{background:#ffc107;border:none;padding:8px 16px;border-radius:6px;cursor:pointer}
     .story-list{flex:1;overflow-y:auto;padding:10px}.story-item{width:100%;display:flex;align-items:center;gap:10px;padding:12px 15px;border:none;background:transparent;border-radius:10px;cursor:pointer;text-align:left;margin-bottom:5px}.story-item:hover{background:#f5f5f5}.story-item.selected{background:linear-gradient(135deg,#8E2DE2,#4A00E0);color:white}.story-num{background:rgba(0,0,0,0.1);padding:4px 8px;border-radius:6px;font-size:12px;font-weight:bold}.story-item.selected .story-num{background:rgba(255,255,255,0.2)}.story-title{flex:1;font-size:14px}
     .editor-main{flex:1;overflow-y:auto;padding:20px;display:flex;flex-direction:column}.editor-header{background:white;padding:20px;border-radius:15px;margin-bottom:20px;box-shadow:0 2px 10px rgba(0,0,0,0.05)}.header-info{display:flex;align-items:center;gap:15px;margin-bottom:15px;flex-wrap:wrap}.story-id{background:#8E2DE2;color:white;padding:5px 12px;border-radius:8px;font-weight:bold}.title-input{flex:1;min-width:200px;padding:10px 15px;border:2px solid #e0e0e0;border-radius:10px;font-size:16px}.title-input:focus{border-color:#8E2DE2;outline:none}.header-meta{display:flex;gap:10px;flex-wrap:wrap}.meta-input{padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px}
-    .pages-container{flex:1}.pages-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.pages-header h3{margin:0;color:#333}.btn-add{background:#4CAF50;color:white;border:none;padding:10px 20px;border-radius:8px;cursor:pointer}
+    .pages-container{flex:1}.pages-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.pages-header h3{margin:0;color:#333}.header-actions{display:flex;gap:10px;align-items:center}.upload-fondo-global{background:#9C27B0;color:white;border:none;padding:10px 16px;border-radius:8px;cursor:pointer;font-size:13px}.btn-add{background:#4CAF50;color:white;border:none;padding:10px 20px;border-radius:8px;cursor:pointer}.fondo-global-msg{background:#e8f5e9;padding:10px 15px;border-radius:8px;margin-bottom:15px;font-size:13px;display:flex;align-items:center;gap:10px}.btn-quitar{background:#f44336;color:white;border:none;padding:4px 8px;border-radius:4px;cursor:pointer}
     .page-card{background:white;border-radius:15px;margin-bottom:20px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.05)}.page-header{background:#f8f9fa;padding:12px 20px;display:flex;justify-content:space-between;align-items:center}.page-num{font-weight:bold;color:#8E2DE2}.btn-del{background:#f44336;color:white;border:none;padding:6px 12px;border-radius:6px;cursor:pointer;font-size:12px}
     .page-content{display:flex;gap:20px;padding:20px}.lang-column{flex:1;display:flex;flex-direction:column;gap:10px}.lang-header{font-weight:bold;font-size:14px;padding-bottom:8px;border-bottom:2px solid}.lang-column.es .lang-header{border-color:#4CAF50;color:#4CAF50}.lang-column.en .lang-header{border-color:#2196F3;color:#2196F3}.lang-column textarea{flex:1;min-height:150px;padding:12px;border:1px solid #ddd;border-radius:10px;font-size:14px;resize:vertical}
     .img-upload-row{display:flex;align-items:center;gap:10px}.upload-btn{background:#2196F3;color:white;border:none;padding:8px 14px;border-radius:6px;cursor:pointer;font-size:13px}.upload-btn.fondo{background:#9C27B0}.img-url{font-size:12px;color:#666;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .save-bar{position:sticky;bottom:20px;background:white;padding:15px 25px;border-radius:50px;box-shadow:0 4px 20px rgba(0,0,0,0.15);display:flex;justify-content:center;align-items:center;gap:15px;margin-top:auto}.saved-msg{color:#4CAF50;font-weight:bold}.subiendo-msg{color:#FF9800;font-weight:bold}.btn-guardar{background:linear-gradient(135deg,#8E2DE2,#4A00E0);color:white;border:none;padding:12px 30px;border-radius:25px;font-size:15px;font-weight:bold;cursor:pointer}.btn-guardar:disabled{opacity:0.6}.empty-state{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#999}
+    .save-bar{position:sticky;bottom:20px;background:white;padding:15px 25px;border-radius:50px;box-shadow:0 4px 20px rgba(0,0,0,0.15);display:flex;justify-content:center;align-items:center;gap:15px;margin-top:auto}.saved-msg{color:#4CAF50;font-weight:bold}.subiendo-msg{color:#FF9800;font-weight:bold}.btn-preview{background:#FF9800;color:white;border:none;padding:10px 18px;border-radius:25px;font-size:14px;font-weight:bold;cursor:pointer}.btn-guardar{background:linear-gradient(135deg,#8E2DE2,#4A00E0);color:white;border:none;padding:10px 18px;border-radius:25px;font-size:14px;font-weight:bold;cursor:pointer}.btn-force{background:linear-gradient(135deg,#f44336,#d32f2f);color:white;border:none;padding:10px 18px;border-radius:25px;font-size:14px;font-weight:bold;cursor:pointer}.btn-guardar:disabled,.btn-force:disabled{opacity:0.6}.empty-state{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#999}
     @media(max-width:768px){.admin-layout{flex-direction:column}.sidebar{width:100%;height:auto;max-height:200px}.page-content{flex-direction:column}}
+    
+    /* Preview Modal */
+    .preview-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.85);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px}
+    .preview-content{background:white;border-radius:20px;max-width:650px;width:100%;max-height:90vh;overflow:hidden;display:flex;flex-direction:column}
+    .preview-header{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;background:#8E2DE2;color:white}
+    .preview-header h2{margin:0;font-size:18px}
+    .preview-close{background:none;border:none;color:white;font-size:24px;cursor:pointer}
+    .preview-controls{display:flex;justify-content:center;align-items:center;gap:15px;padding:12px;background:#f5f5f5;border-bottom:1px solid #ddd}
+    .preview-controls button{background:#8E2DE2;color:white;border:none;padding:8px 14px;border-radius:6px;cursor:pointer}.preview-controls button:disabled{opacity:0.5}.lang-btn{background:#2196F3 !important}
+    .preview-page{flex:1;padding:30px;overflow-y:auto;position:relative;background:white}
+    .preview-text{font-size:16px;line-height:1.8}
 </style>
