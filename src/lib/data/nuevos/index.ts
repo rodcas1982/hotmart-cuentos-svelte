@@ -187,7 +187,14 @@ export const 06_dragon = {
     "pages": [
         {
             "es": "En una montaña muy alta vivía un pequeño dragón llamado Draco. Draco tenía escamas de color azul brillante como el cielo nocturno. Pero Draco no podía dormir. Cada noche daba vueltas y vueltas en su cueva. Era muy triste.",
-            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad."
+            "en": "On a very high mountain lived a little dragon named Draco. Draco had bright blue scales like the night sky. Pero Draco couldn't sleep. Cada noche he tossed and turned in his cave. Era very sad.",
+            "image": "${BASE_URL}/images/1772953664107_Draco_el_dragón_azul.png",
+            "images": [
+                {
+                    "url": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/1772953664107_Draco_el_dragón_azul.png",
+                    "posicion": "centro"
+                }
+            ]
         },
         {
             "es": "Su mamá dragona estaba preocupada: Draco, ¿por qué no duermes? Tengo mucho sueño pero no puedo dormir, mamá. Me wake up con los ojos abiertos. Un día, Draco conoció a Luna, una lechuza sabia que vivía en el árbol más alto de la montaña. Draco, ¿qué haces antes de dormir?",
@@ -201,8 +208,7 @@ export const 06_dragon = {
             "es": "Draco probó la rutina esa noche. Y algo mágico pasó: durmió profundamente por primera vez en semanas. Desde entonces, Draco siempre hacía su rutina before dormir. Moraleja: Una buena rutina nos ayuda a descansar bien.",
             "en": "Draco tried the routine that night. Y something magical happened: he slept deeply for the first time in weeks. From then on, Draco always did his routine before sleeping. Moral: A good routine helps us rest well."
         }
-    ],
-    "fondoGlobal": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/fondo_global_1772953108291_Paisaje_nocturno_con.png"
+    ]
 };
 
 export const 07_lunaviaje = {
