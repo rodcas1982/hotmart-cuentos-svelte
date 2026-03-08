@@ -149,7 +149,7 @@
     // Auto-rotar testimonios cada 8 segundos
     import { onMount } from 'svelte';
     onMount(() => {
-        const interval = setInterval(nextTestimonials, 8000);
+        const interval = setInterval(nextTestimonials, 2000);
         return () => clearInterval(interval);
     });
 </script>
