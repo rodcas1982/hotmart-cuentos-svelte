@@ -65,7 +65,8 @@ export const 02_luna = {
             "es": "",
             "en": ""
         }
-    ]
+    ],
+    "fondoGlobal": "https://raw.githubusercontent.com/rodcas1982/hotmart-cuentos-svelte/main/static/images/fondo_global_1772953873786_Fondo_de_pantalla_de.png"
 };
 
 export const 03_max = {
