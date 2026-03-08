@@ -14,7 +14,7 @@
     let pagePreview = 0;
     let langPreview: 'es' | 'en' = 'es';
     const PASSWORD_ADMIN = 'RinconAdmin2026!';
-    const REPO_OWNER = 'rodcas1982';
+    const BASE_URL = "/hotmart-cuentos-svelte"; const REPO_OWNER = 'rodcas1982';
     const REPO_NAME = 'hotmart-cuentos-svelte';
     
     let mostrarModalToken = false;
@@ -118,12 +118,12 @@
         const reader = new FileReader();
         reader.onload = async () => {
             const base64 = (reader.result as string).split(',')[1];
-            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`, {
+            const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static${BASE_URL}/images/${fileName}`, {
                 method: 'PUT',
                 headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: `Subir fondo global`, content: base64 })
             });
-            if (response.ok) { stories[storySeleccionada].fondoGlobal = `/images/${fileName}`; stories = [...stories]; alert('✅ Fondo global aplicado'); }
+            if (response.ok) { stories[storySeleccionada].fondoGlobal = `${BASE_URL}/images/${fileName}`; stories = [...stories]; alert('✅ Fondo global aplicado'); }
             subiendo = false;
         };
         reader.readAsDataURL(file);
@@ -143,7 +143,7 @@
         const reader = new FileReader();
         reader.onload = async () => {
             const base64 = (reader.result as string).split(',')[1];
-            const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static/images/${fileName}`;
+            const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/static${BASE_URL}/images/${fileName}`;
             console.log('URL:', url);
             const response = await fetch(url, {
                 method: 'PUT',
@@ -154,16 +154,16 @@
             const data = await response.json();
             console.log('Data:', data);
             if (response.ok) {
-                const urlImagen = `/images/${fileName}`;
+                const urlImagen = `${BASE_URL}/images/${fileName}`;
                 // Mostrar nombre del archivo
                 const fileNameMostrar = fileName;
                 
                 if (tipo === 'imagen') {
-                    stories[storySeleccionada].pages[pageIndex].image = "/images/" + fileNameMostrar;
+                    stories[storySeleccionada].pages[pageIndex].image = "${BASE_URL}/images/" + fileNameMostrar;
                     if (!stories[storySeleccionada].pages[pageIndex].images) stories[storySeleccionada].pages[pageIndex].images = [];
                     stories[storySeleccionada].pages[pageIndex].images.push({ url: urlImagen, posicion: 'centro' });
                 } else {
-                    stories[storySeleccionada].pages[pageIndex].bgImage = "/images/" + fileNameMostrar;
+                    stories[storySeleccionada].pages[pageIndex].bgImage = "${BASE_URL}/images/" + fileNameMostrar;
                 }
                 stories = [...stories];
                 console.log('Imagen guardada:', fileNameMostrar);
