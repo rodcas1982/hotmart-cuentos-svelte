@@ -17,7 +17,8 @@ export const 01_valiente = {
     "pages": [
         {
             "es": "Había una vez, en un pequeño pueblo entre montañas verdes, un niño llamado {NOMBRE_NIÑO}. Era un niño de seis años con ojos curiosos que brillaban como estrellas. {NOMBRE_NIÑO} tenía un amigo muy especial: un peluche de {ANIMAL_FAVORITO} que le regaló su abuelita. Lo llamaba Valientín porque le daba coraje cuando tenía miedo. Pero había un problema: {NOMBRE_NIÑO} le tenía mucho miedo a la oscuridad. Cada noche temblaba cuando apagaban la luz.",
-            "en": "Once upon a time, in a small village between green mountains, there was a child named {NOMBRE_NIÑO}. Era un six-year-old with curious eyes that sparkled like stars. {NOMBRE_NIÑO} had a very special friend: a {ANIMAL_FAVORITO} plush that his grandmother gave him. He called it Valientín because it gave him courage when era scared. Pero there was a problem: {NOMBRE_NIÑO} was very afraid del dark. Cada noche he trembled when the light was turned off."
+            "en": "Once upon a time, in a small village between green mountains, there was a child named {NOMBRE_NIÑO}. Era un six-year-old with curious eyes that sparkled like stars. {NOMBRE_NIÑO} had a very special friend: a {ANIMAL_FAVORITO} plush that his grandmother gave him. He called it Valientín because it gave him courage when era scared. Pero there was a problem: {NOMBRE_NIÑO} was very afraid del dark. Cada noche he trembled when the light was turned off.",
+            "bgImage": "/images/1772942086337_fondo_montana_nocturna_1.png"
         },
         {
             "es": "Su mamá lo abrazaba y le decía: Los monstruos solo existen en nuestra imaginación, tesoro. Y tú tienes a Valientín para protegerte. Un día llegó un nuevo vecino: Don Miguel, un antiguo bombero de 75 años. Todo el mundo lo conocía como El Héroe del Pueblo. {NOMBRE_NIÑO} fue a visitarlo y perguntó: ¿Es verdad que eras bombero? Don Miguel sonrió y dijo: Sí, pequeño. Y te voy a contar un secreto: yo también tenía mucho miedo cuando era niño.",
@@ -119,15 +120,19 @@ export const 04_sofia = {
     "pages": [
         {
             "es": "Sofía era una niña de siete años que vivía en una casa con un jardín muy grande. Su abuela le había enseñado a cuidar las plantas como si fueran amigas. Un día, Sofía encontró una bolsa de plástico flotando en el río cerca de su casa. Los peces nadaban alrededor confuse.",
-            "en": "Sofia was a seven-year-old girl who lived in a house with a very big garden. Her grandmother had taught her to care for plants as if they were friends. One day, Sofia found a plastic bag floating in the river near her house. The fish swam around confused."
+            "en": "Sofia was a seven-year-old girl who lived in a house with a very big garden. Her grandmother had taught her to care for plants as if they were friends. Un día, Sofia found a plastic bag floating in the river near her house. The fish swam around confused."
         },
         {
             "es": "Abuela, ¡el plástico está haciendo daño a los peces! Sí, mi amor. Por eso debemos cuidar nuestro planeta. Sofía decidió hacer algo. Creó un club llamado Guardianes de la Naturaleza con sus amigos.",
             "en": "Grandma, the plastic is hurting the fish! Yes, my love. That's why we must take care of our planet. Sofia decided to do something. She created a club called Nature Guardians with her friends."
         },
         {
-            "es": "Cada fin de semana limpiaban el parque y el río, plantaban árboles y aprendían sobre el recycle. Sofía entendió que cuidar el medio ambiente es responsabilidad de todos, y que cada pequeña acción cuenta para hacer un mundo mejor.\n\nMoraleja: Todos podemos ser héroes del planeta. Cada small action cuenta.",
-            "en": "Every weekend they cleaned the park and the river, planted trees, and learned about recycling. Sofia understood that caring for the environment is everyone's responsibility, and that every small action counts to make a better world.\n\nMoral: We can all be heroes for the planet. Every small action counts."
+            "es": "Cada fin de semana limpiaban el parque y el río, plantaban árboles y aprendían sobre el recycle. Sofía entendió que cuidar el medio ambiente es responsabilidad de todos, y que cada pequeña acción cuenta para hacer un mundo mejor.",
+            "en": "Every weekend they cleaned the park and the river, planted trees, and learned about recycling. Sofia understood that caring for the environment is everyone's responsibility, and that every small action counts to make a better world."
+        },
+        {
+            "es": "Moraleja: Todos podemos ser héroes del planeta. Cada small action cuenta.",
+            "en": "Moral: We can all be heroes for the planet. Every small action counts."
         }
     ]
 };
@@ -260,6 +265,10 @@ export const 08_selva = {
         {
             "es": "El pajarito voló tres veces alrededor de María y luego desapareció entre los árboles. María entendió que cuidar la naturaleza es cuidar a todos los seres vivos. Moraleja: Todos los seres vivos merecen nuestro respeto y cuidado.",
             "en": "The little bird flew three times around María and then disappeared among the trees. María understood that caring for nature is caring for all living beings. Moral: All living beings deserve our respect and care."
+        },
+        {
+            "es": "",
+            "en": ""
         }
     ]
 };
