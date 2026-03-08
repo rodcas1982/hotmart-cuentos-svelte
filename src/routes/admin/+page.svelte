@@ -139,6 +139,8 @@
             if (response.ok) {
                 const urlImagen = `/images/${fileName}`;
                 if (tipo === 'imagen') {
+                    // Guardar en ambos formatos para compatibilidad
+                    stories[storySeleccionada].pages[pageIndex].image = urlImagen;
                     if (!stories[storySeleccionada].pages[pageIndex].images) stories[storySeleccionada].pages[pageIndex].images = [];
                     stories[storySeleccionada].pages[pageIndex].images.push({ url: urlImagen, posicion: 'centro' });
                 } else {
