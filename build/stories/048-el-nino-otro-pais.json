@@ -1,0 +1,343 @@
+{
+  "id": "048-el-nino-otro-pais",
+  "version": "1.0",
+  "meta": {
+    "title": "El niño de otro país",
+    "subtitle": "A story about welcoming and accepting others",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#00bcd4",
+      "secondaryColor": "#4dd0e1",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #00838f 0%, #00bcd4 50%, #80deea 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #00838f 0%, #00bcd4 50%, #80deea 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/048-nino-extranjero.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El niño de otro país",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre diversidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00838f 0%, #00bcd4 100%)",
+      "narration": "En la escuela del Pueblo Feliz, los niños esperaban con curiosidad al nuevo compañero. Se llamaba Ahmed y venía de un país muy lejano llamado Marruecos. Some children were excited, others were a bit nervous.",
+      "elements": [
+        {
+          "id": "boy-img",
+          "type": "image",
+          "src": "images/048-nino-extranjero.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En la escuela del Pueblo Feliz, los niños esperaban al nuevo compañero. Se llamaba <strong>Ahmed</strong> y venía de un país muy lejano: ¡Marruecos! Algunos niños estaban emocionados, otros un poco nerviosos.<br><br><em>In the Happy Town school, children were waiting for the new classmate. His name was Ahmed and he came from a very distant country called Morocco!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #00838f 100%)",
+      "narration": "Cuando Ahmed entró, todos lo miraron. Usaba un sombrero llamado 'keffiyeh' y tenía una sonrisa tímida. Algunos compañeros cuchicheaban: '¿Por qué se viste diferente?', preguntaban. Pero nadie se acercó a saludarlo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Cuando Ahmed entró, todos lo miraron. Usaba un sombrero llamado 'keffiyeh' y tenía una sonrisa tímida. <strong>Algunos compañeros cuchicheaban, pero nadie se acercó a saludarlo.</strong><br><br><em>When Ahmed entered, everyone looked at him. He wore a hat called a 'keffiyeh' and had a shy smile. Some classmates whispered, but no one came to greet him.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00838f 0%, #ff9800 100%)",
+      "narration": "Una niña llamada Lucía no pudo soportar ver a Ahmed solo y triste. Se acercó y le dijo: 'Hola, soy Lucía. ¿Quieres sentarte conmigo?'. Ahmed sonrió reliefido y dijo que sí en un español con acento diferente.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Una niña llamada Lucía no soportó verlo solo y triste. Se acercó y le dijo: <strong>'Hola, soy Lucía. ¿Quieres sentarte conmigo?'</strong> Ahmed sonrió aliviado y dijo que sí.<br><br><em>A girl named Lucía couldn't stand seeing Ahmed alone and sad. She approached and said: 'Hello, I'm Lucía. Do you want to sit with me?' Ahmed smiled in relief and said yes.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff9800 0%, #00bcd4 100%)",
+      "narration": "Lucía y Ahmed se volvieron inseparables. Ella le enseñó sus juegos favoritos y él le contó historias de su país, de los camellos y los desiertos dorados. Pronto, más niños quisieron conocer a Ahmed.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Lucía y Ahmed se volvieron inseparables. Ella le enseñó sus juegos y él le contó historias de su país: ¡los camellos y los desiertos dorados! <strong>Soon, more children wanted to meet Ahmed.</strong><br><br><em>Lucía and Ahmed became inseparable. She taught him her favorite games and he told her stories about his country: camels and golden deserts! Soon, more children wanted to meet Ahmed.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #80deea 100%)",
+      "narration": "Ahmed demostró que ser de otro país no lo hacía diferente en lo importante: también le gustaba jugar, reír y hacer amigos. Los niños entendieron que welcoming a alguien nuevo hace a todos más felices.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Ahmed demostró que ser de otro país no lo hacía diferente en lo importante: <strong>también le gustaba jugar, reír y hacer amigos.</strong> Los niños entendieron que welcomed a alguien nuevo hace a todos más felices.<br><br><em>Ahmed showed that being from another country didn't make him different in what mattered: he also liked to play, laugh, and make friends. The children understood that welcoming someone new makes everyone happier.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿De dónde venía Ahmed?",
+            "options": [
+              {
+                "text": "España"
+              },
+              {
+                "text": "Marruecos"
+              },
+              {
+                "text": "Francia"
+              },
+              {
+                "text": "Italia"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Ahmed venía de Marruecos.",
+              "incorrect": "La respuesta correcta es Marruecos."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Quién fue el primero en acercarse a Ahmed?",
+            "options": [
+              {
+                "text": "Un niño"
+              },
+              {
+                "text": "Lucía"
+              },
+              {
+                "text": "El maestro"
+              },
+              {
+                "text": "Nadie"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Lucía fue la primera en acercarse.",
+              "incorrect": "La respuesta correcta es Lucía."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendieron los niños?",
+            "options": [
+              {
+                "text": "Que Ahmed era diferente"
+              },
+              {
+                "text": "Que welcoming a nuevos amigos nos hace más felices"
+              },
+              {
+                "text": "Que no deben hablar con extraños"
+              },
+              {
+                "text": "Que todos deben ser iguales"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Aprendieron que welcomed a nuevos amigos nos hace más felices.",
+              "incorrect": "La respuesta correcta es que welcomed a nuevos amigos nos hace más felices."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #00bcd4 0%, #80deea 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "handshake",
+            "content": "🤝",
+            "matchId": "handshake"
+          },
+          {
+            "id": "globe",
+            "content": "🌍",
+            "matchId": "globe"
+          },
+          {
+            "id": "friend",
+            "content": "👫",
+            "matchId": "friend"
+          },
+          {
+            "id": "smile",
+            "content": "😊",
+            "matchId": "smile"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #00838f 0%, #80deea 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Everyone deserves to be welcomed with kindness!<br><strong>¡Remember!</strong> ¡Todos merecen ser recibidos con amabilidad!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

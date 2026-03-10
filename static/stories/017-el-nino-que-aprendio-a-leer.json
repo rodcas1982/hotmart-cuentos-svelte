@@ -1,0 +1,227 @@
+{
+  "id": "017",
+  "meta": {
+    "title": {
+      "es": "El Niño que Aprendió a Leer",
+      "en": "The Boy Who Learned to Read"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      5,
+      8
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "primaryColor": "#ffecd2"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Niño que Aprendió a Leer",
+        "en": "The Boy Who Learned to Read"
+      },
+      "heroImage": "Niño pequeño sentado en un sofá con un libro abierto, con expresión de concentración y alegría, rodeado de更多 libros",
+      "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "Benjamín era un niño de seis años que iba al primer grado. Él quería aprender a leer como sus hermanos mayores, pero le costaba mucho. Las letras parecían bailarle y no podía acordarse de cómo sonarban juntas. A veces se sentía frustrado y pensaba que nunca aprendería. Su padre notó que Benjamín estaba triste.",
+        "en": "Benjamin was a six-year-old boy in first grade. He wanted to learn to read like his older siblings, but it was very hard for him. The letters seemed to dance around and he couldn't remember how they sounded together. Sometimes he felt frustrated and thought he would never learn. His father noticed that Benjamin was sad."
+      },
+      "image": {
+        "src": "Niño frustrado mirando un libro, con letras borrosas a su alrededor",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Benjamín era un niño...",
+        "en": "Benjamin was a boy..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Una noche, el padre de Benjamín se sentó con él y le leyó un cuento hermoso. Mientras leía, hacía voces diferentes para cada personaje y hacía pausas dramático para mantener la atención. Benjamín estaba fascinado. '¡Quiero poder leer así también!', exclamó con ojos brilhantes. Su padre sonrió: 'Tú puedes, solo necesitas práctica y paciencia'.",
+        "en": "One night, Benjamin's father sat with him and read him a beautiful story. While reading, he made different voices for each character and dramatic pauses to keep attention. Benjamin was fascinated. 'I want to be able to read like that too!' he exclaimed with shining eyes. His father smiled: 'You can, you just need practice and patience.'"
+      },
+      "image": {
+        "src": "Padre leyendo un cuento al hijo, con expresión feliz y atractiva",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Una noche, el padre...",
+        "en": "One night, the father..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "A partir de ese día, padre e hijo tenían una rutina especial: cada noche, leían juntos durante treinta minutos. Primero, el padre leía en voz alta mientras Benjamín seguía las palabras con el dedo. Después, Benjamín intentaba leer algunas palabras solo. Al principio cometía muchos errores, pero su padre siempre lo felicitaba por intentarlo.",
+        "en": "From that day on, father and son had a special routine: every night, they read together for thirty minutes. First, the father read aloud while Benjamin followed the words with his finger. Then, Benjamin tried to read some words alone. At first he made many mistakes, but his father always congratulated him for trying."
+      },
+      "image": {
+        "src": "Padre e hijo leyendo juntos, con el niño siguiendo las palabras",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "A partir de ese día...",
+        "en": "From that day on..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Pasaron las semanas y algo mágico ocurrió. Benjamín comenzó a reconocer palabras: 'sol', 'casa', 'perro', 'amigo'. Cada nueva palabra era una victoria que celebraba con saltos y abrazos. Su confianza crecía día a día. Ya no le temía a los libros, ahora los amaba. Los libros eran ventanas a mundos maravillosos.",
+        "en": "Weeks passed and something magical happened. Benjamin began to recognize words: 'sun', 'house', 'dog', 'friend'. Each new word was a victory that he celebrated with jumps and hugs. His confidence grew day by day. He was no longer afraid of books, now he loved them. Books were windows to wonderful worlds."
+      },
+      "image": {
+        "src": "Niño leyendo solo un libro, con expresión de orgullo y alegría",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Pasaron las semanas...",
+        "en": "Weeks passed..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Un día, en la clase de lectura, la maestra pidió que un niño leyera en voz alta. Benjamín levantó la mano con confianza. Cuando comenzó a leer, todos lo escucharon con atención. ¡Leeba perfectamente! Sus compañeros applaudieron y la maestra sonrió con orgullo. Benjamín había logrado algo que parecía imposible.",
+        "en": "One day, in reading class, the teacher asked for a child to read aloud. Benjamin raised his hand with confidence. When he started reading, everyone listened attentively. He read perfectly! His classmates applauded and the teacher smiled with pride. Benjamin had achieved something that seemed impossible."
+      },
+      "image": {
+        "src": "Niño leyendo en clase, con compañeros y maestra escuchando admirados",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, en la clase...",
+        "en": "One day, in class..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "story",
+      "text": {
+        "es": "Benjamín aprendió una lección valiosa: no importa qué tan difícil parezca algo, con práctica, paciencia y el apoyo de quienes nos quieren, podemos lograr qualsquier cosa. Hoy es un lector ávido que pasa horas descubriendo nuevas aventuras en los libros. Y cada noche, todavía lee con su padre, aunque ahora es él quien le lee cuentos.",
+        "en": "Benjamin learned a valuable lesson: no matter how difficult something seems, with practice, patience, and the support of those who love us, we can achieve anything. Today he is an avid reader who spends hours discovering new adventures in books. And every night, he still reads with his father, although now he is the one who reads stories to him."
+      },
+      "image": {
+        "src": "Niño leyendo un cuento a su padre dormido, con sonrisa tierna",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Benjamín aprendió...",
+        "en": "Benjamin learned..."
+      }
+    },
+    {
+      "id": 8,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué necesita uno para aprender algo difícil según la historia?",
+              "en": "What does one need to learn something difficult according to the story?"
+            },
+            "options": [
+              {
+                "es": "Solo talento natural",
+                "en": "Only natural talent"
+              },
+              {
+                "es": "Práctica, paciencia y apoyo de quienes nos quieren",
+                "en": "Practice, patience, and support from those who love us"
+              },
+              {
+                "es": "Ser perfecto desde el principio",
+                "en": "To be perfect from the start"
+              },
+              {
+                "es": "No necesitar ayuda",
+                "en": "Not needing any help"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Con práctica, paciencia y apoyo podemos lograr qualsquier cosa.",
+              "en": "Correct! With practice, patience, and support we can achieve anything."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "book",
+            "content": "📚",
+            "matchId": "book"
+          },
+          {
+            "id": "father",
+            "content": "👨",
+            "matchId": "father"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "light",
+            "content": "💡",
+            "matchId": "light"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

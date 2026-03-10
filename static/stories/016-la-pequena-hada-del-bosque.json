@@ -1,0 +1,211 @@
+{
+  "id": "016",
+  "meta": {
+    "title": {
+      "es": "La Pequeña Hada del Bosque",
+      "en": "The Little Fairy of the Forest"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #43cea2 0%, #185a9d 100%)",
+      "primaryColor": "#43cea2"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "La Pequeña Hada del Bosque",
+        "en": "The Little Fairy of the Forest"
+      },
+      "heroImage": "Hada pequeña con alas brillantes de Color verde y morado, volando entre flores y estrellas, en un bosque mágico nocturno",
+      "background": "linear-gradient(135deg, #43cea2 0%, #185a9d 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En el corazón de un bosque antiguo, vivía una pequeñahada chamada Lucero. Ella tenía alas brillantes como las hojas de los árboles en primavera y podía volar entre las flores más hermosamente. Pero Lucero tenía un secreto: tenía miedo de la oscuridad y le daba panic las noches sin luna.",
+        "en": "In the heart of an ancient forest, there lived a little fairy named Lucero. She had shiny wings like tree leaves in spring and could fly between the most beautiful flowers. But Lucero had a secret: she was afraid of the dark and panicked on moonless nights."
+      },
+      "image": {
+        "src": "Hada volando en el bosque durante el día, con expresión preocupada",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En el corazón de un bosque...",
+        "en": "In the heart of an ancient forest..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Una noche, una fuerte tormenta cayó sobre el bosque. Todos los animalitos necesitaban ayuda porque sus hogares estaban siendo dañados por el viento y la lluvia. El rey del bosque, un viejo búho sabio, pidió ayuda a cualquier hada que pudiera volar en la tormenta. Lucero escuchó el pedido pero sintió mucho miedo.",
+        "en": "One night, a strong storm fell on the forest. All the little animals needed help because their homes were being damaged by wind and rain. The king of the forest, a wise old owl, asked for help from any fairy who could fly in the storm. Lucero heard the request but felt very afraid."
+      },
+      "image": {
+        "src": "Bosque en tormenta, animales assustados, búho sabio mirando",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Una noche, una fuerte tormenta...",
+        "en": "One night, a strong storm..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Pero entonces escuchó a un pequeño ratón llorar porque su hogar había sido destruido. Lucero respiró profundo y recordó las palabras de su madre: 'El courage no es no tener miedo, es actuar a pesar de él'. Sin pensarlo más, extendió sus alas y voló hacia la tormenta. ¡Era aterrador pero también emocionante!",
+        "en": "But then she heard a little mouse cry because its home had been destroyed. Lucero took a deep breath and remembered her mother's words: 'Courage is not having no fear, but acting despite it.' Without thinking more, she spread her wings and flew into the storm. It was scary but also exciting!"
+      },
+      "image": {
+        "src": "Hada volando valientemente en medio de la tormenta, hacia el ratón",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Pero entonces escuchó...",
+        "en": "But then she heard..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Lucero encontró al ratón y lo subió a su espalda. Voló a toda velocidad hacia un árbol hueco que estaba a salvo de la tormenta. Luego regresó a buscar a otros animalitos: un conejo, dos ardillas y hasta un pequeño colibrí. Viajó tantas veces como fue necesario hasta que todos estuvieran a salvo.",
+        "en": "Lucero found the mouse and put it on her back. She flew at full speed to a hollow tree that was safe from the storm. Then she went back to look for other little animals: a rabbit, two squirrels, and even a little hummingbird. She traveled as many times as needed until everyone was safe."
+      },
+      "image": {
+        "src": "Hada rescatando varios animalitos en la tormenta, haciendo múltiples viajes",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Lucero encontró al ratón...",
+        "en": "Lucero found the mouse..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Cuando la tormenta terminó, todos los animalitos estaban a salvo gracias a la valentía de Lucero. El rey búho la felicitó y le dijo: 'Tú has demostrado que el miedo no nos define. Lo que importa es cómo Actuamos cuando más lo necesitamos'. Lucero sonrió, porque ahora entendía que podía superar sus miedos.",
+        "en": "When the storm ended, all the little animals were safe thanks to Lucero's bravery. The owl king congratulated her and said: 'You have shown that fear does not define us. What matters is how we act when we need it most.' Lucero smiled, because now she understood that she could overcome her fears."
+      },
+      "image": {
+        "src": "Hada siendo felicitada por el búho y los animalitos, con el sol saliendo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Cuando la tormenta terminó...",
+        "en": "When the storm ended..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué le enseñó la madre de Lucero sobre el coraje?",
+              "en": "What did Lucero's mother teach her about courage?"
+            },
+            "options": [
+              {
+                "es": "Que no debemos tener miedo",
+                "en": "That we shouldn't be afraid"
+              },
+              {
+                "es": "Que el coraje es actuar a pesar del miedo",
+                "en": "That courage is acting despite fear"
+              },
+              {
+                "es": "Que el miedo es malo",
+                "en": "That fear is bad"
+              },
+              {
+                "es": "Que huyamos del peligro",
+                "en": "That we should run from danger"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! El coraje es actuar a pesar del miedo.",
+              "en": "Correct! Courage is acting despite fear."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "fairy",
+            "content": "🧚",
+            "matchId": "fairy"
+          },
+          {
+            "id": "owl",
+            "content": "🦉",
+            "matchId": "owl"
+          },
+          {
+            "id": "mouse",
+            "content": "🐭",
+            "matchId": "mouse"
+          },
+          {
+            "id": "storm",
+            "content": "⛈️",
+            "matchId": "storm"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

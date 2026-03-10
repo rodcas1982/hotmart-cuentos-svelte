@@ -1,0 +1,365 @@
+{
+  "id": "088-el-globo-que-se-volo",
+  "version": "1.0",
+  "meta": {
+    "title": "El Globo que se Voló",
+    "subtitle": "A story about letting go",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e91e63",
+      "secondaryColor": "#f48fb1",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #fce4ec 0%, #f8bbd0 50%, #f48fb1 100%)",
+      "textColor": "#880e4f"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #fce4ec 0%, #f48fb1 50%, #f8bbd0 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/088-globo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Globo que se Voló",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.2)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre aprender a soltar",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fce4ec 0%, #f8bbd0 100%)",
+      "narration": "Era el cumpleaños de Camila y su papá le regaló un globo rojo muy bonito. —Es como un corazón flotando —dijo Camila feliz.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Era el cumpleaños de Camila 🎂 y su papá le regaló un globo rojo muy bonito 🎈. —Es como un corazón flotando —dijo Camila feliz.<br><br><em>It was Camila's birthday and her dad gave her a very pretty red balloon. —It's like a floating heart —said Camila happily.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f8bbd0 0%, #f48fb1 100%)",
+      "narration": "Pero de repente, ¡un viento fuerte joltó el globo de las manos de Camila! El globo comenzó a subir, arriba, arriba, cada vez más alto.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pero de repente, ¡un viento fuerte arrancó el globo de las manos de Camila! El globo comenzó a subir, arriba, arriba, cada vez más alto 🌬️🎈.<br><br><em>But suddenly, a strong wind blew the balloon out of Camila's hands! The balloon started to go up, higher and higher.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f48fb1 0%, #f06292 100%)",
+      "narration": "—¡Mi globo! ¡Mi globo! —gritó Camila llorando. Se sentía muy triste. Aquel globo era su regalo más especial.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "—¡Mi globo! ¡Mi globo! —gritó Camila llorando 😢. Se sentía muy triste. Aquel globo era su regalo más especial.<br><br><em>—My balloon! My balloon! —Camila cried. She felt very sad. That balloon was her most special gift.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f06292 0%, #ec407a 100%)",
+      "narration": "Su mamá la abrazó y le dijo: —Cami, el globo fue a conocer el cielo. Ahora puede ver todo el mundo desde arriba. Y tú puedes tener otro globo, pero este momento especial nunca se irá.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Su mamá la abrazó y le dijo: —Cami, el globo fue a conocer el cielo ☁️. Ahora puede ver todo el mundo desde arriba. Y tú puedes tener otro globo, pero este momento especial nunca se irá 💝.<br><br><em>Her mom hugged her and said: —Cami, the balloon went to meet the sky. Now it can see the whole world from above. And you can have another balloon, but this special moment will never go away.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ec407a 0%, #ba68c8 100%)",
+      "narration": "Camila miró hacia el cielo y vio su globo rojo becoming una pequeña manchita entre las nubes. —Adiós, globito —susurró—. Gracias por este día tan especial.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Camila miró hacia el cielo y vio su globo rojo becoming una pequeña manchita entre las nubes ⭐. —Adiós, globito —susurró—. Gracias por este día tan especial.<br><br><em>Camila looked at the sky and saw her red balloon becoming a small dot among the clouds. —Goodbye, little balloon —she whispered—. Thanks for this special day.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ba68c8 0%, #ce93d8 100%)",
+      "narration": "Camila aprendió que algunas cosas bellas pasan solo una vez, y eso las hace más especiales. Al soltar, hacemos espacio para nuevas aventuras.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "<strong>Camila aprendió:</strong> algunas cosas bellas pasan solo una vez, y eso las hace más especiales. Al soltar, hacemos espacio para nuevas aventuras y recuerdos hermosos 🌈.<br><br><em>Camila learned: some beautiful things happen only once, and that makes them more special. By letting go, we make room for new adventures and beautiful memories.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué le pasó al globo de Camila?",
+            "options": [
+              {
+                "text": "Se pinchó"
+              },
+              {
+                "text": "Se voló con el viento"
+              },
+              {
+                "text": "Se rompió"
+              },
+              {
+                "text": "Se perdió"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El globo se voló con el viento.",
+              "incorrect": "La respuesta correcta es que se voló con el viento."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Adónde fue el globo según la mamá?",
+            "options": [
+              {
+                "text": "A la tienda"
+              },
+              {
+                "text": "Al cielo"
+              },
+              {
+                "text": "Al basurero"
+              },
+              {
+                "text": "Al parque"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Fue a conocer el cielo.",
+              "incorrect": "La respuesta correcta es al cielo."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Camila?",
+            "options": [
+              {
+                "text": "Que no debe llorar"
+              },
+              {
+                "text": "Que las cosas bellas son más especiales cuando son únicas"
+              },
+              {
+                "text": "Que los globos no valen la pena"
+              },
+              {
+                "text": "Que los regalos no importan"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Aprendió que las cosas bellas pasan solo una vez y eso las hace especiales.",
+              "incorrect": "La respuesta correcta es que las cosas bellas son más especiales cuando son únicas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #fce4ec 0%, #ba68c8 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "balloon-pop",
+        "gridSize": [
+          3,
+          3
+        ],
+        "items": [
+          {
+            "id": "balloon-red",
+            "content": "🔴",
+            "color": "rojo"
+          },
+          {
+            "id": "balloon-blue",
+            "content": "🔵",
+            "color": "azul"
+          },
+          {
+            "id": "balloon-yellow",
+            "content": "🟡",
+            "color": "amarillo"
+          },
+          {
+            "id": "balloon-green",
+            "content": "🟢",
+            "color": "verde"
+          },
+          {
+            "id": "balloon-purple",
+            "content": "🟣",
+            "color": "morado"
+          },
+          {
+            "id": "balloon-pink",
+            "content": "🔴",
+            "color": "rosa"
+          },
+          {
+            "id": "balloon-orange",
+            "content": "🟠",
+            "color": "naranja"
+          },
+          {
+            "id": "cloud",
+            "content": "☁️",
+            "color": "nube"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "color": "estrella"
+          }
+        ],
+        "task": "Encuentra los globos de colores"
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #f8bbd0 0%, #ce93d8 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: soltar algo que amamos puede ser difícil, pero nos ayuda a apreciar los momentos especiales que tuvimos.<br><br><em>Remember: letting go of something we love can be hard, but it helps us appreciate the special moments we had.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

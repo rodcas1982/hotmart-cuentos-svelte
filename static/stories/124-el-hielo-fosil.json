@@ -1,0 +1,417 @@
+{
+  "id": "124-el-hielo-fosil",
+  "version": "1.0",
+  "meta": {
+    "title": "El Hielo Fósil",
+    "subtitle": "A story about curiosity",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#06b6d4",
+      "secondaryColor": "#0891b2",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #164e63 0%, #0e7490 50%, #164e63 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #67e8f9 0%, #06b6d4 50%, #0891b2 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/124-hielo-fosil.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Hielo Fósil",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.8em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la curiosidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #164e63 0%, #0e7490 100%)",
+      "narration": "En lo más alto de una montaña nevada vivía un pequeño científico oso llamado <strong>Helado</strong>. Era el oso más curioso de todo el bosque del norte.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En lo más alto de una montaña nevada vivía un pequeño científico oso llamado <strong>Helado</strong>. Era el oso más curioso de todo el bosque del norte.<br><br><em>High on a snowy mountain lived a little bear scientist named Frost. He was the most curious bear in the entire northern forest.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0e7490 0%, #155e75 100%)",
+      "narration": "Helado tenía un laboratorio en una cueva de hielo. Allí estudiaba todo lo que encontraba: piedras, plantas, y especialmente el hielo antiguo que encontraba en las cuevas profundas.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Helado tenía un laboratorio en una cueva de hielo. Allí estudiaba todo lo que encontraba: piedras, plantas, y especialmente el hielo antiguo que encontraba en las cuevas profundas.<br><br><em>Frost had a laboratory in an ice cave. There he studied everything he found: stones, plants, and especially the ancient ice he found in deep caves.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #155e75 0%, #164e63 100%)",
+      "narration": "Un día, mientras cavaba en una cueva muy profunda, encontró algo increíble: hielo que tenía dentro un <strong>dinosaurio pequeño</strong>, perfectly preservado.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, mientras cavaba en una cueva muy profunda, encontró algo increíble: hielo que tenía dentro un <strong>dinosaurio pequeño</strong>, perfectamente preservado.<br><br><em>One day, while digging in a very deep cave, he found something incredible: ice that had a small dinosaur inside, perfectly preserved.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #164e63 0%, #06b6d4 100%)",
+      "narration": "-¡Un dinosaurio! -exclamó Helado emocionado-. Esto es un fósil de hielo, como los que los humanos buscan. ¡Debo estudiarlo con mucho cuidado!",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "-¡Un dinosaurio! -exclamó Helado emocionado-. Esto es un fósil de hielo. ¡Debo estudiarlo con mucho cuidado!<br><br><em>A dinosaur! -exclaimed Frost excitedly-. This is an ice fossil. I must study it very carefully!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #06b6d4 0%, #22d3ee 100%)",
+      "narration": "Con su lupa especial, Helado pudo ver que el dinosaurio era un <strong>velociraptor</strong> muy pequeño, del tamaño de un gato. ¡Impresionante!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Con su lupa especial, Helado pudo ver que el dinosaurio era un <strong>velociraptor</strong> muy pequeño, del tamaño de un gato. ¡Impresionante!<br><br><em>With his special magnifying glass, Frost could see that the dinosaur was a very small velociraptor, the size of a cat. Amazing!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #22d3ee 0%, #67e8f9 100%)",
+      "narration": "Helado descubrió algo más: el hielo tenía burbujas de aire de hace millones de años. ¡Podía aprender sobre el clima de la Tierra primitiva!",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Helado descubrió algo más: el hielo tenía burbujas de aire de hace millones de años. ¡Podía aprender sobre el clima de la Tierra primitiva!<br><br><em>Frost discovered something else: the ice had air bubbles from millions of years ago. He could learn about the Earth's early climate!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #67e8f9 0%, #22d3ee 100%)",
+      "narration": "Escribió todos sus descubrimientos en un libro grande. -La curiosidad -escribió- es la mejor herramienta que tiene un científico. Sin ella, nunca hubiéramos aprendido nada.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Escribió todos sus descubrimientos en un libro grande. -La curiosidad -escribió- es la mejor herramienta que tiene un científico. Sin ella, nunca hubiéramos aprendido nada.<br><br><em>He wrote all his discoveries in a big book. -Curiosity -he wrote- is the best tool a scientist has. Without it, we would never have learned anything.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #22d3ee 0%, #06b6d4 100%)",
+      "narration": "Helado decidió compartir su descubrimiento con todos los animales del bosque. Les explicó cómo el hielo guardaba secretos del pasado.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Helado decidió compartir su descubrimiento con todos los animales del bosque. Les explicó cómo el hielo guardaba secretos del pasado.<br><br><em>Frost decided to share his discovery with all the animals in the forest. He explained how ice kept secrets from the past.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #06b6d4 0%, #0891b2 100%)",
+      "narration": "Desde ese día, muchos animales se volvieron curiosos también. Empezaron a hacer preguntas sobre todo: ¿Por qué el cielo es azul? ¿De dónde vienen las estrellas?",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Desde ese día, muchos animales se volvieron curiosos también. Empezaron a hacer preguntas sobre todo: ¿Por qué el cielo es azul? ¿De dónde vienen las estrellas?<br><br><em>From that day on, many animals became curious too. They started asking questions about everything: Why is the sky blue? Where do stars come from?</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0891b2 0%, #164e63 100%)",
+      "narration": "Y tú, pequeño lector, recuerda: la curiosidad es un superpoder. Cada pregunta que haces te acerca a un nuevo descubrimiento. ¡Nunca dejes de preguntar por qué!",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Y tú, pequeño lector, recuerda: <strong>la curiosidad es un superpoder</strong>. Cada pregunta que haces te acerca a un nuevo descubrimiento. ¡Nunca dejes de preguntar por qué!<br><br><em>And you, little reader, remember: curiosity is a superpower. Every question you ask brings you closer to a new discovery. Never stop asking why!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el oso científico?",
+            "options": [
+              {
+                "text": "Nieve"
+              },
+              {
+                "text": "Helado"
+              },
+              {
+                "text": "Frío"
+              },
+              {
+                "text": "Blanco"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El oso se llamaba Helado.",
+              "incorrect": "La respuesta correcta es Helado."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué encontró Helado dentro del hielo?",
+            "options": [
+              {
+                "text": "Un pez"
+              },
+              {
+                "text": "Un velociraptor pequeño"
+              },
+              {
+                "text": "Una piedra brillante"
+              },
+              {
+                "text": "Una planta rara"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Encontró un velociraptor pequeño.",
+              "incorrect": "La respuesta correcta es un velociraptor pequeño."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué es la curiosidad según la historia?",
+            "options": [
+              {
+                "text": "Una enfermedad"
+              },
+              {
+                "text": "La mejor herramienta de un científico"
+              },
+              {
+                "text": "Algo malo"
+              },
+              {
+                "text": "Solo para adultos"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! La curiosidad es la mejor herramienta de un científico.",
+              "incorrect": "La respuesta correcta es la mejor herramienta de un científico."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #67e8f9 0%, #06b6d4 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "bear",
+            "content": "🐻",
+            "matchId": "bear"
+          },
+          {
+            "id": "ice",
+            "content": "🧊",
+            "matchId": "ice"
+          },
+          {
+            "id": "dino",
+            "content": "🦖",
+            "matchId": "dino"
+          },
+          {
+            "id": "magnify",
+            "content": "🔍",
+            "matchId": "magnify"
+          },
+          {
+            "id": "book",
+            "content": "📚",
+            "matchId": "book"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: cada pregunta es un paso hacia un nuevo descubrimiento. ¡Sé curioso y el mundo te sorprendrá!<br><br><em>Remember: every question is a step toward a new discovery. Be curious and the world will surprise you!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

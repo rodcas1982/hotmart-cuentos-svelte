@@ -1,0 +1,447 @@
+{
+  "id": "004-estrella-perdio-brillo",
+  "version": "1.0",
+  "meta": {
+    "title": "La Estrella que Perdió su Brillo",
+    "subtitle": "A story about finding your inner light",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      7
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#9b59b6",
+      "secondaryColor": "#8e44ad",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #0c0c2c 0%, #1a1a4a 50%, #0c0c2c 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #9b59b6 0%, #8e44ad 50%, #3498db 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/004-estrella-brillo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Estrella que Perdió su Brillo",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.6em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.6)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre encontrar tu luz interior",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0c0c2c 0%, #1a1a4a 100%)",
+      "narration": "En el cielo nocturno, donde las estrellas brillan como diamonds, había una pequeña estrella llamada Lucero. Era la más brillante de todas las noches, iluminando el camino para los viajeros perdidos y los niños que miraban hacia el cielo.",
+      "elements": [
+        {
+          "id": "star-img",
+          "type": "image",
+          "src": "images/004-estrella-brillo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "twinkle",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el cielo nocturno había una pequeña estrella llamada <strong>Lucero</strong>. Era la más brillante de todas, iluminando el camino para viajeros y niños.<br><br><em>In the night sky, there was a little star named Lucero. She was the brightest of all, lighting the way for travelers and children.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a4a 0%, #0c0c2c 100%)",
+      "narration": "Pero una noche, algo terrible sucedió. Una nube gris muy grande pasó frente a Lucero y le robó su brillo. La pobre estrella comenzó a brillar cada vez menos, hasta que apenas era visible.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pero una noche, una nube gris muy grande pasó frente a Lucero y <strong>le robó su brillo</strong>. La pobre estrella comenzó a brillar cada vez menos.<br><br><em>But one night, a very big gray cloud passed in front of Lucero and stole her brightness. The poor star started shining less and less.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0c0c2c 0%, #2c2c5c 100%)",
+      "narration": "Lucero se sintió muy triste. Ya no podía iluminar el camino de nadie. Las otras estrellas la miraban con lástima y algunos niños dejaron de señalar hacia ella porque no podían verla.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Lucero se sintió muy triste. Ya no podía iluminar el camino de nadie. <strong>Las otras estrellas la miraban con lástima</strong> y los niños ya no podían verla.<br><br><em>Lucero felt very sad. She could no longer light anyone's way. Other stars looked at her with pity.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c2c5c 0%, #1a1a4a 100%)",
+      "narration": "Lucero bajó del cielo esa noche, buscando ayuda. Encontró a un viejo búho sabio que vivía en un árbol alto. El búho la miró y le preguntó qué había pasado.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Lucero bajó del cielo y encontró a un viejo búho sabio. <strong>El búho la miró y le preguntó qué había pasado.</strong><br><br><em>Lucero came down from the sky and found an old wise owl. The owl looked at her and asked what happened.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a4a 0%, #3d3d6c 100%)",
+      "narration": "Lucero le contó al búho que una nube gris le había robado su brillo. El búho asintió con la cabeza y le dijo: 'El brillo no puede ser robado, solo puede ser olvidado. Tu luz está dentro de ti.'",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Lucero contó lo que pasó. El búho le dijo: <strong>'El brillo no puede ser robado, solo puede ser olvidado. Tu luz está dentro de ti.'</strong><br><br><em>Lucero told the owl what happened. The owl said: 'Brightness cannot be stolen, it can only be forgotten. Your light is inside you.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3d3d6c 0%, #2c2c5c 100%)",
+      "narration": "Lucero no entendió al principio. ¿Cómo podía tener brillo si no podía brillar? El búho sonrió y le explicó que necesitaba recordar todos los momentos felices que había dado a los demás.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Lucero no entendió. ¿Cómo podía brillar si no podía brillar? El búho explicó que necesitaba <strong>recordar todos los momentos felices</strong> que había dado a los demás.<br><br><em>Lucero didn't understand. The owl explained that she needed to remember all the happy moments she had given to others.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c2c5c 0%, #1a1a4a 100%)",
+      "narration": "Lucero cerró los ojos y comenzó a recordar. Recordó la noche que un niño perdido encontró su casa gracias a su luz. Recordó la vez que dos amantes se encontraron bajo su brillo. Recordó las noches que dio esperanza a personas tristes.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Lucero cerró los ojos y comenzó a recordar: la noche que un niño encontró su casa, la vez que dos amantes se encontraron, las noches que dio esperanza a personas tristes.<br><br><em>Lucero closed her eyes and started remembering: the night a child found his home, the time lovers met, the nights she gave hope to sad people.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a4a 0%, #3498db 100%)",
+      "narration": "Mientras más recordaba, más cálida se sentía. Una pequeña luz comenzó a aparecer en su interior. Primero era suave, luego se hacía más fuerte. ¡El brillo estaba regresando!",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Mientras más recordaba, más cálida se sentía. <strong>¡Una pequeña luz apareció en su interior!</strong> Primero suave, luego más fuerte. ¡El brillo estaba regresando!<br><br><em>The more she remembered, the warmer she felt. A small light appeared inside her! First soft, then stronger. The brightness was returning!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #2ecc71 100%)",
+      "narration": "Cuando Lucero abrió los ojos, brillaba más que nunca. La nube gris que había robado su brillo huyó asustada porque ya no podía contener tanta luz. Lucero flotó de vuelta al cielo.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Cuando Lucero abrió los ojos, <strong>brillaba más que nunca.</strong> La nube灰 huyó asustada. Lucero flotó de vuelta al cielo.<br><br><em>When Lucero opened her eyes, she shone brighter than ever. The gray cloud fled scared. Lucero floated back to the sky.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #f1c40f 100%)",
+      "narration": "Esa noche, los niños del pueblo miraron al cielo y vieron algo increíble. Lucero brillaba más que todas las demás estrellas juntas. Todos comenzaron a señalar y aplaudir de alegría.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Esa noche, los niños miraron al cielo y vieron algo increíble. <strong>Lucero brillaba más que todas las estrellas juntas.</strong> ¡Todos apuntan y aplauden!<br><br><em>That night, children looked at the sky and saw something incredible. Lucero shone brighter than all the stars together.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f1c40f 0%, #9b59b6 100%)",
+      "narration": "Lucero aprendió algo importante esa noche: nuestra luz interior nunca se apaga, solo la olvidamos a veces. Y para encontrarla, solo tenemos que recordar todas las veces que hicimos feliz a alguien.",
+      "elements": [
+        {
+          "id": "text-11",
+          "type": "text",
+          "content": "<strong>Lucero aprendió:</strong> nuestra luz interior nunca se apaga, solo la olvidamos. Para encontrarla, recordamos todas las veces que hicimos feliz a alguien.<br><br><em>Lucero learned: our inner light never goes out, we just forget it sometimes. To find it, we remember all the times we made someone happy.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la estrella?",
+            "options": [
+              {
+                "text": "Luna"
+              },
+              {
+                "text": "Lucero"
+              },
+              {
+                "text": "Luz"
+              },
+              {
+                "text": "Lucia"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! La estrella se llamaba Lucero.",
+              "incorrect": "La respuesta correcta es Lucero."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Quién le robó el brillo a Lucero?",
+            "options": [
+              {
+                "text": "El viento"
+              },
+              {
+                "text": "Una nube gris"
+              },
+              {
+                "text": "La luna"
+              },
+              {
+                "text": "Un pájaro"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Fue una nube gris.",
+              "incorrect": "La respuesta correcta es una nube gris."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué dijo el búho sobre el brillo?",
+            "options": [
+              {
+                "text": "Que era robado para siempre"
+              },
+              {
+                "text": "Que está dentro de nosotros"
+              },
+              {
+                "text": "Que no importa"
+              },
+              {
+                "text": "Que solo las estrellas tienen brillo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! El búho dijo que el brillo está dentro de nosotros.",
+              "incorrect": "La respuesta correcta es que está dentro de nosotros."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #9b59b6 0%, #3498db 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "moon",
+            "content": "🌙",
+            "matchId": "moon"
+          },
+          {
+            "id": "owl",
+            "content": "🦉",
+            "matchId": "owl"
+          },
+          {
+            "id": "cloud",
+            "content": "☁️",
+            "matchId": "cloud"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "light",
+            "content": "💫",
+            "matchId": "light"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #9b59b6 0%, #f1c40f 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "✨ <strong>Fin</strong> ✨",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: tu luz interior nunca se apaga. Solo recuerda todos los momentos felices que has dado a otros y brillarás.<br><br><em>Remember: your inner light never goes out. Just remember all the happy moments you've given to others and you will shine.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

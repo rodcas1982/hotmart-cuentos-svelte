@@ -1,0 +1,417 @@
+{
+  "id": "123-la-rana-que- queria-ser-grande",
+  "version": "1.0",
+  "meta": {
+    "title": "La Rana que Quería Ser Grande",
+    "subtitle": "A story about dreams",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#10b981",
+      "secondaryColor": "#059669",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #064e3b 0%, #065f46 50%, #064e3b 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #34d399 0%, #10b981 50%, #059669 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/123-rana-grande.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Rana que Quería Ser Grande",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.4em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre los sueños",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #064e3b 0%, #065f46 100%)",
+      "narration": "En un estanque tranquilo vivía una pequeña rana verde llamada <strong>Salto</strong>. Ella era la rana más pequeña de todo el estanque y soñaba con ser grande.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un estanque tranquilo vivía una pequeña rana verde llamada <strong>Salto</strong>. Ella era la rana más pequeña de todo el estanque y soñaba con ser grande.<br><br><em>In a quiet pond lived a little green frog named Hop. She was the smallest frog in the whole pond and dreamed of being big.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #065f46 0%, #047857 100%)",
+      "narration": "-Cuando sea grande -decía Salto- podré saltar más alto y vedere mundo. Podré ajudar a todos mis amigos y ser la rana más famosa del estanque.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "-Cuando sea grande -decía Salto- podré saltar más alto y ver el mundo. Podré ayudar a todos mis amigos y ser la rana más famosa del estanque.<br><br><em>When I'm big -said Hop- I can jump higher and see the world. I can help all my friends and be the most famous frog in the pond.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #047857 0%, #10b981 100%)",
+      "narration": "Un día, Salto escuchó una historia sobre la <strong>Rana abuela</strong> que había vivido hace mucho tiempo. Decían que había cruzado montañas enteras para ver el mundo.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Salto escuchó una historia sobre la <strong>Rana abuela</strong> que había vivido hace mucho tiempo. Decían que había cruzado montañas enteras para ver el mundo.<br><br><em>One day, Hop heard a story about the Grandmother Frog who lived long ago. They said she had crossed entire mountains to see the world.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #10b981 0%, #34d399 100%)",
+      "narration": "-¡Quiero conocerla! -exclamó Salto. Así que comenzó su viaje. Saltó de hoja en hoja, cruzó arroyos y escaló rocas pequeñas.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "-¡Quiero conocerla! -exclamó Salto. Así que comenzó su viaje. Saltó de hoja en hoja, cruzó arroyos y escaló rocas pequeñas.<br><br><em>I want to meet her! -exclaimed Hop. So she began her journey. She hopped from leaf to leaf, crossed streams, and climbed small rocks.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #34d399 0%, #10b981 100%)",
+      "narration": "Después de mucho caminar, encontró a la Rana abuela. Era pequeña, arrugadita y tenía los ojos más sabios que Salto había visto jamás.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Después de mucho caminar, encontró a la Rana abuela. Era pequeña, arrugadita y tenía los ojos más sabios que Salto había visto jamás.<br><br><em>After much walking, she found the Grandmother Frog. She was small, wrinkled, and had the wisest eyes Hop had ever seen.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #10b981 0%, #059669 100%)",
+      "narration": "-Abuela, ¿cómo hice grande? -preguntó Salto-. Quiero ser grande como los sapos mayores para poder ayudar a todos. La Rana abuela sonrió y dijo: -Ya lo eres, pequeña.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "-Abuela, ¿cómo hice grande? -preguntó Salto-. Quiero ser grande como los sapos mayores para poder ayudar a todos. La Rana abuela sonrió y dijo: -Ya lo eres, pequeña.<br><br><em>Grandma, how do I become big? -asked Hop-. I want to be big like the older toads to help everyone. The Grandmother Frog smiled and said: -You already are, little one.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #059669 0%, #047857 100%)",
+      "narration": "-¿Grande? ¡Si soy la más pequeña de todas! -respondió Salto confuse. La Rana abuela explicó: -El tamaño no hace grande a nadie. Lo que hace grande es soñar y actuar para cumplir esos sueños.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "-¿Grande? ¡Si soy la más pequeña de todas! -respondió Salto confuse. La Rana abuela explicó: -El tamaño no hace grande a nadie. Lo que hace grande es <strong>soñar y actuar para cumplir esos sueños</strong>.<br><br><em>Big? I'm the smallest of all! -replied Hop confused. The Grandmother Frog explained: -Size doesn't make anyone big. What makes big is dreaming and acting to fulfill those dreams.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #047857 0%, #065f46 100%)",
+      "narration": "Salto entendió algo ese día. No necesitaba ser grande físicamente. Ya era grande por dentro porque tenía un corazón valiente y sueños enormes.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Salto entendió algo ese día. No necesitaba ser grande físicamente. <strong>Ya era grande por dentro</strong> porque tenía un corazón valiente y sueños enormes.<br><br><em>Hop understood something that day. She didn't need to be big physically. She was already big on the inside because she had a brave heart and huge dreams.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #065f46 0%, #064e3b 100%)",
+      "narration": "Regresó al estanque y ayudó a las renacuajas a encontrar食物. Les contó historias de sus aventuras. Y desde ese día, todos la llamaban <strong>La Rana Grande</strong> no por su tamaño, sino por su corazón.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Regresó al estanque y ayudó a las renacuajas a encontrar comida. Les contó historias de sus aventuras. Y desde ese día, todos la llamaban <strong>La Rana Grande</strong> no por su tamaño, sino por su corazón.<br><br><em>She returned to the pond and helped the tadpoles find food. She told them stories of her adventures. And from that day on, everyone called her the Big Frog not because of her size, but because of her heart.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #064e3b 0%, #10b981 100%)",
+      "narration": "Ahora tú también sabes el secreto: ser grande no es tener un cuerpo grande. Es tener sueños grandes y el coraje de perseguirlos. ¿Cuál es tu sueño?",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Ahora tú también sabes el secreto: <strong>ser grande no es tener un cuerpo grande</strong>. Es tener sueños grandes y el coraje de perseguirlos. ¿Cuál es tu sueño?<br><br><em>Now you also know the secret: being big is not about having a big body. It's about having big dreams and the courage to pursue them. What is your dream?</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la rana protagonista?",
+            "options": [
+              {
+                "text": "Salto"
+              },
+              {
+                "text": "Rana"
+              },
+              {
+                "text": "Verde"
+              },
+              {
+                "text": "Lago"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "correct": "¡Correcto! La rana se llamaba Salto.",
+              "incorrect": "La respuesta correcta es Salto."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿A quién fue a visitar Salto?",
+            "options": [
+              {
+                "text": "A un sapo sabio"
+              },
+              {
+                "text": "A la Rana abuela"
+              },
+              {
+                "text": "A una tortuga"
+              },
+              {
+                "text": "A un pez"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Fue a visitar a la Rana abuela.",
+              "incorrect": "La respuesta correcta es la Rana abuela."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué hace grande a una persona según la historia?",
+            "options": [
+              {
+                "text": "Ser alto"
+              },
+              {
+                "text": "Tener beaucoup de dinero"
+              },
+              {
+                "text": "Soñar y actuar para cumplir esos sueños"
+              },
+              {
+                "text": "Comer mucho"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Muy bien! Lo que hace grande es soñar y actuar para cumplir esos sueños.",
+              "incorrect": "La respuesta correcta es soñar y actuar para cumplir esos sueños."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #34d399 0%, #10b981 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "frog",
+            "content": "🐸",
+            "matchId": "frog"
+          },
+          {
+            "id": "pond",
+            "content": "💧",
+            "matchId": "pond"
+          },
+          {
+            "id": "leaf",
+            "content": "🍃",
+            "matchId": "leaf"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "dream",
+            "content": "💭",
+            "matchId": "dream"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: nunca dejes de soñar. Tienes un corazón grande y eso es lo que realmente importa. ¡Persigue tus sueños!<br><br><em>Remember: never stop dreaming. You have a big heart and that's what really matters. Chase your dreams!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

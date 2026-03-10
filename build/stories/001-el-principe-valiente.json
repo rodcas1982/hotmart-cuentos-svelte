@@ -1,0 +1,232 @@
+{
+  "id": "001",
+  "meta": {
+    "title": {
+      "es": "El Principe Valiente",
+      "en": "The Brave Prince"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "primaryColor": "#667eea"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Príncipe Valiente",
+        "en": "The Brave Prince"
+      },
+      "heroImage": "Un pequeño príncipe con cabello rubio y corona dorada, sentado en un caballo blanco en un reino de castillos dorados, al atardecer con montañas紫色的 en el fondo",
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "Había una vez un pequeño príncipe llamado Lucas que vivía en un hermoso castillo junto a sus padres, el rey y la reina. Lucas era un niño amable y curioso, pero siempre tenía un poco de miedo de las cosas nuevas. Su padre, el rey, le enseñaba todos los días que ser valiente no significa no tener miedo, sino hacer lo correcto aunque sintamos miedo.",
+        "en": "Once upon a time, there was a little prince named Lucas who lived in a beautiful castle with his parents, the king and queen. Lucas was a kind and curious boy, but he was always a little afraid of new things. His father, the king, taught him every day that being brave doesn't mean not being afraid, but doing the right thing even when we feel scared."
+      },
+      "image": {
+        "src": "Pequeño príncipe rubio en un castillo medieval con vitrales Coloridos, sentado junto a su padre el rey",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Había una vez un pequeño príncipe llamado Lucas...",
+        "en": "Once upon a time, there was a little prince named Lucas..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, mientras Lucas exploraba los jardines del castillo, escuchó un sonido extraño.venia del bosque cercano. Era un pequeño conejito blanco que estaba atrapado entre unas ramas thornas. El princepe sintió miedo porque nunca había estado solo en el bosque, pero recordó las palabras de su padre y decidió ayudar al animalito. Con sus manitas pequeñas y suaves, apartó las ramas con mucho cuidado hasta que el conejito pudo librarse.",
+        "en": "One day, while Lucas was exploring the castle gardens, he heard a strange sound coming from the nearby forest. It was a little white bunny that was trapped between some thorny branches. The prince felt afraid because he had never been alone in the forest before, but he remembered his father's words and decided to help the little animal. With his small and gentle hands, he carefully moved the branches until the bunny could free itself."
+      },
+      "image": {
+        "src": "Pequeño príncipe ayudando a un conejito blanco en un bosque con rayos de sol atravesando los árboles",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, mientras exploraba los jardines...",
+        "en": "One day, while exploring the gardens..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "El conejito saltó feliz y comenzó a dar vueltas alrededor de Lucas, como diciendo gracias. El principe sonrió y sintió una calorcita en su corazón. En ese momento, apareció la madre coneja con otros tres conejitos. Todos movían sus orejitas como si estuvieran diciendo gracias al pequeño príncipe. Lucas entendió que ayudar a otros nos hace sentir muy bien dentro del corazón.",
+        "en": "The bunny hopped happily and began to run around Lucas, as if saying thank you. The prince smiled and felt a warm feeling in his heart. At that moment, the mother bunny appeared with three other baby bunnies. All of them wiggled their ears as if saying thank you to the little prince. Lucas understood that helping others makes us feel very good inside our hearts."
+      },
+      "image": {
+        "src": "Grupo de conejitos blancos saltando alrededor del príncipe en un prado verde con flores silvestres",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "El conejito saltó feliz...",
+        "en": "The bunny hopped happily..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Cuando Lucas regresó al castillo, contó todo lo que había pasado a sus padres. El rey abrazó a su hijo y le dijo: 'Hijo mío, estoy muy orgulloso de ti. Ayudaste a alguien que te necesitaba, aunque tenías miedo. Eso es lo que significa ser verdaderamente valiente'. La reina le dio un beso en la frente y juntos cenaron felices, sabiendo que Lucas había aprendido una lección muy importante ese día.",
+        "en": "When Lucas returned to the castle, he told his parents everything that had happened. The king embraced his son and said: 'My son, I am very proud of you. You helped someone who needed you, even though you were afraid. That is what it means to be truly brave.' The queen gave him a kiss on the forehead and they dined happily together, knowing that Lucas had learned a very important lesson that day."
+      },
+      "image": {
+        "src": "Familia real en un comedor de castillo, el padre abrazando al hijo, madre sonriente, mesa con comida y velas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Cuando Lucas regresó al castillo...",
+        "en": "When Lucas returned to the castle..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Cómo se llamaba el pequeño príncipe?",
+              "en": "What was the little prince's name?"
+            },
+            "options": [
+              {
+                "es": "Lucas",
+                "en": "Lucas"
+              },
+              {
+                "es": "Pedro",
+                "en": "Pedro"
+              },
+              {
+                "es": "Carlos",
+                "en": "Carlos"
+              },
+              {
+                "es": "Miguel",
+                "en": "Miguel"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "es": "¡Correcto! El príncipe se llamaba Lucas.",
+              "en": "Correct! The prince's name was Lucas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué le enseñó el rey a Lucas sobre la valentía?",
+              "en": "What did the king teach Lucas about bravery?"
+            },
+            "options": [
+              {
+                "es": "Que no debemos tener miedo",
+                "en": "That we should not be afraid"
+              },
+              {
+                "es": "Que ser valiente es hacer lo correcto aunque tengamos miedo",
+                "en": "That being brave is doing the right thing even when we are afraid"
+              },
+              {
+                "es": "Que los príncipes no pueden tener miedo",
+                "en": "That princes cannot be afraid"
+              },
+              {
+                "es": "Que debemos ser los más fuertes",
+                "en": "That we must be the strongest"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Ser valiente significa hacer lo correcto aunque tengamos miedo.",
+              "en": "Very well! Being brave means doing the right thing even when we are afraid."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "prince",
+            "content": "👑",
+            "matchId": "prince"
+          },
+          {
+            "id": "bunny",
+            "content": "🐰",
+            "matchId": "bunny"
+          },
+          {
+            "id": "castle",
+            "content": "🏰",
+            "matchId": "castle"
+          },
+          {
+            "id": "king",
+            "content": "🤴",
+            "matchId": "king"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": {
+      "es": "El planeta de los dulces",
+      "en": "El planeta de los dulces"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      6
+    ],
+    "theme": {
+      "background": "linear-gradient(180deg, #667eea 0%, #764ba2 100%)",
+      "primaryColor": "#FFD700"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "title": {
+        "es": "Tit",
+        "en": "Tit"
+      }
+    },
+    {
+      "id": "2",
+      "type": "story",
+      "text": {
+        "es": "El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. ",
+        "en": "El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "3",
+      "type": "story",
+      "text": {
+        "es": "El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. ",
+        "en": "El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "4",
+      "type": "story",
+      "text": {
+        "es": "El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. ",
+        "en": "El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "5",
+      "type": "story",
+      "text": {
+        "es": "El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. ",
+        "en": "El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "6",
+      "type": "story",
+      "text": {
+        "es": "El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. ",
+        "en": "El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "7",
+      "type": "story",
+      "text": {
+        "es": "El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. El planeta de los dulces era mágico. ",
+        "en": "El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. El planeta de los dulces was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "q1",
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "?",
+              "en": "?"
+            },
+            "options": [
+              {
+                "es": "Si",
+                "en": "Yes"
+              },
+              {
+                "es": "No",
+                "en": "No"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "es": "Bien!",
+              "en": "Good!"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Lectura",
+        "en": "Reading"
+      },
+      "content": {
+        "es": "Leer juntos",
+        "en": "Read together"
+      },
+      "icon": "📚"
+    }
+  ],
+  "id": "217-el-planeta-de-los-dulces"
+}

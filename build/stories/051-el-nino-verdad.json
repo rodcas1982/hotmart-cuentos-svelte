@@ -1,0 +1,343 @@
+{
+  "id": "051-el-nino-verdad",
+  "version": "1.0",
+  "meta": {
+    "title": "El niño que dijo la verdad",
+    "subtitle": "A story about honesty and courage",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#4caf50",
+      "secondaryColor": "#81c784",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #2e7d32 0%, #4caf50 50%, #a5d6a7 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #2e7d32 0%, #4caf50 50%, #a5d6a7 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/051-verdad.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El niño que dijo la verdad",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre honestidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2e7d32 0%, #4caf50 100%)",
+      "narration": "Tomás era un niño muy honesto. Siempre decía la verdad, aunque a veces fuera difícil. Un día, mientras jugaba en el cuarto de su hermana menor, accidentally pushed her favorite doll off the shelf. It broke into pieces!",
+      "elements": [
+        {
+          "id": "boy-img",
+          "type": "image",
+          "src": "images/051-verdad.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "<strong>Tomás</strong> era un niño muy honesto. Siempre decía la verdad. Un día, while playing in his sister's room, accidentalmente empujó su muñeca favorita. ¡Se rompió en pedazos!<br><br><em>Tomás was a very honest boy. He always told the truth. One day, while playing in his sister's room, he accidentally knocked over her favorite doll. It broke into pieces!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4caf50 0%, #2e7d32 100%)",
+      "narration": "Tomás se quedó mirando los pedazos de la muñeca. Podría haber dicho que fue el gato, o que se cayó solo. Nadie lo vio. Pero él sabía lo que had to do.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Tomás se quedó mirando los pedazos de la muñeca. Podría haber dicho que fue el gato, o que se cayó solo. <strong>Nadie lo vio.</strong> Pero él sabía lo que tenía que hacer.<br><br><em>Tomás looked at the broken pieces. He could have said it was the cat, or that it fell by itself. No one saw him. But he knew what he had to do.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2e7d32 0%, #f44336 100%)",
+      "narration": "Con el corazón acelerado, Tomás fue con su mamá. 'Mamá', dijo con voz temblorosa, 'fui yo quien rompió la muñeca de Sofía. No fue el gato ni nadie. Lo siento mucho'.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Con el corazón acelerado, Tomás fue con su mamá. <strong>'Mamá, fui yo quien rompió la muñeca de Sofía.'</strong> ¡Lo dijo aunque le daba mucho miedo!<br><br><em>With his heart racing, Tomás went to his mom. 'Mom, I was the one who broke Sofía's doll.' He said it even though he was very scared!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f44336 0%, #4caf50 100%)",
+      "narration": "Su mamá no se enojó. En cambio, lo abrazó fuerte y dijo: 'Estoy muy orgulloso de ti, Tomás. Decir la verdad cuando es difícil es uno de los actos más valientes que hay'.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Su mamá no se enojó. Lo abrazó fuerte y dijo: <strong>'Estoy muy orgulloso de ti, Tomás. Decir la verdad cuando es difícil es muy valiente.'</strong><br><br><em>His mom didn't get angry. Instead, she hugged him tight and said: 'I'm very proud of you, Tomás. Telling the truth when it's difficult is one of the bravest acts.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4caf50 0%, #a5d6a7 100%)",
+      "narration": "Juntos fueron a comprar una muñeca nueva para Sofía. Ella se puso muy feliz, y Tomás aprendió algo que never forget: la honestidad nos da paz en el corazón y la confianza de quienes nos aman.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Juntos compraron una muñeca nueva para Sofía. Ella se puso feliz, y Tomás aprendió algo que nunca forget: <strong>la honestidad nos da paz en el corazón.</strong><br><br><em>Together they bought a new doll for Sofía. She was very happy, and Tomás learned something he would never forget: honesty gives us peace in our heart.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué pasó con la muñeca de Sofía?",
+            "options": [
+              {
+                "text": "El gato la rompió"
+              },
+              {
+                "text": "Tomás la empujó accidentalmente"
+              },
+              {
+                "text": "Se cayó sola"
+              },
+              {
+                "text": "La rompió Sofía"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Tomás la empujó accidentalmente.",
+              "incorrect": "La respuesta correcta es que Tomás la empujó accidentalmente."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué podría haber dicho Tomás para no ser descubierto?",
+            "options": [
+              {
+                "text": "Que fue su papá"
+              },
+              {
+                "text": "Que fue el gato"
+              },
+              {
+                "text": "Que la muñecos tenían"
+              },
+              {
+                "text": "Que no sabe"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Podría haber dicho que fue el gato.",
+              "incorrect": "La respuesta correcta es que podría haber dicho que fue el gato."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué dijo la mamá de Tomás?",
+            "options": [
+              {
+                "text": "Que era tonto"
+              },
+              {
+                "text": "Que no debería decírselo a nadie"
+              },
+              {
+                "text": "Que estaba orgullosa de su honestidad"
+              },
+              {
+                "text": "Que no lo quería"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Muy bien! Estaba orgullosa de su honestidad.",
+              "incorrect": "La respuesta correcta es que estaba orgullosa de su honestidad."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #4caf50 0%, #a5d6a7 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "truth",
+            "content": "✅",
+            "matchId": "truth"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "brave",
+            "content": "🦁",
+            "matchId": "brave"
+          },
+          {
+            "id": "doll",
+            "content": "🎎",
+            "matchId": "doll"
+          },
+          {
+            "id": "hug",
+            "content": "🤗",
+            "matchId": "hug"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #2e7d32 0%, #a5d6a7 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Telling the truth takes courage but gives us peace!<br><strong>¡Remember!</strong> ¡Decir la verdad requiere valentía pero nos da paz!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

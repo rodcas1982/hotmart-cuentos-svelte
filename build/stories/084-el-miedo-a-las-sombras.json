@@ -1,0 +1,351 @@
+{
+  "id": "084-el-miedo-a-las-sombras",
+  "version": "1.0",
+  "meta": {
+    "title": "El Miedo a las Sombras",
+    "subtitle": "A story about overcoming fear of shadows",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#263238",
+      "secondaryColor": "#546e7a",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #101010 0%, #2c2c2c 50%, #1a1a1a 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #101010 0%, #2c2c2c 50%, #1a1a1a 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/084-sombras.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Miedo a las Sombras",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.8)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre las sombras misteriosas",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #101010 0%, #2c2c2c 100%)",
+      "narration": "Marta tenía miedo de las sombras. Cuando la luz del sol o de la lampara hacía una sombra en la pared, ella creía que era un monstruo escondido.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Marta tenía miedo de las sombras. Cuando la luz del sol o de la lámpara hacía una sombra en la pared, ella creía que era un monstruo escondido.<br><br><em>Marta was afraid of shadows. When the light from the sun or lamp made a shadow on the wall, she thought it was a monster hiding.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c2c2c 0%, #424242 100%)",
+      "narration": "Un día, el abuelo de Marta la llevó al teatro de sombras. —Vas a ver algo mágico —le dijo con una sonrisa.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, el abuelo de Marta la llevó al teatro de sombras. —Vas a ver algo mágico —le dijo con una sonrisa.<br><br><em>One day, Marta's grandfather took her to a shadow theater. —You're going to see something magical —he said with a smile.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #424242 0%, #616161 100%)",
+      "narration": "Cuando comenzó el show, Marta vio conejos, cisnes y hasta un dragón hecho solo con sus manos y una luz. —¡Son las manos de una persona! —exclamó sorprendida.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Cuando comenzó el show, Marta vio conejos 🐰, cisnes 🦢 y hasta un dragón hecho solo con sus manos y una luz. —¡Son las manos de una persona! —exclamó sorprendida.<br><br><em>When the show started, Marta saw rabbits, swans, and even a dragon made only with hands and a light. —It's a person's hands! —she exclaimed surprised.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #616161 0%, #757575 100%)",
+      "narration": "El abuelo le enseñó cómo hacer sombras con sus manos. —Mira, esto parece un perro. Y esto parece una mariposa. Las sombras son arte, no monstruos.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "El abuelo le enseñó cómo hacer sombras con sus manos. —Mira, esto parece un perro 🐕. Y esto parece una mariposa 🦋. Las sombras son arte, no monstruos.<br><br><em>The grandfather taught her how to make shadows with her hands. —Look, this looks like a dog. And this looks like a butterfly. Shadows are art, not monsters.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #757575 0%, #ffb74d 100%)",
+      "narration": "Desde ese día, Marta ya no le tenía miedo a las sombras. Ahora las buscaba para hacer figuras divertidas en las paredes de su cuarto.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Desde ese día, Marta ya no le tenía miedo a las sombras. Ahora las buscaba para hacer figuras divertidas en las paredes de su cuarto 🏠.<br><br><em>From that day on, Marta was no longer afraid of shadows. Now she would look for them to make fun figures on the walls of her room.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffb74d 0%, #ff9800 100%)",
+      "narration": "Marta aprendió que las sombras no son monsters ni cosas malas. Son simplemente la forma en que la luz dibuja cuando algo se interpone en su camino.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "<strong>Marta aprendió:</strong> las sombras no son monstruos ni cosas malas. Son simplemente la forma en que la luz dibuja cuando algo se interpone en su camino. ¡Son arte!<br><br><em>Marta learned: shadows are not monsters or bad things. They are simply the way light draws when something gets in its way. They are art!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿De qué tenía miedo Marta?",
+            "options": [
+              {
+                "text": "De los monstruos"
+              },
+              {
+                "text": "De las sombras"
+              },
+              {
+                "text": "De la oscuridad"
+              },
+              {
+                "text": "De los payasos"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Marta le tenía miedo a las sombras.",
+              "incorrect": "La respuesta correcta es de las sombras."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué vio Marta en el teatro de sombras?",
+            "options": [
+              {
+                "text": "Un monstruo real"
+              },
+              {
+                "text": "Figuras de animales con sus manos"
+              },
+              {
+                "text": "Una película"
+              },
+              {
+                "text": "Un mago"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Vio conejos, cisnes y un dragón.",
+              "incorrect": "La respuesta correcta es figuras de animales con sus manos."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué son las sombras según el abuelo?",
+            "options": [
+              {
+                "text": "Monstruos escondidos"
+              },
+              {
+                "text": "Arte con luz"
+              },
+              {
+                "text": "Cosas peligrosas"
+              },
+              {
+                "text": "Sueños"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! El abuelo dijo que las sombras son arte.",
+              "incorrect": "La respuesta correcta es arte con luz."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #101010 0%, #424242 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "shadow-puppet",
+        "shapes": [
+          {
+            "id": "rabbit-shadow",
+            "content": "🐰",
+            "shadowForm": "🐇",
+            "name": "Conejo"
+          },
+          {
+            "id": "dog-shadow",
+            "content": "🐕",
+            "shadowForm": "🐕‍🦺",
+            "name": "Perro"
+          },
+          {
+            "id": "butterfly-shadow",
+            "content": "🦋",
+            "shadowForm": "🦋",
+            "name": "Mariposa"
+          },
+          {
+            "id": "duck-shadow",
+            "content": "🦆",
+            "shadowForm": "🦆",
+            "name": "Pato"
+          },
+          {
+            "id": "bird-shadow",
+            "content": "🐦",
+            "shadowForm": "🐦",
+            "name": "Pájaro"
+          },
+          {
+            "id": "wolf-shadow",
+            "content": "🐺",
+            "shadowForm": "🐺",
+            "name": "Lobo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #424242 0%, #ffb74d 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: las sombras son como el arte de la luz. No son miedo, son magia. ¡Intenta hacer tus propias sombras!<br><br><em>Remember: shadows are like the art of light. They are not fear, they are magic. Try making your own shadows!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

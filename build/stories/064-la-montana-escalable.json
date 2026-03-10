@@ -1,0 +1,427 @@
+{
+  "id": "064-la-montana-escalable",
+  "version": "1.0",
+  "meta": {
+    "title": "La Montaña Escalable",
+    "subtitle": "A story about perseverance",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#607d8b",
+      "secondaryColor": "#90a4ae",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #37474f 0%, #607d8b 50%, #90a4ae 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #607d8b 0%, #90a4ae 50%, #607d8b 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/064-montana.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Montaña Escalable",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la perseverancia",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #37474f 0%, #607d8b 100%)",
+      "narration": "En un valle surrounded por montañas enormes, vivía una niña llamada Sofía que siempre miraba hacia arriba, hacia la montaña más alta: el Monte Eternidad. Nadie había llegado nunca a su cima.",
+      "elements": [
+        {
+          "id": "img-1",
+          "type": "image",
+          "src": "images/064-montana.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un valle rodeado por montañas enormes, vivía una niña llamada <strong>Sofía</strong> que siempre miraba hacia arriba, hacia la montaña más alta: el Monte Eternidad. Nadie había llegado nunca a su cima.<br><br><em>In a valley surrounded by huge mountains, there lived a girl named Sofía who always looked up at the highest mountain: Mount Eternity. No one had ever reached its peak.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #607d8b 0%, #37474f 100%)",
+      "narration": "'Quiero subir a la cima', dijo Sofía un día. Los adultos se rieron. 'Es imposible', le dijeron. 'La montaña es demasiado alta y demasiado peligrosa. Los adultos han intentado y han fallado'.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "'Quiero subir a la cima', dijo Sofía un día. Los adultos se rieron. '<strong>Es imposible</strong>, le dijeron. La montaña es demasiado alta y peligrosa. Los adultos han intentado y han fallado.'<br><br><em>'I want to climb to the top,' Sofía said one day. The adults laughed. 'It's impossible,' they told her. 'The mountain is too high and too dangerous. Adults have tried and failed.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #37474f 0%, #263238 100%)",
+      "narration": "Pero Sofía no escuchó las voces del miedo. Comenzó a prepararse cada día: corría por el valle, trepaba árboles pequeños, fortalecía sus piernas y sus brazos. <strong>Un paso a la vez, cada día un poco más fuerte</strong>.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Pero Sofía no escuchó las voces del miedo. Comenzó a prepararse cada día: corría por el valle, trepaba árboles pequeños, fortalecía sus piernas y brazos. <strong>Un paso a la vez, cada día un poco más fuerte.</strong><br><br><em>But Sofía didn't listen to the voices of fear. She started preparing every day: she ran through the valley, climbed small trees, strengthened her legs and arms. One step at a time, every day a little stronger.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #263238 0%, #37474f 100%)",
+      "narration": "Llegó el día en que Sofía sintió que estaba lista. Empezó a subir la montaña al amanecer. Los primeros metros fueron fáciles, pero después el terreno se puso más difícil y el aire más delgado.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Llegó el día en que Sofía sintió que estaba lista. Empezó a subir la montaña al amanecer. Los primeros metros fueron fáciles, pero después el terreno se puso más difícil y el aire más delgado.<br><br><em>The day arrived when Sofía felt she was ready. She started climbing the mountain at dawn. The first meters were easy, but then the terrain became harder and the air thinner.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #37474f 0%, #607d8b 100%)",
+      "narration": "A mitad de camino, Sofía resbaló y cayó. Se raspó las rodillas y sintió ganas de llorar y volver a casa. Pero entonces miró hacia abajo y vio lo lejos que había llegado. <strong>No podía rendirse ahora</strong>.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "A mitad de camino, Sofía resbaló y cayó. Se raspó las rodillas y sintió ganas de llorar y volver a casa. Pero entonces miró hacia abajo y vio lo lejos que había llegado. <strong>No podía rendirse ahora.</strong><br><br><em>Halfway up, Sofía slipped and fell. She scraped her knees and felt like crying and going home. But then she looked down and saw how far she had come. She couldn't give up now.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #607d8b 0%, #78909c 100%)",
+      "narration": "Se levantó, se limpió las rodillas y siguió subiendo. Las rocas eran afiladas, el viento era frío, pero Sofía seguía adelante. <strong>Un paso más, luego otro, luego otro más</strong>.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Se levantó, se limpió las rodillas y siguió subiendo. Las rocas eran afiladas, el viento era frío, pero Sofía seguía adelante. <strong>Un paso más, luego otro, luego otro más.</strong><br><br><em>She got up, wiped her knees, and kept climbing. The rocks were sharp, the wind was cold, but Sofía kept going. One more step, then another, then another.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #78909c 0%, #607d8b 100%)",
+      "narration": "Cuando el sol comenzaba a esconderse, Sofía sintió que sus piernas no podían más. Iba a rendirse cuando levantó la vista y vio algo increíble: ¡estaba muy cerca de la cima!",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Cuando el sol comenzaba a esconderse, Sofía sintió que sus piernas no podían más. Iba a rendirse cuando levantó la vista y vio algo increíble: ¡estaba muy cerca de la cima!<br><br><em>When the sun began to set, Sofía felt her legs couldn't take any more. She was about to give up when she looked up and saw something incredible: she was very close to the peak!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #607d8b 0%, #37474f 100%)",
+      "narration": "Con las últimas fuerzas que le quedaban, Sofía completó el ascenso. Cuando llegó a la cima, el mundo entero estaba a sus pies. Las nubes pasaban por debajo de ella y el sol pintaba todo de dorado.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Con las últimas fuerzas que le quedaban, Sofía completó el ascenso. Cuando llegó a la cima, el mundo entero estaba a sus pies. <strong>Las nubes pasaban por debajo y el sol pintaba todo de dorado.</strong><br><br><em>With the last strength she had left, Sofía completed the climb. When she reached the peak, the whole world was at her feet. Clouds passed below and the sun painted everything gold.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #37474f 0%, #607d8b 100%)",
+      "narration": "Sofía entendió algo muy importante ese día: <strong>las montañas más altas se conquistan un paso a la vez</strong>. No importa cuánto tiempo tome, lo importante es nunca dejar de subir.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Sofía entendió algo muy importante ese día: <strong>las montañas más altas se conquistan un paso a la vez.</strong> No importa cuánto tiempo tome, lo importante es nunca dejar de subir.<br><br><em>Sofía understood something very important that day: the highest mountains are conquered one step at a time. No matter how long it takes, the important thing is to never stop climbing.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #607d8b 0%, #37474f 100%)",
+      "narration": "Cuando bajó de la montaña, todos la esperaban en el valle. '¿Cómo lo lograste?', le preguntaron. Sofía sonrió y respondió: '<strong>Simplemente seguí subiendo, un paso a la vez, hasta que llegué</strong>'.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Cuando bajó de la montaña, todos la esperaban en el valle. '¿Cómo lo lograste?' Sofía sonrió y respondió: '<strong>Simplemente seguí subiendo, un paso a la vez, hasta que llegué</strong>'.<br><br><em>When she came down from the mountain, everyone was waiting for her in the valley. 'How did you do it?' Sofía smiled and replied: 'I just kept climbing, one step at a time, until I arrived.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la niña protagonista?",
+            "options": [
+              {
+                "text": "Sara"
+              },
+              {
+                "text": "Sofía"
+              },
+              {
+                "text": "Sandra"
+              },
+              {
+                "text": "Silvia"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! La niña se llamaba Sofía.",
+              "incorrect": "La respuesta correcta es Sofía."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Cómo se llamaba la montaña más alta?",
+            "options": [
+              {
+                "text": "Monte Grande"
+              },
+              {
+                "text": "Monte Eternidad"
+              },
+              {
+                "text": "Monte Alto"
+              },
+              {
+                "text": "Monte Verde"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Se llamaba el Monte Eternidad.",
+              "incorrect": "La respuesta correcta es el Monte Eternidad."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Sofía en la montaña?",
+            "options": [
+              {
+                "text": "Que las montañas son peligrosas"
+              },
+              {
+                "text": "Que las montañas más altas se conquistan un paso a la vez"
+              },
+              {
+                "text": "Que es mejor no intentar"
+              },
+              {
+                "text": "Que los adultos siempre tienen razón"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Aprendió que las montañas más altas se conquistan un paso a la vez.",
+              "incorrect": "La respuesta correcta es que las montañas más altas se conquistan un paso a la vez."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #607d8b 0%, #90a4ae 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "mountain",
+            "content": "🏔️",
+            "matchId": "mountain"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          },
+          {
+            "id": "cloud",
+            "content": "☁️",
+            "matchId": "cloud"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "flag",
+            "content": "🚩",
+            "matchId": "flag"
+          },
+          {
+            "id": "footprint",
+            "content": "👣",
+            "matchId": "footprint"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #607d8b 0%, #90a4ae 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: cada gran logro comienza con el primer paso.<br><br><em>Remember: every great achievement begins with the first step.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

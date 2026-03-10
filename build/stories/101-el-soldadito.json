@@ -1,0 +1,434 @@
+{
+  "id": "101-el-soldadito",
+  "version": "1.0",
+  "meta": {
+    "title": "El Soldadito de Plomo",
+    "subtitle": "A story about perseverance",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      8
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#8e44ad",
+      "secondaryColor": "#9b59b6",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #8e44ad 50%, #2c3e50 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/101-soldadito.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Soldadito de Plomo",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.8em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre perseverancia",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #8e44ad 100%)",
+      "narration": "En un viejo aparador de una casa abandonada, había veinticinco soldaditos de plomo. Todos eran idénticos, excepto uno: el último en ser moldeado quedó con una sola pierna.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un viejo aparador había veinticinco soldaditos de plomo. Todos eran idénticos, excepto uno: <strong>el último en ser moldeado quedó con una sola pierna</strong>.<br><br><em>In an old cabinet in an abandoned house, there were twenty-five tin soldiers. All were identical except one: the last one molded had only one leg.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #2c3e50 100%)",
+      "narration": "El soldadito de la pierna sola miraba a través del cristal del aparador. Cada día veía a los otros soldaditos desfilar con sus dos piernas firmes. Él solo podía mantenerse de pie con mucha dificultad.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "El soldadito de la pierna sola miraba a través del cristal. Cada día veía a los otros desfilar con sus dos piernas firmes. <strong>Él solo podía mantenerse de pie con mucha dificultad.</strong><br><br><em>The soldier with one leg looked through the glass cabinet. Every day he watched the others march with their two strong legs. He could only stand with great difficulty.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #34495e 100%)",
+      "narration": "Una mañana, un niño tomó el soldadito de la pierna sola y lo puso en el alféizar de la ventana. El viento soplaba fuerte y el soldadito cayó al suelo desde una altura considerable.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Una mañana, un niño tomó el soldadito y lo puso en la ventana. <strong>El viento soplaba fuerte y cayó al suelo</strong> desde una altura considerable.<br><br><em>One morning, a child took the one-legged soldier and put him on the windowsill. The wind blew strongly and he fell to the ground from a considerable height.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #34495e 0%, #2c3e50 100%)",
+      "narration": "Pero el soldadito no se rompió. Se levantó y siguió adelante. Aunque solo tenía una pierna, decidió que no se rendiría nunca. Cada vez que caía, se levantaba de nuevo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Pero el soldadito no se rompió. <strong>Se levantó y siguió adelante</strong>. Aunque solo tenía una pierna, decidió que no se rendiría. Cada vez que caía, se levantaba de nuevo.<br><br><em>But the soldier didn't break. He got up and kept going. Although he only had one leg, he decided he would never give up. Every time he fell, he got up again.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #8e44ad 100%)",
+      "narration": "El soldadito caminó por toda la casa, buscando un lugar donde quedarse. Encontró una caja de juguetes donde vivían otros juguetes rotos que lo recibieron con cariño.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "El soldadito caminó por toda la casa buscando un lugar. Encontró una caja de juguetes donde vivían otros juguetes rotos que <strong>lo recibieron con cariño</strong>.<br><br><em>The soldier walked through the whole house looking for a place to stay. He found a toy box where other broken toys lived who welcomed him warmly.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 100%)",
+      "narration": "Los otros juguetes le preguntaron por qué seguía intentándolo si estaba roto. El soldadito sonrió y dijo: \"Mientras pueda pararme, nunca me daré por vencido.\"",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Los otros juguetes le preguntaron por qué seguía intentándolo. El soldadito sonrió y dijo: <strong>\"Mientras pueda pararme, nunca me daré por vencido.\"</strong><br><br><em>The other toys asked why he kept trying. The soldier smiled and said: \"As long as I can stand, I will never give up.\"</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #8e44ad 100%)",
+      "narration": "Un día, un gato entró a la casa y empujó la caja de juguetes. El soldadito rodó por el suelo pero encontró algo inesperado: una bonita bailarina de papel que estaba sola en un rincón.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Un día, un gato entró y empujó la caja. El soldadito rodó pero encontró algo inesperado: <strong>una bonita bailarina de papel</strong> que estaba sola en un rincón.<br><br><em>One day, a cat entered and pushed the toy box. The soldier rolled but found something unexpected: a pretty paper dancer who was alone in a corner.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #2c3e50 100%)",
+      "narration": "La bailarina también tenía una discapacidad: no podía moverse de su lugar porque su base estaba dañada. El soldadito decidió quedarse con ella para cuidarla.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "La bailarina también tenía una discapacidad: no podía moverse. <strong>El soldadito decidió quedarse con ella para cuidarla</strong>.<br><br><em>The dancer also had a disability: she couldn't move from her place. The soldier decided to stay with her to take care of her.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #34495e 100%)",
+      "narration": "Juntos atravesaron muchas aventuras. El soldadito protegía a la bailarina de los peligros mientras ella le daba la fuerza para seguir adelante. Se convirtieron en los mejores amigos.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Juntos atravesaron muchas aventuras. <strong>El soldadito protegía a la bailarina mientras ella le daba fuerza</strong>. Se convirtieron en los mejores amigos.<br><br><em>Together they went through many adventures. The soldier protected the dancer while she gave him strength to keep going. They became the best friends.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #34495e 0%, #2c3e50 100%)",
+      "narration": "Aunque el soldadito nunca pudo caminar con dos piernas como los otros, encontró algo más valioso: la perseverancia, el coraje y un amigo verdadero que lo amaba tal como era.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Aunque nunca pudo caminar con dos piernas, encontró algo más valioso: <strong>la perseverancia, el coraje y un amigo verdadero</strong> que lo amaba tal como era.<br><br><em>Although he could never walk with two legs, he found something more valuable: perseverance, courage, and a true friend who loved him as he was.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #8e44ad 100%)",
+      "narration": "Y así, en esa vieja casa abandonada, el soldadito de la pierna sola demostró que los verdadero héroes no son los que nunca caen, sino los que siempre se levantan.",
+      "elements": [
+        {
+          "id": "text-11",
+          "type": "text",
+          "content": "Y así, el soldadito demostró que los verdaderos héroes no son los que nunca caen, <strong>sino los que siempre se levantan</strong>.<br><br><em>And so, the soldier proved that true heroes are not those who never fall, but those who always get up.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cuántas piernas tenía el soldadito protagonista?",
+            "options": [
+              {
+                "text": "Dos"
+              },
+              {
+                "text": "Una"
+              },
+              {
+                "text": "Tres"
+              },
+              {
+                "text": "Ninguna"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El soldadito tenía solo una pierna.",
+              "incorrect": "La respuesta correcta es una pierna."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué encontró el soldadito en la casa?",
+            "options": [
+              {
+                "text": "Un perro"
+              },
+              {
+                "text": "Una bailarina de papel"
+              },
+              {
+                "text": "Un ratón"
+              },
+              {
+                "text": "Un soldadito roto"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Encontró una bailarina de papel.",
+              "incorrect": "La respuesta correcta es una bailarina de papel."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué demostró el soldadito con su ejemplo?",
+            "options": [
+              {
+                "text": "Que es mejor ser perfecto"
+              },
+              {
+                "text": "Que los héroes nunca caen"
+              },
+              {
+                "text": "Que los que se levantan son los verdaderos héroes"
+              },
+              {
+                "text": "Que no vale la pena intentar"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Muy bien! Los verdaderos héroes son los que siempre se levantan.",
+              "incorrect": "La respuesta correcta es que los que se levantan son los verdaderos héroes."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "soldier",
+            "content": "🎖️",
+            "matchId": "soldier"
+          },
+          {
+            "id": "dancer",
+            "content": "💃",
+            "matchId": "dancer"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "flag",
+            "content": "🚩",
+            "matchId": "flag"
+          },
+          {
+            "id": "crown",
+            "content": "👑",
+            "matchId": "crown"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: no importa cuántas veces caigas, lo importante es siempre levantarse y seguir adelante.<br><br><em>Remember: no matter how many times you fall, what matters is always getting up and moving forward.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

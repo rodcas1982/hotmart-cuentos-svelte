@@ -1,0 +1,417 @@
+{
+  "id": "122-el-elefante-pequeno",
+  "version": "1.0",
+  "meta": {
+    "title": "El Elefante Pequeño",
+    "subtitle": "A story about being different",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#8b5cf6",
+      "secondaryColor": "#7c3aed",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #1e1b4b 0%, #312e81 50%, #1e1b4b 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #a78bfa 0%, #8b5cf6 50%, #7c3aed 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/122-elefante-pequeno.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Elefante Pequeño",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.8em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre ser diferente",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1e1b4b 0%, #312e81 100%)",
+      "narration": "En la sabana africana vivía un elefante llamado <strong>Peque</strong>. Era el elefante más pequeño de toda la manada. Sus orejas también eran más pequeñas y su trompa no era tan larga como la de los demás.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En la sabana africana vivía un elefante llamado <strong>Peque</strong>. Era el elefante más pequeño de toda la manada. Sus orejas también eran más pequeñas y su trompa no era tan larga.<br><br><em>In the African savanna lived an elephant named Tiny. He was the smallest elephant in the whole herd. His ears were also smaller and his trunk wasn't as long as the others.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #312e81 0%, #4338ca 100%)",
+      "narration": "Los otros elefantes a veces se reían de él. -¡Peque no puede alcanz las ramas más altas! -decían. Peque se ponía triste y se sentía solo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Los otros elefantes a veces se reían de él. -¡Peque no puede alcanzar las ramas más altas! -decían. Peque se ponía triste y se sentía solo.<br><br><em>The other elephants sometimes laughed at him. -Tiny can't reach the highest branches! -they said. Tiny got sad and felt alone.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4338ca 0%, #4f46e5 100%)",
+      "narration": "Un día, la manada tuvo que cruzar un río muy ancho. Los elefantes grandes podían vadearlo fácilmente, pero había una parte muy profunda en el medio.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, la manada tuvo que cruzar un río muy ancho. Los elefantes grandes podían vadearlo fácilmente, pero había una parte muy profunda en el medio.<br><br><em>One day, the herd had to cross a very wide river. The big elephants could wade through easily, but there was a very deep part in the middle.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4f46e5 0%, #6366f1 100%)",
+      "narration": "Los elefantes mayores intentaban ayudar a los más pequeños, pero el agua estaba muy fría y la corriente era fuerte. Nadie sabía qué hacer.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Los elefantes mayores intentaban ayudar a los más pequeños, pero el agua estaba muy fría y la corriente era fuerte. <strong>Nadie sabía qué hacer.</strong><br><br><em>The older elephants tried to help the smaller ones, but the water was very cold and the current was strong. No one knew what to do.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6366f1 0%, #818cf8 100%)",
+      "narration": "De repente, <strong>Peque</strong> tuvo una idea. ¡Su tamaño pequeño era una ventaja! Podía pasar por donde el agua era menos profunda, cerca de las rocas.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "De repente, <strong>Peque</strong> tuvo una idea. ¡Su tamaño pequeño era una ventaja! Podía pasar por donde el agua era menos profunda, cerca de las rocas.<br><br><em>Suddenly, Tiny had an idea. His small size was an advantage! He could go where the water was shallower, near the rocks.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #818cf8 0%, #6366f1 100%)",
+      "narration": "-¡Seguidme! -gritó Peque-. ¡Yo sé dónde está el camino seguro! Los demás elefantes lo siguieron y lograron cruzar el río sin problemas.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "-¡Seguidme! -gritó Peque-. ¡Yo sé dónde está el camino seguro! Los demás elefantes lo siguieron y lograron cruzar el río sin problemas.<br><br><em>-Follow me! -shouted Tiny-. I know where the safe path is! The other elephants followed him and managed to cross the river without problems.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6366f1 0%, #4f46e5 100%)",
+      "narration": "Cuando llegaron al otro lado, todos los elefantes abrazaron a Peque. -¡Eres nuestro héroe! -decían. Por primera vez, Peque se sintió orgulloso de ser diferente.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Cuando llegaron al otro lado, todos los elefantes abrazaron a Peque. -¡Eres nuestro héroe! -decían. <strong>Por primera vez, Peque se sintió orgulloso de ser diferente.</strong><br><br><em>When they reached the other side, all the elephants hugged Tiny. -You're our hero! -they said. For the first time, Tiny felt proud to be different.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4f46e5 0%, #4338ca 100%)",
+      "narration": "Desde ese día, nadie se reía de Peque. Todos entendieron que cada persona tiene cualidades únicas. A veces, lo que nos hace diferentes es exactamente lo que nos hace especiales.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Desde ese día, nadie se reía de Peque. Todos entendieron que <strong>cada persona tiene cualidades únicas</strong>. A veces, lo que nos hace diferentes es exactamente lo que nos hace especiales.<br><br><em>From that day on, no one laughed at Tiny. Everyone understood that each person has unique qualities. Sometimes, what makes us different is exactly what makes us special.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4338ca 0%, #312e81 100%)",
+      "narration": "Peque aprendió algo muy importante: no hay nada malo en ser pequeño o diferente. Lo importante es encontrar tu propia forma de brillar.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Peque aprendió algo muy importante: <strong>no hay nada malo en ser pequeño o diferente</strong>. Lo importante es encontrar tu propia forma de brillar.<br><br><em>Tiny learned something very important: there is nothing wrong with being small or different. The important thing is to find your own way to shine.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #312e81 0%, #1e1b4b 100%)",
+      "narration": "Y tú, pequeño lector, recuerda: seas grande o pequeño, alto o bajo, iguales o diferentes... ¡tú eres único y eso es maravilloso!",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Y tú, pequeño lector, recuerda: seas grande o pequeño, alto o bajo... <strong>¡tú eres único y eso es maravilloso!</strong><br><br><em>And you, little reader, remember: whether big or small, tall or short... you are unique and that is wonderful!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el elefante protagonista?",
+            "options": [
+              {
+                "text": "Trompa"
+              },
+              {
+                "text": "Peque"
+              },
+              {
+                "text": "Cola"
+              },
+              {
+                "text": "Grande"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El elefante se llamaba Peque.",
+              "incorrect": "La respuesta correcta es Peque."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué problema tuvo la manada?",
+            "options": [
+              {
+                "text": "Encontrar comida"
+              },
+              {
+                "text": "Cruzar un río muy ancho"
+              },
+              {
+                "text": "Esconderse de los leones"
+              },
+              {
+                "text": "Buscar agua"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! La manada necesitaba cruzar un río muy ancho.",
+              "incorrect": "La respuesta correcta es cruzar un río muy ancho."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Peque?",
+            "options": [
+              {
+                "text": "Que ser grande es mejor"
+              },
+              {
+                "text": "Que ser diferente es una ventaja"
+              },
+              {
+                "text": "Que no debe existir"
+              },
+              {
+                "text": "Que los elefantes no importan"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Peque aprendió que ser diferente puede ser una ventaja.",
+              "incorrect": "La respuesta correcta es que ser diferente puede ser una ventaja."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "elephant",
+            "content": "🐘",
+            "matchId": "elephant"
+          },
+          {
+            "id": "river",
+            "content": "🌊",
+            "matchId": "river"
+          },
+          {
+            "id": "rock",
+            "content": "🪨",
+            "matchId": "rock"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: ser diferente te hace especial. ¡Encuentra tu forma de brillar y ayuda a otros a encontrar la suya!<br><br><em>Remember: being different makes you special. Find your way to shine and help others find theirs!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "el-pequeno-valiente",
+  "version": "1.0",
+  "meta": {
+    "title": "El Pequeño Valiente",
+    "subtitle": "Un cuento sobre el courage",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 8],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#f9ca24",
+      "secondaryColor": "#f0932b",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #2c3e50 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #f9ca24 0%, #f0932b 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/01-valiente.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "250px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Pequeño Valiente",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Un pequeño león aprende que ser valiente es hacer lo correcto",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #34495e 100%)",
+      "narration": "En la sabana africana, bajo un cielo lleno de estrellas, vivía un pequeño león llamado Valiente. Era el hijo del rey de los animales, pero a diferencia de su padre, Valiente tenía miedo de muchas cosas.",
+      "elements": [
+        {
+          "id": "lion-img-1",
+          "type": "image",
+          "src": "images/01-valiente.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "200px"
+          },
+          "animation": {
+            "type": "float",
+            "delay": 500
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En la sabana africana vivía un pequeño león llamado <strong>Valiente</strong>. Era el hijo del rey de los animales, pero tenía miedo de muchas cosas.",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "animation": {
+            "type": "slideUp",
+            "delay": 200
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #34495e 0%, #2c3e50 100%)",
+      "narration": "Un día, Valiente escuchó llorar a un pollito que se había perdido de su familia. Aunque tenía miedo de la oscuridad, decidió ayudarlo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, escuchó llorar a un pollito que se había perdido. <strong>¿Debería ayudarlo?</strong> Aunque tenía miedo, recordó las palabras de su padre: <em>\"Ser valiente no es no tener miedo, es actuar a pesar de él.\"</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "slideUp"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #f0932b 100%)",
+      "narration": "Valiente encontró al pollito y juntos buscaron a su familia. Cuando finalmente reunieron a los pollitos con su madre, todos celebraron. Valiente descubrió que ayudar a otros era la mejor manera de ser valiente.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Valiente encontró al pollito y lo ayudó a encontrar su familia. <strong>¡Todos celebraron su valentía!</strong><br><br>Desde ese día, Valiente entendió que ser valiente es hacer lo correcto, aunque dé miedo.",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el pequeño león?",
+            "options": [
+              { "text": "Valiente" },
+              { "text": "León" },
+              { "text": "Rex" },
+              { "text": "Simba" }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "correct": "¡Correcto! El pequeño león se llamaba Valiente.",
+              "incorrect": "¡Ups! La respuesta correcta es Valiente."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué significa ser valiente según el papá de Valiente?",
+            "options": [
+              { "text": "No tener miedo" },
+              { "text": "Hacer lo correcto aunque dé miedo" },
+              { "text": "Ser el más fuerte" },
+              { "text": "Nunca llorar" }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Ser valiente es actuar a pesar del miedo.",
+              "incorrect": "La respuesta correcta es: hacer lo correcto aunque dé miedo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #6c5ce7 0%, #a55eea 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          { "id": "lion", "content": "🦁", "matchId": "lion" },
+          { "id": "chick", "content": "🐤", "matchId": "chick" },
+          { "id": "star", "content": "⭐", "matchId": "star" },
+          { "id": "heart", "content": "❤️", "matchId": "heart" },
+          { "id": "sun", "content": "☀️", "matchId": "sun" },
+          { "id": "tree", "content": "🌳", "matchId": "tree" }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #f9ca24 0%, #f0932b 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Ahora tú también puedes ser valiente. Recuerda: haz lo correcto, aunque dé miedo.",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ]
+}

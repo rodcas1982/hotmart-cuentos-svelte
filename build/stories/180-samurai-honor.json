@@ -1,0 +1,170 @@
+{
+  "id": "180-samurai-honor",
+  "version": "1.0",
+  "meta": {
+    "title": "El Samurai Takeshi y el Código de Honor",
+    "subtitle": "Un guerrero con corazón noble",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#c0392b",
+      "secondaryColor": "#e74c3c",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #2d2d2d 0%, #4a4a4a 50%, #2d2d2d 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #c0392b 0%, #e74c3c 50%, #c0392b 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/180-samurai-honor.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Samurai Takeshi",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "El código del honor samurai",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2d2d2d 0%, #4a4a4a 100%)",
+      "narration": "Hace mucho tiempo, en el antiguo Japón, vivía un joven samurai llamado Takeshi. Desde pequeño, su padre le enseñó el código del honor samurai: integridad, valentía y compasión.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Hace mucho tiempo, en el antiguo Japón, vivía un joven samurai llamado <strong>Takeshi</strong>. Su padre le enseñó el código del honor: <strong>integridad, valentía y compasión.</strong><br><br><em>Long ago, in ancient Japan, lived a young samurai named Takeshi. His father taught him the code of honor: integrity, bravery, and compassion.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4a4a4a 0%, #5d6d7e 100%)",
+      "narration": "Un día, un samurai rival challenged Takeshi a un duelo. Pero Takeshi vio que el otro samurai estaba herido y cansado. En lugar de atacar, le ofreció agua y comida.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, un samurai rival challengeó a Takeshi a un duelo. Pero Takeshi vio que estaba herido y cansado. <strong>En lugar de atacar, le ofreció agua y comida.</strong><br><br><em>One day, a rival samurai challenged Takeshi to a duel. But Takeshi saw he was injured and tired. Instead of attacking, he offered water and food.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5d6d7e 0%, #c0392b 100%)",
+      "narration": "El samurai rival, llamado Kenzo, quedó sorprendido. '¿Por qué no me atacaste?', preguntó. Takeshi respondió: 'Un verdadero samurai no ataca a alguien que no puede defenderse.'",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "El samurai rival, <strong>Kenzo</strong>, quedó sorprendido. '¿Por qué no me atacaste?' Takeshi respondió: <strong>¡Un verdadero samurai no ataca a quien no puede defenderse!</strong><br><br><em>The rival samurai, Kenzo, was surprised. Why didn't you attack me? Takeshi answered: A true samurai doesn't attack someone who can't defend themselves!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Kenzo se dio cuenta de que había estado siguiendo el camino incorrecto. Desde ese día, los dos samurai se convirtieron en amigos yProtectores del pueblo juntos.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Kenzo se dio cuenta de que había estado en el camino incorrecto. Desde ese día, <strong>los dos samurai se convirtieron en amigos y protectores del pueblo.</strong><br><br><em>Kenzo realized he had been on the wrong path. From that day on, the two samurai became friends and protectors of the village together.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #2d2d2d 100%)",
+      "narration": "La historia de Takeshi y su compasión se extendió por todo Japón. La gente decía que era el samurai más valiente porque tuvo el coraje de ser bondadoso.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "La historia de Takeshi se extendió por todo Japón. La gente decía que era el samurai más valiente porque tuvo el coraje de ser bondadoso.<br><br><em>Takeshi's story spread throughout Japan. People said he was the bravest samurai because he had the courage to be kind.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el samurai protagonista?",
+            "options": [{"text": "Kenzo"}, {"text": "Takeshi"}, {"text": "Hiro"}, {"text": "Kenji"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Correcto! Era Takeshi.", "incorrect": "La respuesta correcta es Takeshi." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Cuáles eran las tres reglas del código samurai?",
+            "options": [{"text": "Fuerza, velocidad, победа"}, {"text": "Integridad, valentía, compasión"}, {"text": "Honor, dinero, fama"}, {"text": "Lealtad, obediencia, silencio"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! Eran integridad, valentía y compasión.", "incorrect": "La respuesta correcta es integridad, valentía y compasión." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #c0392b 0%, #e74c3c 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: la verdadera valentía es ser bondadoso.<br><br><em>Remember: true bravery is being kind.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre el honor", "en": "Talking about honor" },
+      "content": { "es": "Habla con tu hijo sobre qué significa ser una persona de honor.", "en": "Talk to your child about what it means to be a person of honor." },
+      "icon": "⚔️"
+    }
+  ]
+}

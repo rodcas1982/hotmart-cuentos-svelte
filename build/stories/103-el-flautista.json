@@ -1,0 +1,434 @@
+{
+  "id": "103-el-flautista",
+  "version": "1.0",
+  "meta": {
+    "title": "El Flautista de Hamelín",
+    "subtitle": "A story about responsibility",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      9
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#3498db",
+      "secondaryColor": "#2980b9",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #3498db 50%, #f39c12 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #3498db 0%, #2980b9 50%, #3498db 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/103-flautista.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Flautista de Hamelín",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.6em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la responsabilidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #3498db 100%)",
+      "narration": "En la ciudad de Hamelín había un problema muy grande: demasiadas ratas. Los rats comían todo el grano, el queso y hasta la comida de los niños. El rey estaba muy preocupado.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En la ciudad de Hamelín había un problema muy grande: <strong>demasiadas ratas</strong>. Comían todo el grano y el queso. El rey estaba muy preocupado.<br><br><em>In the city of Hamelin there was a big problem: too many rats. They ate all the grain and cheese. The king was very worried.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #2980b9 100%)",
+      "narration": "Un día llegó un extraño hombre con un sombrero azul y una flauta brillante. \"Puedo solucionar su problema de ratas\", dijo con confianza. \"Pero me pagarán mil monedas de oro.\"",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día llegó un extraño con un sombrero azul y una flauta brillante. \"<strong>Puedo solucionar su problema</strong>, pero me pagarán mil monedas de oro.\"<br><br><em>One day a strange man arrived with a blue hat and a shiny flute. \"I can solve your rat problem, but you will pay me a thousand gold coins.\"</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2980b9 0%, #2c3e50 100%)",
+      "narration": "El rey no tenía mil monedas, pero tenía muchas menos. \"Te pago cien monedas ahora y el resto después\", propuso. El hombre de la flauta aceptó y comenzó a tocar.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "El rey no tenía mil monedas. \"<strong>Te pago cien ahora y el resto después</strong>\", propuso. El hombre aceptó y comenzó a tocar.<br><br><em>The king didn't have a thousand coins. \"I'll pay you a hundred now and the rest later,\" he proposed. The man agreed and began to play.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #f39c12 100%)",
+      "narration": "¡Era una melodía mágica! Las ratas comenzaron a salir de todos los agujeros. Una por una, siguieron al hombre de la flauta, fascinadas por la música.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "¡Era una melodía mágica! <strong>Las ratas siguieron al hombre de la flauta</strong>, fascinadas por la música.<br><br><em>It was a magical melody! The rats began to come out of all the holes. One by one, they followed the flute man, fascinated by the music.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e67e22 100%)",
+      "narration": "El hombre tocó y las ratas lo siguieron hasta el río. ¡Plash! Todas cayeron al agua y nadaron hacia la otra orilla, desapareciendo para siempre de Hamelín.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "El hombre tocó y las ratas lo siguieron hasta el río. ¡Plash! <strong>Todas cayeron al agua</strong> y nadaron hacia la otra orilla.<br><br><em>The man played and the rats followed him to the river. Splash! They all fell into the water and swam to the other shore.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #f39c12 100%)",
+      "narration": "La ciudad estaba libre de ratas por primera vez en meses. Todos celebraban y el rey estaba muy feliz. Pero cuando llegó el momento de pagar, el rey cambió de opinión.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "La ciudad estaba libre de ratas. Todos celebraban. Pero cuando llegó el momento de pagar, <strong>el rey cambió de opinión</strong>.<br><br><em>The city was free of rats for the first time in months. Everyone celebrated. But when it was time to pay, the king changed his mind.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #c0392b 100%)",
+      "narration": "\"Solo te daré cien monedas\", dijo el rey. \"Es todo lo que mereces por tu trabajo.\" El hombre de la flauta intentó discutir, pero el rey lo echó del castillo.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "\"<strong>Solo te daré cien monedas</strong>\", dijo el rey. \"Es todo lo que mereces.\" El hombre de la flauta intentó discutir, pero el rey lo echó.<br><br><em>\"I'll only give you a hundred coins,\" said the king. \"It's all you deserve.\" The flute man tried to argue, but the king kicked him out.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "El flautista estaba muy enojado. Había cumplido su parte del trato, pero el rey no cumplía su palabra. Esa noche, tocó su flauta de nuevo, pero esta vez...",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "El flautista estaba muy enojado. <strong>Había cumplido su parte, pero el rey no</strong>. Esa noche, tocó su flauta de nuevo...<br><em>The flute man was very angry. He had kept his part of the deal, but the king hadn't. That night, he played his flute again...</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #9b59b6 100%)",
+      "narration": "¡Esta vez los que lo siguieron fueron los niños! Todos los niños de Hamelín comenzaron a caminar detrás del flautista, fascinado por la música.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "¡Esta vez los que lo siguieron fueron los niños! <strong>Todos los niños de Hamelín comenzaron a caminar</strong> detrás del flautista.<br><br><em>This time the ones who followed were the children! All the children of Hamelin began to walk behind the flute man.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #8e44ad 100%)",
+      "narration": "El flautista guió a los niños a través de las montañas, lejos de la ciudad. Los padres gritaban y lloraban, pero no podían hacer nada. El flautista había dado un ejemplo de lo que pasa cuando no cumples tu palabra.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "El flautista guió a los niños a través de las montañas. <strong>Los padres gritaban y lloraban</strong>, pero no podían hacer nada.<br><br><em>The flute man led the children through the mountains. The parents screamed and cried, but they couldn't do anything.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #3498db 100%)",
+      "narration": "El rey aprendió una lección muy importante ese día: siempre debes cumplir tus promesas. Si el rey hubiera pagado las mil monedas, los niños estarían seguros en sus hogares.",
+      "elements": [
+        {
+          "id": "text-11",
+          "type": "text",
+          "content": "El rey aprendió una lección muy importante: <strong>siempre debes cumplir tus promesas</strong>. Si hubiera pagado, los niños estarían a salvo.<br><br><em>The king learned a very important lesson: you must always keep your promises. If he had paid, the children would be safe at home.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué problema tenía la ciudad de Hamelín?",
+            "options": [
+              {
+                "text": "Demasiados gatos"
+              },
+              {
+                "text": "Muchas ratas"
+              },
+              {
+                "text": "Lluvia constante"
+              },
+              {
+                "text": "Ratas y mosquitos"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Las ratas eran el problema.",
+              "incorrect": "La respuesta correcta es muchas ratas."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Cuánto pidió el flautista por su trabajo?",
+            "options": [
+              {
+                "text": "100 monedas"
+              },
+              {
+                "text": "500 monedas"
+              },
+              {
+                "text": "1000 monedas"
+              },
+              {
+                "text": "2000 monedas"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Exacto! Pidió mil monedas de oro.",
+              "incorrect": "La respuesta correcta es mil monedas."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué lección nos deja esta historia?",
+            "options": [
+              {
+                "text": "La música es peligrosa"
+              },
+              {
+                "text": "Siempre debes cumplir tus promesas"
+              },
+              {
+                "text": "Los reyes son malos"
+              },
+              {
+                "text": "No hay que trabajar"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Siempre debemos cumplir nuestras promesas.",
+              "incorrect": "La respuesta correcta es que siempre debes cumplir tus promesas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #3498db 0%, #2980b9 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "flute",
+            "content": "🎵",
+            "matchId": "flute"
+          },
+          {
+            "id": "rat",
+            "content": "🐀",
+            "matchId": "rat"
+          },
+          {
+            "id": "child",
+            "content": "👦",
+            "matchId": "child"
+          },
+          {
+            "id": "coin",
+            "content": "💰",
+            "matchId": "coin"
+          },
+          {
+            "id": "king",
+            "content": "👑",
+            "matchId": "king"
+          },
+          {
+            "id": "castle",
+            "content": "🏰",
+            "matchId": "castle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #f39c12 0%, #e67e22 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: cuando das tu palabra, debes cumplirla. Las promesas son importantes.<br><br><em>Remember: when you give your word, you must keep it. Promises are important.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

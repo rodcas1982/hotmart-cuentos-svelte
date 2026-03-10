@@ -1,0 +1,195 @@
+{
+  "id": "018",
+  "meta": {
+    "title": {
+      "es": "La Estrella Fugaz",
+      "en": "The Shooting Star"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      7
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #141e30 0%, #243b55 100%)",
+      "primaryColor": "#141e30"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "La Estrella Fugaz",
+        "en": "The Shooting Star"
+      },
+      "heroImage": "Niña pequeña con pijama de estrellas, mirando el cielo nocturno con ojos maravillados, estrellas brillando a su alrededor",
+      "background": "linear-gradient(135deg, #141e30 0%, #243b55 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una noche clara de verano, una niña chamada Valentina estaba en el jardín de su casa mirando el cielo. Eran tantas estrellas que parecían diamantes tirados sobre un terciopelo negro. De pronto, vio algo increíble: una estrella fugaz cruzó el cielo leaving una estela brillante. '¡Una estrella wish!', gritó emocionada.",
+        "en": "On a clear summer night, a girl named Valentina was in her garden looking at the sky. There were so many stars they looked like diamonds thrown on black velvet. Suddenly, she saw something incredible: a shooting star crossed the sky leaving a bright trail. 'A wish star!' she shouted excitedly."
+      },
+      "image": {
+        "src": "Niña mirando el cielo nocturno con asombro, estrella fugaz pasando",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una noche clara...",
+        "en": "On a clear night..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Valentina cerró los ojos muy fuerte y pidió un deseo: 'Quiero tener un amigo de verdad'. Ella no tenía muchos amigos en la escuela y se sentía sola a veces. Cuando abrió los ojos, la estrella había desaparecido, pero de algún modo sintió que su deseo sería escuchado. Se fue a dormir con una sonrisa en los labios.",
+        "en": "Valentina closed her eyes very tightly and made a wish: 'I want to have a real friend.' She didn't have many friends at school and sometimes felt alone. When she opened her eyes, the star had disappeared, but somehow she felt her wish would be heard. She went to sleep with a smile on her lips."
+      },
+      "image": {
+        "src": "Niña cerrando los ojos haciendo un deseo, con expresión de esperanza",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Valentina cerró los ojos...",
+        "en": "Valentina closed her eyes..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "A la mañana siguiente, una niña nueva llegó a la escuela de Valentina. Se llamaba Emilia y tenía el cabello muy rizado y una sonrisa contagiosa. En el recreo, Emilia se acercó a Valentina y le dijo: 'Hola, ¿quieres jugar conmigo? No conozco a nadie aquí'. ¡Valentina no podía creer lo que escuchaba! Aceptó inmediatamente.",
+        "en": "The next morning, a new girl arrived at Valentina's school. Her name was Emilia and she had very curly hair and a contagious smile. During recess, Emilia approached Valentina and said: 'Hello, do you want to play with me? I don't know anyone here.' Valentina couldn't believe what she was hearing! She accepted immediately."
+      },
+      "image": {
+        "src": "Niñas jugando juntas por primera vez, con sonrisas amplias",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "A la mañana siguiente...",
+        "en": "The next morning..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Valentina y Emilia se volvieron inseparables. Juntas descubrían cosas nuevas: jugaban a las escondidas, compartían sus meriendas, y se contaban secretos. Valentina aprendió que a veces los deseos se cumplen de formas inesperadas, y que la magia existe cuando menos la esperamos. Solo hay que mantener viva la esperanza.",
+        "en": "Valentina and Emilia became inseparable. Together they discovered new things: they played hide and seek, shared their snacks, and told each other secrets. Valentina learned that sometimes wishes are fulfilled in unexpected ways, and that magic exists when we least expect it. We just have to keep hope alive."
+      },
+      "image": {
+        "src": "Dos mejores amigas jugando felices, representando su amistad",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Valentina y Emilia...",
+        "en": "Valentina and Emilia..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué wished Valentina cuando vio la estrella fugaz?",
+              "en": "What did Valentina wish for when she saw the shooting star?"
+            },
+            "options": [
+              {
+                "es": "Tener muchos juguetes",
+                "en": "To have many toys"
+              },
+              {
+                "es": "Tener un amigo de verdad",
+                "en": "To have a real friend"
+              },
+              {
+                "es": "Ser la más popular",
+                "en": "To be the most popular"
+              },
+              {
+                "es": "No ir a la escuela",
+                "en": "Not to go to school"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Valentina Deseó tener un amigo de verdad.",
+              "en": "Correct! Valentina wished to have a real friend."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "girl",
+            "content": "👧",
+            "matchId": "girl"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "moon",
+            "content": "🌙",
+            "matchId": "moon"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "friend",
+            "content": "👫",
+            "matchId": "friend"
+          },
+          {
+            "id": "sky",
+            "content": "🌌",
+            "matchId": "sky"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

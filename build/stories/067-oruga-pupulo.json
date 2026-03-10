@@ -1,0 +1,225 @@
+{
+  "id": "067-oruga-pupulo",
+  "version": "1.0",
+  "meta": {
+    "title": "Oruga Pululo",
+    "subtitle": "A story about metamorphosis and patience",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#2ecc71",
+      "secondaryColor": "#27ae60",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #27ae60 0%, #2ecc71 50%, #1abc9c 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #2ecc71 0%, #27ae60 50%, #2ecc71 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/067-oruga.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Oruga Pululo",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "La oruga que quería volar",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #2ecc71 100%)",
+      "narration": "En una hoja verde y brillante, vivía una pequeña oruga llamada Pululo. Era muy curiosa y le encantaba comer hojas.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una hoja verde y brillante, vivía una pequeña oruga llamada <strong>Pululo</strong>. Era muy curiosa y le encantaba comer hojas.<br><br><em>On a bright green leaf, lived a little caterpillar named Pululo. She was very curious and loved eating leaves.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #1abc9c 100%)",
+      "narration": "Pululo veía a las mariposas volar sobre las flores y pensaba: '¡Quiero volar como ellas!'",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pululo veía a las mariposas volar sobre las flores y pensaba: <strong>¡Quiero volar como ellas!</strong><br><br><em>Pululo watched butterflies fly over flowers and thought: 'I want to fly like them!'</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1abc9c 0%, #16a085 100%)",
+      "narration": "Un día, Pululo sintió algo extraño. Su cuerpo quería descansar. Encontró una rama segura y tejió un capullo alrededor de sí misma.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Pululo sintió algo extraño. <strong>Su cuerpo quería descansar</strong>. Encontró una rama y tejió un capullo alrededor de sí misma.<br><br><em>One day, Pululo felt something strange. Her body wanted to rest. She found a branch and spun a cocoon around herself.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #16a085 0%, #1abc9c 100%)",
+      "narration": "Dentro del capullo, Pululo dormía y cambiaba. Su cuerpo se transformaba lentamente. Era un momento mágico de espera.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Dentro del capullo, Pululo dormía y cambiaba. <strong>Su cuerpo se transformaba lentamente</strong>. Era un momento mágico de espera.<br><br><em>Inside the cocoon, Pululo slept and changed. Her body transformed slowly. It was a magical moment of waiting.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1abc9c 0%, #2ecc71 100%)",
+      "narration": "Después de muchos días, el capullo se abrió. Pululo salió pero ya no era una oruga... ¡era una hermosa mariposa!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Después de muchos días, el capullo se abrió. <strong>¡Pululo salió como una hermosa mariposa!</strong><br><br><em>After many days, the cocoon opened. Pululo came out as a beautiful butterfly!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #e74c3c 100%)",
+      "narration": "Pululo extendió sus alas colouridas y comenzó a volar. ¡Era más hermoso de lo que había soñado!",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Pululo extendió sus alas coloridas y comenzó a volar. <strong>¡Era más hermoso de lo que había soñado!</strong><br><br><em>Pululo spread her colorful wings and began to fly. It was more beautiful than she had dreamed!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #2ecc71 100%)",
+      "narration": "Desde ese día, Pululo entendió que para lograr cosas grandes, a veces hay que esperar y confiar en el proceso.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "<strong>Pululo aprendió:</strong> para lograr cosas grandes, a veces hay que esperar y confiar en el proceso.<br><br><em>Pululo learned: to achieve great things, sometimes you have to wait and trust the process.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la oruga?",
+            "options": [
+              { "text": "Pululo" },
+              { "text": "Mari" },
+              { "text": "Luna" },
+              { "text": "Rosa" }
+            ],
+            "correctIndex": 0,
+            "feedback": { "correct": "¡Correcto! La oruga se llamaba Pululo.", "incorrect": "La respuesta correcta es Pululo." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué se hizo Pululo cuando grew up?",
+            "options": [
+              { "text": "Un escarabajo" },
+              { "text": "Una mariposa" },
+              { "text": "Una abeja" },
+              { "text": "Una avispa" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! Se convirtió en una mariposa.", "incorrect": "La respuesta correcta es una mariposa." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Pululo?",
+            "options": [
+              { "text": "Que volar es fácil" },
+              { "text": "Que hay que esperar para lograr cosas grandes" },
+              { "text": "Que no debe comer hojas" },
+              { "text": "Que las orugas no pueden cambiar" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Muy bien! Hay que esperar para lograr cosas grandes.", "incorrect": "La respuesta correcta es que hay que esperar para lograr cosas grandes." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #2ecc71 0%, #27ae60 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: los grandes cambios requieren tiempo y paciencia.<br><br><em>Remember: great changes require time and patience.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre cambios", "en": "Talking about changes" },
+      "content": { "es": "Explica a tu hijo cómo las orugas se transforman en mariposas. Es una forma natural de entender el crecimiento.", "en": "Explain to your child how caterpillars transform into butterflies. It's a natural way to understand growth." },
+      "icon": "🦋"
+    },
+    {
+      "title": { "es": "Actividad: Observar la naturaleza", "en": "Activity: Observing nature" },
+      "content": { "es": "Busca orugas en el jardín o en el parque y observa cómo viven. Así aprenderán sobre el ciclo de vida.", "en": "Look for caterpillars in the garden or park and observe how they live. They'll learn about the life cycle." },
+      "icon": "🔍"
+    }
+  ]
+}

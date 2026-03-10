@@ -1,0 +1,318 @@
+{
+  "id": "028-el-bosque-sin-arboles",
+  "version": "1.0",
+  "meta": {
+    "title": "El bosque sin árboles",
+    "subtitle": "Un cuento sobre la tala excesiva y sus consecuencias",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e17055",
+      "secondaryColor": "#d63031",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #fab1a0 0%, #ff7675 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e17055 0%, #d63031 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/028-bosque-sin-arboles.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El bosque sin árboles",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Lo que pasa cuando cortamos todos los árboles",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ff7675 100%)",
+      "narration": "Hace mucho tiempo, existía un bosque hermoso llamado Bosque Verde.",
+      "elements": [
+        {
+          "id": "forest-img",
+          "type": "image",
+          "src": "images/028-bosque-sin-arboles.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Hace mucho tiempo, existía un bosque hermoso llamado <strong>Bosque Verde</strong> 🌳<br><br>Los árboles eran altos y fuertes. Los pájaros cantaban en sus ramas. Los ciervos dormían bajo su sombra. Los niños jugaban entre ellos.<br><br>Era el bosque más bonito del mundo.<br><br>Once upon a time, there was a beautiful forest called Green Forest."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff7675 0%, #fab1a0 100%)",
+      "narration": "Un día, unos humanos vinieron con hachas y sierra para cortar árboles.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, vinieron unos hombres con hachas y sierras. 🪓<br><br>—Necesitamos madera para construir casas —dijeron.<br><br>Cortaron un árbol... luego otro... y otro más.<br><br>Los animalesobservaron con miedo:<br>—¿Qué están haciendo?<br><br>Pero los hombres no escucharon. Solo seguían cortando.<br><br>One day, some humans came with axes and saws to cut down trees."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ff7675 100%)",
+      "narration": "Pronto, el bosque quedó sin árboles.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Semanas después, el bosque quedó sin árboles... 😢<br><br>No había sombra para los animales.<br>No había nidos para los pájaros.<br>No había frutas para comer.<br>No había oxígeno para respirar.<br><br>Los animales tenían que mudarse a otro lugar, pero no sabían dónde ir.<br><br>Soon, the forest was left without trees."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff7675 0%, #fab1a0 100%)",
+      "narration": "Los animales y el bosque sufrieron las consecuencias.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "¡Las consecuencias fueron graves! ⚠️<br><br>🌧️ Cuando llovía, no había árboles que absorieran el agua →¡Inundaciones!<br><br>☀️ El sol quemaba la tierra →¡Sequía!<br><br>💨 El viento se llevaba la tierra →¡Erosión!<br><br>🌬️ No había oxígeno suficiente →¡Los animales no podían respirar bien!<br><br>The animals and the forest suffered the consequences."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ff7675 100%)",
+      "narration": "Una niña llamada Lucía tuvo una idea para salvar el bosque.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Una niña llamada <strong>Lucía</strong> vio lo que había pasado y tuvo una idea. 💡<br><br>—¡Necesitamos plantar nuevos árboles!<br><br>Lucía habló con los hombres que habían cortado los árboles:<br><br>—Cortaron muchos árboles, pero ahora deben ayudar a plantar otros nuevos. Así el bosque puede volver a crecer.<br><br>Los hombres se sintieron mal y aceptaron ayudar.<br><br>A girl named Lucia had an idea to save the forest."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff7675 0%, #fab1a0 100%)",
+      "narration": "Todos trabajaron juntos para plantar nuevos árboles.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "¡Todos trabajaron juntos para plantar nuevos árboles! 🌱🙌<br><br>Los hombres cavaron hoyos<br>Los niños plantaron semillas<br>Las mujeres regaron la tierra<br>Los animales cuidaron los plantones<br><br>🌳 <strong>año tras año, los árboles fueron creciendo...</strong><br><br>Everyone worked together to plant new trees."
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ff7675 100%)",
+      "narration": "El bosque volvió a ser hermoso, pero esta vez todos lo cuidaban.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "¡El bosque volvió a ser hermoso! 🌳🌳🌳<br><br>Los pájaros volvieron a cantar.<br>Los ciervos volvieron a dormir bajo la sombra.<br>Los niños volvieron a jugar.<br><br>Y todos aprendieron algo importante:<br><br>💚 <strong>Cortar árboles está bien si plantamos otros nuevos</strong><br>💚 <strong>Los árboles nos dan oxígeno, sombra y vida</strong><br>💚 <strong>Cada árbol cuenta</strong><br><br>The forest became beautiful again, but this time everyone took care of it."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué pasó cuando cortaron todos los árboles del bosque?",
+            "options": [
+              {
+                "text": "El bosque se volvió más bonito"
+              },
+              {
+                "text": "Los animales sufrieron y el ecosistema se dañó"
+              },
+              {
+                "text": "Todo siguió igual"
+              },
+              {
+                "text": "Llovió más"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Los animales sufrieron y el ecosistema se dañó.",
+              "incorrect": "¡Ups! La respuesta correcta es que los animales sufrieron y el ecosistema se dañó."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué pueden hacer los humanos para compensar cortar árboles?",
+            "options": [
+              {
+                "text": "No hacer nada"
+              },
+              {
+                "text": "Plantar nuevos árboles"
+              },
+              {
+                "text": "Cortar más árboles"
+              },
+              {
+                "text": "Ignorar el problema"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Plantar nuevos árboles.",
+              "incorrect": "La respuesta correcta es plantar nuevos árboles."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e17055 0%, #d63031 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "tree",
+            "content": "🌳",
+            "matchId": "tree"
+          },
+          {
+            "id": "seed",
+            "content": "🌱",
+            "matchId": "seed"
+          },
+          {
+            "id": "forest",
+            "content": "🌲",
+            "matchId": "forest"
+          },
+          {
+            "id": "bird",
+            "content": "🐦",
+            "matchId": "bird"
+          },
+          {
+            "id": "water",
+            "content": "💧",
+            "matchId": "water"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e17055 0%, #d63031 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: los árboles son esenciales para la vida. Nos dan oxígeno, alimento y hogar. Si alguna vez ves que cortan un árbol, recuerda que debemos plantar nuevos. ¡Cuida los árboles! 🌳💚<br><br>Remember: Trees are essential for life. They give us oxygen, food, and shelter. If you ever see a tree being cut down, remember we must plant new ones. Take care of trees!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

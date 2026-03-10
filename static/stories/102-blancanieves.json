@@ -1,0 +1,451 @@
+{
+  "id": "102-blancanieves",
+  "version": "1.0",
+  "meta": {
+    "title": "Blancanieves y los 7 Enanos",
+    "subtitle": "A story about friendship",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      8
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e74c3c",
+      "secondaryColor": "#f39c12",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #27ae60 0%, #2ecc71 50%, #f39c12 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #f39c12 50%, #e74c3c 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/102-blancanieves.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Blancanieves y los 7 Enanos",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la amistad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #2ecc71 100%)",
+      "narration": "Había una vez una princessita llamada Blancanieves. Su madrastra era muy mala y celosa de su belleza. Un día, la malvada reina la echó del castillo para siempre.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Había una vez una princesita llamada <strong>Blancanieves</strong>. Su madrastra era muy celosa de su belleza. Un día, la malvada reina la echó del castillo para siempre.<br><br><em>Once upon a time there was a little princess named Snow White. Her stepmother was very jealous of her beauty. One day, the wicked queen kicked her out of the castle forever.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #27ae60 100%)",
+      "narration": "Blancanieves caminó durante mucho tiempo por el bosque. Tenía miedo y no tenía dónde dormir ni qué comer. Las estrellas brillaban overhead y los animales la miraban con curiosidad.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Blancanieves caminó mucho tiempo por el bosque. <strong>Tenía miedo y no tenía dónde dormir</strong>. Los animales la miraban con curiosidad.<br><br><em>Snow White walked for a long time through the forest. She was afraid and had nowhere to sleep. The animals looked at her with curiosity.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #f39c12 100%)",
+      "narration": "De repente, encontró una casita muy pequeña en el medio del bosque. Tocó la puerta pero nadie respondió. Abrió la puerta lentamente y vio que dentro todo era muy pequeño: mesas, sillas, y camitas.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "De repente, encontró una casita muy pequeña. <strong>Dentro todo era diminuto</strong>: mesas, sillas y camitas. ¡Era la casa de los enanos!<br><br><em>Suddenly, she found a very small house. Inside everything was tiny: tables, chairs, and little beds. It was the dwarfs' house!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e74c3c 100%)",
+      "narration": "Blancanieves estaba tan cansada que se durmió en una de las camitas. Cuando volvió a abrir los ojos, siete enanos pequeños estaban mirándola con好奇.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Blancanieves se durmió en una camita. Cuando abrió los ojos, <strong>siete enanos pequeños la miraban</strong> con curiosidad.<br><br><em>Snow White fell asleep in one of the little beds. When she opened her eyes, seven little dwarfs were looking at her with curiosity.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "Los enanos se llamaban: Doc, Tontín, Gruñón, Firulais, Bonachón, Dormilón y Happy. ¡Tenían nombres tan raros! Blancanieves les contó su historia y los enanos se compadecieron.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Los enanos se llamaban: Doc, Tontín, Gruñón, Firulais, Bonachón, Dormilón y Happy. <strong>Blancanieves les contó su historia y los enanos se compadecieron.</strong><br><br><em>The dwarfs were named: Doc, Dopey, Grumpy, Sneezy, Bashful, Sleepy, and Happy. Snow White told them her story and the dwarfs felt sorry for her.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "\"Puedes quedarte con nosotros\", dijo Doc, el líder del grupo. \"Nuestra casa es tu casa.\" Blancanieves sonrió por primera vez desde que salió del castillo.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "\"<strong>Puedes quedarte con nosotros</strong>\", dijo Doc. \"Nuestra casa es tu casa.\" Blancanieves sonrió por primera vez.<br><br><em>\"You can stay with us,\" said Doc. \"Our house is your house.\" Snow White smiled for the first time.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #f39c12 100%)",
+      "narration": "Cada día, los enanos iban a trabajar en las minas y Blancanieves cuidaba la casa. Ella les preparaba comida deliciosa y mantenía todo limpio y ordenado.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Cada día, los enanos iban a trabajar y Blancanieves <strong>les preparaba comida deliciosa</strong> y mantenía la casa limpia y ordenada.<br><br><em>Every day, the dwarfs went to work in the mines and Snow White took care of the house. She prepared delicious food for them and kept everything clean and tidy.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #27ae60 100%)",
+      "narration": "Los enanos la querían mucho. Cuando volvían del trabajo, siempre le traían regalitos: piedras brillantes, flores del bosque o pequeñas sorpresas.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Los enanos la querían mucho. Cuando volvían del trabajo, <strong>siempre le traían regalitos</strong>: piedras brillantes, flores o pequeñas sorpresas.<br><br><em>The dwarfs loved her very much. When they came back from work, they always brought her little gifts: shiny stones, flowers, or small surprises.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #2ecc71 100%)",
+      "narration": "Un día, la malvada madrastra descubrió dónde estaba Blancanieves. Se disfrazó de anciana vendor y le dio una manzana envenenada. Blancanieves se durmió para siempre.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Un día, la malvada madrastra descubrió dónde estaba. Se disfrazó de anciana y le dio <strong>una manzana envenenada</strong>. Blancanieves se durmió para siempre.<br><br><em>One day, the wicked stepmother discovered where Snow White was. She disguised herself as an old vendor and gave her a poisoned apple. Snow White fell asleep forever.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #e74c3c 100%)",
+      "narration": "Los enanos volvieron y encontraron a Blancanieves dormida. Llieron mucho y no quisieron enterrarla. La pusieron en un cristal transparente para siempre recordarla.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Los enanos encontraron a Blancanieves dormida. <strong>Lloraron mucho</strong> y la pusieron en un cristal transparente para recordarla.<br><br><em>The dwarfs came back and found Snow White asleep. They cried a lot and put her in a transparent glass case to remember her forever.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #f39c12 100%)",
+      "narration": "Un día, un príncipe pasó por ahí y vio a Blancanieves en el cristal. Quedó enamorado de su belleza. La besó suavemente y... ¡ella despertó! El hechizo se rompió.",
+      "elements": [
+        {
+          "id": "text-11",
+          "type": "text",
+          "content": "Un príncipe pasó y la vio en el cristal. <strong>La besó suavemente y ella despertó</strong>. ¡El hechizo se rompió!<br><br><em>A prince passed by and saw her in the glass case. He kissed her gently and she woke up! The spell was broken.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-12",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #27ae60 100%)",
+      "narration": "Blancanieves se casó con el príncipe y los siete enanos fueron sus pérdicos de boda. La verdadera amistad había vencido al mal.",
+      "elements": [
+        {
+          "id": "text-12",
+          "type": "text",
+          "content": "Blancanieves se casó con el príncipe y <strong>los siete enanos fueron sus padrinos de boda</strong>. La verdadera amistad había vencido al mal.<br><br><em>Snow White married the prince and the seven dwarfs were her wedding godparents. True friendship had conquered evil.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cuántos enanos vivían en la casita del bosque?",
+            "options": [
+              {
+                "text": "Cinco"
+              },
+              {
+                "text": "Seis"
+              },
+              {
+                "text": "Siete"
+              },
+              {
+                "text": "Ocho"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Correcto! Eran siete enanos.",
+              "incorrect": "La respuesta correcta es siete."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le dio la madrastra a Blancanieves?",
+            "options": [
+              {
+                "text": "Un caramelo"
+              },
+              {
+                "text": "Una manzana envenenada"
+              },
+              {
+                "text": "Un ramo de flores"
+              },
+              {
+                "text": "Un espejo mágico"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Fue una manzana envenenada.",
+              "incorrect": "La respuesta correcta es una manzana envenenada."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Quién despertó a Blancanieves?",
+            "options": [
+              {
+                "text": "Los enanos"
+              },
+              {
+                "text": "Un principe"
+              },
+              {
+                "text": "La madrastra"
+              },
+              {
+                "text": "Su padre"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Un príncipe la despertó con un beso.",
+              "incorrect": "La respuesta correcta es un príncipe."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #f39c12 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "princess",
+            "content": "👸",
+            "matchId": "princess"
+          },
+          {
+            "id": "dwarf",
+            "content": "🧙",
+            "matchId": "dwarf"
+          },
+          {
+            "id": "apple",
+            "content": "🍎",
+            "matchId": "apple"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "castle",
+            "content": "🏰",
+            "matchId": "castle"
+          },
+          {
+            "id": "crown",
+            "content": "👑",
+            "matchId": "crown"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #27ae60 0%, #2ecc71 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: los verdaderos amigos están ahí para ti cuando más los necesitas.<br><br><em>Remember: true friends are there for you when you need them most.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

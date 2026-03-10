@@ -1,0 +1,211 @@
+{
+  "id": "010",
+  "meta": {
+    "title": {
+      "es": "Los Hermanos Corazón",
+      "en": "The Heart Brothers"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      7
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #ff0844 0%, #ffb199 100%)",
+      "primaryColor": "#ff0844"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "Los Hermanos Corazón",
+        "en": "The Heart Brothers"
+      },
+      "heroImage": "Tres niños de diferentes edades (hermanos) abrazándose fuertemente, con sus padres sonrientes al fondo, en un hogar cálido y acogedor",
+      "background": "linear-gradient(135deg, #ff0844 0%, #ffb199 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una casa espaciosa y llena de luz, vivía la familia Corazón. El padre se llamaba Roberto y la madre Ana. Tenían tres hijos: Martín el mayor de diez años, Lucía la mediana de siete, y el pequeño Gaspar de cuatro. Aunque a veces discutían como todas las familias, se querían profundamente y siempre estaban ahí el uno para el otro.",
+        "en": "In a spacious and light-filled house, the Corazón family lived. The father was named Roberto and the mother Ana. They had three children: Martín the oldest who was ten, Lucia the middle child who was seven, and little Gaspar who was four. Although they sometimes fought like all families, they loved each other deeply and were always there for one another."
+      },
+      "image": {
+        "src": "Familia Corazón en su hogar, padre, madre y tres hijos sentados juntos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una casa espaciosa...",
+        "en": "In a spacious house..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, Gaspar se enfermó gravemente y tuvo que ir al hospital. Los doctores dijeron que necesitaba una operación importante. Toda la familia estaba muy preocupada. Martín, que normalmente era independiente y le gustaba estar solo, decidió renunciar a sus actividades Extraescolares para estar con su hermano. Lucía le hizo dibujos Hermosos para darle fuerzas.",
+        "en": "One day, Gaspar became seriously ill and had to go to the doctors. The doctors said he needed a major operation. The whole family was very worried. Martín, who was usually independent and liked to be alone, decided to quit his extracurricular activities to be with his brother. Lucia made beautiful drawings to give him strength."
+      },
+      "image": {
+        "src": "Hermanos mayores visitando a Gaspar en el hospital, con dibujos y sonrisas de apoyo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, Gaspar se enfermó...",
+        "en": "One day, Gaspar became ill..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Los padres de los niños también estaban muy ocupados. El padre trabajaba desde el hospital, atendiendo llamadas y reuniones, pero siempre encontraba tiempo para abrazar a sus hijos. La madre preparaba comida deliciosa para todos y nunca faltaba en las noches difíciles. Juntos, formaban un equipo fuerte que no se rendía jamás.",
+        "en": "The children's parents were also very busy. The father worked from the hospital, taking calls and meetings, but always found time to hug his children. The mother prepared delicious food for everyone and was never missing on difficult nights. Together, they formed a strong team that never gave up."
+      },
+      "image": {
+        "src": "Padres cuidando a sus hijos en el hospital, con expresión de amor y determinación",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Los padres de los niños...",
+        "en": "The children's parents..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Llegó el día de la operación. Toda la familia estaba en el hospital, esperando noticias. Cuando el doctor salió del Quirófano y dijo que la operación había sido exitosa, todos abrazaron y lloraron de felicidad. Gaspar se recuperó rápidamente gracias al amor y cuidado de su familia. Entendió que no estaba solo y que siempre podrían contar los unos con los otros.",
+        "en": "The day of the operation arrived. The whole family was at the hospital, waiting for news. When the doctor came out of the operating room and said the operation had been successful, everyone hugged and cried with happiness. Gaspar recovered quickly thanks to the love and care of his family. He understood that he was not alone and that they could always count on each other."
+      },
+      "image": {
+        "src": "Familia celebrando la recuperación de Gaspar en el hospital, abrazos y lágrimas de alegría",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Llegó el día de la operación...",
+        "en": "The day of the operation arrived..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Desde ese día, los hermanos Corazón se volvieron inseparables. Entendieron que la familia es el equipo más importante que tenemos, y que enfrentar las dificultades juntos nos hace más fuertes. Aprendieron que los momentos difíciles no son obstáculos, sino oportunidades para demostrar cuánto nos queremos.",
+        "en": "From that day on, the Heart brothers became inseparable. They understood that family is the most important team we have, and that facing difficulties together makes us stronger. They learned that difficult moments are not obstacles, but opportunities to show how much we love each other."
+      },
+      "image": {
+        "src": "Tres hermanos jugando juntos en el parque, riendo y divirtiéndose",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Desde ese día...",
+        "en": "From that day on..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué aprenden los hermanos de esta historia?",
+              "en": "What do the brothers learn from this story?"
+            },
+            "options": [
+              {
+                "es": "Que la familia no es importante",
+                "en": "That family is not important"
+              },
+              {
+                "es": "Que enfrentar las dificultades juntos nos hace más fuertes",
+                "en": "That facing difficulties together makes us stronger"
+              },
+              {
+                "es": "Que es mejor estar solos",
+                "en": "That it's better to be alone"
+              },
+              {
+                "es": "Que no debemos cuidarnos unos a otros",
+                "en": "That we shouldn't take care of each other"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Enfrentar las dificultades juntos nos hace más fuertes.",
+              "en": "Correct! Facing difficulties together makes us stronger."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "family",
+            "content": "👨‍👩‍👧‍👦",
+            "matchId": "family"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "house",
+            "content": "🏠",
+            "matchId": "house"
+          },
+          {
+            "id": "hospital",
+            "content": "🏥",
+            "matchId": "hospital"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

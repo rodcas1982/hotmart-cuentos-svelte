@@ -1,0 +1,318 @@
+{
+  "id": "025-el-pueblo-de-los-colores",
+  "version": "1.0",
+  "meta": {
+    "title": "El pueblo de los colores",
+    "subtitle": "Un cuento sobre la diversidad y aceptación",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e17055",
+      "secondaryColor": "#fdcb6e",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #fab1a0 0%, #ffeaa7 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e17055 0%, #fdcb6e 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/025-pueblo-colores.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El pueblo de los colores",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Donde todos los colores viven en armonía",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ffeaa7 100%)",
+      "narration": "Había una vez un pueblo muy especial donde vivían personas de todos los colores de piel.",
+      "elements": [
+        {
+          "id": "town-img",
+          "type": "image",
+          "src": "images/025-pueblo-colores.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Había una vez un pueblo muy especial: <strong>Arcoíris</strong> 🏘️<br><br>En este pueblo vivían personas de todos los colores de piel:<br><br>🟤 Personas de color café<br>🟤 Personas de color miel<br>🟤 Personas de color olive<br>🟤 Personas de color cereza<br>🟤 Personas de color nieve<br><br>¡Todos eran diferentes y todos eran vecinos!<br><br>Once upon a time there was a very special town where people of all skin colors lived."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeaa7 0%, #fab1a0 100%)",
+      "narration": "En Arcoíris había una pequeña conflicto entre algunos vecinos.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pero un día, algo extraño pasó en el pueblo... 😟<br><br><strong>Señor Rojo</strong> dijo:<br>—¡El color rojo es el más bonito!<br><br><strong>Señor Azul</strong> respondió:<br>—¡No, el azul es mejor!<br><br>Entonces <strong>Señor Verde</strong> gritó:<br>—¡El verde es el más importante!<br><br>Cada uno pensaba que su color era el mejor...<br><br>There was a small conflict between some neighbors in Arcoíris."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ffeaa7 100%)",
+      "narration": "Una niña llamada Luna decidió resolver el problema.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Una niña llamada <strong>Luna</strong> decidió resolver el problema. 💡<br><br>—¡Escuchen! —dijo Luna—. ¿Por qué no hacen un arcoíris juntos? Cada color es importante para hacerlo posible.<br><br>Los señores se miraron confundidos.<br><br>—¿Un arcoíris juntos? ¿Cómo?<br><br>Luna sonrió y dijo:<br>—¡Cada uno de ustedes debe contribuir con su color!<br><br>A girl named Luna decided to solve the problem."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeaa7 0%, #fab1a0 100%)",
+      "narration": "Luna les explicó que juntos eran más bellos.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Luna gathered a todos y les enseñó algo hermoso: 🌈<br><br>—Miren, si solo tuviéramos rojo, todo sería rojo y aburrido. Pero juntos, cuando combinamos todos los colores...<br><br>¡Hacemos un arcoíris! Cada color tiene su lugar y su momento.<br><br>—🟡 El amarillo brilla en el sol<br>—🟠 El naranja calienta las mañanas<br>—🔴 El rojo expresa el amor<br>—🟣 El violeta mysterya la noche<br><br>Luna explained that together they were more beautiful."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ffeaa7 100%)",
+      "narration": "Los vecinos decidieron hacer una fiesta de colores para celebrar sus diferencias.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "¡Los vecinos deciden hacer una fiesta de colores! 🎉<br><br>Cada uno contribuyó con algo especial:<br><br>🟤 La señora María → Tortas de tutti los colores<br>🟤 El señor Pedro → Música de todas partes<br>🟤 La abuela Rosa → Cuentos de todas las culturas<br>🟤 Los niños → Bailes tradicionales<br><br>¡La fiesta fue la más hermosa que el pueblo había visto!<br><br>The neighbors decided to have a color party to celebrate their differences."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeaa7 0%, #fab1a0 100%)",
+      "narration": "Un nuevo vecino llegó al pueblo y necesitaba ayuda.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Un día, llegó un nuevo vecino al pueblo: <strong>Tinto</strong> 🧒<br><br>—Hola, me llamo Tinto. Acabo de llegar de lejos. ¿Podrían ayudarme a encontrar mi lugar aquí?<br><br>Todos lo recibieron con brazos abiertos:<br><br>—¡Claro que sí! En Arcoíris, todos cabemos. Cada persona hace nuestro pueblo más bonito.<br><br>Y así, Tinto encontró una nueva familia.<br><br>A new neighbor arrived at town and needed help."
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fab1a0 0%, #ffeaa7 100%)",
+      "narration": "El pueblo de Arcoíris se convirtió en un ejemplo para todos.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "El pueblo de Arcoíris se convirtió en ejemplo para todos. 🌟<br><br>💛 Aprendieron que la diversidad nos hace fuertes<br>💚 Aprendieron que cada persona es valiosa<br>💜 Aprendieron que juntos somos mejores<br><br>Y Luna siempre decía:<br><br>—<em>\" así como el arcoíris necesita todos los colores para ser hermoso, nosotros necesitamos a todos para hacer del mundo un mejor lugar.\"</em><br><br>The town of Arcoíris became an example for everyone."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el pueblo donde vivían todos los colores?",
+            "options": [
+              {
+                "text": "Colores"
+              },
+              {
+                "text": "Arcoíris"
+              },
+              {
+                "text": "Diversidad"
+              },
+              {
+                "text": "Armonía"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El pueblo se llamaba Arcoíris.",
+              "incorrect": "¡Ups! La respuesta correcta es Arcoíris."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué enseñó Luna a los vecinos?",
+            "options": [
+              {
+                "text": "Que solo un color es el mejor"
+              },
+              {
+                "text": "Que juntos, como un arcoíris, somos más hermosos"
+              },
+              {
+                "text": "Que no deben ser amigos"
+              },
+              {
+                "text": "Que deben pintar sus casas del mismo color"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Juntos, como un arcoíris, somos más hermosos.",
+              "incorrect": "La respuesta correcta es que juntos somos más hermosos como un arcoíris."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e17055 0%, #fdcb6e 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "rainbow",
+            "content": "🌈",
+            "matchId": "rainbow"
+          },
+          {
+            "id": "red",
+            "content": "🔴",
+            "matchId": "red"
+          },
+          {
+            "id": "blue",
+            "content": "🔵",
+            "matchId": "blue"
+          },
+          {
+            "id": "yellow",
+            "content": "🟡",
+            "matchId": "yellow"
+          },
+          {
+            "id": "green",
+            "content": "🟢",
+            "matchId": "green"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e17055 0%, #fdcb6e 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: cada persona es única y especial. Como el arcoíris necesita todos los colores para ser hermoso, el mundo nos necesita a todos. ¡Celebra la diversidad! 🌈💜<br><br>Remember: Each person is unique and special. Just as the rainbow needs all colors to be beautiful, the world needs all of us. Celebrate diversity!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "012",
+  "meta": {
+    "title": {
+      "es": "El保安不同文化的孩子们",
+      "en": "The Children of Different Cultures"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      8
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "primaryColor": "#f093fb"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "Los Niños del Mundo",
+        "en": "The Children of the World"
+      },
+      "heroImage": "Niños de diferentes países y culturas (Asia, África, Europa, Américas) tomados de las manos formando un círculo, con el mundo glitter en el centro",
+      "background": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una escuela internacional muy especial, asistían niños de todas partes del mundo. Había Mei de China, que llevaba hermosos(q)(q)vestidos tradicionales; Kwame de Ghana, que siempre contaba historias increíbles de su país; Sofía de España, que encantaba con su música de guitarra; y Jake de Estados Unidos, que tenía un sombrero de vaquero muy cool.",
+        "en": "In a very special international school, children from all over the world attended. There was Mei from China, who wore beautiful traditional dresses; Kwame from Ghana, who always told incredible stories from his country; Sofía from Spain, who enchanted with her guitar music; and Jake from the United States, who had a very cool cowboy hat."
+      },
+      "image": {
+        "src": "Niños de diferentes países en la escuela, cada uno con su ropa tradicional, conversando",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una escuela internacional...",
+        "en": "In an international school..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Al principio, algunos niños se sentían conmempranos por las diferencias. Jake no entendía por qué Mei comía con palillos. Sofía pensaba que Kwame hablaba muy extraño. Mei se preguntaba por qué Jake siempre comía hamburguesas. Pero un día, la directora de la escuela tuvo una idea maravillosa: una semana de celebración de culturas del mundo.",
+        "en": "At first, some children felt uncomfortable with the differences. Jake didn't understand why Mei ate with chopsticks. Sofía thought Kwame spoke very strangely. Mei wondered why Jake always ate hamburgers. But one day, the school principal had a wonderful idea: a week celebrating world cultures."
+      },
+      "image": {
+        "src": "Niños con expresiones confusas al principio, después interesadas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Al principio, algunos niños...",
+        "en": "At first, some children..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Durante esa semana, cada niño compartió algo de su cultura. Mei enseñó a todos a escribir sus nombres en chino y a usar palillos. Kwame contó histórias de los guerreros antiguos de Ghana y mostró un hermosa(k) tambor. Sofía tocó una canción española y Jake bailó un Vaquero auténtico. Todos quedaron fascinados por lo que aprendieron.",
+        "en": "During that week, each child shared something from their culture. Mei taught everyone to write their names in Chinese and use chopsticks. Kwame told stories of ancient Ghanaian warriors and showed a beautiful drum. Sofía played a Spanish song and Jake danced an authentic cowboy dance. Everyone was fascinated by what they learned."
+      },
+      "image": {
+        "src": "Niños compartiendo sus culturas, cada uno enseñando algo a los demás",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Durante esa semana...",
+        "en": "During that week..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Al final de la semana, los cuatro amigos se dieron cuenta de algo mágico: aunque venían de lugares diferentes y tenían costumbres distintas, todos compartían algo muito importante: quería ser amigos, querían aprender juntos, y quería ser felices. Las diferencias ya no eran barreras, sino puentes que los conectaban.",
+        "en": "At the end of the week, the four friends realized something magical: although they came from different places and had different customs, they all shared something very important: they wanted to be friends, they wanted to learn together, and they wanted to be happy. The differences were no longer barriers, but bridges that connected them."
+      },
+      "image": {
+        "src": "Los cuatro amigos abrazándose, con backgrounds de sus países de origen",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Al final de la semana...",
+        "en": "At the end of the week..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Desde ese día, la escuela se llenó de alegría y respeto. Los niños aprendían unos de otros y celebraban sus diferencias. Entendieron que el mundo es Hermoso precisely porque hay muchas culturas diferentes, como un jardín con flores de todos los colores. Y nuestros cuatro amigos siguieron siendo inseparables, demostrándonos que la verdadera amistad no conoce fronteras.",
+        "en": "From that day on, the school filled with joy and respect. The children learned from each other and celebrated their differences. They understood that the world is beautiful precisely because there are many different cultures, like a garden with flowers of all colors. And our four friends remained inseparable, showing us that true friendship knows no borders."
+      },
+      "image": {
+        "src": "Niños de diferentes culturas jugando juntos felices, con un fondo multicolor",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Desde ese día...",
+        "en": "From that day on..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué aprenden los niños sobre las diferentes culturas?",
+              "en": "What do the children learn about different cultures?"
+            },
+            "options": [
+              {
+                "es": "Que son barreras que nos separan",
+                "en": "That they are barriers that separate us"
+              },
+              {
+                "es": "Que nos hacen únicos y especiales, y debemos celebrarlas",
+                "en": "That they make us unique and special, and we should celebrate them"
+              },
+              {
+                "es": "Que no importan",
+                "en": "That they don't matter"
+              },
+              {
+                "es": "Que debemos ignorarlas",
+                "en": "That we should ignore them"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Las diferentes culturas nos hacen únicos y debemos celebrarlas.",
+              "en": "Correct! Different cultures make us unique and we should celebrate them."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "globe",
+            "content": "🌍",
+            "matchId": "globe"
+          },
+          {
+            "id": "child1",
+            "content": "👦",
+            "matchId": "child1"
+          },
+          {
+            "id": "child2",
+            "content": "👧",
+            "matchId": "child2"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "drum",
+            "content": "🥁",
+            "matchId": "drum"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

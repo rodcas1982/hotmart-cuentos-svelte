@@ -1,0 +1,296 @@
+{
+  "id": "015",
+  "meta": {
+    "title": {
+      "es": "LUCAS Y EL DIBUJO PROHIBIDO",
+      "en": "Lucas and the Forbidden Drawing"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      6,
+      10
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #434343 0%, #000000 100%)",
+      "primaryColor": "#434343"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "LUCAS Y EL BULLYING",
+        "en": "LUCAS AND BULLYING"
+      },
+      "heroImage": "Un niño solitaire con mochila, caminando por el pasillo de la escuela, con sombras oscuras representando a matones, expresión triste perodetermined",
+      "background": "linear-gradient(135deg, #434343 0%, #000000 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "Lucas era un niño de ocho años que amaba dibujar. Siempre llevaba consigo su cuaderno de dibujo y un paquete de colores. Le gustaba crear mundos mágicos con princesas, dragones y paisajes Hermosos. Pero Lucas era tímido y no tenía muchos amigos en la escuela. Un grupo de niños mayores siempre se burlaban de él por ser diferente.",
+        "en": "Lucas was an eight-year-old boy who loved to draw. He always carried his drawing notebook and a pack of colors. He liked to create magical worlds with princesses, dragons, and beautiful landscapes. But Lucas was shy and didn't have many friends at school. A group of older children always made fun of him for being different."
+      },
+      "image": {
+        "src": "Niño tímido dibujando solo, con otros niños observándolo y riendo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Lucas era un niño de ocho años...",
+        "en": "Lucas was an eight-year-old boy..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, mientras Lucas estaba en el baño dibujando, el líder del grupo de matones, un niño chamado Diego, entró y le quitó su cuaderno. '¡Mira este niño rarosolo puede dibujar!', gritó, y luego arrancó las páginas con los dibujos de Lucas y las tiró al inodoro. Lucas se sintió devastado. Lágrimas rodaron por sus mejillas mientras veía sus dibujos destroy.",
+        "en": "One day, while Lucas was in the bathroom drawing, the leader of the group of bullies, a boy named Diego, entered and took away his notebook. 'Look at this weird kid who can only draw!' he shouted, and then tore out the pages with Lucas's drawings and flushed them down the toilet. Lucas felt devastated. Tears rolled down his cheeks as he watched his drawings being destroyed."
+      },
+      "image": {
+        "src": "Matón arrebatando el cuaderno de dibujo, niño llorando en el baño",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, mientras Lucas estaba...",
+        "en": "One day, while Lucas was..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Lucas quería contarle a alguien, pero tenía miedo. Pensó que si hablaba, las cosas empeorarían. Así que calló y cargó su dolor solo. Dejó de dibujar porque le temía a lo que podrían hacer. Sus calificaciones bajaron y ya no quería ir a la escuela. Nadie sabía lo que estaba pasando dentro de su pequeño corazón.",
+        "en": "Lucas wanted to tell someone, but he was afraid. He thought if he spoke up, things would get worse. So he stayed silent and carried his pain alone. He stopped drawing because he was afraid of what they might do. His grades dropped and he no longer wanted to go to school. No one knew what was happening inside his little heart."
+      },
+      "image": {
+        "src": "Niño solo en su cuarto, sin dibujar, con expresión triste y mirada perdida",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Lucas quería contarle a alguien...",
+        "en": "Lucas wanted to tell someone..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "La mamá de Lucas notó el cambio en su hijo. Un día, lo abrazó y le dijo: 'Lucas, ¿qué te pasa? Puedes contarme cualquier cosa'. Lucas inicialmente no quiso hablar, pero las lágrimas comenzaron a salir. Contó todo lo que había pasado: las burlas, los insultos, la destrucción de sus dibujos. Su madre lo escuchó con atención y con el corazón dolido.",
+        "en": "Lucas's mother noticed the change in her son. One day, she hugged him and said: 'Lucas, what's wrong? You can tell me anything.' Lucas initially didn't want to talk, but the tears started coming out. He told her everything that had happened: the mockery, the insults, the destruction of his drawings. His mother listened with a hurting heart."
+      },
+      "image": {
+        "src": "Madre escuchando a su hijo llorar, con expresión de preocupación y amor",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "La mamá de Lucas notó...",
+        "en": "Lucas's mother noticed..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Juntos, Lucas y su mamá fueron a hablar con la директор de la escuela. La директор, la señora García, escuchó todo attentamente y prometió investigar. También habló con los padres de los matones. Más importante, le dijo a Lucas: 'Tus dibujos son Hermosos y únicos. No debes avere vergüenza de ser diferente. La diferencia es lo que nos hace especiales'.",
+        "en": "Together, Lucas and his mother went to talk to the school principal. Principal García listened carefully and promised to investigate. She also talked to the parents of the bullies. More importantly, she told Lucas: 'Your drawings are beautiful and unique. You shouldn't be ashamed of being different. Difference is what makes us special.'"
+      },
+      "image": {
+        "src": "Niño con su madre hablando con la директор, con expresiones de apoyo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Juntos, Lucas y su mamá...",
+        "en": "Together, Lucas and his mother..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "story",
+      "text": {
+        "es": "La директор decidió hacer una asamblea especial sobre el bullying. Les explicó a todos los niños qué era el bullying, por qué hace daño, y cómo podemos prevenirlo. También introdujo un sistema de 'amigos especiales' donde los niños podían cuidar unos de otros. Lucas se sintió esperanzado por primera vez en mucho tiempo.",
+        "en": "The principal decided to have a special assembly about bullying. She explained to all the children what bullying was, why it hurts, and how we can prevent it. She also introduced a 'special friends' system where children could take care of each other. Lucas felt hopeful for the first time in a long time."
+      },
+      "image": {
+        "src": "Asambla escolar sobre bullying, директор hablando, niños escuchando atentamente",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "La директор decidió...",
+        "en": "The principal decided..."
+      }
+    },
+    {
+      "id": 8,
+      "type": "story",
+      "text": {
+        "es": "Lucas decidió ser valiente. Empezó a dibujar de nuevo, pero esta vez no solo para él. Comenzó a mostrar sus dibujos a otros niños en la escuela. Para su sorpresa, muchos niños quedaron impressionados y querían que les hiciera dibujos. ¡Lucas encontró amigos que valoraban su talento! Diego, el matón, también cambió después de recibir ayuda.",
+        "en": "Lucas decided to be brave. He started drawing again, but this time not just for himself. He began to show his drawings to other children at school. To his surprise, many children were impressed and wanted him to make drawings for them. Lucas found friends who valued his talent! Diego, the bully, also changed after receiving help."
+      },
+      "image": {
+        "src": "Niño mostrando sus dibujos a un grupo de amigos interesados, con expresión feliz",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Lucas decidió ser valiente...",
+        "en": "Lucas decided to be brave..."
+      }
+    },
+    {
+      "id": 9,
+      "type": "story",
+      "text": {
+        "es": "Lucas aprendió una lección muy importante: cuando sufres bullying, no estás solo. Debebuscar ayuda de personas de confianza: padres, maestros, amigos. También aprendió que ser diferente es un regalo, no una vergüenza. Hoy, Lucas es un niño feliz que sigue dibujando, y sus dibujos alegran a mucha gente en su escuela.",
+        "en": "Lucas learned a very important lesson: when you experience bullying, you are not alone. You must seek help from trusted people: parents, teachers, friends. He also learned that being different is a gift, not a shame. Today, Lucas is a happy child who continues drawing, and his drawings brighten many people at his school."
+      },
+      "image": {
+        "src": "Niño sonriente mostrando sus dibujos terminados, rodeado de amigos que lo aprecian",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Lucas aprendió una lección...",
+        "en": "Lucas learned a lesson..."
+      }
+    },
+    {
+      "id": 10,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué debe hacer alguien que sufre bullying?",
+              "en": "What should someone who is being bullied do?"
+            },
+            "options": [
+              {
+                "es": "Quedarse callado y soportarlo",
+                "en": "Stay silent and endure it"
+              },
+              {
+                "es": "Buscar ayuda de personas de confianza como padres y maestros",
+                "en": "Seek help from trusted people like parents and teachers"
+              },
+              {
+                "es": "Vengarse por su cuenta",
+                "en": "Get revenge on their own"
+              },
+              {
+                "es": "Dejar de ir a la escuela",
+                "en": "Stop going to school"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Cuando sufres bullying, busca ayuda de personas de confianza.",
+              "en": "Correct! When you experience bullying, seek help from trusted people."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué aprendió Lucas sobre ser diferente?",
+              "en": "What did Lucas learn about being different?"
+            },
+            "options": [
+              {
+                "es": "Que es una vergüenza",
+                "en": "That it's a shame"
+              },
+              {
+                "es": "Que es un regalo especial",
+                "en": "That it's a special gift"
+              },
+              {
+                "es": "Que no importa",
+                "en": "That it doesn't matter"
+              },
+              {
+                "es": "Que debe cambiar",
+                "en": "That he should change"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Ser diferente es un regalo especial que nos hace únicos.",
+              "en": "Very well! Being different is a special gift that makes us unique."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "drawing",
+            "content": "🎨",
+            "matchId": "drawing"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "friend",
+            "content": "👫",
+            "matchId": "friend"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Espacio seguro",
+        "en": "Safe space"
+      },
+      "content": {
+        "es": "Crea un ambiente donde tu hijo pueda hablar sin miedo.",
+        "en": "Create an environment where your child can speak without fear."
+      },
+      "icon": "🛡️"
+    },
+    {
+      "title": {
+        "es": "Hablar sobre los sentimientos",
+        "en": "Talking about feelings"
+      },
+      "content": {
+        "es": "Valida los sentimientos de tu hijo si ha experimentado bullying.",
+        "en": "Validate your child's feelings if they have experienced bullying."
+      },
+      "icon": "💬"
+    }
+  ]
+}

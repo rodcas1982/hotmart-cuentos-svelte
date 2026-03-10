@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": {
+      "es": "El sapo principe",
+      "en": "El sapo principe"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "theme": {
+      "background": "linear-gradient(180deg, #10B981 0%, #059669 100%)",
+      "primaryColor": "#FFF"
+    }
+  },
+  "pages": [
+    {
+      "id": "c",
+      "type": "cover",
+      "title": {
+        "es": "T",
+        "en": "T"
+      }
+    },
+    {
+      "id": "2",
+      "type": "story",
+      "text": {
+        "es": "El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. ",
+        "en": "El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "3",
+      "type": "story",
+      "text": {
+        "es": "El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. ",
+        "en": "El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "4",
+      "type": "story",
+      "text": {
+        "es": "El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. ",
+        "en": "El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "5",
+      "type": "story",
+      "text": {
+        "es": "El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. ",
+        "en": "El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "6",
+      "type": "story",
+      "text": {
+        "es": "El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. El sapo principe es un animalito especial. ",
+        "en": "El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. El sapo principe is a special animal. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "q",
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "Te gustó?",
+              "en": "Did you like it?"
+            },
+            "options": [
+              {
+                "es": "Sí",
+                "en": "Yes"
+              },
+              {
+                "es": "No",
+                "en": "No"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "es": "🎉",
+              "en": "🎉"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Aprender",
+        "en": "Learn"
+      },
+      "content": {
+        "es": "Juntos",
+        "en": "Together"
+      },
+      "icon": "📖"
+    }
+  ],
+  "id": "242-el-sapo-principe"
+}

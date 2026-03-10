@@ -1,0 +1,343 @@
+{
+  "id": "044-el-jardin-necesitaba-agua",
+  "version": "1.0",
+  "meta": {
+    "title": "El jardín que necesitaba agua",
+    "subtitle": "A story about responsibility and caring for nature",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#27ae60",
+      "secondaryColor": "#2ecc71",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #1e8449 0%, #27ae60 50%, #2ecc71 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #1e8449 0%, #27ae60 50%, #2ecc71 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/044-jardin.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El jardín que necesitaba agua",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre responsabilidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1e8449 0%, #27ae60 100%)",
+      "narration": "En el patio de la casa de Lucía había un jardín hermoso con flores de muchos colores: rojas, amarillas, azules y moradas. Las mariposasaban alrededor y los pájaros cantaban felices. But one day, everything changed.",
+      "elements": [
+        {
+          "id": "garden-img",
+          "type": "image",
+          "src": "images/044-jardin.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el patio de Lucía había un jardín hermoso con flores de muchos colores: rojas, amarillas, azules y moradas. Las mariposas volaban alrededor y los pájaros cantaban felices. ¡Pero un día todo cambió!<br><br><em>In Lucía's backyard there was a beautiful garden with flowers of many colors: red, yellow, blue, and purple. Butterflies flew around and happy birds sang. But one day everything changed.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #1e8449 100%)",
+      "narration": "Llegó el verano y hacía mucho calor. Los días pasaban sin llover. Las flores del jardín comenzaron a marchitarse. Sus hojas se volvieron amarillas y los pétalos se cayeron. El jardín necesitaba ayuda urgente.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Llegó el verano y hacía mucho calor. Los días pasaban sin llover. <strong>Las flores comenzaron a marchitarse.</strong> Sus hojas se volvieron amarillas y los pétalos se cayeron.<br><br><em>Summer came and it was very hot. Days passed without rain. The flowers began to wilt. Their leaves turned yellow and petals fell off.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1e8449 0%, #c0392b 100%)",
+      "narration": "Lucía vio su jardín triste y entendió que ella también tenía responsabilidad cuidarlo. No podía esperar a que lloviera. Cogió la regadera y decidió action: ella sería quien cuidara de sus plantas.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Lucía vio su jardín triste y entendió que <strong>ella también tenía responsabilidad de cuidarlo.</strong> Cogió la regadera y decidió actuar: ¡ella sería quien cuidara de sus plantas!<br><br><em>Lucía saw her sad garden and understood that she also had responsibility to care for it. She took the watering can and decided to act: she would be the one to care for her plants!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #27ae60 100%)",
+      "narration": "Cada mañana, Lucía regaba sus flores con cuidado. Les quitaba las hojas secas y les hablaba con cariño. Poco a poco, las plantas fueron recuperando su color y fuerza. ¡El jardín volvía a ser hermoso!",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Cada mañana, Lucía regaba sus flores con cuidado. Les quitaba las hojas secas y les hablaba con cariño. <strong>Poco a poco, las plantas fueron recuperando su color y fuerza.</strong><br><em>Every morning, Lucía watered her flowers carefully. She removed dry leaves and talked to them kindly. Little by little, the plants regained their color and strength.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #2ecc71 100%)",
+      "narration": "Las mariposas volvieron, los pájaros cantaron y las flores bloomaron más bellas que nunca. Lucía aprendió que cuidar de las cosas que amamos es nuestra responsabilidad. ¡Y ella cuidaba de su jardín con amor!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Las mariposas volvieron, los pájaros cantaron y las flores florecieron más bellas que nunca. <strong>Lucía aprendió que cuidar de las cosas que amamos es nuestra responsabilidad.</strong><br><br><em>The butterflies returned, birds sang, and flowers bloomed more beautifully than ever. Lucía learned that caring for the things we love is our responsibility.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué le pasaba al jardín?",
+            "options": [
+              {
+                "text": "Tenía demasiadas flores"
+              },
+              {
+                "text": "Necesitaba agua"
+              },
+              {
+                "text": "Tenía muchos pájaros"
+              },
+              {
+                "text": "Estaba muy verde"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El jardín necesitaba agua.",
+              "incorrect": "La respuesta correcta es que necesitaba agua."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué hizo Lucía para ayudar?",
+            "options": [
+              {
+                "text": "Lo dejó solos"
+              },
+              {
+                "text": "Lo regó con la regadera"
+              },
+              {
+                "text": "Lo arrancó"
+              },
+              {
+                "text": "Lo pintó"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Lucía lo regó con la regadera.",
+              "incorrect": "La respuesta correcta es que lo regó con la regadera."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Lucía?",
+            "options": [
+              {
+                "text": "Que las plantas no necesitan agua"
+              },
+              {
+                "text": "Que cuidar lo que amamos es nuestra responsabilidad"
+              },
+              {
+                "text": "Que los jardines son malos"
+              },
+              {
+                "text": "Que debe esperar siempre a otros"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Cuidar lo que amamos es nuestra responsabilidad.",
+              "incorrect": "La respuesta correcta es que cuidar lo que amamos es nuestra responsabilidad."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #27ae60 0%, #2ecc71 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "flower",
+            "content": "🌸",
+            "matchId": "flower"
+          },
+          {
+            "id": "water",
+            "content": "💧",
+            "matchId": "water"
+          },
+          {
+            "id": "butterfly",
+            "content": "🦋",
+            "matchId": "butterfly"
+          },
+          {
+            "id": "garden",
+            "content": "🌻",
+            "matchId": "garden"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          },
+          {
+            "id": "girl",
+            "content": "👧",
+            "matchId": "girl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #1e8449 0%, #2ecc71 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Taking care of nature is everyone's responsibility!<br><strong>¡Remember!</strong> ¡Cuidar la naturaleza es responsabilidad de todos!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

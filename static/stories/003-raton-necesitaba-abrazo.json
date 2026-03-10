@@ -1,0 +1,447 @@
+{
+  "id": "003-raton-necesitaba-abrazo",
+  "version": "1.0",
+  "meta": {
+    "title": "El Ratón que Necesitaba un Abrazo",
+    "subtitle": "A story about the power of hugs",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      0,
+      4
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#f39c12",
+      "secondaryColor": "#e67e22",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #4a3f35 0%, #5d4e37 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #f39c12 0%, #e67e22 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/003-raton-abrazo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Ratón que Necesitaba un Abrazo",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre el poder de los abrazos",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4a3f35 0%, #5d4e37 100%)",
+      "narration": "En un agujero debajo de un viejo roble, vivía un pequeño ratón llamado Ricky. Ricky tenía todo lo que un ratón podía desear: queso fresco, semillas y una cama suave de hojas. Pero algo le faltaba.",
+      "elements": [
+        {
+          "id": "mouse-img",
+          "type": "image",
+          "src": "images/003-raton-abrazo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "160px"
+          },
+          "animation": {
+            "type": "wiggle",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un agujero bajo un viejo roble, vivía un pequeño ratón llamado <strong>Ricky</strong>. Tenía queso fresco, semillas y una cama suave, pero algo le faltaba.<br><br><em>In a hole under an old oak tree lived a little mouse named Ricky. He had fresh cheese, seeds, and a soft bed, but something was missing.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5d4e37 0%, #4a3f35 100%)",
+      "narration": "Ricky nunca había recibido un abrazo. Los otros ratones del bosque corrían demasiado rápido para detenerse a abrazar. Las ardillas saltaban de árbol en árbol sin mirar abajo. Él se sentía solo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Ricky nunca había recibido un abrazo. Los otros ratones corrían muy rápido, las ardillas saltaban sin mirar abajo. <strong>Él se sentía solo.</strong><br><br><em>Ricky had never received a hug. Other mice ran too fast to stop for a hug. He felt lonely.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4a3f35 0%, #6d5c4b 100%)",
+      "narration": "Un día, Ricky decidió buscar un abrazo. Salió de su agujero y comenzó a buscar por todo el bosque. Primero encontró a una ardilla, pero la ardilla estaba muy ocupado recolectando nueces.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Ricky decidió buscar un abrazo. Salió de su agujero y comenzó a buscar por todo el bosque. <strong>Primero encontró a una ardilla ocupada.</strong><br><br><em>One day, Ricky decided to look for a hug. He left his hole and started searching the forest. He found a busy squirrel first.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6d5c4b 0%, #5d4e37 100%)",
+      "narration": "Luego encontró a un conejo, pero el conejo tenía prisa por llevar zanahorias a su familia. Después encontró a un pájaro, pero el pájaro estaba volando hacia el sur. Nadie tenía tiempo para un abrazo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Luego encontró a un conejo con prisa, después a un pájaro volando al sur. <strong>Nadie tenía tiempo para un abrazo.</strong> Ricky comenzó a sentirse triste.<br><br><em>Then he found a rabbit in a hurry, then a bird flying south. No one had time for a hug.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5d4e37 0%, #3498db 100%)",
+      "narration": "Justo cuando Ricky estaba por rendirse, escuchó un llanto pequeño. Siguió el sonido y encontró a un pollito azul atrapado bajo una rama caída. El pollito tenía mucho miedo.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Justo cuando Ricky estaba por rendirse, escuchó un llanto. Encontró a un pollito azul atrapado bajo una rama. <strong>El pollito tenía mucho miedo.</strong><br><br><em>Just when Ricky was about to give up, he heard crying. He found a blue chick trapped under a fallen branch.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #2980b9 100%)",
+      "narration": "Ricky no lo pensó dos veces. Con sus pequeñas patitas y dientes fuertes, comenzó a mover la rama. Tardó mucho tiempo, pero no se rindió. Finalmente, la rama se movió lo suficiente para que el pollito saliera.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Ricky comenzó a mover la rama con sus pequeñas patitas. <strong>Tardó mucho tiempo, pero no se rindió.</strong> ¡Finalmente el pollito pudo salir!<br><br><em>Ricky started moving the branch with his little paws. It took a long time, but he didn't give up. Finally the chick could get out!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2980b9 0%, #3498db 100%)",
+      "narration": "El pollito estaba a salvo, pero temblaba de miedo. Ricky queria comfortarlo, pero no sabía cómo. Entonces, sin pensarlo, extendió sus pequeñas patitas y abrazó al pollito.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "El pollito temblaba de miedo. <strong>Ricky extendió sus patitas y lo abrazó.</strong> ¡Era el primer abrazo de Ricky!<br><br><em>The chick was shivering with fear. Ricky extended his paws and hugged him. It was Ricky's first hug!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #1abc9c 100%)",
+      "narration": "El pollito dejó de temblar. Se sentía seguro y cálido por primera vez desde que quedó atrapado. Miró a Ricky con sus grandes ojos y le dio las gracias. Luego hizo algo increíble.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "El pollito dejó de temblar. Se sentía seguro y cálido. <strong>Miró a Ricky y le dio las gracias</strong>, luego hizo algo increíble.<br><br><em>The chick stopped shivering. He felt safe and warm. He looked at Ricky and thanked him, then did something incredible.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1abc9c 0%, #2ecc71 100%)",
+      "narration": "El pollito abrazó a Ricky fuertemente con sus pequeñas alas. ¡Y entonces Ricky sintió algo mágico! Todo su cuerpo se llenó de calor y alegría. Por fin había recibido su primer abrazo.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "¡El pollito abrazó a Ricky con sus alas! <strong>Ricky sintió algo mágico</strong>: todo su cuerpo se llenó de calor y alegría. ¡Por fin había recibido su primer abrazo!<br><br><em>The chick hugged Ricky with his wings! Ricky felt something magical: his whole body filled with warmth and joy.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #27ae60 100%)",
+      "narration": "El pollito llevaba a Ricky a conocer a su familia. Resultó que eran los pollitos más amigables del bosque. Desde ese día, Ricky nunca más estuvo solo. Siempre tenía amigos que lo abrazaban.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "El pollito llevó a Ricky a conocer a su familia. Eran los pollitos más amigables del bosque. <strong>Desde ese día, Ricky nunca más estuvo solo.</strong><br><br><em>The chick took Ricky to meet his family. They were the friendliest chicks in the forest. From that day on, Ricky was never alone again.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #f39c12 100%)",
+      "narration": "Ricky aprendió algo ese día que nunca olvidaría: los abrazos no se buscan, se dan. Cuando帮助 a otros, los abrazos llegan solos. Y son los mejores regalos del mundo.",
+      "elements": [
+        {
+          "id": "text-11",
+          "type": "text",
+          "content": "<strong>Ricky aprendió:</strong> los abrazos no se buscan, se dan. Cuando ayudo a otros, los abrazos llegan solos. Son los mejores regalos del mundo.<br><br><em>Ricky learned: hugs are not found, they are given. When you help others, hugs come on their own. They are the best gifts in the world.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el ratón?",
+            "options": [
+              {
+                "text": "Rodolfo"
+              },
+              {
+                "text": "Ricky"
+              },
+              {
+                "text": "Ramon"
+              },
+              {
+                "text": "Roberto"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El ratón se llamaba Ricky.",
+              "incorrect": "La respuesta correcta es Ricky."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué animal encontró Ricky atrapado?",
+            "options": [
+              {
+                "text": "Una ardilla"
+              },
+              {
+                "text": "Un pollito"
+              },
+              {
+                "text": "Un conejo"
+              },
+              {
+                "text": "Un pájaro"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Era un pollito azul atrapado.",
+              "incorrect": "La respuesta correcta es un pollito."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Ricky sobre los abrazos?",
+            "options": [
+              {
+                "text": "Que se compran en la tienda"
+              },
+              {
+                "text": "Que no importan"
+              },
+              {
+                "text": "Que se dan cuando ayudas a otros"
+              },
+              {
+                "text": "Que son solo para adultos"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Muy bien! Ricky aprendió que los abrazos llegan cuando ayudas a otros.",
+              "incorrect": "La respuesta correcta es que se dan cuando ayudas a otros."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #f39c12 0%, #e67e22 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "mouse",
+            "content": "🐭",
+            "matchId": "mouse"
+          },
+          {
+            "id": "chick",
+            "content": "🐤",
+            "matchId": "chick"
+          },
+          {
+            "id": "hug",
+            "content": "🤗",
+            "matchId": "hug"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "cheese",
+            "content": "🧀",
+            "matchId": "cheese"
+          },
+          {
+            "id": "tree",
+            "content": "🌳",
+            "matchId": "tree"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #f39c12 0%, #e67e22 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🤗 <strong>Fin</strong> 🤗",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: un abrazo puede hacer que alguien se sienta seguro y amado. ¡Da abrazos hoy!<br><br><em>Remember: a hug can make someone feel safe and loved. Give hugs today!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}
