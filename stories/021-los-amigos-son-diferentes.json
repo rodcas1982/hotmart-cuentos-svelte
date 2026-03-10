@@ -1,0 +1,326 @@
+{
+  "id": "021-los-amigos-son-diferentes",
+  "version": "1.0",
+  "meta": {
+    "title": "Los amigos son diferentes",
+    "subtitle": "Un cuento sobre la aceptación",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e056fd",
+      "secondaryColor": "#686de0",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e056fd 0%, #686de0 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/021-amigos-diferentes.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Los amigos son diferentes",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Aprende a aceptar y amar a todos por como son",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #6c5ce7 100%)",
+      "narration": "En un jardín lleno de flores coloridas, vivían cuatro animalitos muy amigos. Eran diferentes, pero eso no les importaba.",
+      "elements": [
+        {
+          "id": "animals-img",
+          "type": "image",
+          "src": "images/021-amigos-diferentes.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un jardín lleno de flores coloridas, vivían cuatro animalitos muy amigos.🐰<br><br>Era un conejito blanco llamado <strong>Blanquito</strong>, un sapito verde llamado <strong>Verdecito</strong>, un pollito amarillo llamado <strong>Amarillito</strong> y un gatito negro llamado <strong>Negrito</strong>.<br><br>They were all different, but that didn't matter to them.",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6c5ce7 0%, #a29bfe 100%)",
+      "narration": "Un día, llegó un nuevo animal al jardín. Era un erizo con muchas púas.",
+      "elements": [
+        {
+          "id": "hedgehog-img",
+          "type": "image",
+          "src": "images/021-amigos-diferentes.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "150px"
+          }
+        },
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, llegó un nuevo animal al jardín. Era un erizo con muchas púas.🦔<br><br>—¡Hola! Me llamo <strong>Púas</strong>. ¿Puedo jugar con ustedes?<br><br>Los otros animalitos se miraron preocupados. Las púas del erizo les daban un poco de miedo.<br><br>One day, a new animal arrived at the garden. It was a hedgehog with many spikes."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #6c5ce7 100%)",
+      "narration": "Blanquito fue el primero en acercarse. —¡Claro que puedes jugar con nosotros!—, dijo con una sonrisa.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Blanquito fue el primero en acercarse.<br><br>—¡Claro que puedes jugar con nosotros! —dijo con una sonrisa—. Las diferencias nos hacen únicos y especiales.<br><br>Los otros amigos pensaron que Blanquito era muy valiente.<br><br>Blanquito was the first to approach. 'Of course you can play with us!' he said with a smile."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6c5ce7 0%, #a29bfe 100%)",
+      "narration": "Juntos pasaron la tarde jugando. Descubrieron que Púas era muy divertido y tenía buenas ideas.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Juntos pasaron la tarde jugando. ¡Descubrieron que Púas era muy divertido!<br><br>🌟 <strong>Verdecito</strong> aprendió que los sapos pueden saltar muy alto.<br>🌟 <strong>Amarillito</strong> descubrió que los erizos saben contar chistes graciosos.<br>🌟 <strong>Negrito</strong> encontró que Púas era leal y siempre dizia la verdad.<br><br>Together they spent the afternoon playing. They discovered that Púas was very fun."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #6c5ce7 100%)",
+      "narration": "Cuando llegó la hora de dormir, los amigos se dio cuenta de algo especial.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Cuando llegó la hora de dormir, los amigos se abrazaron para darse las buenas noches.<br><br>—¿Tienes frío, Púas? —preguntó Negrito.<br><br>—Un poco —respondió Púas.<br><br>Entonces Blanquito tuvo una idea brillante. ¡Todos se acurrucaron juntos para теплоse! 🐰🐢🐱🦔<br><br>When it was time to sleep, the friends realized something special."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6c5ce7 0%, #a29bfe 100%)",
+      "narration": "Al día siguiente, todos los animales del jardín querían conocer a Púas.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Al día siguiente, todos los animales del jardín querían conocer a Púas.<br><br>—¿Es verdad que las púas son suaves? —preguntó una mariquita.<br><br>—¡Claro!触摸试试看！—dijo Púas, y dejó que todos lo tocaran con cuidado.<br><br>🌈 <strong>Lesson learned:</strong> No juzgues por las apariencias. Everyone was different, and that's what made them special together."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el erizo?",
+            "options": [
+              {
+                "text": "Púas"
+              },
+              {
+                "text": "Espinito"
+              },
+              {
+                "text": "Piquito"
+              },
+              {
+                "text": "Duro"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "correct": "¡Correcto! El erizo se llamaba Púas.",
+              "incorrect": "¡Ups! La respuesta correcta es Púas."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué aprenden los amigos en este cuento?",
+            "options": [
+              {
+                "text": "Que todos debemos ser iguales"
+              },
+              {
+                "text": "Que las diferencias nos hacen especiales"
+              },
+              {
+                "text": "Que los erizos son peligrosos"
+              },
+              {
+                "text": "Que es mejor jugar solo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Las diferencias nos hacen únicos y especiales.",
+              "incorrect": "La respuesta correcta es: las diferencias nos hacen especiales."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e056fd 0%, #686de0 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "rabbit",
+            "content": "🐰",
+            "matchId": "rabbit"
+          },
+          {
+            "id": "frog",
+            "content": "🐸",
+            "matchId": "frog"
+          },
+          {
+            "id": "chick",
+            "content": "🐤",
+            "matchId": "chick"
+          },
+          {
+            "id": "cat",
+            "content": "🐱",
+            "matchId": "cat"
+          },
+          {
+            "id": "hedgehog",
+            "content": "🦔",
+            "matchId": "hedgehog"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e056fd 0%, #686de0 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: tus amigos pueden ser diferentes a ti, y eso es lo que los hace especiales. ¡Acepta a todos con amor! 💜<br><br>Remember: Your friends may be different from you, and that's what makes them special. Accept everyone with love!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "id": "061-el-saltimbanqui",
+  "version": "1.0",
+  "meta": {
+    "title": "El Saltimbanqui Aprendiz",
+    "subtitle": "A story about perseverance",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e67e22",
+      "secondaryColor": "#f39c12",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 50%, #f39c12 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e67e22 0%, #f39c12 50%, #e67e22 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/061-saltimbanqui.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Saltimbanqui Aprendiz",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        "subtitle": {"type": "text", "content": "Una historia sobre la perseverancia", "position": {"x": "center", "y": "bottom"}, "style": {"fontSize": "1.3em", "opacity": "0.95"}}
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 100%)",
+      "narration": "En un pequeño pueblo lleno de color, había un niño llamado Martín que soñaba con convertirse en el mejor saltimbanqui del mundo. Cada día, observaba a los artistas del circo practicar sus acrobacias y sentía que su corazón latía de emoción.",
+      "elements": [
+        {
+          "id": "img-1",
+          "type": "image",
+          "src": "images/061-saltimbanqui.jpg",
+          "position": {"x": "center", "y": "top", "width": "180px"}
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un pequeño pueblo lleno de color, había un niño llamado <strong>Martín</strong> que soñaba con convertirse en el mejor saltimbanqui del mundo. Cada día observaba a los artistas del circo y sentía su corazón latir de emoción.<br><br><em>In a small colorful town, there was a boy named Martín who dreamed of becoming the best acrobat in the world. Every day he watched the circus artists practice and felt his heart race with excitement.</em>",
+          "position": {"x": "center", "y": "bottom"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #d35400 100%)",
+      "narration": "Martín era muy pequeño y sus brazos eran débiles. CuandoIntentaba hacer una voltereta, caía al suelo. Cuandointentaba equilibrarse en una cuerda, perdía el equilibrio. Los otros niños se reían de él y le decían que abandonara su sueño.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Martín era muy pequeño y sus brazos eran débiles. Cuando intentaba hacer una voltereta, caía al suelo. <strong>Los otros niños se reían de él y le decían que abandonara su sueño.</strong><br><br><em>Martín was very small and his arms were weak. When he tried to do a somersault, he fell down. The other children laughed at him and told him to give up his dream.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #c0392b 100%)",
+      "narration": "Pero Martín no se dio por vencido. Cada mañana, antes de que saliera el sol, practicaba en el campo cerca de su casa. Caía, se levantaba, volvía a intentar. <strong>Su mantra era: 'Si caigo, me levanto más fuerte'</strong>.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Pero Martín no se dio por vencido. Cada mañana, antes de que saliera el sol, practicaba en el campo. Caía, se levantaba, volvía a intentar. <strong>Su mantra era: 'Si caigo, me levanto más fuerte'</strong>.<br><br><em>But Martín didn't give up. Every morning before sunrise, he practiced in the field. He fell, got up, tried again. His mantra was: 'If I fall, I get up stronger'</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Un día, el famoso payaso del circo, don Félix, vio a Martín practicing solo. Impresionado por su determinación, decidió darle una oportunidad. 'Niño', le dijo, 'la perseverancia es el secreto de los grandes artistas'.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Un día, el famoso payaso del circo, don Félix, vio a Martín practicando solo. <strong>Impresionado por su determinación, decidió darle una oportunidad.</strong> 'La perseverancia es el secreto de los grandes artistas', le dijo.<br><br><em>One day, the famous circus clown, Don Félix, saw Martín practicing alone. Impressed by his determination, he decided to give him a chance. 'Perseverance is the secret of great artists,' he told him.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "Don Félix le enseñó a Martín los secretos del equilibrio, la fuerza y la coordinación. Martín escuchaba cada palabra con atención y practicaba cada movimiento una y otra vez. <strong>Semana tras semana, sus habilidades mejoraban</strong>.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Don Félix le enseñó a Martín los secretos del equilibrio, la fuerza y la coordinación. Martín escuchaba cada palabra y practicaba cada movimiento una y otra vez. <strong>Semana tras semana, sus habilidades mejoraban</strong>.<br><br><em>Don Félix taught Martín the secrets of balance, strength, and coordination. Martín listened to every word and practiced each movement again and again. Week after week, his skills improved.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #d35400 100%)",
+      "narration": "Llegó el gran día del espectáculo. El público llenaba las gradas y las luces brillaban como estrellas. Martín subió al escenario con las piernas temblorosas, pero recordó todas las veces que había caído y se había levantado.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Llegó el gran día del espectáculo. El público llenaba las gradas y las luces brillaban como estrellas. <strong>Martín subió al escenario con las piernas temblorosas, pero recordó todas las veces que había caído y se había levantado.</strong><br><br><em>The big day of the show arrived. The audience filled the stands and lights sparkled like stars. Martín walked onto the stage with trembling legs, but remembered all the times he had fallen and gotten up.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 100%)",
+      "narration": "Con un suspiro profundo, Martín comenzó su rutina. Saltó, giró,平衡ó en una sola pierna y voló por el aire como un pájaro. El público contuvo el aliento y luego explotó en aplausos ensordecedores.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Con un suspiro profundo, Martín comenzó su rutina. Saltó, giró, se平衡ó en una pierna y voló por el aire como un pájaro. <strong>El público contuvo el aliento y luego explotó en aplausos.</strong><br><br><em>With a deep breath, Martín began his routine. He jumped, spun, balanced on one leg, and flew through the air like a bird. The audience held their breath and then burst into deafening applause.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #f39c12 100%)",
+      "narration": "Al terminar, Martín buscó con la mirada a don Félix. El viejo payaso tenía lágrimas en los ojos y le aplaudía más fuerte que nadie. <strong>Martín había demostrado que la perseverancia puede convertir los sueños en realidad</strong>.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Al terminar, Martín buscó con la mirada a don Félix. El viejo payaso tenía lágrimas en los ojos y le aplaudía más fuerte que nadie. <strong>Martín había demostrado que la perseverancia puede convertir los sueños en realidad.</strong><br><br><em>When finished, Martín looked for Don Félix. The old clown had tears in his eyes and applauded louder than anyone. Martín had proven that perseverance can turn dreams into reality.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e67e22 100%)",
+      "narration": "Desde ese día, Martín se convirtió en el saltimbanqui más famoso del país. Pero lo más importante no era la fama, sino saber que había logrado su sueño <strong>porque nunca dejó de intentarlo, incluso cuando todo parecía imposible</strong>.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Desde ese día, Martín se convirtió en el saltimbanqui más famoso del país. Pero lo más importante era saber que había logrado su sueño <strong>porque nunca dejó de intentarlo</strong>, incluso cuando todo parecía imposible.<br><br><em>From that day on, Martín became the most famous acrobat in the country. But the most important thing was knowing he had achieved his dream because he never stopped trying, even when everything seemed impossible.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #d35400 100%)",
+      "narration": "Y cuando otros niños le preguntaban cómo había logrado ser tan bueno, Martín siempre respondía lo mismo: '<strong>Caí mil veces, pero me levanté mil y una. Eso es todo el secreto</strong>'.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Y cuando otros niños le preguntaban cómo había logrado ser tan bueno, Martín siempre respondía: '<strong>Caí mil veces, pero me levanté mil y una. Eso es todo el secreto</strong>'.<br><br><em>And when other children asked how he had become so good, Martín always replied: 'I fell a thousand times, but I got up a thousand and one. That's the whole secret.'</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el niño protagonista?",
+            "options": [
+              {"text": "Mario"},
+              {"text": "Martín"},
+              {"text": "Manuel"},
+              {"text": "Miguel"}
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El niño se llamaba Martín.",
+              "incorrect": "La respuesta correcta es Martín."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le enseñó don Félix a Martín?",
+            "options": [
+              {"text": "A contar chistes"},
+              {"text": "Los secretos del equilibrio y la fuerza"},
+              {"text": "A cocinar"},
+              {"text": "A dibujar"}
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Le enseñó los secretos del equilibrio y la coordinación.",
+              "incorrect": "La respuesta correcta es los secretos del equilibrio y la fuerza."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Cuál era el mantra de Martín?",
+            "options": [
+              {"text": "Si caigo, me rindo"},
+              {"text": "Si caigo, me levanto más fuerte"},
+              {"text": "No voy a intentar"},
+              {"text": "Es demasiado difícil"}
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Su mantra era 'Si caigo, me levanto más fuerte'.",
+              "incorrect": "La respuesta correcta es 'Si caigo, me levanto más fuerte'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e67e22 0%, #f39c12 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "acrobat", "content": "🤹", "matchId": "acrobat"},
+          {"id": "star", "content": "⭐", "matchId": "star"},
+          {"id": "clown", "content": "🤡", "matchId": "clown"},
+          {"id": "heart", "content": "❤️", "matchId": "heart"},
+          {"id": "trophy", "content": "🏆", "matchId": "trophy"},
+          {"id": "moon", "content": "🌙", "matchId": "moon"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e67e22 0%, #f39c12 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: si caes, levántate. La perseverancia es la clave para lograr tus sueños.<br><br><em>Remember: if you fall, get up. Perseverance is the key to achieving your dreams.</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ]
+}

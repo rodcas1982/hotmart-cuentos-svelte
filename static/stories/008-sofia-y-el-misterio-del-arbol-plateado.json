@@ -1,0 +1,227 @@
+{
+  "id": "008",
+  "meta": {
+    "title": {
+      "es": "Sofía y el Misterio del Árbol Plateado",
+      "en": "Sofia and the Mystery of the Silver Tree"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      6,
+      9
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #c471ed 0%, #f64f59 100%)",
+      "primaryColor": "#c471ed"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "Sofía y el Misterio del Árbol Plateado",
+        "en": "Sofia and the Mystery of the Silver Tree"
+      },
+      "heroImage": "Una niña con cabello rojo y ojos curiosos, examinando un árbol mágico con hojas plateadas que brillan bajo la luna, en un bosque misterioso",
+      "background": "linear-gradient(135deg, #c471ed 0%, #f64f59 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "Sofía era una niña de siete años que vivía en un pequeño pueblo cerca de un bosque antiguo. A ella le encantaba explorar y descubrir cosas nuevas. Un día, mientras caminaba por el bosque, encontró algo increíble: un árbol que tenía las hojas de color plateado y brillaban como si fueran pequeñas estrellas. Sofía se acercó con curiosidad para examinarlo más de cerca.",
+        "en": "Sofia was a seven-year-old girl who lived in a small village near an ancient forest. She loved exploring and discovering new things. One day, while walking through the forest, she found something incredible: a tree that had silver-colored leaves and sparkled like little stars. Sofia approached with curiosity to examine it more closely."
+      },
+      "image": {
+        "src": "Niña caminando en un bosque antiguo, descubriendo el árbol misterioso con hojas plateadas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Sofía era una niña...",
+        "en": "Sofia was a girl..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "De pronto, el árbol comenzó a hablar! Una voz suave y melódica salió de las hojas plateadas: 'Hola, pequeña exploradora. Me llamo Argentum, el árbol de los recuerdos. He estado esperando a alguien como tú, alguien con un corazón valiente y curioso'. Sofía quedó sorprendida pero no tuvo miedo. Respondió con valentía: '¿Por qué me esperabas? ¿Qué puedo hacer por ti?'.",
+        "en": "Suddenly, the tree began to speak! A soft and melodic voice came from the silver leaves: 'Hello, little explorer. My name is Argentum, the tree of memories. I have been waiting for someone like you, someone with a brave and curious heart.' Sofia was surprised but was not afraid. She responded bravely: 'Why were you waiting for me? What can I do for you?'"
+      },
+      "image": {
+        "src": "Niña talking to a magical tree with silver leaves, both surprised and curious",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "De pronto, el árbol comenzó a hablar...",
+        "en": "Suddenly, the tree began to speak..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "El árbol le explicó que hace muchos años, los villagers habían olvidado cómo cuidar del bosque y de sus árboles mágicos. Argentum había perdido su brillo y sus poderes. Ahora, para恢复 su magia, necesitaba que un niño con corazón puro realizará tres actos de bondad en el bosque: plantar un árbol, ayudar a un animal, y respetar la naturaleza. Sofía aceptó el reto inmediatamente.",
+        "en": "The tree explained that many years ago, the villagers had forgotten how to care for the forest and its magical trees. Argentum had lost its shine and its powers. Now, to restore its magic, it needed a child with a pure heart to perform three acts of kindness in the forest: plant a tree, help an animal, and respect nature. Sofia immediately accepted the challenge."
+      },
+      "image": {
+        "src": "Árbol mágico explicando su misión a la niña, con expresiones de esperanza",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "El árbol le explicó...",
+        "en": "The tree explained..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "El primer acto de bondad fue plantar un árbol. Sofía fue a su casa, buscó unaSemilla de roble que su abuelo le había regalado, y la plantó cerca del árbol plateado. Regó la tierra con cariño y le habló con amor. En pocos días, brotó un pequeño tallo verde. El segundo acto fue ayudar a un animal: encontró un pajarito con el ala lastimada y lo curó con cuidado, alimentándolo hasta que pudiera volar de nuevo.",
+        "en": "The first act of kindness was to plant a tree. Sofia went to her house, found an oak seed that her grandfather had given her, and planted it near the silver tree. She watered the soil with love and talked to it kindly. In a few days, a small green stem sprouted. The second act was to help an animal: she found a little bird with a hurt wing and carefully healed it, feeding it until it could fly again."
+      },
+      "image": {
+        "src": "Niña plantando un árbol y cuidando un pajarito herido con amor y dedicación",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "El primer acto de bondad...",
+        "en": "The first act of kindness..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "El tercer acto fue respetar la naturaleza. Sofía comenzó a recoger la basura que encontraba en el bosque y la reciclaba adecuadamente. También enseñó a otros niños del pueblo la importancia de nobotar papeles y plásticos en la naturaleza. Poco a poco, el bosque comenzó a verse más limpio y los animales volvían a habitarlo con alegría.",
+        "en": "The third act was to respect nature. Sofia began collecting the garbage she found in the forest and recycled it properly. She also taught other children in the village the importance of not throwing paper and plastics in nature. Little by little, the forest began to look cleaner and the animals started living in it happily again."
+      },
+      "image": {
+        "src": "Niña limpiando el bosque y enseñando a otros niños a cuidar la naturaleza",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "El tercer acto fue respetar...",
+        "en": "The third act was to respect..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "story",
+      "text": {
+        "es": "Después de completar los tres actos de bondad, Sofía regresó al árbol plateado. ¡Qué sorpresa! Argentum brillaba más que nunca, con hojas de plata que emitían una luz suave y hermosa. El árbol le dijo: 'Gracias, pequeña Sofia. Tú has demostrado que el cuidado del medio ambiente comienza con acciones pequeñas pero significativas. Tú eres una verdadera protectora del bosque'.",
+        "en": "After completing the three acts of kindness, Sofia returned to the silver tree. What a surprise! Argentum sparkled more than ever, with silver leaves that emitted a soft and beautiful light. The tree said to her: 'Thank you, little Sofia. You have shown that caring for the environment begins with small but significant actions. You are a true protector of the forest.'"
+      },
+      "image": {
+        "src": "Árbol plateado brillando con luz mágica, con niña feliz y agradecida al lado",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Después de completar...",
+        "en": "After completing..."
+      }
+    },
+    {
+      "id": 8,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Cuáles fueron los tres actos de bondad que tuvo que hacer Sofía?",
+              "en": "What were the three acts of kindness Sofia had to do?"
+            },
+            "options": [
+              {
+                "es": "Comer, dormir y jugar",
+                "en": "Eat, sleep, and play"
+              },
+              {
+                "es": "Plantar un árbol, ayudar a un animal, y respetar la naturaleza",
+                "en": "Plant a tree, help an animal, and respect nature"
+              },
+              {
+                "es": "Estudiar, leer y escribir",
+                "en": "Study, read, and write"
+              },
+              {
+                "es": "Correr, saltar y cantar",
+                "en": "Run, jump, and sing"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Sofía tuvo que plantar un árbol, ayudar a un animal y respetar la naturaleza.",
+              "en": "Correct! Sofia had to plant a tree, help an animal, and respect nature."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "tree",
+            "content": "🌳",
+            "matchId": "tree"
+          },
+          {
+            "id": "girl",
+            "content": "👧",
+            "matchId": "girl"
+          },
+          {
+            "id": "bird",
+            "content": "🐦",
+            "matchId": "bird"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "moon",
+            "content": "🌙",
+            "matchId": "moon"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

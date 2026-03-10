@@ -1,0 +1,359 @@
+{
+  "id": "083-la-tormenta-electrica",
+  "version": "1.0",
+  "meta": {
+    "title": "La Tormenta Eléctrica",
+    "subtitle": "A story about overcoming storm fears",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#1565c0",
+      "secondaryColor": "#42a5f5",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #0d1b2a 0%, #1b263b 50%, #415a77 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #0d1b2a 0%, #1b263b 50%, #415a77 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/083-tormenta.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Tormenta Eléctrica",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.6em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.6)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre valiente ante las tormentas",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0d1b2a 0%, #1b263b 100%)",
+      "narration": "Era una tarde de verano cuando el cielo se puso muy oscuro. Los rayos iluminaban el cuarto de Marcos y los truenos sonaban como tambores grandes.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Era una tarde de verano cuando el cielo se puso muy oscuro. Los rayos iluminaban el cuarto de Marcos y los truenos sonaban como tambores grandes.<br><br><em>It was a summer afternoon when the sky became very dark. Lightning lit up Marcos's room and thunder sounded like big drums.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1b263b 0%, #415a77 100%)",
+      "narration": "Marcos tenía mucho miedo. Se tapó los oídos con las manos y cerró los ojos muy fuerte. —¡Mami, tengo miedo! —gritó.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Marcos tenía mucho miedo. Se tapó los oídos con las manos y cerró los ojos muy fuerte. —¡Mami, tengo miedo! —gritó.<br><br><em>Marcos was very scared. He covered his ears with his hands and closed his eyes tightly. —Mommy, I'm scared! —he shouted.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #415a77 0%, #778da9 100%)",
+      "narration": "Su mamá vino a su cuarto y lo abrazó. —¿Sabes qué es un rayo, Marcos? Es solo la electricidad de las nubes jugando a las escondidas. Es como cuando frotas un globo y saltan chispas.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Su mamá vino a su cuarto y lo abrazó. —¿Sabes qué es un rayo, Marcos? Es solo la electricidad de las nubes jugando a las escondidas. Es como cuando frotas un globo y saltan chispas.<br><br><em>His mom came to his room and hugged him. —Do you know what lightning is, Marcos? It's just electricity in the clouds playing hide and seek. It's like when you rub a balloon and sparks jump out.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #778da9 0%, #415a77 100%)",
+      "narration": "Marcos se calmó un poco. —¿Pero y si me pega el rayo? —preguntó. Su mamá sonrió y dijo: —Los rayos van a los lugares más altos, como los árboles y las casas. Estás seguro dentro de casa.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Marcos se calmó un poco. —¿Pero y si me pega el rayo? —preguntó. Su mamá sonrió y dijo: —Los rayos van a los lugares más altos, como los árboles y las casas. Estás seguro dentro de casa.<br><br><em>Marcos calmed down a little. —But what if the lightning hits me? —he asked. His mom smiled and said: —Lightning goes to the highest places, like trees and houses. You're safe inside the house.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #415a77 0%, #e0e1dd 100%)",
+      "narration": "Juntosшли к окну и увидели algo increíble. La lluvia caía fuerte, pero también había un arcoíris hermoso después de la tormenta. —¡Mira, Marcos! Después de la tormenta siempre sale el sol.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Juntos fueron a la ventana y vieron algo increíble. La lluvia caía fuerte, pero también había un arcoíris hermoso después de la tormenta. —¡Mira, Marcos! Después de la tormenta siempre sale el sol.<br><br><em>Together they went to the window and saw something incredible. The rain was falling hard, but there was also a beautiful rainbow after the storm. —Look, Marcos! After the storm, the sun always comes out.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e0e1dd 0%, #ffd166 100%)",
+      "narration": "Marcos sonrió. Ahora entendía: las tormentas eran temporales y siempre terminaban. Lo importante era estar rodeado de gente que te quiere.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Marcos sonrió. Ahora entendía: las tormentas eran temporales y siempre terminaban. Lo importante era estar rodeado de gente que te quiere y saber que después de la lluvia viene el arcoíris.<br><br><em>Marcos smiled. Now he understood: storms were temporary and always ended. The important thing was to be surrounded by people who love you and know that after the rain comes the rainbow.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué le explicó la mamá a Marcos sobre los rayos?",
+            "options": [
+              {
+                "text": "Son monsters"
+              },
+              {
+                "text": "Son electricidad de las nubes"
+              },
+              {
+                "text": "Son peligrosas"
+              },
+              {
+                "text": "Son fuegos"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Los rayos son electricidad de las nubes.",
+              "incorrect": "La respuesta correcta es que son electricidad de las nubes."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Por qué está seguro Marcos dentro de casa?",
+            "options": [
+              {
+                "text": "Porque los rayos van a los lugares altos"
+              },
+              {
+                "text": "Porque tiene un paraguas"
+              },
+              {
+                "text": "porque duerme"
+              },
+              {
+                "text": "Porque los rayos no existen"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "correct": "¡Exacto! Los rayos van a los lugares más altos como árboles y casas.",
+              "incorrect": "La respuesta correcta es porque los rayos van a los lugares más altos."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué apareció después de la tormenta?",
+            "options": [
+              {
+                "text": "Más lluvia"
+              },
+              {
+                "text": "Un arcoíris"
+              },
+              {
+                "text": "Nieve"
+              },
+              {
+                "text": "Un dragón"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Después de la tormenta apareció un arcoíris hermoso.",
+              "incorrect": "La respuesta correcta es un arcoíris."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #1b263b 0%, #415a77 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "rainbow-order",
+        "sequence": [
+          "rojo",
+          "naranja",
+          "amarillo",
+          "verde",
+          "azul",
+          "morado"
+        ],
+        "items": [
+          {
+            "id": "color-1",
+            "content": "🟡",
+            "name": "amarillo",
+            "colorName": "Amarillo"
+          },
+          {
+            "id": "color-2",
+            "content": "🔴",
+            "name": "rojo",
+            "colorName": "Rojo"
+          },
+          {
+            "id": "color-3",
+            "content": "🟣",
+            "name": "morado",
+            "colorName": "Morado"
+          },
+          {
+            "id": "color-4",
+            "content": "🟢",
+            "name": "verde",
+            "colorName": "Verde"
+          },
+          {
+            "id": "color-5",
+            "content": "🟠",
+            "name": "naranja",
+            "colorName": "Naranja"
+          },
+          {
+            "id": "color-6",
+            "content": "🔵",
+            "name": "azul",
+            "colorName": "Azul"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #778da9 0%, #ffd166 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: después de cada tormenta siempre sale el sol. Los momentos difíciles pasan, y siempre viene algo hermoso después.<br><br><em>Remember: after every storm, the sun always comes out. The difficult moments pass, and something beautiful always comes after.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

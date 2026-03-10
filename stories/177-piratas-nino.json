@@ -1,0 +1,214 @@
+{
+  "id": "177-piratas-nino",
+  "version": "1.0",
+  "meta": {
+    "title": "El Pequeño Pirata Luca",
+    "subtitle": "Un pirata con corazón de oro",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#c0392b",
+      "secondaryColor": "#e74c3c",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #1a3a4a 0%, #2c3e50 50%, #1a3a4a 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #c0392b 0%, #e74c3c 50%, #c0392b 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/177-piratas-nino.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Pequeño Pirata Luca",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Un pirata con corazón de oro",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a3a4a 0%, #2c3e50 100%)",
+      "narration": "En el pueblo costero de Marinilla vivía un niño llamado Luca. Soñaba con convertirse en el pirata más valiente de los siete mares. Cada día, practicaba en la playa con su espada de madera.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el pueblo costero de <strong>Marinilla</strong> vivía un niño llamado <strong>Luca</strong>. Soñaba con convertirse en el pirata más valiente de los siete mares. ¡Cada día practicaba en la playa con su espada de madera!<br><br><em>In the coastal town of Marinilla lived a boy named Luca. He dreamed of becoming the bravest pirate of the seven seas. Every day he practiced on the beach with his wooden sword.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #3498db 100%)",
+      "narration": "Un día, un viejo marinero llamado Captain Pedro vio a Luca jugando. Le sorprendió ver tan pequeño tan determinado. Le regaló un antiguo mapa del tesoro y le dijo: 'Los verdadero tesoro no es el oro, sino los amigos que haces en el camino.'",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, el viejo marinero <strong>Captain Pedro</strong> vio a Luca jugando. Le sorprendió ver a un niño tan valiente. Le regaló un antiguo mapa del tesoro y le dijo: <strong>¡El verdadero tesoro no es el oro, sino los amigos!</strong><br><br><em>One day, the old sailor Captain Pedro saw Luca playing. He was surprised to see such a brave little boy. He gave him an ancient treasure map and said: The real treasure is not gold, but the friends you make along the way!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #2980b9 100%)",
+      "narration": "Luca reunió a sus mejores amigos: Maria, que era muy inteligente; Tomás, que nadaba rapidísimo; y Sofía, que podía trepar cualquier árbol. Juntos formarían la tripulación del barco 'Estrella del Mar'.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Luca reunió a sus mejores amigos: <strong>Maria</strong>, muy inteligente; <strong>Tomás</strong>, que nadaba rapidísimo; y <strong>Sofía</strong>, que podía trepar cualquier árbol. ¡Juntos formarían la tripulación del barco <strong>Estrella del Mar</strong>!<br><br><em>Luca gathered his best friends: Maria, who was very smart; Tomás, who could swim super fast; and Sofía, who could climb any tree. Together they would form the crew of the Star of the Sea!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2980b9 0%, #1a3a4a 100%)",
+      "narration": "Siguieron el mapa a través de islas misteriosas, resolviendo acertijos y superando obstáculos. En una isla encontraron un cofre, pero dentro no había oro: ¡había un diario lleno de aventuras de Captain Pedro de joven!",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Siguieron el mapa a través de islas misteriosas, resolviendo acertijos. En una isla encontraron un cofre, pero dentro no había oro: <strong>¡había un diario lleno de aventuras de Captain Pedro!</strong><br><br><em>They followed the map through mysterious islands, solving riddles. On one island they found a chest, but inside there was no gold: it was a diary full of Captain Pedro's adventures!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a3a4a 0%, #c0392b 100%)",
+      "narration": "Luca entendió el mensaje. El verdadero tesoro eran las aventuras vividas y los amigos hechos en el camino. Volvió a Marinilla y visitó a Captain Pedro para agradecerle.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Luca entendió el mensaje. <strong>El verdadero tesoro eran las aventuras y los amigos.</strong> Volvió a Marinilla y visitó a Captain Pedro para agradecerle.<br><br><em>Luca understood the message. The real treasure was the adventures and friends made along the way. He returned to Marinilla to thank Captain Pedro.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Desde ese día, Luca y sus amigos siguieron explorando el mar, pero ahora sabían que cada día era una nueva aventura. Y el viejo Captain Pedro sonreía al verlos zarpar desde su ventana.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Desde ese día, Luca y sus amigos siguieron explorando el mar. Cada día era una nueva aventura. <strong>Y el viejo Captain Pedro sonreía al verlos zarpar.</strong><br><br><em>From that day on, Luca and his friends kept exploring the sea. Every day was a new adventure. And the old Captain Pedro smiled as he watched them set sail.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el niño protagonista?",
+            "options": [{"text": "Pedro"}, {"text": "Tomás"}, {"text": "Luca"}, {"text": "Mario"}],
+            "correctIndex": 2,
+            "feedback": { "correct": "¡Correcto! Era Luca.", "incorrect": "La respuesta correcta es Luca." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Cómo se llamaba el barco de los amigos?",
+            "options": [{"text": "Barco Dorado"}, {"text": "Estrella del Mar"}, {"text": "Viento Norte"}, {"text": "Mar Azul"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! Era la Estrella del Mar.", "incorrect": "La respuesta correcta es Estrella del Mar." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué encontró Luca en el cofre del tesoro?",
+            "options": [{"text": "Oro"}, {"text": "Un diario de aventuras"}, {"text": "Joyas"}, {"text": "Monedas"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Muy bien! Era un diario de aventuras.", "incorrect": "La respuesta correcta es un diario de aventuras." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #c0392b 0%, #e74c3c 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "pirate", "content": "🏴‍☠️", "matchId": "pirate"},
+          {"id": "ship", "content": "⛵", "matchId": "ship"},
+          {"id": "treasure", "content": "💰", "matchId": "treasure"},
+          {"id": "map", "content": "🗺️", "matchId": "map"},
+          {"id": "island", "content": "🏝️", "matchId": "island"},
+          {"id": "friend", "content": "🤝", "matchId": "friend"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #c0392b 0%, #e74c3c 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: los mejores tesoros son los amigos que hacemos en nuestras aventuras.<br><br><em>Remember: the best treasures are the friends we make in our adventures.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre la amistad", "en": "Talking about friendship" },
+      "content": { "es": "Pregunta a tu hijo quién es su mejor amigo y qué le gusta hacer con él.", "en": "Ask your child who their best friend is and what they like to do together." },
+      "icon": "🤝"
+    },
+    {
+      "title": { "es": "Dibuja tu aventura pirata", "en": "Draw your pirate adventure" },
+      "content": { "es": "Dibuja con tu hijo su propio barco pirata y a su tripulación.", "en": "Draw with your child their own pirate ship and crew." },
+      "icon": "🎨"
+    }
+  ]
+}

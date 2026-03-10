@@ -1,0 +1,427 @@
+{
+  "id": "065-el-pesanubes",
+  "version": "1.0",
+  "meta": {
+    "title": "El Pesanubes",
+    "subtitle": "A story about perseverance",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#00bcd4",
+      "secondaryColor": "#80deea",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #00838f 0%, #00bcd4 50%, #80deea 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #00bcd4 0%, #80deea 50%, #00bcd4 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/065-pesanubes.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Pesanubes",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.8em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la perseverancia",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00838f 0%, #00bcd4 100%)",
+      "narration": "En lo alto de las montañas, donde las nubes nacían y jugaban entre las estrellas, vivía un pequeño nube llamada Nublado. Era la nube más pequeña de todas y los demás se reían de él.",
+      "elements": [
+        {
+          "id": "img-1",
+          "type": "image",
+          "src": "images/065-pesanubes.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En lo alto de las montañas, donde las nubes nacían y jugaban entre las estrellas, vivía un pequeño nube llamado <strong>Nublado</strong>. Era la nube más pequeña de todas y los demás se reían de él.<br><br><em>High up in the mountains, where clouds were born and played among the stars, there lived a small cloud named Nublado. He was the smallest of all the clouds and others laughed at him.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #00838f 100%)",
+      "narration": "'Eres demasiado pequeño para hacer algo útil', le decía Nube Grande. 'Las nubes pequeñas como tú solo sirven para flotar sin hacer nada importante'. Nublado se sentía triste y sin propósito.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "'Eres demasiado pequeño para hacer algo útil', le decía Nube Grande. '<strong>Las nubes pequeñas como tú solo sirven para flotar sin hacer nada importante</strong>.' Nublado se sentía triste y sin propósito.<br><br><em>'You're too small to do anything useful,' Big Cloud told him. 'Small clouds like you only serve to float without doing anything important.' Nublado felt sad and without purpose.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00838f 0%, #006064 100%)",
+      "narration": "Un día, un fuertesolhitió las montañas y el agua de los ríos comenzó a desaparecer. Los animales y las plantas tenían sed. Las nubes grandes intentaron hacer lluvia, pero no tenían suficiente fuerza.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, un fuerte sol hitió las montañas y el agua de los ríos comenzó a desaparecer. Los animales y las plantas tenían sed. <strong>Las nubes grandes intentaron hacer lluvia, pero no tenían suficiente fuerza.</strong><br><br><em>One day, a strong sun hit the mountains and the water in rivers began to disappear. Animals and plants were thirsty. The big clouds tried to make rain, but they didn't have enough strength.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #006064 0%, #00838f 100%)",
+      "narration": "Nublado vio la angustia de todos abajo y decidió intentar algo que nunca había hecho antes: <strong>iba a intentar hacer llover aunque fuera una sola gota</strong>. Las otras nubes se rieron de él.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Nublado vio la angustia de todos abajo y decidió intentar algo que nunca había hecho antes: <strong>iba a intentar hacer llover aunque fuera una sola gota.</strong> Las otras nubes se rieron de él.<br><br><em>Nublado saw the anguish of everyone below and decided to try something he had never done before: he was going to try to make rain, even if it was just one drop. The other clouds laughed at him.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00838f 0%, #00bcd4 100%)",
+      "narration": "Nublado se concentró con todas sus fuerzas. Aunque era pequeño, juntó cada pequeña gota de humedad que encontró. Trabajó toda la noche, conmemtrationandoy apretando cada pequeña partícula de agua.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Nublado se concentró con todas sus fuerzas. Aunque era pequeño, juntó cada pequeña gota de humedad que encontró. <strong>Trabajó toda la noche, concentrándose y apretando cada pequeña partícula de agua.</strong><br><br><em>Nublado concentrated with all his strength. Although he was small, he gathered every small drop of moisture he found. He worked all night, concentrating and squeezing every small water particle.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #26c6da 100%)",
+      "narration": "Al amanecer, algo maravilloso sucedió. Nublado, aunque era pequeño, logró producir una pequeña lluvia que cayó sobre las flores marchitas. No era mucha agua, pero era suficiente para que las plantas，恢复aran.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Al amanecer, algo maravilloso sucedió. Nublado, aunque era pequeño, logró producir una pequeña lluvia que cayó sobre las flores marchitas. <strong>No era mucha agua, pero era suficiente para que las plantas se recoveraran.</strong><br><br><em>At dawn, something wonderful happened. Nublado, although small, managed to produce a small rain that fell on the wilted flowers. It wasn't much water, but it was enough for the plants to recover.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #26c6da 0%, #00bcd4 100%)",
+      "narration": "Los animales miraron al cielo y vieron a Nublado brillar con un color arcoíris. '¡Gracias, pequeña nube!', gritaron. Por primera vez, Nublado se sintió útil y orgulloso.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Los animales miraron al cielo y vieron a Nublado brillar con un color arcoíris. '<strong>¡Gracias, pequeña nube!</strong>', gritaron. Por primera vez, Nublado se sintió útil y orgulloso.<br><br><em>The animals looked at the sky and saw Nublado shine with a rainbow color. 'Thank you, little cloud!' they shouted. For the first time, Nublado felt useful and proud.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #00838f 100%)",
+      "narration": "Las otras nubes, que antes se reían, se acercaron avergonzadas. 'Perdónanos, Nublado', dijeron. 'Nunca imaginamos que algo tan pequeño pudiera lograr algo tan grande'.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Las otras nubes, que antes se reían, se acercaron avergonzadas. '<strong>Perdónanos, Nublado</strong>', dijeron. 'Nunca imaginamos que algo tan pequeño pudiera lograr algo tan grande'.<br><br><em>The other clouds, who used to laugh, approached embarrassed. 'Forgive us, Nublado,' they said. 'We never imagined something so small could achieve something so great.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00838f 0%, #00bcd4 100%)",
+      "narration": "Nublado aprendió algo ese día que nunca olvidaría: <strong>el tamaño no importa cuando tienes determinación</strong>. Un pequeño corazón persistente puede lograr cosas que las nubes grandes nunca podrían imaginar.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Nublado aprendió algo ese día que nunca olvidaría: <strong>el tamaño no importa cuando tienes determinación.</strong> Un pequeño corazón persistente puede lograr cosas que las nubes grandes nunca podrían imaginar.<br><br><em>Nublado learned something that day he would never forget: size doesn't matter when you have determination. A small persistent heart can achieve things that big clouds could never imagine.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #00838f 100%)",
+      "narration": "Y desde entonces, cuando alguien se siente pequeño o sin importancia, las nubes susurran la historia de Nublado: '<strong>El pesa-nubes que demostró que el tamaño no define el corazón</strong>'.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Y desde entonces, cuando alguien se siente pequeño o sin importancia, las nubes susurran la historia de Nublado: '<strong>El pesanubes que demostró que el tamaño no define el corazón</strong>'.<br><br><em>And from then on, when someone feels small or unimportant, the clouds whisper the story of Nublado: 'The small cloud that proved that size doesn't define the heart.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la nube protagonista?",
+            "options": [
+              {
+                "text": "Nubecita"
+              },
+              {
+                "text": "Nublado"
+              },
+              {
+                "text": "Nube"
+              },
+              {
+                "text": "Nublo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! La nube se llamaba Nublado.",
+              "incorrect": "La respuesta correcta es Nublado."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué problema tenían los animales y plantas?",
+            "options": [
+              {
+                "text": "Tenían mucho calor"
+              },
+              {
+                "text": "Tenían sed, no había agua"
+              },
+              {
+                "text": "Estaban perdidos"
+              },
+              {
+                "text": "Tenían hambre"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Tenían sed porque no había agua.",
+              "incorrect": "La respuesta correcta es que tenían sed, no había agua."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué demostró Nublado?",
+            "options": [
+              {
+                "text": "Que las nubes grandes son mejores"
+              },
+              {
+                "text": "Que el tamaño no importa cuando tienes determinación"
+              },
+              {
+                "text": "Que no debe intentarse lo imposible"
+              },
+              {
+                "text": "Que debe hacerse caso a los mayores"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Demostró que el tamaño no importa cuando tienes determinación.",
+              "incorrect": "La respuesta correcta es que el tamaño no importa cuando tienes determinación."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #00bcd4 0%, #80deea 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "cloud",
+            "content": "☁️",
+            "matchId": "cloud"
+          },
+          {
+            "id": "rain",
+            "content": "🌧️",
+            "matchId": "rain"
+          },
+          {
+            "id": "flower",
+            "content": "🌸",
+            "matchId": "flower"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #00bcd4 0%, #80deea 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: no importa cuán pequeño seas, con perseverancia puedes lograr cosas maravillosas.<br><br><em>Remember: no matter how small you are, with perseverance you can achieve wonderful things.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

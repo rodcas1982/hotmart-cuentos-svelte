@@ -1,0 +1,214 @@
+{
+  "id": "178-cowboys-west",
+  "version": "1.0",
+  "meta": {
+    "title": "Billy el Cowboy Valiente",
+    "subtitle": "El西部 más ético",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#d35400",
+      "secondaryColor": "#e67e22",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8b4513 0%, #a0522d 50%, #8b4513 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #d35400 0%, #e67e22 50%, #d35400 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/178-cowboys-west.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Billy el Cowboy Valiente",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "El西部 más honesto",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8b4513 0%, #a0522d 100%)",
+      "narration": "En el vasto西部 de Texas, donde el sol poniente pintaba el cielo de naranja, vivía un joven cowboy llamado Billy. Era conocido por su sombrero grande y su corazón aún más grande.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el vasto西部 de Texas, donde el sol poniente pintaba el cielo de naranja, vivía un joven cowboy llamado <strong>Billy</strong>. Era conocido por su sombrero grande y su corazón aún más grande.<br><br><em>In the vast West of Texas, where the setting sun painted the sky orange, lived a young cowboy named Billy. He was known for his big hat and an even bigger heart.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a0522d 0%, #cd853f 100%)",
+      "narration": "Billy cuidaba un rebaño de vacas junto con su mejor amigo: un perro chamado Rusty. Cada mañana, cabalgaba por las praderas cantando canciones antiguas.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Billy cuidaba un rebaño de vacas junto con su mejor amigo: un perro llamado <strong>Rusty</strong>. Cada mañana, cabalgaba por las praderas cantando canciones antiguas.<br><br><em>Billy took care of a herd of cows with his best friend: a dog named Rusty. Every morning, he rode through the prairies singing old songs.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #cd853f 0%, #deb887 100%)",
+      "narration": "Un día, Billy encontró un billetera llena de dinero en el suelo. Podría haberla guardado para él, pero recordó las palabras de su abuelo: 'Un cowboy de verdad siempre hace lo correcto, aunque nadie lo vea.'",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Billy encontró una billetera llena de dinero. Podría haberla guardado, pero recordó las palabras de su abuelo: <strong>¡Un cowboy de verdad siempre hace lo correcto!</strong><br><br><em>One day, Billy found a wallet full of money on the ground. He could have kept it, but he remembered his grandfather's words: A real cowboy always does what's right!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #deb887 0%, #d35400 100%)",
+      "narration": "Billy cabalgó hasta el pueblo más cercano y preguntó si alguien había perdido dinero. Después de mucho buscar, encontró a Don Manuel, un granjero que había perdido sus ahorros para comprar semillas.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Billy cabalgó hasta el pueblo y preguntó si alguien había perdido dinero. Encontró a <strong>Don Manuel</strong>, un granjero que había perdido sus ahorros para comprar semillas.<br><br><em>Billy rode to the nearest town and asked if anyone had lost money. He found Don Manuel, a farmer who had lost his savings to buy seeds.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 100%)",
+      "narration": "Don Manuel estaba tan agradecido que ofreció a Billy una de sus mejores vacas. Pero Billy declined cortésmente y dijo: 'Solo hice lo que cualquier cowboy habría hecho.'",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Don Manuel estaba tan agradecido que ofreció a Billy una vaca. Pero Billy dijo: <strong>Solo hice lo que cualquier cowboy habría hecho.</strong><br><br><em>Don Manuel was so grateful he offered Billy one of his best cows. But Billy said: I just did what any cowboy would have done.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #8b4513 100%)",
+      "narration": "La noticia se extendió por todo el西部. Billy se convirtió en un héroe y más personas comenzaron a seguir su ejemplo. El pueblo lo nombró 'El Cowboy más Honesto del Oeste'.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "La noticia se extendió por todo el西部. Billy se convirtió en un héroe. El pueblo lo nombró: <strong>¡El Cowboy más Honesto del Oeste!</strong><br><br><em>The news spread throughout the West. Billy became a hero. The town named him: The Most Honest Cowboy in the West!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el cowboy protagonista?",
+            "options": [{"text": "Pedro"}, {"text": "Billy"}, {"text": "John"}, {"text": "Carlos"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Correcto! Era Billy.", "incorrect": "La respuesta correcta es Billy." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Cómo se llamaba el perro de Billy?",
+            "options": [{"text": "Max"}, {"text": "Rusty"}, {"text": "Buddy"}, {"text": "Luna"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! Era Rusty.", "incorrect": "La respuesta correcta es Rusty." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué encontró Billy en el suelo?",
+            "options": [{"text": "Una/bronce"}, {"text": "Una billetera con dinero"}, {"text": "Un sombrero"}, {"text": "Una moneda"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Muy bien! Encontró una billetera con dinero.", "incorrect": "La respuesta correcta es una billetera con dinero." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #d35400 0%, #e67e22 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "cowboy", "content": "🤠", "matchId": "cowboy"},
+          {"id": "horse", "content": "🐴", "matchId": "horse"},
+          {"id": "cow", "content": "🐄", "matchId": "cow"},
+          {"id": "hat", "content": "🎩", "matchId": "hat"},
+          {"id": "sun", "content": "🌅", "matchId": "sun"},
+          {"id": "star", "content": "⭐", "matchId": "star"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #d35400 0%, #e67e22 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: ser honesto te hace más valiente que cualquier otro.<br><br><em>Remember: being honest makes you braver than anything else.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre la honestidad", "en": "Talking about honesty" },
+      "content": { "es": "Habla con tu hijo sobre la importancia de ser honesto, incluso cuando nadie te ve.", "en": "Talk to your child about the importance of being honest, even when no one is watching." },
+      "icon": "🤝"
+    },
+    {
+      "title": { "es": "Dibuja un cowboy", "en": "Draw a cowboy" },
+      "content": { "es": "Dibuja con tu hijo un cowboy con su sombrero y caballo.", "en": "Draw with your child a cowboy with their hat and horse." },
+      "icon": "🎨"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "029-los-guardianes-del-planeta",
+  "version": "1.0",
+  "meta": {
+    "title": "Los guardianes del planeta",
+    "subtitle": "Un cuento sobre convertirte en héroe del medio ambiente",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#00b894",
+      "secondaryColor": "#6c5ce7",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #55efc4 0%, #a29bfe 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #00b894 0%, #6c5ce7 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/029-guardianes-planeta.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Los guardianes del planeta",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Convierte en un héroe del medio ambiente",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #a29bfe 100%)",
+      "narration": "En una escuela pequeña, cuatro niños descubrieron que podían salvar el planeta.",
+      "elements": [
+        {
+          "id": "kids-img",
+          "type": "image",
+          "src": "images/029-guardianes-planeta.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En la escuela <strong>Buenos días</strong>, cuatro niños descubrieron algo increíble: 🦸‍♂️🦸‍♀️<br><br><strong>Mía</strong> loved the nature<br><strong>Lucas</strong> loved the animals<br><strong>Sam</strong> loved science<br><strong>Emma</strong> loved to create<br><br>Un día, el director les dio una misión especial...<br><br>At a small school, four children discovered they could save the planet."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #55efc4 100%)",
+      "narration": "El director les explicó que el planeta necesitaba guardianes.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "El director reunió a los cuatro niños:<br><br>—El planeta Tierra necesita ayuda. ¿Quieren convertirse en <strong>Guardianes del Planeta</strong>?<br><br>¡Los cuatro gritaron al mismo tiempo:<br><br>—¡SÍ!<br><br>Así nacieron los <strong>Guardianes del Planeta</strong> 🛡️🌍<br><br>—Cada uno de ustedes tendrá un poder especial —continuó el director—.<br><br>The director explained that the planet needed guardians."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #a29bfe 100%)",
+      "narration": "Cada niño recibió un poder especial para cuidar el planeta.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Cada Guardián recibió un poder especial: ✨<br><br>🦸‍♀️ <strong>Mía</strong> → Poder del <strong>Reciclaje</strong><br>   Puede transformar basura en tesoros<br><br>🦸‍♂️ <strong>Lucas</strong> → Poder de los <strong>Animales</strong><br>   Puede entender y ayudar a los animales<br><br>🦸‍♀️ <strong>Sam</strong> → Poder de la <strong>Energía</strong><br>   Puede crear energía limpia<br><br>🦸‍♂️ <strong>Emma</strong> → Poder de las <strong>Plantas</strong><br>   Puede hacer crecer plantas rápido<br><br>Each child received a special power to take care of the planet."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #55efc4 100%)",
+      "narration": "Los Guardianes comenzaron su primera misión: limpiar el parque de la escuela.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Los Guardianes comenzaron su primera misión: 🧹<br><br>El parque de la escuela estaba lleno de basura. ¡Los Guardianes sprang into action!<br><br>♻️ Mía separó el plástico del papel<br>🐦 Lucas helped the birds make new nests<br>☀️ Sam installed solar panels<br>🌱 Emma plantó flores y árboles<br><br>¡El parque quedó impecable!<br><br>The Guardians began their first mission: clean up the school park."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #a29bfe 100%)",
+      "narration": "Los Guardianes enseñaron a otros niños a cuidar el planeta.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Los Guardianes querían que todos participaran. 📢<br><br>—¡Convócame un asamblea! —gritó Mía.<br><br>Les enseñaron a todos:<br><br>🔴 Reducir el consumo<br>🟡 Reutilizar objetos<br>♻️ Reciclar correctamente<br>🌱 Plantar árboles<br>💧 Ahorrar agua<br><br>¡Pronto toda la escuela era parte del equipo!<br><br>The Guardians taught other children how to take care of the planet."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #55efc4 100%)",
+      "narration": "Los Guardianes recibieron reconocimiento por su trabajo.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "¡El trabajo de los Guardianes dio frutos! 🏆<br><br>La escuela se convirtió en la más ecológica de la ciudad.<br>Otros escuelascopiaron sus ideas.<br>El parque se llenó de vida otra vez.<br><br>El director dijo:<br><br>—¡Ustedes probaron que incluso los niños pueden cambiar el mundo!<br><br>Los Guardianes sonrieron: ¡El planeta estaba a salvo!<br><br>The Guardians received recognition for their work."
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #a29bfe 100%)",
+      "narration": "Cualquier niño puede convertirse en Guardián del Planeta.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Y tú también puedes ser un Guardián del Planeta! 🌟<br><br>Solo necesitas:<br><br>💚 Querer ayudar<br><br>💚 Hacer cosas pequeñas que suman<br><br>💚 Compartir con otros<br><br>💚 No rendirte nunca<br><br>—<em>\"Cada pequeño gesto cuenta. Tú puedes hacer la diferencia.\"</em><br><br>Any child can become a Planet Guardian."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaban los cuatro Guardianes?",
+            "options": [
+              {
+                "text": "Mía, Lucas, Sam y Emma"
+              },
+              {
+                "text": "Ana, Pedro, Juan y María"
+              },
+              {
+                "text": "Sofía, Diego, Lucía y Martín"
+              },
+              {
+                "text": "Luna, Sol, Estrella y Cielo"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "correct": "¡Correcto! Los Guardianes eran Mía, Lucas, Sam y Emma.",
+              "incorrect": "¡Ups! La respuesta correcta es Mía, Lucas, Sam y Emma."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué pueden hacer los niños para cuidar el planeta?",
+            "options": [
+              {
+                "text": "Tirar basura en la calle"
+              },
+              {
+                "text": "Reducir, reutilizar, reciclar y plantar árboles"
+              },
+              {
+                "text": "No hacer nada"
+              },
+              {
+                "text": "Gastar mucha agua"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Reducir, reutilizar, reciclar y plantar árboles.",
+              "incorrect": "La respuesta correcta es reducir, reutilizar, reciclar y plantar árboles."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #00b894 0%, #6c5ce7 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "earth",
+            "content": "🌍",
+            "matchId": "earth"
+          },
+          {
+            "id": "recycle",
+            "content": "♻️",
+            "matchId": "recycle"
+          },
+          {
+            "id": "tree",
+            "content": "🌳",
+            "matchId": "tree"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #00b894 0%, #6c5ce7 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: tú también puedes ser un Guardián del Planeta. Cada pequeño gesto cuenta. Recicla, reutiliza, reduce el consumo y cuida la naturaleza. ¡El planeta te necesita! 🦸‍♂️🌍💚<br><br>Remember: You can also be a Planet Guardian. Every small action counts. Recycle, reuse, reduce consumption, and take care of nature. The planet needs you!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

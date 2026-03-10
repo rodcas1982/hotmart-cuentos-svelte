@@ -1,0 +1,209 @@
+{
+  "id": "181-el-pequeno-panadero",
+  "version": "1.0",
+  "meta": {
+    "title": "El Pequeño Panadero",
+    "subtitle": "Una historia sobre la pasión por la panadería",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#d35400",
+      "secondaryColor": "#e67e22",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #d35400 0%, #e67e22 50%, #d35400 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/181-panadero.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Pequeño Panadero",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la pasión por la panadería",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.3em", "opacity": "0.95"}
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 100%)",
+      "narration": "En una pequeña aldea vivía un niño llamado <strong>Mateo</strong> que adoraba elpan. Cada mañana, antes de que saliera el sol, acompañaba a su padre a la panadería.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una pequeña aldea vivía un niño llamado <strong>Mateo</strong> que adoraba elpan. Cada mañana, antes del amanecer, acompañaba a su padre a la panadería.<br><br><em>In a small village lived a child named Mateo who loved bread. Every morning before sunrise, he accompanied his father to the bakery.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #d35400 100%)",
+      "narration": "Mateo observaba cómo su padre amasaba la harina con sus manos grandes y fuertes. El panadero le enseñó que hacer pan requiere paciencia, amor y los mejores ingredientes.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Mateo observaba cómo su padre amasaba la harina. <strong>El panadero le enseñó que hacer pan requiere paciencia, amor y los mejores ingredientes.</strong><br><br><em>Mateo watched his father knead the flour. The baker taught him that making bread requires patience, love, and the best ingredients.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #f39c12 100%)",
+      "narration": "Un día, el padre de Mateo se enfermó y no pudo trabajar. El pequeño decidió intentarlo solo. Tomó la harina, la mezcló con agua y empezó a amasar.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, el padre de Mateo se enfermó. <strong>El pequeño decidió intentarlo solo</strong> y empezó a amasar con sus pequeñas manos.<br><br><em>One day, Mateo's father got sick. The little one decided to try it alone and started kneading with his small hands.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #d35400 100%)",
+      "narration": "El primer pan quedó un poco plano y quemado por los bordes. Pero Mateo no se rindió. Intentó una y otra vez, añadiendo un poco más de amor cada vez.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "El primer pan quedó un poco plano y quemado. <strong>Pero Mateo no se rindió</strong> e intentó una y otra vez, añadiendo más amor cada vez.<br><br><em>The first bread came out a bit flat and burned. But Mateo didn't give up and tried again and again, adding more love each time.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 100%)",
+      "narration": "Después de muchos intentos, Mateo logró hacer un pan perfecto. Estaba dorado, suave y olía delicioso. Los vecinos vinieron a probarlo y todos quedaron asombrados.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Después de muchos intentos, Mateo logró hacer un pan perfecto. <strong>Estaba dorado, suave y olía delicioso.</strong> Los vecinos quedaron asombrados.<br><br><em>After many attempts, Mateo managed to make a perfect bread. It was golden, soft, and smelled delicious. The neighbors were amazed.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #d35400 100%)",
+      "narration": "Su padre, al ver el pan que Mateo había hecho, sintió un gran orgullo. Desde ese día, Mateo se convirtió en el pequeño panadero de la aldea.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Su padre, al ver el pan, sintió un gran orgullo. <strong>Desde ese día, Mateo se convirtió en el pequeño panadero de la aldea.</strong><br><br><em>His father, seeing the bread Mateo made, felt great pride. From that day on, Mateo became the little baker of the village.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el niño protagonista?",
+            "options": [{"text": "Mario"}, {"text": "Mateo"}, {"text": "Miguel"}, {"text": "Martín"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! El niño se llamaba Mateo.", "incorrect": "La respuesta correcta es Mateo."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué hacía Mateo cada mañana?",
+            "options": [{"text": "Iba a la escuela"}, {"text": "Iba a la panadería"}, {"text": "Jugaba en el parque"}, {"text": "Cuidaba animales"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Iba a la panadería con su padre.", "incorrect": "La respuesta correcta es que iba a la panadería."}
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué se necesita para hacer buen pan?",
+            "options": [{"text": "Solo harina"}, {"text": "Paciencia y amor"}, {"text": "Mucha azúcar"}, {"text": "Agua fría"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Muy bien! Se necesita paciencia y amor.", "incorrect": "La respuesta correcta es paciencia y amor."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #d35400 0%, #e67e22 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "bread", "content": "🍞", "matchId": "bread"},
+          {"id": "flour", "content": "🌾", "matchId": "flour"},
+          {"id": "oven", "content": "🔥", "matchId": "oven"},
+          {"id": "heart", "content": "❤️", "matchId": "heart"},
+          {"id": "sun", "content": "☀️", "matchId": "sun"},
+          {"id": "star", "content": "⭐", "matchId": "star"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #d35400 0%, #e67e22 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: con paciencia y amor, puedes lograr cualquier cosa.<br><br><em>Remember: with patience and love, you can achieve anything.</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Horneando en familia", "en": "Baking as a family"},
+      "content": {"es": "Invita a tu hijo a ayudarte a hornear algo en la cocina. Es una excelente manera de enseñar sobre ingredientes y paciencia.", "en": "Invite your child to help you bake something in the kitchen. It's a great way to teach about ingredients and patience."},
+      "icon": "🍞"
+    }
+  ]
+}

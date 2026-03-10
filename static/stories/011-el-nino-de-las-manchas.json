@@ -1,0 +1,211 @@
+{
+  "id": "011",
+  "meta": {
+    "title": {
+      "es": "El Niño de las Manchas",
+      "en": "The Boy with the Spots"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      8
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #12c2e9 0%, #c471ed 50%, #f64f59 100%)",
+      "primaryColor": "#12c2e9"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Niño de las Manchas",
+        "en": "The Boy with the Spots"
+      },
+      "heroImage": "Un niño con manchas de vitiligo en su cara y brazos, jugando felizmente con otros niños en el patio, con todos sonriendole acceptentemente",
+      "background": "linear-gradient(135deg, #12c2e9 0%, #c471ed 50%, #f64f59 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una escuela primaria del centro de la ciudad, había un niño llamado Diego. Diego tenía algo especial: unas manchas blancas en su cara y brazos que se llamaban vitiligo. Algunos niños no entendían qué era esto y a veces se reían o lo señalaban. Diego se sentía triste y solo, pensando que era diferente a los demás.",
+        "en": "In an elementary school in the city center, there was a boy named Diego. Diego had something special: white spots on his face and arms called vitiligo. Some children didn't understand what this was and sometimes laughed or pointed at him. Diego felt sad and alone, thinking he was different from others."
+      },
+      "image": {
+        "src": "Niño con manchas en la escuela, mirando melancólico mientras otros niños juegan",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una escuela primaria...",
+        "en": "In an elementary school..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, la maestra de Diego, la señora Marta, notó que algo andaba mal. Lo llamó aparte y le preguntó qué pasaba. Diego le contó todo lo que sentía. La maestra sonrió y le dijo: 'Diego, lo que te hace diferente también te hace especial. Las manchas que tienes son parte de quién eres, y son Hermosas. No permitas que nadie te haga sentir menos'.",
+        "en": "One day, Diego's teacher, Mrs. Marta, noticed something was wrong. She called him aside and asked what was happening. Diego told her everything he felt. The teacher smiled and said: 'Diego, what makes you different also makes you special. The spots you have are part of who you are, and they are beautiful. Don't let anyone make you feel less.'"
+      },
+      "image": {
+        "src": "Maestra hablando cariñosamente con el niño, con expresión de apoyo y comprensión",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, la maestra...",
+        "en": "One day, the teacher..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Para ayudar a los demás a entender, la señora Marta decidió hacer una clase especial sobre diversidad. Les explicó a todos los niños que cada persona es única y especial a su manera. Algunas personas tienen el cabello rizado, otras lacio; algunas tienen ojos claros, otras oscuros; y está bien ser diferentes porque eso nos hace interesantes.",
+        "en": "To help others understand, Mrs. Marta decided to have a special class about diversity. She explained to all the children that each person is unique and special in their own way. Some people have curly hair, others straight; some have light eyes, others dark; and it's okay to be different because that makes us interesting."
+      },
+      "image": {
+        "src": "Maestra explicando a los niños sobre diversidad, con todos escuchando atentamente",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Para ayudar a los demás...",
+        "en": "To help others understand..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Después de la clase, una niña llamada Camila se acercó a Diego y le dijo: 'Me gusta tu forma de ser, Diego. ¿Quieres ser mi amigo?' Diego sonrió ampliamente y Acceptó. Poco a poco, más niños se acercaron a jugar con él. Diego descubrió que ser diferente no significaba estar solo, sino tener la oportunidad de hacer amigos que lo Acceptaran tal como era.",
+        "en": "After the class, a girl named Camila approached Diego and said: 'I like the way you are, Diego. Do you want to be my friend?' Diego smiled widely and accepted. Little by little, more children came to play with him. Diego discovered that being different didn't mean being alone, but having the opportunity to make friends who accepted him as he was."
+      },
+      "image": {
+        "src": "Niño haciendo amigos en la escuela, todos jugando y riendo juntos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Después de la clase...",
+        "en": "After the class..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Diego también aprendió algo importante: aunque algunas personas no lo entendieran, eso no definía su valor. El era inteligente, amigable, creativo y tenía un corazón grande. Sus manchas no eran un defecto, eran parte de su historia única. Aprendió a aceptarse y amarse a sí mismo, y eso le dio una fortaleza que nunca imaginó tener.",
+        "en": "Diego also learned something important: although some people didn't understand him, that didn't define his worth. He was smart, friendly, creative, and had a big heart. His spots were not a defect, they were part of his unique story. He learned to accept and love himself, and that gave him a strength he never imagined having."
+      },
+      "image": {
+        "src": "Niño mirándose al espejo con confianza y amor propio, sonriéndose",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Diego también aprendió...",
+        "en": "Diego also learned..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué le enseñó la maestra a Diego?",
+              "en": "What did the teacher teach Diego?"
+            },
+            "options": [
+              {
+                "es": "Que sus manchas eran un problema",
+                "en": "That his spots were a problem"
+              },
+              {
+                "es": "Que lo que le hace diferente también le hace especial",
+                "en": "That what makes him different also makes him special"
+              },
+              {
+                "es": "Que no debería aceptarse",
+                "en": "That he shouldn't accept himself"
+              },
+              {
+                "es": "Que se escondiera de todos",
+                "en": "That he should hide from everyone"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Lo que nos hace diferentes también nos hace especiales.",
+              "en": "Correct! What makes us different also makes us special."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "girl",
+            "content": "👧",
+            "matchId": "girl"
+          },
+          {
+            "id": "teacher",
+            "content": "👩‍🏫",
+            "matchId": "teacher"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "rainbow",
+            "content": "🌈",
+            "matchId": "rainbow"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

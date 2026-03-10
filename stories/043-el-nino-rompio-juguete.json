@@ -1,0 +1,343 @@
+{
+  "id": "043-el-nino-rompio-juguete",
+  "version": "1.0",
+  "meta": {
+    "title": "El niño que rompió el juguete",
+    "subtitle": "A story about responsibility and honesty",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e74c3c",
+      "secondaryColor": "#c0392b",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 50%, #ec7063 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #c0392b 0%, #e74c3c 50%, #ec7063 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/043-nino-roto.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El niño que rompió el juguete",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre responsabilidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Diego tenía un hermoso coche de juguete que le habían regalado por su cumpleaños. Era rojo, brillante y hacía un sonido de motor muy realista. Pero un día, mientras jugaba грубо, pasó lo que none wanted to happen.",
+      "elements": [
+        {
+          "id": "boy-img",
+          "type": "image",
+          "src": "images/043-nino-roto.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Diego tenía un hermoso coche de juguete que le habían regalado por su cumpleaños. Era rojo, brillante y hacía un sonido de motor muy realista. Pero un día, mientras jugaba bruscamente, ¡pasó lo que nadie quería!<br><br><em>Diego had a beautiful toy car that was gifted to him for his birthday. It was red, shiny, and made a very realistic engine sound. But one day, while playing roughly, what no one wanted to happen!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "El coche se cayó de sus manos y golpeó contra la pared. ¡CRACK! Una de las ruedas se rompió y la puerta quedó desencajada. Diego se quedó paralizado, sin saber qué hacer.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "El coche se cayó y golpeó contra la pared. <strong>¡CRACK!</strong> Una rueda se rompió y la puerta quedó desencajada. Diego se quedó paralizado, sin saber qué hacer.<br><br><em>The car fell from his hands and hit the wall. CRACK! One wheel broke and the door came off. Diego froze, not knowing what to do.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #922b21 100%)",
+      "narration": "Primero pensó en esconderlo y decir que se había roto solo. Pero luego recordó lo que su papá siempre le decía: 'Un buen niño asume sus errores'. respiró profundo y decidió ser honesto.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Primero pensó en esconderlo y decir que se había roto solo. Pero luego recordó lo que su papá siempre le decía: <strong>'Un buen niño asume sus errores'.</strong> Decidió ser honesto.<br><br><em>First he thought about hiding it and saying it broke by itself. But then he remembered what his dad always said: 'A good boy takes responsibility for his mistakes.' He decided to be honest.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #922b21 0%, #e74c3c 100%)",
+      "narration": "Diego le contó a su mamá lo que había pasado. Ella no se enojó; en cambio, lo abrazó y le dijo que era muy valiente al decir la verdad. Juntos encontraron una forma de arreglar el coche.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Diego le contó a su mamá lo que había pasado. <strong>Ella no se enojó; lo abrazó y le dijo que era muy valiente al decir la verdad.</strong> Juntos encontraron una forma de arreglar el coche.<br><br><em>Diego told his mom what had happened. She didn't get angry; instead, she hugged him and told him he was very brave for telling the truth. Together they found a way to fix the car.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #f39c12 100%)",
+      "narration": "Diego aprendió algo muy importante: ser responsable significa admitir cuando nos equivocamos. No es el error lo que nos define, sino cómo lo corregimos. ¡Y el coche quedó como nuevo!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Diego aprendió algo muy importante: <strong>ser responsable significa admitir cuando nos equivocamos.</strong> No es el error lo que nos define, sino cómo lo corregimos. ¡Y el coche quedó como nuevo!<br><br><em>Diego learned something very important: being responsible means admitting when we make mistakes. It's not the mistake that defines us, but how we fix it.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué le pasó al coche de Diego?",
+            "options": [
+              {
+                "text": "Se perdió"
+              },
+              {
+                "text": "Se rompió al caer"
+              },
+              {
+                "text": "Se lo regaló"
+              },
+              {
+                "text": "Se Pintó"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El coche se rompió al caer.",
+              "incorrect": "La respuesta correcta es que se rompió al caer."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué pensó hacer Diego primero?",
+            "options": [
+              {
+                "text": "Arreglarlo solo"
+              },
+              {
+                "text": "Esconderlo y decir que se rompió solo"
+              },
+              {
+                "text": "Tirarlo a la basura"
+              },
+              {
+                "text": "Pedirle uno nuevo a su mamá"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Primero pensó en esconderlo.",
+              "incorrect": "La respuesta correcta es esconderlo y decir que se rompió solo."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Diego?",
+            "options": [
+              {
+                "text": "Que los juguetes no importan"
+              },
+              {
+                "text": "Que ser honesto es importante aunque sea difícil"
+              },
+              {
+                "text": "Que siempre debe mentir"
+              },
+              {
+                "text": "Que debe romper más cosas"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Aprendió que ser honesto es importante aunque sea difícil.",
+              "incorrect": "La respuesta correcta es que ser honesto es importante aunque sea difícil."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #ec7063 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "car",
+            "content": "🚗",
+            "matchId": "car"
+          },
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "truth",
+            "content": "✅",
+            "matchId": "truth"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "fix",
+            "content": "🔧",
+            "matchId": "fix"
+          },
+          {
+            "id": "brave",
+            "content": "🦁",
+            "matchId": "brave"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #c0392b 0%, #f39c12 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Being honest when we make mistakes takes courage!<br><strong>¡Remember!</strong> ¡Ser honesto cuando cometemos errores requiere valentía!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

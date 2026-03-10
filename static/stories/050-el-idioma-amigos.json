@@ -1,0 +1,343 @@
+{
+  "id": "050-el-idioma-amigos",
+  "version": "1.0",
+  "meta": {
+    "title": "El idioma de los amigos",
+    "subtitle": "A story about communication beyond words",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#3f51b5",
+      "secondaryColor": "#7986cb",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #303f9f 0%, #3f51b5 50%, #9fa8da 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #303f9f 0%, #3f51b5 50%, #9fa8da 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/050-idioma.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El idioma de los amigos",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre diversidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #303f9f 0%, #3f51b5 100%)",
+      "narration": "En un parque internacional, los niños de diferentes países jugaban juntos. Pero a veces era difícil comunicarse. Emma hablaba inglés, Wei hablaba chino, Carlos hablaba español y Pierre hablaba francés. ¡A veces se entienden con las manos!",
+      "elements": [
+        {
+          "id": "friends-img",
+          "type": "image",
+          "src": "images/050-idioma.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un parque internacional, los niños de diferentes países jugaban juntos. <strong>Emma</strong> hablaba inglés, <strong>Wei</strong> chino, <strong>Carlos</strong> español y <strong>Pierre</strong> francés. ¡A veces se entienden con las manos!<br><br><em>In an international park, children from different countries played together. Emma spoke English, Wei spoke Chinese, Carlos spoke Spanish, and Pierre spoke French. Sometimes they understood each other with their hands!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3f51b5 0%, #303f9f 100%)",
+      "narration": "Un día, quisieron jugar a las escondidas, pero no podían explicarse bien las reglas. Emma said 'Hide and seek!' pero Wei no entendía. Carlos dijo '¡Escondite!' pero Pierre lo miraba confused. ¡Necesitaban ayuda!",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día quisieron jugar a las escondidas, pero no podían explicarse bien las reglas. ¡<strong>Emma said 'Hide and seek!' pero Wei no entendía!</strong><br><br><em>One day they wanted to play hide and seek, but they couldn't explain the rules well. Emma said 'Hide and seek!' but Wei didn't understand!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #303f9f 0%, #e91e63 100%)",
+      "narration": "Entonces tuvieron una idea brilhante. ¡Usarían gestos, expresiones y dibujos! Hicieron señales con las manos: señalar para decir 'yo', agacharse para decir 'esconderse', taparse los ojos para decir 'buscar'. ¡Funcionó!",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Entonces tuvieron una idea brilhante: <strong>¡usarían gestos, expresiones y dibujos!</strong> Se señalaban para decir 'yo', se agachaban para 'esconderse'. ¡Funcionó!<br><br><em>Then they had a brilliant idea: they would use gestures, expressions, and drawings! They pointed to say 'me', crouched to say 'hide'. It worked!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #3f51b5 100%)",
+      "narration": "Jugaron toda la tarde usando su nuevo 'idioma universal': sonrisas, abrazos,áplausos y gestos. Descubrieron que la comunicación va más allá de las palabras. ¡Los sentimientos son iguales en todos los idiomas!",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Jugaron toda la tarde usando su nuevo 'idioma universal': <strong>sonrisas, abrazos,áplausos y gestos.</strong> ¡Los sentimientos son iguales en todos los idiomas!<br><br><em>They played all afternoon using their new 'universal language': smiles, hugs, applause, and gestures. Feelings are the same in all languages!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3f51b5 0%, #9fa8da 100%)",
+      "narration": "Desde ese día, los cuatro amigos sabían algo mágico: aunque hablemos diferente, podemos entendernos con el corazón. Y cuando aprenden nuevas palabras, ¡las comparten con alegría!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Desde ese día, los amigos sabían algo mágico: <strong>aunque hablemos diferente, podemos entendernos con el corazón.</strong> ¡Cuando aprenden nuevas palabras, las comparten con alegría!<br><br><em>From that day on, the four friends knew something magical: although we speak differently, we can understand each other with our heart.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué idiomas hablaban los niños?",
+            "options": [
+              {
+                "text": "Inglés y español"
+              },
+              {
+                "text": "Inglés, chino, español y francés"
+              },
+              {
+                "text": "Solo español"
+              },
+              {
+                "text": "Alemán e italiano"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Hablaban inglés, chino, español y francés.",
+              "incorrect": "La respuesta correcta es inglés, chino, español y francés."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué usaron para comunicarse?",
+            "options": [
+              {
+                "text": "Solo palabras"
+              },
+              {
+                "text": "Gesto, expresiones y dibujos"
+              },
+              {
+                "text": "Teléfonos"
+              },
+              {
+                "text": "Computadoras"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Usaron gestos, expresiones y dibujos.",
+              "incorrect": "La respuesta correcta es gestos, expresiones y dibujos."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué descubrieron los niños?",
+            "options": [
+              {
+                "text": "Que solo el español es importante"
+              },
+              {
+                "text": "Que los sentimientos son iguales en todos los idiomas"
+              },
+              {
+                "text": "Que no deben hablar con otros"
+              },
+              {
+                "text": "Que los gestos no funcionan"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Los sentimientos son iguales en todos los idiomas.",
+              "incorrect": "La respuesta correcta es que los sentimientos son iguales en todos los idiomas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #3f51b5 0%, #9fa8da 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "chat",
+            "content": "💬",
+            "matchId": "chat"
+          },
+          {
+            "id": "globe",
+            "content": "🌐",
+            "matchId": "globe"
+          },
+          {
+            "id": "smile",
+            "content": "😊",
+            "matchId": "smile"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "friends",
+            "content": "👫",
+            "matchId": "friends"
+          },
+          {
+            "id": "hands",
+            "content": "👐",
+            "matchId": "hands"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #303f9f 0%, #9fa8da 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Friendship speaks every language!<br><strong>¡Remember!</strong> ¡La amistad habla todos los idiomas!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "069-delivery-lento",
+  "version": "1.0",
+  "meta": {
+    "title": "El Servicio de Delivery Lento",
+    "subtitle": "A story about patience and appreciation",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e74c3c",
+      "secondaryColor": "#f39c12",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 50%, #f39c12 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #f39c12 50%, #e74c3c 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/069-delivery.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Servicio de Delivery Lento",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.5em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la paciencia",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "Lucas tenía hambre y pidió una pizza por teléfono. 'En 30 minutos llega!' dijo el repartidor. Lucas esperó... y esperó.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "<strong>Lucas</strong> tenía hambre y pidió una pizza por teléfono. '¡En 30 minutos llega!' dijo el repartidor. Lucas esperó... y esperó.<br><br><em>Lucas was hungry and ordered a pizza by phone. 'It arrives in 30 minutes!' said the delivery person. Lucas waited... and waited.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Pasó una hora. Lucas se puso muy bravo. '¡Esta pizza nunca llega! ¡Voy a投诉!'",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pasó una hora. Lucas se puso muy bravo. <strong>¡Voy a投诉!</strong> gritó.<br><br><em>An hour passed. Lucas got very angry. 'I'm going to complain!' he shouted.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #f39c12 100%)",
+      "narration": "En eso, sonó el timbre. El repartidor era un caracol llamado Carlitos, muy lento pero con una gran sonrisa.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "En eso, sonó el timbre. El repartidor era un caracol llamado <strong>Carlitos</strong>, muy lento pero con una gran sonrisa.<br><br><em>Then the doorbell rang. The delivery person was a snail named Carlitos, very slow but with a big smile.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e67e22 100%)",
+      "narration": "'Perdona la demora,' dijo Carlitos. 'Tuve que cruzar tres jardines y evitar un charco.' Lucas se sintió culpable.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "'Perdona la demora,' dijo Carlitos. <strong>Tuve que cruzar tres jardines y evitar un charco.</strong> Lucas se sintió culpable.<br><br><em>'Sorry for the delay,' said Carlitos. 'I had to cross three gardens and avoid a puddle.' Lucas felt guilty.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #f39c12 100%)",
+      "narration": "Carlitos le contó a Lucas que era el único repartidor del barrio y que todos los animalitos contaban con él.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Carlitos le contó que era el único repartidor del barrio y que <strong>todos los animalitos contaban con él</strong>.<br><br><em>Carlitos told Lucas he was the only delivery person in the neighborhood and all the little animals counted on him.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #27ae60 100%)",
+      "narration": "Lucas entendió que a veces las cosas tardan más porque hay personas dando lo mejor de sí. ¡La pizza estaba deliciosa!",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Lucas entendió que a veces las cosas tardan más porque hay personas dando lo mejor de sí. <strong>¡La pizza estaba deliciosa!</strong><br><br><em>Lucas understood that sometimes things take longer because there are people giving their best. The pizza was delicious!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #e74c3c 100%)",
+      "narration": "Desde ese día, Lucas siempre pedía pizza con una sonrisa, sabiendo que Carlitos hacía su mejor esfuerzo.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "<strong>Desde ese día, Lucas siempre pedía pizza con una sonrisa</strong>, sabiendo que Carlitos hacía su mejor esfuerzo.<br><br><em>From that day on, Lucas always ordered pizza with a smile, knowing Carlitos did his best.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué pidió Lucas?",
+            "options": [
+              { "text": "Hamburguesa" },
+              { "text": "Pizza" },
+              { "text": "Tacos" },
+              { "text": "Sushi" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Correcto! Lucas pidió una pizza.", "incorrect": "La respuesta correcta es pizza." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Cómo se llamaba el repartidor?",
+            "options": [
+              { "text": "Carlos" },
+              { "text": "Carlitos" },
+              { "text": "Capi" },
+              { "text": "Coco" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! El repartidor se llamaba Carlitos.", "incorrect": "La respuesta correcta es Carlitos." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Lucas?",
+            "options": [
+              { "text": "Que las pizzas son malas" },
+              { "text": "Que hay que tener paciencia y agradecer el esfuerzo" },
+              { "text": "Que no debe pedir comida" },
+              { "text": "Que los caracoles son rápidos" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Muy bien! Hay que tener paciencia y agradecer el esfuerzo de los demás.", "incorrect": "La respuesta correcta es que hay que tener paciencia y agradecer el esfuerzo." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #f39c12 0%, #e74c3c 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: ten paciencia con quienes trabajan para ti.<br><br><em>Remember: be patient with those who work for you.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre la paciencia", "en": "Talking about patience" },
+      "content": { "es": "Explica a tu hijo que cuando esperamos con paciencia, las personas hacen su mejor esfuerzo.", "en": "Explain to your child that when we wait patiently, people do their best." },
+      "icon": "🐌"
+    },
+    {
+      "title": { "es": "Actividad: Ser amable con los demás", "en": "Activity: Being kind to others" },
+      "content": { "es": "Practica decir 'gracias' y 'por favor' con tu hijo, especialmente cuando alguien te sirve.", "en": "Practice saying 'thank you' and 'please' with your child, especially when someone serves you." },
+      "icon": "🙏"
+    }
+  ]
+}

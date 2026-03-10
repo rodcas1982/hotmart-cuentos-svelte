@@ -1,0 +1,232 @@
+{
+  "id": "005",
+  "meta": {
+    "title": {
+      "es": "El Jardín de la Abuela María",
+      "en": "Grandma Maria's Garden"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)",
+      "primaryColor": "#56ab2f"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Jardín de la Abuela María",
+        "en": "Grandma Maria's Garden"
+      },
+      "heroImage": "Una adorable abuela con cabello blanco y sombrero de paja, surrounded by un jardín espectacular con flores Coloridas, mariposas y un nieto jugando entre las plantas",
+      "background": "linear-gradient(135deg, #56ab2f 0%, #a8e063 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "La abuela María tenía el jardín más hermoso de todo el vecindario. En él había flores de todos los colores: rojas como tomates, amarillas como el sol, moradas como las grapes y rosadas como los algodón de dulce. Cada mañana, la abuela regaba sus plantas con cariño y les cantaba canciones bonitas. Su nieto Daniel, de cinco años, la visitaba siempre que podía.",
+        "en": "Grandma Maria had the most beautiful garden in the entire neighborhood. In it there were flowers of all colors: red like tomatoes, yellow like the sun, purple like grapes, and pink like cotton candy. Every morning, Grandma watered her plants with love and sang beautiful songs to them. Her grandson Daniel, who was five years old, visited her whenever he could."
+      },
+      "image": {
+        "src": "Abuela con sombrero de paja regando flores en un jardín colorido con su nieto observeándola",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "La abuela María tenía...",
+        "en": "Grandma Maria had..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, Daniel le preguntó a su abuela: 'Abuela, ¿por qué tus flores son tan bonitas?' La abuela sonrió y le respondió: 'Porque las cuido con amor, mijo. Las plantas son como las personas: necesitan agua, sol y cariño para crecer fuertes y saludables. Cuando les hablas con amor, ellas lo sienten y responden creciendo más bonitas'.",
+        "en": "One day, Daniel asked his grandmother: 'Grandma, why are your flowers so beautiful?' The grandmother smiled and replied: 'Because I take care of them with love, my dear. Plants are like people: they need water, sun, and affection to grow strong and healthy. When you talk to them with love, they feel it and respond by growing even prettier.'"
+      },
+      "image": {
+        "src": "Abuela e nieto sentados entre las flores, conversando con expresiones de felicidad",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, Daniel le preguntó...",
+        "en": "One day, Daniel asked..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Daniel quedó pensando en las palabras de su abuela. Decidió que él también quería tener un jardín hermoso. La abuela le dio una pequeña maceta y unaSemilla de girasol. 'Esta planta necesita paciencia y cuidado', le dijo. Daniel puso la maceta en su habitación y cada día le echaba agua y le hablaba cosas bonitas. Pasaron los días y pronto brotó un pequeño tallo verde.",
+        "en": "Daniel thought about his grandmother's words. He decided he wanted to have a beautiful garden too. The grandmother gave him a small pot and a sunflower seed. 'This plant needs patience and care,' she said. Daniel put the pot in his room and every day he watered it and talked to it nicely. Days passed and soon a small green stem sprouted."
+      },
+      "image": {
+        "src": "Niño regando una pequeña planta en una maceta en su habitación, con una sonrisa brillante",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Daniel quedó pensando...",
+        "en": "Daniel thought about..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Semanas después, el girasol creció alto yfloreció con una hermosa flor dorada que seguía al sol. Daniel estaba muy orgulloso de su planta. La llevó a casa de su abuela y ella lloró de felicidad al ver lo que su nieto había logrado. 'Mira qué hermoso jardín tienes ahora', le dijo. Daniel entendió que con amor y paciencia, todo es posible.",
+        "en": "Weeks later, the sunflower grew tall and bloomed with a beautiful golden flower that followed the sun. Daniel was very proud of his plant. He took it to his grandmother's house and she cried with happiness to see what her grandson had achieved. 'Look what a beautiful garden you have now,' she said. Daniel understood that with love and patience, everything is possible."
+      },
+      "image": {
+        "src": "Niño mostrando su girasol a su abuela, ambos con lágrimas de alegría, rodeados de flores",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Semanas después...",
+        "en": "Weeks later..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué necesita una planta para crecer bonita según la abuela?",
+              "en": "What does a plant need to grow beautiful according to Grandma?"
+            },
+            "options": [
+              {
+                "es": "Solo agua",
+                "en": "Only water"
+              },
+              {
+                "es": "Agua, sol y cariño",
+                "en": "Water, sun, and love"
+              },
+              {
+                "es": "Solo sol",
+                "en": "Only sun"
+              },
+              {
+                "es": "Nada especial",
+                "en": "Nothing special"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Las plantas necesitan agua, sol y cariño.",
+              "en": "Correct! Plants need water, sun, and love."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué aprendió Daniel?",
+              "en": "What did Daniel learn?"
+            },
+            "options": [
+              {
+                "es": "Que las plantas no necesitan cuidado",
+                "en": "That plants don't need care"
+              },
+              {
+                "es": "Que con amor y paciencia todo es posible",
+                "en": "That with love and patience everything is possible"
+              },
+              {
+                "es": "Que es difícil cuidar plantas",
+                "en": "That it's difficult to take care of plants"
+              },
+              {
+                "es": "Que es mejor no tener plantas",
+                "en": "That it's better not to have plants"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Con amor y paciencia, todo es posible.",
+              "en": "Very well! With love and patience, everything is possible."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "flower",
+            "content": "🌻",
+            "matchId": "flower"
+          },
+          {
+            "id": "grandma",
+            "content": "👵",
+            "matchId": "grandma"
+          },
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "butterfly",
+            "content": "🦋",
+            "matchId": "butterfly"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "022-la-fiesta-donde-todos-caben",
+  "version": "1.0",
+  "meta": {
+    "title": "La fiesta donde todos caben",
+    "subtitle": "Un cuento sobre la inclusión",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#fd79a8",
+      "secondaryColor": "#fdcb6e",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #ff7675 0%, #fdcb6e 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/022-fiesta-todos.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La fiesta donde todos caben",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una fiesta donde nadie se queda fuera",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff7675 0%, #fdcb6e 100%)",
+      "narration": "Era el cumpleaños de Sofía y quería invitar a todos sus amigos.",
+      "elements": [
+        {
+          "id": "bday-img",
+          "type": "image",
+          "src": "images/022-fiesta-todos.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Era el cumpleaños de <strong>Sofía</strong> 🎂<br><br>—Quiero invitar a todos mis amigos —dijo Sofía a su mamá.<br><br>Tenía muchos amigos: los de la escuela, los del parque, y también los que conoció este verano. ¡Eran tantos que no cabrían en su casa!<br><br>It was Sofia's birthday and she wanted to invite all her friends."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fdcb6e 0%, #ff7675 100%)",
+      "narration": "Sofía se preocupó. ¿Cómo haría para que todos cupieran?",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Sofía se preocupó un poco. 🤔<br><br>—Mi casa es pequeña —pensó—. ¿Cómo haré para que todos mis amigos quepan?<br><br>Su hermano mayor, <strong>Carlos</strong>, la escuchó y le dijo:<br><br>—¡Sofía! No pienses en el espacio. Piensa en cómo hacer que todos se sientan bienvenidos.<br><br>Sofia got worried. How would she fit everyone in?"
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff7675 0%, #fdcb6e 100%)",
+      "narration": "Sofía tuvo una idea brillante. ¡La fiesta sería en el parque!",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "¡Entonces Sofía tuvo una idea brillante! 🎉<br><br>—¡La fiesta será en el parque!<br><br>Así podrían venir todos: los amigos humanos y también los amigos animales. ¡Había espacio para todos!<br><br>La mamá de Sofía aplaudió:<br><br>—¡Qué buena idea, Sofía! La inclusión comienza con los espacios que creamos.<br><br>Sofia had a brilliant idea. The party would be at the park!"
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fdcb6e 0%, #ff7675 100%)",
+      "narration": "Llegó el día de la fiesta y todos estaban emocionados.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "¡Llegó el día de la fiesta! 🎈<br><br>Vinieron los niños de la clase, las amigas del ballet, los primos, los vecinos... ¡Y hasta el señor Gómez, el vendedor de globos!<br><br>También vinieron:<br>🐕 <strong>Lucky</strong> el perro<br>🐱 <strong>Mishi</strong> el gato<br>🐦 <strong>Piolín</strong> el pájaro<br><br>Everyone was excited for the party day."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff7675 0%, #fdcb6e 100%)",
+      "narration": "Algunos niños no conocían a otros, pero Sofía los presentó a todos.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Algunos niños no conocían a otros, pero Sofía los presentó con alegría:<br><br>—Él es <strong>Mateo</strong>, le gusta dibujar. —Ella es <strong>Lucía</strong>, toca el piano.<br><br>¡Rápidamente todos hacían nuevos amigos!<br><br>🌟 <strong>La magia de la inclusión:</strong> CuandoPresentas a las personas, ayudas a que se conecten.<br><br>Some kids didn't know others, but Sofia introduced everyone."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #fdcb6e 0%, #ff7675 100%)",
+      "narration": "Hubo pastel, juegos y mucha diversión.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "¡La fiesta fue increíble! 🎂<br><br>🌈 Jugaron a las escondidas<br>🎨 Pintaron juntos<br>🎵 Bailaron música divertida<br>🍰 Comieron pastel de chocolate<br><br>Nadie se sintió solo o excluido. ¡Todos participaron y se divirtieron!<br><br>There was cake, games, and lots of fun."
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff7675 0%, #fdcb6e 100%)",
+      "narration": "Cuando la fiesta terminó, Sofía se dio cuenta de algo especial.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Cuando la fiesta terminó, Sofía abrazó a su mamá. 💕<br><br>—Gracias, mamá. Hoy aprendí que no importa cuántas personas vengan, siempre hay espacio para todos cuando los acogemos con el corazón.<br><br>La mamá sonrió:<br><br>—Exactamente, mi amor. La verdadera fiesta no está en el lugar, está en quién viene y cómo los hacemos sentir.<br><br>When the party ended, Sofia realized something special."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Dónde decidió hacer Sofía su fiesta de cumpleaños?",
+            "options": [
+              {
+                "text": "En su casa"
+              },
+              {
+                "text": "En el parque"
+              },
+              {
+                "text": "En la escuela"
+              },
+              {
+                "text": "En el cine"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Sofía decidió hacer la fiesta en el parque para que cupieran todos.",
+              "incorrect": "¡Ups! La respuesta correcta es en el parque."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué aprendió Sofía en su fiesta?",
+            "options": [
+              {
+                "text": "Que los perros no pueden ir a fiestas"
+              },
+              {
+                "text": "Que siempre hay espacio para todos cuando los acogemos con amor"
+              },
+              {
+                "text": "Que es mejor no invitar a nadie"
+              },
+              {
+                "text": "Que las fiestas son aburridas"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Cuando acogemos a todos con amor, siempre hay espacio.",
+              "incorrect": "La respuesta correcta es: siempre hay espacio para todos cuando los acogemos con amor."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "balloon",
+            "content": "🎈",
+            "matchId": "balloon"
+          },
+          {
+            "id": "cake",
+            "content": "🎂",
+            "matchId": "cake"
+          },
+          {
+            "id": "gift",
+            "content": "🎁",
+            "matchId": "gift"
+          },
+          {
+            "id": "music",
+            "content": "🎵",
+            "matchId": "music"
+          },
+          {
+            "id": "party",
+            "content": "🎉",
+            "matchId": "party"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: cuando organices una fiesta, Invite a todos y busca formas de que todos participen. ¡Así las fiestas son más divertidas! 🎊<br><br>Remember: When you organize a party, invite everyone and find ways for everyone to participate. That's how parties are more fun!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

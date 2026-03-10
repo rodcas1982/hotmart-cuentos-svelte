@@ -1,0 +1,264 @@
+{
+  "id": "006",
+  "meta": {
+    "title": {
+      "es": "Marina y el Colegio Acuático",
+      "en": "Marina and the Ocean School"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      7
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+      "primaryColor": "#00c6ff"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "Marina y el Colegio Acuático",
+        "en": "Marina and the Ocean School"
+      },
+      "heroImage": "Una sirenita dengan sirena azul y verde, con cola brillante, nadando hacia una escuela Submarina feita de coral, rodeada de peces de todos los colores",
+      "background": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En las profundidades del océano azul, había una pequeña sirenita llamada Marina. Ella tenía una cola brillante de color azul y verde que brillaba como las escamas de los peces. Marina vivía con su familia de sirenos en un hermoso palacio de coral. Sin embargo, ella estaba un poco triste porque no tenía amigos de su edad con quien jugar.",
+        "en": "In the depths of the blue ocean, there lived a little mermaid named Marina. She had a shiny tail of blue and green color that sparkled like fish scales. Marina lived with her family of mermaids in a beautiful coral palace. However, she was a little sad because she had no friends her age to play with."
+      },
+      "image": {
+        "src": "Sirenita nadando en el océano, melancólica, cerca de su palacio de coral",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En las profundidades del océano...",
+        "en": "In the depths of the ocean..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, la madre de Marina le dijo: 'Hija mía, ¿por qué no vas al Colegio Acuático? Allí podrás aprender muchas cosas nuevas y conocer otros niños del océano'. A Marina le dio un poco de miedo porque era la primera vez que iría a la escuela, pero también estaba muy emocionada por lo que podría descubrir.",
+        "en": "One day, Marina's mother told her: 'My daughter, why don't you go to the Ocean School? There you can learn many new things and meet other children from the ocean.' Marina was a little scared because it was the first time she would go to school, but she was also very excited about what she might discover."
+      },
+      "image": {
+        "src": "Madre sirenita hablando con su hija, en un hermoso hogar submarine con burbujas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, la madre de Marina...",
+        "en": "One day, Marina's mother..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Cuando Marina llegó al Colegio Acuático, quedó fascinada. La escuela estaba hecha de coral rosa y conchas brillantes. En el patio, había muchos niños acuáticos: Pez pequeño, pulpos, estrellas de mar y hasta un delfín bernama Flipper. Una estrellas de mar rosada se acercó a Marina y le dijo: 'Hola, ¿quieres ser mi amiga? Me llamo Estrellita'.",
+        "en": "When Marina arrived at the Ocean School, she was fascinated. The school was made of pink coral and shiny shells. In the courtyard, there were many aquatic children: little fish, octopuses, starfish, and even a dolphin named Flipper. A pink starfish approached Marina and said: 'Hello, do you want to be my friend? My name is Estrellita'."
+      },
+      "image": {
+        "src": "Escuela submarine colorida con niños acuáticos jugando, Marina conocen nuevos amigos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Cuando Marina llegó...",
+        "en": "When Marina arrived..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Marina estaba muy feliz de hacer su primera amiga. Durante las siguientes semanas, aprendió muchas cosas en la escuela: cómo nadar más rápido, cómo encontrar las mejores corrientes de agua, y cómo proteger el océano de la contaminación. También hizo más amigos: Flipper el delfín, Pulpy el pulpo, y Nemo el pez payaso.",
+        "en": "Marina was very happy to make her first friend. During the following weeks, she learned many things at school: how to swim faster, how to find the best water currents, and how to protect the ocean from pollution. She also made more friends: Flipper the dolphin, Pulpy the octopus, and Nemo the clownfish."
+      },
+      "image": {
+        "src": "Grupo de amigos acuáticos nadando juntos, aprendiendo y jugando en la escuela",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Marina estaba muy feliz...",
+        "en": "Marina was very happy..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Pero un día, Marina escuchó que unos humanos estaban arrojando basura al océano cerca de su hogar. Ella recordó lo que había aprendido en la escuela sobre proteger el océano. вместе con sus amigos, nadó hasta那里 y vio muchos plásticos flotando. Sin miedo, Marina y sus amigos comenzaron a recoger la basura y la sacaron del agua.",
+        "en": "But one day, Marina heard that some humans were throwing garbage into the ocean near her home. She remembered what she had learned at school about protecting the ocean. Together with her friends, she swam to that place and saw lots of plastics floating. Without fear, Marina and her friends began to pick up the garbage and remove it from the water."
+      },
+      "image": {
+        "src": "Niños acuáticos limpiando el océano de basura, con expresiones de determinación",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Pero un día...",
+        "en": "But one day..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "story",
+      "text": {
+        "es": "Cuando los humanos vieron a los niños del océano limpiando, se sintieron avergonzados y prometieron no volver a arrojar basura. Desde ese día, Marina entendió que cada uno puede hacer la diferencia, sin importar qué tan pequeño sea. Ella estaba orgullosa de ser una sirenita que cuidaba su hogar y también de tener los mejores amigos del mundo.",
+        "en": "When the humans saw the ocean children cleaning, they felt ashamed and promised never to throw garbage again. From that day on, Marina understood that each one can make a difference, no matter how small she is. She was proud to be a mermaid who took care of her home and also for having the best friends in the world."
+      },
+      "image": {
+        "src": "Marina con sus amigos acuáticos, rodeados de un océano limpio y cristalino",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Cuando los humanos vieron...",
+        "en": "When the humans saw..."
+      }
+    },
+    {
+      "id": 8,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué aprendió Marina en el Colegio Acuático?",
+              "en": "What did Marina learn at Ocean School?"
+            },
+            "options": [
+              {
+                "es": "Solo a nadar",
+                "en": "Only to swim"
+              },
+              {
+                "es": "A proteger el océano",
+                "en": "To protect the ocean"
+              },
+              {
+                "es": "A tener miedo",
+                "en": "To be afraid"
+              },
+              {
+                "es": "A estar sola",
+                "en": "To be alone"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Aprendió a proteger el océano.",
+              "en": "Correct! She learned to protect the ocean."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué nos enseña la historia sobre el cuidado del medio ambiente?",
+              "en": "What does the story teach us about caring for the environment?"
+            },
+            "options": [
+              {
+                "es": "Que no importa la basura",
+                "en": "That garbage doesn't matter"
+              },
+              {
+                "es": "Que cada uno puede hacer la diferencia",
+                "en": "That each one can make a difference"
+              },
+              {
+                "es": "Que los niños no pueden ayudar",
+                "en": "That children can't help"
+              },
+              {
+                "es": "Que el océano no importa",
+                "en": "That the ocean doesn't matter"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Cada uno de nosotros puede hacer la diferencia.",
+              "en": "Very well! Each of us can make a difference."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "mermaid",
+            "content": "🧜‍♀️",
+            "matchId": "mermaid"
+          },
+          {
+            "id": "fish",
+            "content": "🐠",
+            "matchId": "fish"
+          },
+          {
+            "id": "dolphin",
+            "content": "🐬",
+            "matchId": "dolphin"
+          },
+          {
+            "id": "starfish",
+            "content": "⭐",
+            "matchId": "starfish"
+          },
+          {
+            "id": "ocean",
+            "content": "🌊",
+            "matchId": "ocean"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

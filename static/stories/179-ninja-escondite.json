@@ -1,0 +1,209 @@
+{
+  "id": "179-ninja-escondite",
+  "version": "1.0",
+  "meta": {
+    "title": "Ninja Kenji y el Juego de Escondite",
+    "subtitle": "El ninja más sigiloso",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#2c3e50",
+      "secondaryColor": "#34495e",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #2c3e50 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/179-ninja-escondite.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Ninja Kenji y el Juego de Escondite",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "El ninja más sigiloso",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a2e 0%, #16213e 100%)",
+      "narration": "En una montaña muy alta,Hidden entre las nubes, estaba la escuela de los Ninjas. Allí vivía Kenji, un pequeño ninja que aún estaba aprendiendo los secretos del arte del escondite.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una montaña muy alta,Hidden entre las nubes, estaba la escuela de los Ninjas. Allí vivía <strong>Kenji</strong>, un pequeño ninja que estaba aprendiendo los secretos del escondite.<br><br><em>Hidden among the clouds on a very high mountain was the Ninja School. There lived Kenji, a little ninja who was still learning the secrets of the hide-and-seek art.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #16213e 0%, #0f3460 100%)",
+      "narration": "Cada día, los ninja aprendices jugaban al escondite. Kenji siempre ganaba porque podía hacerse invisible usando su capa mística y quedarse absolutamente quieto como una estatua.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Cada día, los ninja aprendices jugaban al escondite. <strong>Kenji siempre ganaba</strong> porque podía hacerse invisible usando su capa mística y quedarse quieto como una estatua.<br><br><em>Every day, the ninja apprentices played hide-and-seek. Kenji always won because he could become invisible using his mystical cape and stay still as a statue.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0f3460 0%, #e94560 100%)",
+      "narration": "Un día, la maestra Ninja Yuki propuso un desafío: 'Esta vez, el que seek debe encontrar al ninja en solo 5 minutos'. Los otros ninja comenzaron a buscar, pero nadie podía encontrar a Kenji.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, la maestra <strong>Ninja Yuki</strong> propuso un desafío: '¡El que seek debe encontrar al ninja en solo 5 minutos!' Nadie podía encontrar a Kenji.<br><br><em>One day, Master Ninja Yuki proposed a challenge: The seeker must find the ninja in just 5 minutes! No one could find Kenji.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e94560 0%, #1a1a2e 100%)",
+      "narration": "Justo cuando el tiempo se acababa, Kenji escuchó a su amigo Takeshi llorando porque no podía encontrarlo. Kenji sintió pena y salió de su escondite para consolarlo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Justo cuando el tiempo se acababa, Kenji escuchó a su amigo <strong>Takeshi</strong> llorando. Kenji sintió pena y salió para consolarlo.<br><br><em>Just as time was running out, Kenji heard his friend Takeshi crying. Kenji felt sorry and came out of hiding to comfort him.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a2e 0%, #2c3e50 100%)",
+      "narration": "La maestra Yuki sonrió y dijo: 'Kenji, hoy ganaste algo más importante que el juego: ganaste un corazón noble. Un verdadero ninja siempre cuida de sus amigos primero.'",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "La maestra Yuki sonrió y dijo: <strong>¡Hoy ganaste algo más importante que el juego: un corazón noble!</strong><br><br><em>Master Yuki smiled and said: Today you won something more important than the game: a noble heart!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #34495e 100%)",
+      "narration": "Desde ese día, Kenji entendió que ser ninja no solo significa ser sigiloso, sino también ser un buen amigo. Y eso lo hacía el ninja más especial de todos.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Desde ese día, Kenji entendió que ser ninja significa ser un buen amigo. <strong>¡Eso lo hacía el ninja más especial de todos!</strong><br><br><em>From that day on, Kenji understood that being a ninja means being a good friend. That made him the most special ninja of all!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el ninja protagonista?",
+            "options": [{"text": "Takeshi"}, {"text": "Kenji"}, {"text": "Yuki"}, {"text": "Hiro"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Correcto! Era Kenji.", "incorrect": "La respuesta correcta es Kenji." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Quién era la maestra de los ninjas?",
+            "options": [{"text": "Yuki"}, {"text": "Kenji"}, {"text": "Takeshi"}, {"text": "Hiro"}],
+            "correctIndex": 0,
+            "feedback": { "correct": "¡Exacto! Era la maestra Yuki.", "incorrect": "La respuesta correcta es Yuki." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Kenji ese día?",
+            "options": [{"text": "A ganar siempre"}, {"text": "Que ser un buen amigo es más importante"}, {"text": "A esconderse mejor"}, {"text": "A llorar"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Muy bien! Que ser un buen amigo es más importante.", "incorrect": "La respuesta correcta es que ser un buen amigo es más importante." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #2c3e50 0%, #34495e 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "ninja", "content": "🥷", "matchId": "ninja"},
+          {"id": "star", "content": "⭐", "matchId": "star"},
+          {"id": "moon", "content": "🌙", "matchId": "moon"},
+          {"id": "sword", "content": "🗡️", "matchId": "sword"},
+          {"id": "mountain", "content": "⛰️", "matchId": "mountain"},
+          {"id": "friend", "content": "🤝", "matchId": "friend"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #2c3e50 0%, #34495e 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: los verdaderos héroes cuidan de sus amigos.<br><br><em>Remember: true heroes take care of their friends.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre la amistad", "en": "Talking about friendship" },
+      "content": { "es": "Habla con tu hijo sobre la importancia de cuidar a los amigos.", "en": "Talk to your child about the importance of caring for friends." },
+      "icon": "🤝"
+    }
+  ]
+}

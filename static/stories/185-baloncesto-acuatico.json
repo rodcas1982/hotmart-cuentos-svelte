@@ -1,0 +1,188 @@
+{
+  "id": "185-baloncesto-acuatico",
+  "version": "1.0",
+  "meta": {
+    "title": "El Baloncesto Acuático",
+    "subtitle": "Un deporte revolucionario",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#00bcd4",
+      "secondaryColor": "#80deea",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #00bcd4 0%, #80deea 50%, #00bcd4 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/185-baloncesto.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Baloncesto Acuático",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.5em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Un deporte revolucionario",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.3em", "opacity": "0.95"}
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #80deea 100%)",
+      "narration": "En el pueblo de Agua Dulce, los niños inventaron un nuevo deporte: el baloncesto acuático. Se jugaba dentro de la piscina con un balón especial.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el pueblo de <strong>Agua Dulce</strong>, los niños inventaron un nuevo deporte: el baloncesto acuático. Se jugaba dentro de la piscina.<br><br><em>In the town of Sweet Water, children invented a new sport: water basketball. It was played inside the pool.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #80deea 0%, #00bcd4 100%)",
+      "narration": "Los equipos estaban formados por delfines amaestrados y niños nadadores. El balón flotaba y los jugadores debían hacer canasta sin tocar el fondo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Los equipos tenían delfines y niños nadadores. <strong>El balón flotaba y debían hacer canasta sin tocar el fondo.</strong><br><br><em>The teams had trained dolphins and swimming children. The ball floated and they had to make baskets without touching the bottom.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #9b59b6 100%)",
+      "narration": "<strong>Carlitos</strong> era el mejor jugador. Podía lanzar el balón desde lejos y hacer basket incluso con los ojos cerrados. Los delfines lo ayudaban pasándole la pelota.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "<strong>Carlitos</strong> era el mejor jugador. Podía lanzar desde lejos y hacer basket con los ojos cerrados. Los delfines le pasaban la pelota.<br><br><em>Carlitos was the best player. He could throw from far away and make baskets with his eyes closed. The dolphins helped him pass the ball.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #00bcd4 100%)",
+      "narration": "El día del gran partido, las gradas estaban llenas de animales acuáticos. Todos querían ver a los Delfines Azules contra los Tiburones Veloces.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "El día del gran partido, las gradas estaban llenas. <strong>Era el partido: Delfines Azules contra Tiburones Veloces.</strong><br><br><em>On the day of the big game, the stands were full. It was the match: Blue Dolphins vs. Fast Sharks.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #00bcd4 0%, #80deea 100%)",
+      "narration": "El partido terminó en un empate emocionante. Todos celebraron juntos, demostrando que el verdadero ganador era la amistad y el juego limpio.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "El partido terminó en empate. <strong>Todos celebraron juntos</strong>, demostrando que el verdadero ganador era la amistad.<br><br><em>The game ended in a tie. Everyone celebrated together, showing that the true winner was friendship.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿En qué lugar se jugaba el baloncesto acuático?",
+            "options": [{"text": "En la playa"}, {"text": "En la piscina"}, {"text": "En el campo"}, {"text": "En el río"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! Se jugaba en la piscina.", "incorrect": "La respuesta correcta es en la piscina."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Quiénes ayudaban a Carlitos?",
+            "options": [{"text": "Los tiburones"}, {"text": "Los delfines"}, {"text": "Las ballenas"}, {"text": "Las focas"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Los delfines.", "incorrect": "La respuesta correcta es los delfines."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #00bcd4 0%, #80deea 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "basketball", "content": "🏀", "matchId": "basketball"},
+          {"id": "dolphin", "content": "🐬", "matchId": "dolphin"},
+          {"id": "pool", "content": "🏊", "matchId": "pool"},
+          {"id": "trophy", "content": "🏆", "matchId": "trophy"},
+          {"id": "water", "content": "💧", "matchId": "water"},
+          {"id": "star", "content": "⭐", "matchId": "star"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #00bcd4 0%, #80deea 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "La creatividad no tiene límites. ¡Inventa tu propio juego!<br><em>Creativity has no limits. Invent your own game!</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Jugando en el agua", "en": "Playing in the water"},
+      "content": {"es": "Juega con tu hijo a lanzar y atrapar una pelota en la piscina o en la bañera.", "en": "Play catch with your child in the pool or bathtub."},
+      "icon": "🏊"
+    }
+  ]
+}

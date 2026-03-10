@@ -1,0 +1,248 @@
+{
+  "id": "014",
+  "meta": {
+    "title": {
+      "es": "Los Guardianes del Océano",
+      "en": "The Ocean Guardians"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      5,
+      9
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)",
+      "primaryColor": "#00d2ff"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "Los Guardianes del Océano",
+        "en": "The Ocean Guardians"
+      },
+      "heroImage": "Grupo de niños con Chalecos Salvavidas, limpiando la playa de basura, con el océano azul detrás y delfines saltando",
+      "background": "linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En un hermoso pueblo costero llamado Mar Azul, vivían tres mejores amigos: Lucía de nueve años, Marcos de diez, y Pilar de ocho. Ellos pasaban mucho tiempo en la playa y el océano, nadando y jugando con los delfines. Un día, mientras nadaban, encontraron algo muy triste: una tortuga marina atrapada en una red de plástico.",
+        "en": "In a beautiful coastal town called Blue Sea, three best friends lived: Lucía who was nine, Marcos who was ten, and Pilar who was eight. They spent a lot of time at the beach and ocean, swimming and playing with dolphins. One day, while swimming, they found something very sad: a sea turtle trapped in a plastic net."
+      },
+      "image": {
+        "src": "Niños nadando encuentran una tortuga atrapada en plástico, con expresiones preocupadas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En un hermoso pueblo costero...",
+        "en": "In a beautiful coastal town..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Con mucho cuidado, los tres amigos lograron liberar a la tortuga. Ella los miró con sus grandes ojos negros y pareció agradecerles antes de desaparecer en el agua. Los niños quedaron muy conmempranos al ver cómo la contaminación afectaba a los animales del mar. Decidieron hacer algo al respecto.",
+        "en": "With great care, the three friends managed to free the turtle. She looked at them with her big black eyes and seemed to thank them before disappearing into the water. The children were very sad to see how pollution affected sea animals. They decided to do something about it."
+      },
+      "image": {
+        "src": "Niños liberando la tortuga, que los mira agradecida antes de nadar hacia el mar",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Con mucho cuidado...",
+        "en": "With great care..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Formaron un club llamado 'Los Guardianes del Océano'. Cada fin de semana, se reunían en la playa para recoger basura. Recogían plásticos, papeles, latas y todo lo que encontraban. También ponían carteles pedindo a las personas que no botaran basura en la arena. Algunos adultos se reían de ellos al principio, pero los niños no se rindieron.",
+        "en": "They formed a club called 'The Ocean Guardians.' Every weekend, they gathered at the beach to pick up trash. They collected plastics, papers, cans, and everything they found. They also put up signs asking people not to throw garbage on the sand. Some adults laughed at them at first, but the children didn't give up."
+      },
+      "image": {
+        "src": "Niños limpiando la playa con bolsas de basura, poniendo carteles informativos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Formaron un club...",
+        "en": "They formed a club..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Con el tiempo, más niños quisieron unirse al club. Incluso algunos adultos comenzaron a ayudar. La playa de Mar Azul comenzó a estar más limpia, y los delfines y tortugas volvían a acercarse a la orilla. Los animales parecían más felices, y los niños también. Habían aprendido que trabajando juntos, podían hacer una gran diferencia.",
+        "en": "Over time, more children wanted to join the club. Even some adults started helping. The beach of Blue Sea began to be cleaner, and dolphins and turtles came back closer to the shore. The animals seemed happier, and the children did too. They had learned that working together, they could make a big difference."
+      },
+      "image": {
+        "src": "Playa limpia con niños y adultos trabajando juntos, delfines nadando cerca",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Con el tiempo...",
+        "en": "Over time..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Un día, el alcalde de Mar Azul reconoció el trabajo de los niños y les dio un premio especial. 'Ustedes son ejemplos de que nunca es demasiado temprano para cuidar nuestro planeta', dijo. Los tres amigos sonrieron sabiendo que habían encontrado su propósito: proteger el océano y todos los seres que viven en él.",
+        "en": "One day, the mayor of Blue Sea recognized the children's work and gave them a special award. 'You are examples that it is never too early to take care of our planet,' said the three friends. They smiled knowing they had found their purpose: to protect the ocean and all the beings that live in it."
+      },
+      "image": {
+        "src": "Niños recibiendo un premio del alcalde, con trofeo brillante y sonrisas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, el alcalde...",
+        "en": "One day, the mayor..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué decidieron hacer los niños para ayudar al océano?",
+              "en": "What did the children decide to do to help the ocean?"
+            },
+            "options": [
+              {
+                "es": "Nadar más",
+                "en": "To swim more"
+              },
+              {
+                "es": "Recoger basura de la playa y educar a otros",
+                "en": "To pick up beach garbage and educate others"
+              },
+              {
+                "es": "Ignorar el problema",
+                "en": "To ignore the problem"
+              },
+              {
+                "es": "irse del pueblo",
+                "en": "To leave town"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Decidieron recoger basura y educar a otros sobre el cuidado del océano.",
+              "en": "Correct! They decided to pick up garbage and educate others about caring for the ocean."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué nos enseña esta historia sobre proteger el medio ambiente?",
+              "en": "What does this story teach us about protecting the environment?"
+            },
+            "options": [
+              {
+                "es": "Que no podemos hacer nada",
+                "en": "That we can't do anything"
+              },
+              {
+                "es": "Que trabajando juntos podemos hacer una gran diferencia",
+                "en": "That working together we can make a big difference"
+              },
+              {
+                "es": "Que solo los adultos pueden ayudar",
+                "en": "That only adults can help"
+              },
+              {
+                "es": "Que no importa la basura",
+                "en": "That garbage doesn't matter"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Trabajando juntos podemos hacer una gran diferencia.",
+              "en": "Very well! Working together we can make a big difference."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "ocean",
+            "content": "🌊",
+            "matchId": "ocean"
+          },
+          {
+            "id": "turtle",
+            "content": "🐢",
+            "matchId": "turtle"
+          },
+          {
+            "id": "dolphin",
+            "content": "🐬",
+            "matchId": "dolphin"
+          },
+          {
+            "id": "trash",
+            "content": "🗑️",
+            "matchId": "trash"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

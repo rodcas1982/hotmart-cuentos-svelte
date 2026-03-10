@@ -1,0 +1,238 @@
+{
+  "id": "155-robot-amigo",
+  "version": "1.0",
+  "meta": {
+    "title": "Robot Amigo",
+    "subtitle": "A story about friendship and technology",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#0891b2",
+      "secondaryColor": "#06b6d4",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #164e63 0%, #0e7490 50%, #164e63 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #0891b2 0%, #06b6d4 50%, #22d3ee 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/155-robot.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Robot Amigo",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre amistad y tecnología",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #164e63 0%, #0e7490 100%)",
+      "narration": "En una fábrica de juguetes, un robot nuevo llamado <strong>Tec</strong> esperaba su primer día. Era un robot azul con ojos brillantes y antenna en la cabeza.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una fábrica de juguetes, un robot nuevo llamado <strong>Tec</strong> esperaba su primer día. Era un robot azul con ojos brillantes y una antenna en la cabeza.<br><br><em>In a toy factory, a new robot named Tec waited for his first day. He was a blue robot with bright eyes and an antenna on his head.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0e7490 0%, #0891b2 100%)",
+      "narration": "Tec tenía muchas funciones: podía caminar, hablar, y حتى bailar. Pero no tenía amigos y se sentía solo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Tec tenía muchas funciones: podía caminar, hablar, e incluso bailar. Pero no tenía amigos y se sentía solo.<br><br><em>Tec had many functions: he could walk, talk, and even dance. But he had no friends and felt lonely.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0891b2 0%, #06b6d4 100%)",
+      "narration": "Un día, un niño llamado <strong>Max</strong> vino a la tienda con su mamá. Buscaba un amigo especial para su cumpleaños.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, un niño llamado <strong>Max</strong> vino a la tienda con su mamá. Buscaba un amigo especial para su cumpleaños.<br><br><em>One day, a boy named Max came to the store with his mom. He was looking for a special friend for his birthday.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #06b6d4 0%, #22d3ee 100%)",
+      "narration": "Max vio a Tec y sus ojos brillaron. '¡Este es el robot que estaba buscando!', exclamó feliz. Y Tec sintió algo cálido en su corazón de metal.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Max vio a Tec y sus ojos brillaron. '¡Este es el robot que estaba buscando!', exclamó feliz. Y Tec sintió algo cálido en su corazón de metal.<br><br><em>Max saw Tec and his eyes lit up. 'This is the robot I was looking for!' he exclaimed happily. And Tec felt something warm in his metal heart.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #22d3ee 0%, #67e8f9 100%)",
+      "narration": "Max llevó a Tec a su casa. Le construyó una cama cómoda en su cuarto y le presentó a todos sus juguetes.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Max llevó a Tec a su casa. Le construyó una cama cómoda en su cuarto y le presentó a todos sus juguetes.<br><br><em>Max took Tec to his house. He built a comfortable bed for him in his room and introduced him to all his toys.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #67e8f9 0%, #a5f3fc 100%)",
+      "narration": "Cada día, Tec y Max hacían cosas juntos. Jugaban videojuegos, leían libros, y Tec ayudaba a Max con sus tareas.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Cada día, Tec y Max hacían cosas juntos. Jugaban videojuegos, leían libros, y Tec ayudaba a Max con sus tareas.<br><br><em>Every day, Tec and Max did things together. They played video games, read books, and Tec helped Max with his homework.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a5f3fc 0%, #cffafe 100%)",
+      "narration": "Pero un día, Tec se quedaronin sin batería. Sus luces se apagaron y no podía moverse. ¡Max se preocupó mucho!",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Pero un día, Tec se quedó sin batería. Sus luces se apagaron y no podía moverse. ¡Max se preocupó mucho!<br><br><em>But one day, Tec ran out of battery. His lights went out and he couldn't move. Max got very worried!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #06b6d4 0%, #0891b2 100%)",
+      "narration": "Max buscó el cargador y conectó a Tec. 'Por favor, despierta', susurró. Y lentamente, Tec abrió los ojos.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Max buscó el cargador y conectó a Tec. 'Por favor, despierta', susurró. Y lentamente, Tec abrió los ojos.<br><br><em>Max found the charger and plugged Tec in. 'Please wake up,' he whispered. And slowly, Tec opened his eyes.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0891b2 0%, #164e63 100%)",
+      "narration": "Desde ese día, Tec aprendió que <strong>la tecnología no puede reemplazar la amistad verdadera</strong>. Los amigos de verdad se cuidan en las buenas y en las malas.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Desde ese día, Tec aprendió que <strong>la tecnología no puede reemplazar la amistad verdadera</strong>. Los amigos de verdad se cuidan en las buenas y en las malas.<br><br><em>From that day on, Tec learned that technology cannot replace true friendship. True friends care for each other in good times and bad.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el robot?",
+            "options": [{"text": "Max"}, {"text": "Robot"}, {"text": "Tec"}, {"text": "Amigo"}],
+            "correctIndex": 2,
+            "feedback": {"correct": "¡Correcto! El robot se llamaba Tec.", "incorrect": "La respuesta correcta es Tec."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué pasó cuando Tec se quedó sin batería?",
+            "options": [{"text": "Max lo tirar"}, {"text": "Max lo cargó y lo despertó"}, {"text": "Tec se fue solo"}, {"text": "Max no hizo nada"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Max lo cargó y lo despertó.", "incorrect": "La respuesta correcta es que Max lo cargó y lo despertó."}
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Tec sobre la tecnología?",
+            "options": [{"text": "Que es más importante que los amigos"}, {"text": "Que no puede reemplazar la amistad verdadera"}, {"text": "Que los robots no necesitan amigos"}, {"text": "Que la tecnología es mala"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Muy bien! La tecnología no puede reemplazar la amistad verdadera.", "incorrect": "La respuesta correcta es que la tecnología no puede reemplazar la amistad verdadera."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #0891b2 0%, #164e63 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: la tecnología es amazing, pero los amigos verdaderos son los que te cuidan de verdad.<br><br><em>Remember: technology is amazing, but true friends are those who truly care for you.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Momento de lectura", "en": "Reading time"},
+      "content": {"es": "Habl Sobre cómo la tecnología y la amistad pueden coexistir.", "en": "Talk about how technology and friendship can coexist."},
+      "icon": "📚"
+    },
+    {
+      "title": {"es": "Actividad tecnológica", "en": "Tech activity"},
+      "content": {"es": "Jueguen juntos un juego de video o construyan algo con bloques.", "en": "Play a video game together or build something with blocks."},
+      "icon": "🤖"
+    }
+  ]
+}

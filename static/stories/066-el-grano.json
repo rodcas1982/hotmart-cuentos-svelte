@@ -1,0 +1,225 @@
+{
+  "id": "066-el-grano",
+  "version": "1.0",
+  "meta": {
+    "title": "El Grano de Arena",
+    "subtitle": "A story about the power of small things",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#f39c12",
+      "secondaryColor": "#f1c40f",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #e67e22 0%, #f39c12 50%, #f1c40f 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #f39c12 0%, #f1c40f 50%, #f39c12 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/066-grano.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Grano de Arena",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre el poder de las cosas pequeñas",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #f39c12 100%)",
+      "narration": "En una playa gigante, muy cerca del mar, vivía un pequeño grano de arena llamado Arena. Era tan pequeño que nadie lo notaba.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una playa gigante, muy cerca del mar, vivía un pequeño grano de arena llamado <strong>Arena</strong>. Era tan pequeño que nadie lo notaba.<br><br><em>On a giant beach, very close to the sea, lived a little grain of sand named Arena. He was so small that no one noticed him.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e67e22 100%)",
+      "narration": "Un día, Arena vio a una牡小女孩周uncastillo de arena perfecto. '¡Quiero ser parte de algo grande!' pensó.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, Arena vio a una niña construir un castillo de arena perfecto. <strong>¡Quiero ser parte de algo grande!</strong> pensó.<br><br><em>One day, Arena watched a girl build a perfect sandcastle. 'I want to be part of something big!' he thought.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f1c40f 0%, #f39c12 100%)",
+      "narration": "El viento sopló fuerte y levantó a Arena. Voló por el aire hasta caer en un jardín brillante donde crecían flores hermosas.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "El viento sopló fuerte y levantó a Arena. Voló hasta caer en un jardín donde crecían flores hermosas. <strong>¡Allí encontró un nuevo hogar!</strong><br><br><em>The wind blew hard and lifted Arena. He flew through the air until he fell in a bright garden where beautiful flowers grew.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #27ae60 100%)",
+      "narration": "Con el tiempo, Arena se mezcló con la tierra del jardín. Una pequeña semilla cayó junto a él y juntos crecieron.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Con el tiempo, Arena se mezcló con la tierra del jardín. <strong>Una pequeña semilla cayó junto a él</strong> y juntos crecieron.<br><br><em>Over time, Arena mixed with the garden soil. A small seed fell next to him and they grew together.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #2ecc71 100%)",
+      "narration": "Months passed. The seed became a beautiful rose. Arena was now part of its roots, giving it strength to grow tall.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Los meses pasaron. La semilla se convirtió en una hermosa rosa. <strong>Arena ahora era parte de sus raíces</strong>, dándole fuerza para crecer alta.<br><br><em>Months passed. The seed became a beautiful rose. Arena was now part of its roots, giving it strength to grow tall.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #f39c12 100%)",
+      "narration": "La rosa floreció y todos en el jardín la admiraban. Pero la rosa sabía que su belleza venía de un pequeño grano de arena.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "La rosa floreció y todos la admiraban. Pero la rosa sabía que <strong>su belleza venía de un pequeño grano de arena</strong>.<br><br><em>The rose bloomed and everyone admired it. But the rose knew its beauty came from a little grain of sand.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e67e22 100%)",
+      "narration": "Arena aprendió algo mágico: aunque seas pequeño, puedes ser parte de cosas grandes y hermosas.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "<strong>Arena aprendió algo mágico:</strong> aunque seas pequeño, puedes ser parte de cosas grandes y hermosas.<br><br><em>Arena learned something magical: even if you're small, you can be part of big and beautiful things.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el grano de arena?",
+            "options": [
+              { "text": "Arena" },
+              { "text": "Arena2" },
+              { "text": "Polvo" },
+              { "text": "Piedra" }
+            ],
+            "correctIndex": 0,
+            "feedback": { "correct": "¡Correcto! El grano se llamaba Arena.", "incorrect": "La respuesta correcta es Arena." }
+          },
+          {
+            "id": "q2",
+            "question": "¿En qué se convirtió la semilla?",
+            "options": [
+              { "text": "Un árbol" },
+              { "text": "Una rosa" },
+              { "text": "Un girasol" },
+              { "text": "Una margarita" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! La semilla se convirtió en una rosa.", "incorrect": "La respuesta correcta es una rosa." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Arena?",
+            "options": [
+              { "text": "Que ser pequeño es malo" },
+              { "text": "Que puede ser parte de cosas grandes" },
+              { "text": "Que debe ir a la escuela" },
+              { "text": "Que los granos no importan" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Muy bien! Las cosas pequeñas pueden ser parte de cosas grandes.", "incorrect": "La respuesta correcta es que puede ser parte de cosas grandes." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #f39c12 0%, #f1c40f 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: aunque seas pequeño, tienes el poder de hacer grandes cosas.<br><br><em>Remember: even if you're small, you have the power to do great things.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre el valor de las cosas pequeñas", "en": "Talking about the value of small things" },
+      "content": { "es": "Pregunta a tu hijo: '¿Qué cosas pequeñas hacen una gran diferencia en tu vida?' Esto ayuda a valorar lo simple.", "en": "Ask your child: 'What small things make a big difference in your life?' This helps value the simple things." },
+      "icon": "💛"
+    },
+    {
+      "title": { "es": "Actividad: Contar granos", "en": "Activity: Counting grains" },
+      "content": { "es": "Deja que tu hijo sostenga arena en sus manos y sienta lo pequeña que puede ser una cosa y aún así formar playas enteras.", "en": "Let your child hold sand in their hands and feel how small things can form entire beaches." },
+      "icon": "🏖️"
+    }
+  ]
+}

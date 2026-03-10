@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": {
+      "es": "El cielo de las estrellas",
+      "en": "El cielo de las estrellas"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      6
+    ],
+    "theme": {
+      "background": "linear-gradient(180deg, #667eea 0%, #764ba2 100%)",
+      "primaryColor": "#FFD700"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "title": {
+        "es": "Tit",
+        "en": "Tit"
+      }
+    },
+    {
+      "id": "2",
+      "type": "story",
+      "text": {
+        "es": "El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. ",
+        "en": "El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "3",
+      "type": "story",
+      "text": {
+        "es": "El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. ",
+        "en": "El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "4",
+      "type": "story",
+      "text": {
+        "es": "El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. ",
+        "en": "El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "5",
+      "type": "story",
+      "text": {
+        "es": "El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. ",
+        "en": "El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "6",
+      "type": "story",
+      "text": {
+        "es": "El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. ",
+        "en": "El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "7",
+      "type": "story",
+      "text": {
+        "es": "El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. El cielo de las estrellas era mágico. ",
+        "en": "El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. El cielo de las estrellas was magic. "
+      },
+      "image": {
+        "src": "img",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "q1",
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "?",
+              "en": "?"
+            },
+            "options": [
+              {
+                "es": "Si",
+                "en": "Yes"
+              },
+              {
+                "es": "No",
+                "en": "No"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "es": "Bien!",
+              "en": "Good!"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Lectura",
+        "en": "Reading"
+      },
+      "content": {
+        "es": "Leer juntos",
+        "en": "Read together"
+      },
+      "icon": "📚"
+    }
+  ],
+  "id": "226-el-cielo-de-las-estrellas"
+}

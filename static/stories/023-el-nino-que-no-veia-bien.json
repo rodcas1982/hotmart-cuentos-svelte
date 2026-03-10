@@ -1,0 +1,318 @@
+{
+  "id": "023-el-nino-que-no-veia-bien",
+  "version": "1.0",
+  "meta": {
+    "title": "El niño que no veía bien",
+    "subtitle": "Un cuento sobre la empatía y la inclusión",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#00b894",
+      "secondaryColor": "#0984e3",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #55efc4 0%, #0984e3 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #00b894 0%, #0984e3 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/023-nino-anteojos.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El niño que no veía bien",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Aprende a ver el mundo con los ojos del corazón",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #0984e3 100%)",
+      "narration": "En la escuela Sol Solecito, había un niño llamado Martín que usaba unos lentes muy gruesos.",
+      "elements": [
+        {
+          "id": "martin-img",
+          "type": "image",
+          "src": "images/023-nino-anteojos.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En la escuela <strong>Sol Solecito</strong>, había un niño llamado <strong>Martín</strong> 👓<br><br>Martín usaba unos lentes muy gruesos porque no veía bien de lejos. A veces las letras del板书 se veían borrosas para él.<br><br>—¿Por qué usa esos lentes tan raros? —susurró un compañeros.<br><br>At Sol Solecito school, there was a boy named Martin who wore very thick glasses."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0984e3 0%, #55efc4 100%)",
+      "narration": "Martín a veces se sentía triste porque no podía ver las cosas como los demás.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Martín a veces se sentía un poco triste. 😢<br><br>No podía ver bien el писмо en el pizarra, le costaba encontrar a sus amigos en el patio, y a veces se tropieza con las cosas.<br><br>—Ojalá pudiera ver como todos —pensaba.<br><br>Pero Martín no sabía que sus lentes lo hacían especial.<br><br>Martin sometimes felt sad because he couldn't see things like everyone else."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #0984e3 100%)",
+      "narration": "Su amiga Lucía tenía una idea para ayudar a Martín.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Su amiga <strong>Lucía</strong> notó que Martín se sentía triste. 💡<br><br>—Niños, ¿qué podemos hacer para ayudar a Martín?<br><br>Algunos levantaron la mano:<br><br>✨ <strong>Pedro</strong>: Puedo prestarle mis notas<br>✨ <strong>María</strong>: Puedo sentarme junto a él en clase<br>✨ <strong>Tomás</strong>: Puedo描述le lo que está en el pizarra<br><br>His friend Lucia had an idea to help Martin."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0984e3 0%, #55efc4 100%)",
+      "narration": "Los compañeros de Martín encontraron formas creativas de incluirlo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "¡Los amigos de Martín eran muy creativos! 🌟<br><br>🎨 En arte, Lucía le describía los colores y formas<br>⚽ En educación física, Pedro lo guiaba en los juegos<br>📚 En la biblioteca, la maestra le leía los cuentos en voz alta<br><br>Martín sonrió por primera vez en mucho tiempo. ¡Se sentía parte del grupo!<br><br>Martin's classmates found creative ways to include him."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #0984e3 100%)",
+      "narration": "Un día, Martín descubrió algo increíble sobre sí mismo.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Un día, Martín descubrió algo increíble! 🌈<br><br>—¡Niños! —gritó el maestro—. ¡El concurso de dibujo regional es mañana!<br><br>Martín amaba dibujar, pero worry about no poder ver bien los detalles.<br><br>Pero Lucía said:<br><br>—Martín, ¡tú tienes la imaginación más grande de todos! Dibuja lo que sientes, no lo que ves.<br><br>One day, Martin discovered something incredible about himself."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0984e3 0%, #55efc4 100%)",
+      "narration": "Martín ganó el concurso de dibujo con una obra única.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "¡Martín ganó el concurso de dibujo! 🏆🎨<br><br>Su dibujo era de una estrella muy brillante con amigos alrededor. Lo llamó <strong>\"El mundo visto con el corazón\"</strong>.<br><br>—¿Cómo pudiste dibujar tan bonito si no ves bien? —preguntó el jugez.<br><br>—Porque yo veo las cosas más importantes: los amigos, los sentimientos, y los sueños. Eso no necesito lentes para verlo.<br><br>Martin won the drawing contest with a unique piece."
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #0984e3 100%)",
+      "narration": "Desde ese día, todos en la escuela entendieron algo importante.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Desde ese día, todos en la escuela entendieron algo importante: 💫<br><br>🌟 Cada persona ve el mundo de manera diferente<br>🌟 Las diferencias nos hacen únicos y especiales<br>🌟 Lo más importante no es ver, sino entender yamar<br><br>Y Martín aprendió a sentirse orgulloso de sus lentes, porque lo ayudan a ver un mundo que otros no pueden ver.<br><br>From that day on, everyone at school understood something important."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Por qué Martín usaba lentes muy gruesos?",
+            "options": [
+              {
+                "text": "Porque le gustaban mucho"
+              },
+              {
+                "text": "Porque no veía bien de lejos"
+              },
+              {
+                "text": "Porque era una moda"
+              },
+              {
+                "text": "Porque sus padres se los regalaron"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Martín usaba lentes porque no veía bien de lejos.",
+              "incorrect": "¡Ups! La respuesta correcta es porque no veía bien de lejos."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué ganó Martín en el concurso?",
+            "options": [
+              {
+                "text": "Unas gafas nuevas"
+              },
+              {
+                "text": "El primer lugar en dibujo"
+              },
+              {
+                "text": "Un viaje"
+              },
+              {
+                "text": "Un juguete"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Martín ganó el primer lugar en el concurso de dibujo.",
+              "incorrect": "La respuesta correcta es el primer lugar en dibujo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #00b894 0%, #0984e3 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "glasses",
+            "content": "👓",
+            "matchId": "glasses"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "rainbow",
+            "content": "🌈",
+            "matchId": "rainbow"
+          },
+          {
+            "id": "draw",
+            "content": "🎨",
+            "matchId": "draw"
+          },
+          {
+            "id": "trophy",
+            "content": "🏆",
+            "matchId": "trophy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #00b894 0%, #0984e3 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: cada persona ve el mundo diferente. Si tienes un amigo que no puede ver bien, ayúdalo con amor y paciencia. ¡Los verdaderos amigos se ven con el corazón! 👓💕<br><br>Remember: Everyone sees the world differently. If you have a friend who can't see well, help them with love and patience. True friends are seen with the heart!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

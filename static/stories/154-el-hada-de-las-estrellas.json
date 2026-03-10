@@ -1,0 +1,238 @@
+{
+  "id": "154-el-hada-de-las-estrellas",
+  "version": "1.0",
+  "meta": {
+    "title": "El Hada de las Estrellas",
+    "subtitle": "A story about kindness and magic",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#a855f7",
+      "secondaryColor": "#c084fc",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #1e1b4b 0%, #2e1065 50%, #1e1b4b 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #a855f7 0%, #c084fc 50%, #e879f9 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/154-hada-estrellas.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Hada de las Estrellas",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la amabilidad y la magia",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1e1b4b 0%, #2e1065 100%)",
+      "narration": "En el bosque de los Sueños Dormidos vivía un hada pequeña llamada <strong>Lumia</strong>. Tenía alas brillantes como las estrellas y podía hacer magia con solo tocar las cosas.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el bosque de los Sueños Dormidos vivía un hada pequeña llamada <strong>Lumia</strong>. Tenía alas brillantes como las estrellas y podía hacer magia con solo tocar las cosas.<br><br><em>In the Forest of Sleeping Dreams lived a small fairy named Lumia. She had wings that shone like stars and could do magic by just touching things.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2e1065 0%, #4c1d95 100%)",
+      "narration": "Pero Lumia tenía un problema: no sabía cuál era su propósito. Otras hadas tenían trabajos importantes, pero ella solo flotaba sin hacer nada útil.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pero Lumia tenía un problema: no sabía cuál era su propósito. Otras hadas tenían trabajos importantes, pero ella solo flotaba sin hacer nada útil.<br><br><em>But Lumia had a problem: she didn't know what her purpose was. Other fairies had important jobs, but she just floated around doing nothing useful.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4c1d95 0%, #5b21b6 100%)",
+      "narration": "Un día, encontró un pajarito con el ala herida. '¿Puedo ayudarte?', preguntó Lumia con dulzura. El pajarito asintió débilmente.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, encontró un pajarito con el ala herida. '¿Puedo ayudarte?', preguntó Lumia con dulzura. El pajarito asintió débilmente.<br><br><em>One day, she found a little bird with a wounded wing. 'Can I help you?' asked Lumia gently. The little bird nodded weakly.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5b21b6 0%, #7c3aed 100%)",
+      "narration": "Lumia tocó el ala del pajarito con susdedos brillante. ¡El ala sanó al instante! El pajarito voló feliz alrededor de ella.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Lumia tocó el ala del pajarito con sus dedos brillantes. ¡El ala sanó al instante! El pajarito voló feliz alrededor de ella.<br><br><em>Lumia touched the bird's wing with her glowing fingers. The wing healed instantly! The bird flew happily around her.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #7c3aed 0%, #8b5cf6 100%)",
+      "narration": "Esa noche, Lumia decidió ayudar a más animales. Sanó a un cervatillo con la pata lastimada ya un erizo con hambre.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Esa noche, Lumia decidió ayudar a más animales. Sanó a un cervatillo con la pata lastimada y a un erizo con hambre.<br><br><em>That night, Lumia decided to help more animals. She healed a fawn with a hurt leg and a hungry hedgehog.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8b5cf6 0%, #a78bfa 100%)",
+      "narration": "Los animales del bosque comenzaron a hablar de la bondadosa hada que sanaba a todos. Pronto, todos buscaban su ayuda.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Los animales del bosque comenzaron a hablar de la bondadosa hada que sanaba a todos. Pronto, todos buscaban su ayuda.<br><br><em>The animals of the forest began to talk about the kind fairy who healed everyone. Soon, everyone was seeking her help.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a78bfa 0%, #c4b5fd 100%)",
+      "narration": "Lumia descubrió que su magia era especial: no era para hacer cosas grandiosas, sino para <strong>ayudar con amor a quien lo necesita</strong>.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Lumia descubrió que su magia era especial: no era para hacer cosas grandiosas, sino para <strong>ayudar con amor a quien lo necesita</strong>.<br><br><em>Lumia discovered that her magic was special: it wasn't for doing great things, but for <strong>helping with love those who need it</strong>.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c4b5fd 0%, #ddd6fe 100%)",
+      "narration": "Desde ese día, Lumia se convirtió en el Hada Sanadora del Bosque. Y cada noche, antes de dormir, los animales le agradecían por su bondad.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Desde ese día, Lumia se convirtió en el Hada Sanadora del Bosque. Y cada noche, antes de dormir, los animales le agradecían por su bondad.<br><br><em>From that day on, Lumia became the Healing Fairy of the Forest. And every night before sleep, the animals thanked her for her kindness.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a78bfa 0%, #8b5cf6 100%)",
+      "narration": "Lumia aprendió algo muy importante: la magia más poderosa no es la que hace cosas grandes, sino la que hace sentir bien a los demás.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Lumia aprendió algo muy importante: la magia más poderosa no es la que hace cosas grandes, sino la que hace sentir bien a los demás.<br><br><em>Lumia learned something very important: the most powerful magic isn't the one that does great things, but the one that makes others feel good.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el hada protagonista?",
+            "options": [{"text": "Estrellita"}, {"text": "Lumia"}, {"text": "Magia"}, {"text": "Luna"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! El hada se llamaba Lumia.", "incorrect": "La respuesta correcta es Lumia."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué animal sanó primero Lumia?",
+            "options": [{"text": "Un cervatillo"}, {"text": "Un pajarito"}, {"text": "Un erizo"}, {"text": "Un conejo"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Primero sanó un pajarito.", "incorrect": "La respuesta correcta es un pajarito."}
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Lumia sobre la magia?",
+            "options": [{"text": "Que no sirve para nada"}, {"text": "Que la magia más poderosa es ayudar con amor"}, {"text": "Que es mejor no usarla"}, {"text": "Que solo sana animales"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Muy bien! La magia más poderosa es ayudar con amor.", "incorrect": "La respuesta correcta es que la magia más poderosa es ayudar con amor."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #a855f7 0%, #4c1d95 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: tú también tienes magia especial. Ayudar a otros con amor es la magia más poderosa que existe.<br><br><em>Remember: you also have special magic. Helping others with love is the most powerful magic that exists.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Momento de lectura", "en": "Reading time"},
+      "content": {"es": "Habla sobre cómo los actos pequeños de amabilidad pueden hacer una gran diferencia.", "en": "Talk about how small acts of kindness can make a big difference."},
+      "icon": "📚"
+    },
+    {
+      "title": {"es": "Actividad de bondad", "en": "Kindness activity"},
+      "content": {"es": "Hagan juntos una buena acción para alguien más.", "en": "Do a kind act for someone else together."},
+      "icon": "💝"
+    }
+  ]
+}

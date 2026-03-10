@@ -1,0 +1,448 @@
+{
+  "id": "002-los-colores-amistad",
+  "version": "1.0",
+  "meta": {
+    "title": "Los Colores de la Amistad",
+    "subtitle": "A story about friendship in all colors",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e74c3c",
+      "secondaryColor": "#9b59b6",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #34495e 0%, #2c3e50 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #f39c12 50%, #2ecc71 50%, #3498db 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/002-colores-amistad.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Los Colores de la Amistad",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.8em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.5)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre amigos de todos los colores",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "En un mundo donde todos los animales eran de un solo color, vivía un pequeño pingüino llamado Pipo. Él era negro y blanco, mientras todos los demás eran de un solo color: los conejos eran grises, los osos eran marrones y los gatos eran anaranjados.",
+      "elements": [
+        {
+          "id": "penguin-img",
+          "type": "image",
+          "src": "images/002-colores-amistad.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "waddle",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un mundo donde todos eran de un solo color, vivía un pequeño pingüino llamado <strong>Pipo</strong>. Él era negro y blanco, mientras todos los demás eran de un solo color.<br><br><em>In a world where everyone was one color, there lived a little penguin named Pipo. He was black and white, while everyone else was one color.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Pipo se sentía diferente y a veces triste. Los demás animales lo miraban extraño porque tenía dos colores. Él quería ser como todos los demás, tener un solo color like los conejos grises o los osos marrones.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pipo se sentía diferente y a veces triste. Los demás lo miraban extraño porque tenía dos colores. <strong>Quería ser como todos los demás</strong>, tener un solo color.<br><br><em>Pipo felt different and sometimes sad. Everyone looked at him strangely because he had two colors. He wanted to be like everyone else.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e67e22 100%)",
+      "narration": "Un día, Pipo encontró un pollitoamarillo perdido cerca del río. El pollito tenía miedo y no sabía dónde estaba su mamá. Pipo, a pesar de sentirse diferente, decidió ayudar al pequeño pollitoamarillo.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Pipo encontró un pollito <strong>amarillo</strong> perdido cerca del río. El pollito tenía miedo y no sabía dónde estaba su mamá. Pipo decidió ayudarlo.<br><br><em>One day, Pipo found a lost yellow chick near the river. The chick was scared and didn't know where his mother was. Pipo decided to help him.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #f39c12 100%)",
+      "narration": "Juntos buscaron a la mamá del pollito. Pipo conocía el bosque muy bien porque siempre estaba solo y explorando. El pollito, llamado Lilo,跟着 Pipo por todo el bosque, aprendiendo de él.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Juntos buscaron a la mamá del pollito. Pipo conocía el bosque muy bien porque siempre estaba solo y explorando. <strong>El pollito, llamado Lilo,跟着 Pipo por todo el bosque.</strong><br><br><em>Together they searched for the chick's mother. Pipo knew the forest well because he was always alone and exploring. The chick, named Lilo, followed Pipo throughout the forest.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f1c40f 0%, #f39c12 100%)",
+      "narration": "Después de buscar por un tiempo, encontraron a la mamá gallina con sus otros pollitos. La mamá gallinale dio las gracias a Pipo por ayudar a su hijito. Pero entonces pasó algo mágico.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Después de buscar, encontraron a la mamá gallina con sus otros pollitos. La mamá gallinale dio las gracias a Pipo. <strong>Pero entonces pasó algo mágico...</strong><br><br><em>After searching, they found the mother hen with her other chicks. The mother hen thanked Pipo. But then something magical happened...</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #27ae60 100%)",
+      "narration": "Lilo le dio un abrazo a Pipo y instantaneously, una pequeña marca amarilla apareció en la espalda negra del pingüino. Era el color de la amistad, el primer color que Pipo recibía de otra persona.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Lilo le dio un abrazo a Pipo y <strong>una pequeña marca amarilla</strong> apareció en la espalda del pingüino. Era el color de la amistad.<br><br><em>Lilo hugged Pipo and a small yellow mark appeared on the penguin's back. It was the color of friendship.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1abc9c 0%, #2ecc71 100%)",
+      "narration": "Días después, Pipo帮 un conejito gris a cruzar un río crecido. Cuando el conejito lo abrazó, una marca gris apareció junto a la amarillo. Ahora Pipo tenía dos colores de amistad.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Días después, Pipo帮 un conejito gris a cruzar un río. Cuando el conejito lo abrazó, <strong>una marca gris apareció</strong> junto a la amarillo. ¡Ahora tenía dos colores de amistad!<br><br><em>Days later, Pipo helped a gray bunny cross a river. When the bunny hugged him, a gray mark appeared next to the yellow one.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #2980b9 100%)",
+      "narration": "Pronto, todo el bosque sabía que Pipo era un amigo especial. Cada animal que Pipo ayudabale daba un abrazo y obtenía un nuevo color. Pipo se convirtió en el animal más colorido del mundo.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Pronto, todo el bosque sabía que Pipo era un amigo especial. <strong>Cada animal que Pipo ayudaba le daba un abrazo y un nuevo color.</strong> ¡Se convirtió en el más colorido!<br><br><em>Soon, the whole forest knew Pipo was a special friend. Every animal Pipo helped gave him a hug and a new color.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #8e44ad 100%)",
+      "narration": "Los otros animales comenzaron a entender que ser diferente era algo especial. Ya no miraban a Pipo extraño. En cambio, querían ser sus amigos para poder recibir un abrazo de ese pingüino tan especial.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Los otros animales entendieron que ser diferente era especial. <strong>Ya no miraban a Pipo extraño</strong>, querían ser sus amigos para recibir sus abrazos.<br><br><em>Other animals understood that being different was special. They no longer looked at Pipo strangely. They wanted to be his friends to receive his hugs.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "Pipo aprendió que su diferencia era su mayor fortaleza. No necesitaba ser como los demás porque él tenía algo que nadie más tenía: los colores de la amistad, los colores de todos los amigos que lo amaban.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "<strong>Pipo aprendió que su diferencia era su mayor fortaleza.</strong> Tenía los colores de la amistad, los colores de todos los amigos que lo amaban.<br><br><em>Pipo learned that his difference was his greatest strength. He had the colors of friendship, the colors of all the friends who loved him.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-11",
+      "type": "story",
+      "background": "linear-gradient(180deg, #34495e 0%, #2c3e50 100%)",
+      "narration": "Y así, el pequeño pingüino que alguna vez se sintió solo y diferente, ahora estaba rodeado de amigos de todos los colores del arcoíris. Su cuerpo era un hermoso arcoíris de amor y amistad.",
+      "elements": [
+        {
+          "id": "text-11",
+          "type": "text",
+          "content": "Y así, el pequeño pingüino que se sintió solo, ahora estaba rodeado de amigos de todos los colores. <strong>Su cuerpo era un hermoso arcoíris de amor y amistad.</strong><br><br><em>And so, the little penguin who once felt alone was now surrounded by friends of all colors. His body was a beautiful rainbow of love and friendship.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el pingüino?",
+            "options": [
+              {
+                "text": "Lilo"
+              },
+              {
+                "text": "Pipo"
+              },
+              {
+                "text": "Pepo"
+              },
+              {
+                "text": "Papo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El pingüino se llamaba Pipo.",
+              "incorrect": "La respuesta correcta es Pipo."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué颜色 recibió Pipo primero?",
+            "options": [
+              {
+                "text": "Gris"
+              },
+              {
+                "text": "Azul"
+              },
+              {
+                "text": "Amarillo"
+              },
+              {
+                "text": "Verde"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Exacto! El primer color fue el amarillo, de su amigo Lilo.",
+              "incorrect": "La respuesta correcta es amarillo."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Pipo al final?",
+            "options": [
+              {
+                "text": "Que ser diferente es malo"
+              },
+              {
+                "text": "Que ser diferente es su mayor fortaleza"
+              },
+              {
+                "text": "Que los colores no importan"
+              },
+              {
+                "text": "Que debe ser como los demás"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Pipo aprendió que ser diferente es su mayor fortaleza.",
+              "incorrect": "La respuesta correcta es que ser diferente es su mayor fortaleza."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #f39c12 50%, #2ecc71 50%, #3498db 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "penguin",
+            "content": "🐧",
+            "matchId": "penguin"
+          },
+          {
+            "id": "chick",
+            "content": "🐤",
+            "matchId": "chick"
+          },
+          {
+            "id": "rainbow",
+            "content": "🌈",
+            "matchId": "rainbow"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "hug",
+            "content": "🤗",
+            "matchId": "hug"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #f39c12 50%, #2ecc71 50%, #3498db 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌈 <strong>Fin</strong> 🌈",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: ser diferente nos hace especiales. Los colores de la amistad son los más hermosos del mundo.<br><br><em>Remember: being different makes us special. The colors of friendship are the most beautiful in the world.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Conversando sobre la amistad",
+        "en": "Talking about friendship"
+      },
+      "content": {
+        "es": "Pregunta sobre los amigos de tu hijo para fomentar la reflexión.",
+        "en": "Ask about your child's friends to encourage reflection."
+      },
+      "icon": "💚"
+    },
+    {
+      "title": {
+        "es": "Actividad: Dibujar un amigo",
+        "en": "Activity: Draw a friend"
+      },
+      "content": {
+        "es": "Dibuja juntos a un amigo para reforzar el concepto.",
+        "en": "Draw a friend together to reinforce the concept."
+      },
+      "icon": "🎨"
+    }
+  ]
+}

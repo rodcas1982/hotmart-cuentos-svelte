@@ -1,0 +1,188 @@
+{
+  "id": "184-viaje-por-japon",
+  "version": "1.0",
+  "meta": {
+    "title": "Un Viaje por Japón",
+    "subtitle": "Descubre la tierra del sol naciente",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e74c3c",
+      "secondaryColor": "#ecf0f1",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #c0392b 50%, #e74c3c 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/184-japon.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Un Viaje por Japón",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "La tierra del sol naciente",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.3em", "opacity": "0.95"}
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "<strong>Yuki</strong> era una niña japonesa que vivía en Tokio. Hoy era un día especial: su abuela vendría de visita y le traería un kimono nuevo.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "<strong>Yuki</strong> era una niña japonesa que vivía en Tokio. Hoy su abuela vendría de visita y le traería un kimono nuevo.<br><br><em>Yuki was a Japanese girl living in Tokyo. Today was a special day: her grandmother was coming to visit and would bring her a new kimono.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "La abuela Baachan le contó a Yuki sobre el Monte Fuji, una montaña muy alta con una punta blanca que parece un sombrero de爹.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "La abuela le contó sobre el <strong>Monte Fuji</strong>, una montaña muy alta con una punta blanca que parece un sombrero.<br><br><em>Grandma told Yuki about Mount Fuji, a very tall mountain with a white tip that looks like a hat.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #f39c12 100%)",
+      "narration": "Juntas fueron a un templo japonés. Yuki tiró una monedita y wished with all her heart. Las luces de las linternas de papel brillaban como estrellas en la tierra.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Juntas fueron a un templo japonés. <strong>Yuki tiró una monedita y wished with all her heart.</strong> Las linternas brillaban como estrellas.<br><br><em>Together they went to a Japanese temple. Yuki tossed a coin and made a wish. The lanterns glowed like stars on earth.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e74c3c 100%)",
+      "narration": "Después visitaron un jardín con cerezos en flor. Los pétalos rosados caían como nieve mágica. Yuki bailó debajo de los árboles.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Después visitaron un jardín con cerezos en flor. <strong>Los pétalos rosados caían como nieve mágica.</strong> Yuki bailó debajo de los árboles.<br><br><em>Then they visited a garden with cherry blossoms. The pink petals fell like magic snow. Yuki danced under the trees.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #c0392b 100%)",
+      "narration": "Al atardecer, Yuki y su abuela comieron ramen caliente y disfrutaron de la vista del sol escondiéndose detrás de los edificios brillantes.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Al atardecer, comieron ramen caliente. <strong>Disfrutaron del sol escondiéndose</strong> detrás de los edificios brillantes.<br><br><em>At sunset, Yuki and her grandmother ate hot ramen and enjoyed the sun hiding behind the bright buildings.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la niña japonesa?",
+            "options": [{"text": "Sakura"}, {"text": "Yuki"}, {"text": "Hana"}, {"text": "Mika"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! La niña se llamaba Yuki.", "incorrect": "La respuesta correcta es Yuki."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué montaña famosa tiene Japón?",
+            "options": [{"text": "Everest"}, {"text": "Monte Fuji"}, {"text": "K2"}, {"text": "Alpes"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Es el Monte Fuji.", "incorrect": "La respuesta correcta es el Monte Fuji."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #c0392b 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "temple", "content": "⛩️", "matchId": "temple"},
+          {"id": "mountain", "content": "🏔️", "matchId": "mountain"},
+          {"id": "cherry", "content": "🌸", "matchId": "cherry"},
+          {"id": "lantern", "content": "🏮", "matchId": "lantern"},
+          {"id": "ramen", "content": "🍜", "matchId": "ramen"},
+          {"id": "sun", "content": "🌅", "matchId": "sun"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e74c3c 0%, #c0392b 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Japón es un país hermoso con mucha cultura y tradiciones.<br><em>Japan is a beautiful country with lots of culture and traditions.</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Conociendo culturas", "en": "Learning about cultures"},
+      "content": {"es": "Muestra a tu hijo fotos de diferentes países y culturas del mundo.", "en": "Show your child photos of different countries and cultures around the world."},
+      "icon": "🌏"
+    }
+  ]
+}

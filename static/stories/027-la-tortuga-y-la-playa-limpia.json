@@ -1,0 +1,318 @@
+{
+  "id": "027-la-tortuga-y-la-playa-limpia",
+  "version": "1.0",
+  "meta": {
+    "title": "La tortuga y la playa limpia",
+    "subtitle": "Un cuento sobre proteger las playas y los mares",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#fdcb6e",
+      "secondaryColor": "#0984e3",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #ffeaa7 0%, #74b9ff 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #fdcb6e 0%, #0984e3 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/027-tortuga-playa.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La tortuga y la playa limpia",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Marina la tortuga salva su hogar",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeaa7 0%, #74b9ff 100%)",
+      "narration": "Marina era una tortuga marina que vivía en el océano cerca de una playa hermosa.",
+      "elements": [
+        {
+          "id": "turtle-img",
+          "type": "image",
+          "src": "images/027-tortuga-playa.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Era una vez una tortuga marina llamada <strong>Marina</strong> 🐢<br><br>Marina vivía en el océano, cerca de una playa llamada <strong>Playa Soleada</strong>. Cada año, ella venía a esta playa para dejar sus huevos.<br><br>La playa era su hogar y el lugar más seguro del mundo para sus crías.<br><br>Marina was a sea turtle who lived in the ocean near a beautiful beach."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #74b9ff 0%, #ffeaa7 100%)",
+      "narration": "Un día, Marina regresó a la playa y encontró algo terrible.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, Marina regresó a la playa para dejar sus huevos, pero encontró algo terrible... 😱<br><br>¡La playa estaba llena de basura!<br><br>🗑️ Bolsas de plástico por todas partes<br>🗑️ Botellas tiradas en la arena<br>🗑️ Redes de pesca abandonadas<br>🗑️ Comida podrida<br><br>—¡Mi hogar! —lloró Marina—. ¿Qué ha pasado aquí?<br><br>One day, Marina returned to the beach and found something terrible."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeaa7 0%, #74b9ff 100%)",
+      "narration": "Marina intentó encontrar un lugar limpio para sus huevos.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Marina buscó y buscó un lugar limpio, pero no encontró ninguno. 😢<br><br>Las bolsas de plástico la confunden —pensó que eran medusas y casi se las come.<br>Las redes podían lastimar a sus crías.<br>La basura hacía que el olor de la playa fuera horrible.<br><br>—No puedo dejar mis huevos aquí. Es demasiado peligroso.<br><br>Marina tried to find a clean place for her eggs."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #74b9ff 0%, #ffeaa7 100%)",
+      "narration": "Marina decidió pedir ayuda a los humanos.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Marina tuvo una idea. ¡Pedir ayuda a los humanos! 🗣️<br><br>Nadó hasta la orilla y encontró a un niño llamado <strong>Tomás</strong>.<br><br>—Por favor —dijo Marina con sus ojos—, ayuda a limpiar mi playa. Mis crías necesitan un hogar seguro.<br><br>Tomás se conmovió:<br><br>—¡Claro que te ayudaré! Voy a decírselo a todos.<br><br>Marina decided to ask humans for help."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeaa7 0%, #74b9ff 100%)",
+      "narration": "Toda la comunidad se unió para limpiar la playa.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "¡Toda la comunidad se unió para limpiar la playa! 🙌<br><br>Los niños recogieron papeles<br>Los papás recogenieron botellas de plástico<br>Las mamás separaron la basura para reciclar<br>Los.abuelos enseñaron a no tirar basura<br><br>🏖️ <strong>¡La playa quedó como nueva!</strong><br><br>¡En solo unas horas, la playa estaba limpia de nuevo!<br><br>The whole community came together to clean the beach."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #74b9ff 0%, #ffeaa7 100%)",
+      "narration": "Marina pudo dejar sus huevos en una playa limpia y segura.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "¡Marina pudo dejar sus huevos en una playa limpia y segura! 🥚🐢<br><br>—¡Gracias, amigos humanos! —dijo Marina feliz—. Ahora mis crías tendrán un hogar seguro.<br><br>Después de unas semanas, los huevos eclosionaron y pequeñas tortugas corretearon hacia el mar.<br><br>¡La vida continuó en Playa Soleada!<br><br>Marina was able to leave her eggs on a clean and safe beach."
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeaa7 0%, #74b9ff 100%)",
+      "narration": "La comunidad creó reglas para mantener la playa limpia.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "La comunidad creó reglas especiales para cuidar la playa: 📋<br><br>🚫 No tirar basura en la arena<br>♻️ Usar cestos de basura y reciclaje<br>🌊 No dejar objetos en la playa<br>🐢 Proteger a las tortugas marinas<br><br>Y así, Playa Soleada se convirtió en un ejemplo para todo el mundo.<br><br>The community created rules to keep the beach clean."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Por qué Marina necesitaba una playa limpia?",
+            "options": [
+              {
+                "text": "Para jugar"
+              },
+              {
+                "text": "Para dejar sus huevos de forma segura"
+              },
+              {
+                "text": "Para dormir"
+              },
+              {
+                "text": "Para encontrar amigos"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Marina necesitaba una playa limpia para dejar sus huevos de forma segura.",
+              "incorrect": "¡Ups! La respuesta correcta es para dejar sus huevos de forma segura."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué pueden hacer los niños en la playa?",
+            "options": [
+              {
+                "text": "Tirar basura donde sea"
+              },
+              {
+                "text": "Tirar basura solo un poco"
+              },
+              {
+                "text": "Usar los cestos de basura y dejar la playa limpia"
+              },
+              {
+                "text": "Dejar las cosas en la arena"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Exacto! Usar los cestos de basura y dejar la playa limpia.",
+              "incorrect": "La respuesta correcta es usar los cestos de basura y dejar la playa limpia."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #fdcb6e 0%, #0984e3 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "turtle",
+            "content": "🐢",
+            "matchId": "turtle"
+          },
+          {
+            "id": "beach",
+            "content": "🏖️",
+            "matchId": "beach"
+          },
+          {
+            "id": "ocean",
+            "content": "🌊",
+            "matchId": "ocean"
+          },
+          {
+            "id": "recycle",
+            "content": "♻️",
+            "matchId": "recycle"
+          },
+          {
+            "id": "egg",
+            "content": "🥚",
+            "matchId": "egg"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #fdcb6e 0%, #0984e3 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: las playas son el hogar de muchos animales como las tortugas. Cuando vayas a la playa,带走tu basura y deja el lugar limpio. ¡Los animales te lo agradecerán! 🐢🏖️<br><br>Remember: Beaches are the home of many animals like turtles. When you go to the beach, take your trash with you and leave the place clean. The animals will thank you!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

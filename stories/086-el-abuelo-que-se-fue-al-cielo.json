@@ -1,0 +1,233 @@
+{
+  "id": "086-el-abuelo-que-se-fue-al-cielo",
+  "version": "1.0",
+  "meta": {
+    "title": "El Abuelo que se Fue al Cielo",
+    "subtitle": "A story about losing a loved one",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#1565c0",
+      "secondaryColor": "#64b5f6",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #87ceeb 0%, #b3e5fc 50%, #e1f5fe 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #87ceeb 0%, #64b5f6 50%, #b3e5fc 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/086-abuelo-cielo.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Abuelo que se Fue al Cielo",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.3em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        "subtitle": {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre amar para siempre",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em", "opacity": "0.95"}
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #87ceeb 0%, #b3e5fc 100%)",
+      "narration": "Martín tenía un abuelo llamado Don José que era su persona favorita. Cada tarde iban al parque a alimentar a las palomas y a tomar helados juntos.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Martín tenía un abuelo llamado <strong>Don José</strong> que era su persona favorita. Cada tarde iban al parque a alimentar a las palomas 🐦 y a tomar helados juntos 🍦.<br><br><em>Martín had a grandfather named Don José who was his favorite person. Every afternoon they went to the park to feed the pigeons and have ice cream together.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #b3e5fc 0%, #e1f5fe 100%)",
+      "narration": "Pero un día, Don José se enfermó muito. Los doctores intentaron ayuarlo, pero el abuelo era muy anciano y su cuerpo ya no podía más.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pero un día, Don José se enfermó mucho. Los doctores intentaron ayudarlo, pero el abuelo era muy anciano y su cuerpo ya no podía más 💔.<br><br><em>But one day, Don José got very sick. The doctors tried to help him, but the grandfather was very old and his body couldn't go on anymore.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e1f5fe 0%, #90caf9 100%)",
+      "narration": "Martín sintió mucho dolor en su corazón. Lloró mucho y no quería comer. Extrañaba a su abuelo más que nunca.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Martín sintió mucho dolor en su corazón. Lloró mucho y no quería comer. Extrañaba a su abuelo más que nunca 😢.<br><br><em>Martín felt a lot of pain in his heart. He cried a lot and didn't want to eat. He missed his grandfather more than ever.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #90caf9 0%, #64b5f6 100%)",
+      "narration": "Su mamá lo abrazó y le explicó algo especial: —El abuelo está ahora en el cielo, brillo como una estrella. Te seguirá amando siempre, desde allá arriba.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Su mamá lo abrazó y le explicó algo especial: —El abuelo está ahora en el cielo ⭐, brillo como una estrella. Te seguirá amando siempre, desde allá arriba.<br><br><em>His mom hugged him and explained something special: —Grandpa is now in the sky, shining like a star. He will always love you, from up there.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #64b5f6 0%, #ffd54f 100%)",
+      "narration": "Esa noche, Martín miró al cielo y vio una estrella muy brillante. —¡Abuelo! —susurró. Y en su corazón sintió que el abuelo le respondía con amor.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Esa noche, Martín miró al cielo y vio una estrella muy brillante. —¡Abuelo! —susurró. Y en su corazón sintió que el abuelo le respondía con amor 💫.<br><br><em>That night, Martín looked at the sky and saw a very bright star. —Grandpa! —he whispered. And in his heart he felt that grandpa was responding with love.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffd54f 0%, #ffca28 100%)",
+      "narration": "Martín aprendió que el amor de un abuelo nunca se va. Aunque ya no pueda abrazarlo, lo lleva en su corazón para siempre.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "<strong>Martín aprendió:</strong> el amor de un abuelo nunca se va. Aunque ya no pueda abrazarlo, lo lleva en su corazón para siempre ❤️. Las personas que amamos nunca真正的 se van.<br><br><em>Martín learned: a grandfather's love never goes away. Even though he can't hug him anymore, he carries him in his heart forever. The people we love never truly leave.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el abuelo de Martín?",
+            "options": [
+              {"text": "Don Juan"},
+              {"text": "Don José"},
+              {"text": "Don Pedro"},
+              {"text": "Don Carlos"}
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El abuelo se llamaba Don José.",
+              "incorrect": "La respuesta correcta es Don José."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Adónde fue el abuelo según la mamá?",
+            "options": [
+              {"text": "Al bosque"},
+              {"text": "Al cielo"},
+              {"text": "A la playa"},
+              {"text": "De viaje"}
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Fue al cielo, donde brilla como una estrella.",
+              "incorrect": "La respuesta correcta es al cielo."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Martín sobre el amor?",
+            "options": [
+              {"text": "Que se termina"},
+              {"text": "Que nunca se va"},
+              {"text": "Que duele"},
+              {"text": "Que no existe"}
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! El amor de las personas que queremos nunca se va.",
+              "incorrect": "La respuesta correcta es que nunca se va."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #87ceeb 0%, #ffd54f 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "find-star",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "star-1", "content": "⭐", "type": "star", "isMatch": true},
+          {"id": "cloud", "content": "☁️", "type": "cloud"},
+          {"id": "star-2", "content": "🌟", "type": "star", "isMatch": true},
+          {"id": "moon", "content": "🌙", "type": "moon"},
+          {"id": "sun", "content": "☀️", "type": "sun"},
+          {"id": "star-3", "content": "✨", "type": "star", "isMatch": true},
+          {"id": "bird", "content": "🐦", "type": "bird"},
+          {"id": "star-4", "content": "💫", "type": "star", "isMatch": true},
+          {"id": "heart", "content": "❤️", "type": "heart"},
+          {"id": "flower", "content": "🌸", "type": "flower"},
+          {"id": "star-5", "content": "✴️", "type": "star", "isMatch": true},
+          {"id": "tree", "content": "🌳", "type": "tree"}
+        ],
+        "task": "Encuentra las estrellas que brillan en el cielo"
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #b3e5fc 0%, #ffd54f 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: las personas que amamos nunca really leave us. Están en nuestro corazón y en cada estrella que brilla en el cielo.<br><br><em>Remember: the people we love never really leave us. They are in our heart and in every star that shines in the sky.</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ]
+}

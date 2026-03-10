@@ -1,0 +1,211 @@
+{
+  "id": "019",
+  "meta": {
+    "title": {
+      "es": "El Pinguino Valiente",
+      "en": "The Brave Penguin"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #83a4d4 0%, #b6fbff 100%)",
+      "primaryColor": "#83a4d4"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Pingüino Valiente",
+        "en": "The Brave Penguin"
+      },
+      "heroImage": "Pequeño pingüino con bufanda roja, de pie en el hielo antártico, con expresión determinada, surrounded by otros pingüinos",
+      "background": "linear-gradient(135deg, #83a4d4 0%, #b6fbff 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En las frías tierras del Polo Sur, vivía una колония de pingüinos. Entre ellos había un pequeño pingüino llamado Copito, que era el más pequeño de todos. Los otros pingüinos a veces se reían de él porque no podía游泳 tan rápido como ellos. Copito se sentía triste pero no perdía la esperanza.",
+        "en": "In the cold lands of the South Pole, there lived a colony of penguins. Among them was a little penguin named Copito, who was the smallest of all. The other penguins sometimes laughed at him because he couldn't swim as fast as them. Copito felt sad but didn't lose hope."
+      },
+      "image": {
+        "src": "Pequeño pingüino triste entre otros más grandes, en el Polo Sur",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En las frías tierras...",
+        "en": "In the cold lands..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, una tormenta de nieve muy fuerte llegó al Polo Sur. Los pingüinos debían mantenerse juntos para no perderse. Pero el pequeño Copito vio que un huevo de pingüino había quedado solo y abandonado cerca de un iceberg. ¡El huevo tenía un polluelo dentro que estaba por nacer! Copito decidió actuar.",
+        "en": "One day, a very strong snowstorm arrived at the South Pole. The penguins had to stay together so as not to get lost. But little Copito saw that a penguin egg had been left alone and abandoned near an iceberg! The egg had a chick inside that was about to be born! Copito decided to act."
+      },
+      "image": {
+        "src": "Tormenta de nieve en el Polo Sur, pequeño pingüino mirando el huevo abandonado",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, una tormenta...",
+        "en": "One day, a storm..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Copito caminó con dificultad a través de la nieve hasta el huevo. Lo pushó con sus pequeñas alas y lo movió hacia la колония. Era muy pesado y el viento soplaba fuerte, pero Copito no se rindió. Necesitaba mucho tiempo, pero finalmente logró acercar el huevo a los otros pingüinos.",
+        "en": "Copito walked with difficulty through the snow to the egg. He pushed it with his small wings and moved it toward the colony. It was very heavy and the wind blew strong, but Copito didn't give up. It took a long time, but finally he managed to bring the egg close to the other penguins."
+      },
+      "image": {
+        "src": "Pequeño pingüino empujando el huevo a través de la nieve, con determinación",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Copito caminó...",
+        "en": "Copito walked..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Cuando los otros pingüinos vieron lo que Copito había hecho, quedaron impresionados. '¡Eres muy valiente!', dijo el líder de la колония. 'No importa qué tan pequeño seas, tu corazón es grande y eso es lo que importa'. Desde ese día, Copito fue respetado por todos, no por su tamaño, sino por su bravery.",
+        "en": "When the other penguins saw what Copito had done, they were impressed. 'You are very brave!' said the leader of the colony. 'No matter how small you are, your heart is big and that's what matters.' From that day on, Copito was respected by everyone, not for his size, but for his bravery."
+      },
+      "image": {
+        "src": "Pequeño pingüino siendo celebrado por la колония, con el líder reconociéndolo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Cuando los otros pingüinos...",
+        "en": "When the other penguins..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Días después, el huevo eclosionó y nació un pequeño pingüino. La madre del polluelo le dio las gracias a Copito y le pidió que fuera el padrino del bebé. Copito aceptó con alegría. Ahora tenía un nuevo propósito en la vida y una nueva familia que lo quería. Aprendió que ser pequeño no significa ser débil.",
+        "en": "Days later, the egg hatched and a little penguin was born. The mother of the chick thanked Copito and asked him to be the baby's godfather. Copito accepted with joy. Now he had a new purpose in life and a new family that loved him. He learned that being small doesn't mean being weak."
+      },
+      "image": {
+        "src": "Pequeño pingüino con el nuevo polluelo y su madre, celebrando",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Días después...",
+        "en": "Days later..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué nos enseña Copito sobre ser pequeño?",
+              "en": "What does Copito teach us about being small?"
+            },
+            "options": [
+              {
+                "es": "Que ser pequeño es malo",
+                "en": "That being small is bad"
+              },
+              {
+                "es": "Que no importa el tamaño, sino el tamaño del corazón",
+                "en": "That size doesn't matter, but the size of the heart"
+              },
+              {
+                "es": "Que los pequeños no pueden hacer nada",
+                "en": "That small ones can't do anything"
+              },
+              {
+                "es": "Que es mejor ser grande",
+                "en": "That it's better to be big"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! No importa qué tan pequeños seamos, lo que importa es nuestro corazón.",
+              "en": "Correct! No matter how small we are, what matters is our heart."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "penguin",
+            "content": "🐧",
+            "matchId": "penguin"
+          },
+          {
+            "id": "egg",
+            "content": "🥚",
+            "matchId": "egg"
+          },
+          {
+            "id": "snow",
+            "content": "❄️",
+            "matchId": "snow"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "ice",
+            "content": "🧊",
+            "matchId": "ice"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

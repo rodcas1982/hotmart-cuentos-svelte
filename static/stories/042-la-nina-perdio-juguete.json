@@ -1,0 +1,343 @@
+{
+  "id": "042-la-nina-perdio-juguete",
+  "version": "1.0",
+  "meta": {
+    "title": "La niña que perdió su juguete",
+    "subtitle": "A story about taking responsibility for our things",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#9b59b6",
+      "secondaryColor": "#8e44ad",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 50%, #a569bd 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #9b59b6 50%, #a569bd 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/042-nina-juguete.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La niña que perdió su juguete",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre responsabilidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 100%)",
+      "narration": "Sofía tenía un osito de peluche llamado Mimo que amaba con todo su corazón. Lo llevaba a todas partes: a la escuela, al parque, a la casa de su abuela. Pero un día, algo terrible happened.",
+      "elements": [
+        {
+          "id": "girl-img",
+          "type": "image",
+          "src": "images/042-nina-juguete.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Sofía tenía un osito de peluche llamado <strong>Mimo</strong> que amaba con todo su corazón. Lo llevaba a todas partes: a la escuela, al parque, a la casa de su abuela. ¡Pero un día pasó algo terrible!<br><br><em>Sofía had a stuffed bear named Mimo that she loved with all her heart. She took it everywhere: to school, to the park, to her grandmother's house. But one day, something terrible happened.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #8e44ad 100%)",
+      "narration": "Estaba jugando en el parque con Mimo cuando vio a sus amigos corriendo hacia el columpio. Dejó el osito en un banco y corrió a jugar. Cuando recordó y regresó, ¡el banco estaba vacío!",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Estaba jugando en el parque cuando vio a sus amigos corriendo hacia el columpio. <strong>Dejó el osito en un banco y corrió a jugar.</strong> Cuando regresó, ¡el banco estaba vacío!<br><br><em>She was playing in the park when she saw her friends running toward the swings. She left the bear on a bench and ran to play. When she came back, the bench was empty!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #c0392b 100%)",
+      "narration": "Sofía buscó por todas partes: debajo de los bancos, entre los arbustos, cerca de la fuente. Pero no encontró a Mimo. Lloró mucho y se sintió muy triste y responsable por haberlo dejado solo.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Sofía buscó por todas partes: debajo de los bancos, entre los arbustos, cerca de la fuente. <strong>No encontró a Mimo.</strong> Lloró y se sintió muy triste y responsable.<br><br><em>Sofía searched everywhere: under the benches, among the bushes, near the fountain. But she didn't find Mimo. She cried and felt very sad and responsible.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Su mamá le explicó que cuidar sus cosas era su responsabilidad. Sofía entendió que no debió dejar solo su juguete. Decidió ser más cuidadosa y aprender de su error. Buscó ayuda y finalmente alguien encontró a Mimo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Su mamá le explicó que <strong>cuidar sus cosas era su responsabilidad.</strong> Sofía entendió que no debió dejar solo su juguete. Decidió ser más cuidadosa y aprender de su error.<br><br><em>Her mom explained that taking care of her things was her responsibility. Sofía understood that she shouldn't have left her toy alone. She decided to be more careful and learn from her mistake.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #9b59b6 100%)",
+      "narration": "Desde ese día, Sofía siempre cuidaba muy bien sus juguetes. Los guardaba en su lugar y no los dejaba solos en lugares públicos. ¡Y nunca volvió a perder a Mimo!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Desde ese día, Sofía <strong>siempre cuidaba muy bien sus juguetes.</strong> Los guardaba en su lugar y no los dejaba solos en lugares públicos. ¡Y nunca volvió a perder a Mimo!<br><br><em>From that day on, Sofía always took very good care of her toys. She kept them in their place and never left them alone in public places again!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el osito de Sofía?",
+            "options": [
+              {
+                "text": "Momo"
+              },
+              {
+                "text": "Mimo"
+              },
+              {
+                "text": "Mimi"
+              },
+              {
+                "text": "Milo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El osito se llamaba Mimo.",
+              "incorrect": "La respuesta correcta es Mimo."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le pasó a Mimo?",
+            "options": [
+              {
+                "text": "Se rompió"
+              },
+              {
+                "text": "Se perdió en el parque"
+              },
+              {
+                "text": "Se lo prestó a un amigo"
+              },
+              {
+                "text": "Lo regaló"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Mimo se perdió en el parque.",
+              "incorrect": "La respuesta correcta es que se perdió en el parque."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Sofía?",
+            "options": [
+              {
+                "text": "Que no importa perder cosas"
+              },
+              {
+                "text": "Que debe cuidar sus pertenencias"
+              },
+              {
+                "text": "Que los juguetes no son importantes"
+              },
+              {
+                "text": "Que debe dejar sus cosas en cualquier lugar"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Aprendió que debe cuidar sus pertenencias.",
+              "incorrect": "La respuesta correcta es que debe cuidar sus pertenencias."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #9b59b6 0%, #a569bd 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "bear",
+            "content": "🧸",
+            "matchId": "bear"
+          },
+          {
+            "id": "girl",
+            "content": "👧",
+            "matchId": "girl"
+          },
+          {
+            "id": "park",
+            "content": "🌳",
+            "matchId": "park"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "bench",
+            "content": "🪑",
+            "matchId": "bench"
+          },
+          {
+            "id": "search",
+            "content": "🔍",
+            "matchId": "search"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #a569bd 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Taking care of our things shows responsibility!<br><strong>¡Remember!</strong> ¡Cuidar nuestras cosas muestra responsabilidad!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

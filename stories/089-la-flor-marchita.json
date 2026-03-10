@@ -1,0 +1,346 @@
+{
+  "id": "089-la-flor-marchita",
+  "version": "1.0",
+  "meta": {
+    "title": "La Flor Marchita",
+    "subtitle": "A story about the cycle of life",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#795548",
+      "secondaryColor": "#a1887f",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #d7ccc8 0%, #bcaaa4 50%, #a1887f 100%)",
+      "textColor": "#3e2723"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #d7ccc8 0%, #a1887f 50%, #8d6e63 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/089-flor-marchita.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Flor Marchita",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.6em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.2)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre el ciclo de la vida",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d7ccc8 0%, #bcaaa4 100%)",
+      "narration": "Rosa tenía un jardín muy bonito con muchas flores. Su favorita era una rosa roja que su abuelita había plantado hace muchos años.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Rosa tenía un jardín muy bonito 🌸 con muchas flores. Su favorita era una rosa roja 🌹 que su abuelita había plantado hace muchos años.<br><br><em>Rosa had a very beautiful garden with many flowers. Her favorite was a red rose that her grandmother had planted many years ago.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #bcaaa4 0%, #a1887f 100%)",
+      "narration": "Un día, Rosa notó que su rosa favorita estava marchitándose. Los pétalos se caían y la flor ya no era tan linda como antes.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, Rosa notó que su rosa favorita se estaba marchitando. Los pétalos se caían y la flor ya no era tan linda como antes 🥀.<br><br><em>One day, Rosa noticed her favorite rose was wilting. The petals were falling off and the flower wasn't as pretty as before.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a1887f 0%, #8d6e63 100%)",
+      "narration": "Rosa lloró mucho. —¡No quiero que mi flor se muera! —gritaba. Su abuelita vino a consolarla.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Rosa lloró mucho. —¡No quiero que mi flor se muera! —gritaba 😢. Su abuelita vino a consolarla con un abrazo.<br><br><em>Rosa cried a lot. —I don't want my flower to die! —she shouted. Her grandmother came to console her with a hug.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8d6e63 0%, #6d4c41 100%)",
+      "narration": "—Mija, las flores son como las personas. Nacen, crecen, florecen y luego dan semillas para nuevas flores. Es el ciclo de la vida.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "—Mija, las flores son como las personas. Nacen, crecen, florecen y luego dan semillas para nuevas flores. Es el ciclo de la vida 🌱.<br><br><em>—My dear, flowers are like people. They are born, grow, bloom, and then give seeds for new flowers. It's the cycle of life.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6d4c41 0%, #81c784 100%)",
+      "narration": "La abuelita收集ó las semillas de la rosa marchita y las plantó en una maceta nueva. —Mira, Rosa. Esta flor nunca morirá realmente. Sus semillas vivirán para siempre.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "La abuelita收集ó las semillas de la rosa marchita y las plantó en una maceta nueva 🪴. —Mira, Rosa. Esta flor nunca morirá realmente. Sus semillas vivirán para siempre.<br><br><em>Grandmother collected the seeds from the wilted rose and planted them in a new pot. —Look, Rosa. This flower will never really die. Its seeds will live forever.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #81c784 0%, #4caf50 100%)",
+      "narration": "Después de unas semanas, pequeñas plantas comenzaron a crecer. Rosa sonrió. Ahora entendía: las cosas que amamos nunca realmente desaparecen. Se transforman.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Después de unas semanas, pequeñas plantas comenzaron a crecer 🌿. Rosa sonrió. Ahora entendía: las cosas que amamos nunca realmente desaparecen. Se transforman y siguen existiendo de otras formas 💚.<br><br><em>After a few weeks, small plants started to grow. Rosa smiled. Now she understood: the things we love never really disappear. They transform and continue to exist in other ways.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué le pasó a la rosa favorita de Rosa?",
+            "options": [
+              {
+                "text": "Se volvió más grande"
+              },
+              {
+                "text": "Se marchitó"
+              },
+              {
+                "text": "Cambió de color"
+              },
+              {
+                "text": "Hizoclone"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! La rosa se marchitó.",
+              "incorrect": "La respuesta correcta es que se marchitó."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué dio la rosa antes de marchitarse?",
+            "options": [
+              {
+                "text": "Fruta"
+              },
+              {
+                "text": "Semillas"
+              },
+              {
+                "text": "Agua"
+              },
+              {
+                "text": "Hojas"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Dio semillas para nuevas flores.",
+              "incorrect": "La respuesta correcta es semillas."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Rosa sobre el ciclo de vida?",
+            "options": [
+              {
+                "text": "Que las flores no vuelven"
+              },
+              {
+                "text": "Que las cosas amadas se transforman y siguen existiendo"
+              },
+              {
+                "text": "Que es mejor no querer flores"
+              },
+              {
+                "text": "Que las flores duran para siempre"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Rosa aprendió que las cosas amadas se transforman y siguen existiendo de otras formas.",
+              "incorrect": "La respuesta correcta es que las cosas amadas se transforman y siguen existiendo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #d7ccc8 0%, #81c784 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "seed-to-flower",
+        "stages": [
+          {
+            "id": "stage-1",
+            "content": "🌱",
+            "name": "Semilla",
+            "order": 1
+          },
+          {
+            "id": "stage-2",
+            "content": "🌿",
+            "name": "Brote",
+            "order": 2
+          },
+          {
+            "id": "stage-3",
+            "content": "🌸",
+            "name": "Flor pequeña",
+            "order": 3
+          },
+          {
+            "id": "stage-4",
+            "content": "🌺",
+            "name": "Flor",
+            "order": 4
+          },
+          {
+            "id": "stage-5",
+            "content": "🌹",
+            "name": "Rosa completa",
+            "order": 5
+          }
+        ],
+        "task": "Ordena las etapas de crecimiento de una flor"
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #a1887f 0%, #4caf50 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: todo en la naturaleza tiene su ciclo. Cuando algo termina, algo nuevo comienza. Es la magia de la vida.<br><br><em>Remember: everything in nature has its cycle. When something ends, something new begins. That's the magic of life.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

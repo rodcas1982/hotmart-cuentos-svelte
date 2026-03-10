@@ -1,0 +1,343 @@
+{
+  "id": "052-la-gallina-huevos-oro",
+  "version": "1.0",
+  "meta": {
+    "title": "La gallina de los huevos de oro",
+    "subtitle": "A story about honesty and not being greedy",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#ffc107",
+      "secondaryColor": "#ffd54f",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #ff8f00 0%, #ffc107 50%, #ffecb3 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #ff8f00 0%, #ffc107 50%, #ffecb3 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/052-gallina.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La gallina de los huevos de oro",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre honestidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff8f00 0%, #ffc107 100%)",
+      "narration": "En una granja pequeña, el granjero Pedro tenía un secreto muy especial. Su gallina Dorita ponía huevos de oro real. Cada mañana, Pedro encontraban un huevo brillante en el nido. ¡Era rico y podían venderlos!",
+      "elements": [
+        {
+          "id": "chicken-img",
+          "type": "image",
+          "src": "images/052-gallina.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una granja pequeña, el granjero Pedro tenía un secreto especial. Su gallina <strong>Dorita</strong> ponía huevos de oro real. ¡Cada mañana había un huevo brillante en el nido!<br><br><em>In a small farm, farmer Pedro had a very special secret. His chicken Dorita laid real golden eggs. Every morning there was a shiny egg in the nest!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffc107 0%, #ff8f00 100%)",
+      "narration": "Un día, un comerciante rico pasó por la granja y escuchó sobre los huevos de oro. Ofreció mucho dinero por la gallina. '¡Si la vendo, seré rico para siempre!', pensó Pedro. Así que acceptó el trato.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, un comerciante rico escuchó sobre los huevos de oro. Ofreció mucho dinero por la gallina. <strong>'¡Si la vendo, seré rico para siempre!'</strong>, pensó Pedro. ¡Y acceptó el trato!<br><br><em>One day, a rich merchant heard about the golden eggs. He offered a lot of money for the chicken. 'If I sell her, I'll be rich forever!' thought Pedro. And he accepted the deal!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff8f00 0%, #f44336 100%)",
+      "narration": "El comerciante解剖ó la gallina para buscar más huevos de oro dentro. ¡Pero no encontró ninguno! Solo encontró lo que tiene cualquier gallina. Ahora no tenía la gallina ni los huevos. ¡Qué error tan triste!",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "El comerciante解剖ó la gallina para buscar más huevos dentro. <strong>¡No encontró ninguno!</strong> Solo encontró lo que tiene cualquier gallina. Ahora no tenía la gallina ni los huevos.<br><br><em>The merchant dissected the chicken to find more golden eggs inside. But he found nothing! Now he had no chicken and no eggs.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f44336 0%, #ffc107 100%)",
+      "narration": "Pedro se dio cuenta de su error. Había sidocodicioso y había perdido lo que tenía. La moraleja: es mejor ser honesto y paciente que buscar ganancias rápidas y perderlo todo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Pedro se dio cuenta de su error. Había sido codicioso y había perdido lo que tenía. <strong>La moraleja: es mejor ser honesto y paciente que buscar ganancias rápidas.</strong><br><br><em>Pedro realized his mistake. He had been greedy and lost what he had. The moral: it's better to be honest and patient than to seek quick gains and lose everything.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffc107 0%, #ffecb3 100%)",
+      "narration": "Desde ese día, Pedro apreció lo que tenía. Sigui cuidando a sus animales con honestidad. La gallina Dorita ya no estaba, pero aprendió que la codicia destroys lo que es valioso.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Desde ese día, Pedro apreció lo que tenía. <strong>Siguió cuidando a sus animales con honestidad.</strong> Aprendió que la codicia destruye lo que es valioso.<br><br><em>From that day on, Pedro appreciated what he had. He continued caring for his animals with honesty. He learned that greed destroys what is valuable.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué hacía la gallina Dorita?",
+            "options": [
+              {
+                "text": "Ponía huevos de chocolate"
+              },
+              {
+                "text": "Ponía huevos de oro"
+              },
+              {
+                "text": "No ponía huevos"
+              },
+              {
+                "text": "Ponía huevos azules"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Ponía huevos de oro.",
+              "incorrect": "La respuesta correcta es que ponía huevos de oro."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le pasó a la gallina cuando el comerciante la compré?",
+            "options": [
+              {
+                "text": "Puso muchos más huevos"
+              },
+              {
+                "text": "La解剖aron para buscar más huevos"
+              },
+              {
+                "text": "Se escapó"
+              },
+              {
+                "text": "Puso huevos de plata"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! La解剖aron para buscar más huevos.",
+              "incorrect": "La respuesta correcta es que la解剖aron para buscar más huevos."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Pedro?",
+            "options": [
+              {
+                "text": "Que ser codicioso es bueno"
+              },
+              {
+                "text": "Que la honestidad y paciencia son importantes"
+              },
+              {
+                "text": "Que debe vender todo"
+              },
+              {
+                "text": "Que los huevos de oro no valen nada"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Que la honestidad y paciencia son importantes.",
+              "incorrect": "La respuesta correcta es que la honestidad y paciencia son importantes."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #ffc107 0%, #ffecb3 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "chicken",
+            "content": "🐔",
+            "matchId": "chicken"
+          },
+          {
+            "id": "gold",
+            "content": "🥇",
+            "matchId": "gold"
+          },
+          {
+            "id": "egg",
+            "content": "🥚",
+            "matchId": "egg"
+          },
+          {
+            "id": "farmer",
+            "content": "👨‍🌾",
+            "matchId": "farmer"
+          },
+          {
+            "id": "coin",
+            "content": "💰",
+            "matchId": "coin"
+          },
+          {
+            "id": "learn",
+            "content": "📚",
+            "matchId": "learn"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #ff8f00 0%, #ffecb3 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Being greedy can make us lose what we have!<br><strong>¡Remember!</strong> ¡Ser codiciosos puede hacernos perder lo que tenemos!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "068-arbol-frutos",
+  "version": "1.0",
+  "meta": {
+    "title": "El Árbol de los Frutos Mágicos",
+    "subtitle": "A story about sharing and generosity",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#27ae60",
+      "secondaryColor": "#e74c3c",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #27ae60 50%, #8e44ad 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #27ae60 0%, #2ecc71 50%, #27ae60 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/068-arbol.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Árbol de los Frutos Mágicos",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.5em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre compartir",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2ecc71 0%, #27ae60 100%)",
+      "narration": "En el centro de un gran bosque, había un árbol especial llamado Fruitti. Cada estación producía los frutos más deliciosos del mundo.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el centro de un gran bosque, había un árbol especial llamado <strong>Fruitti</strong>. Cada estación producía los frutos más deliciosos del mundo.<br><br><em>In the center of a great forest, there was a special tree named Fruitti. Each season it produced the most delicious fruits in the world.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #e74c3c 100%)",
+      "narration": "Un día, un pequeño pájaroголубой con hambre voler hasta Fruitti. '¿Podría comer uno de tus frutos?' preguntó con voz suave.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, un pequeño pájaro voló hasta Fruitti. <strong>¿Podría comer uno de tus frutos?</strong> preguntó con voz suave.<br><br><em>One day, a small bird flew to Fruitti. 'Could I eat one of your fruits?' she asked softly.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #f39c12 100%)",
+      "narration": "Fruitti dijo: '¡Por supuesto! Los frutos son para compartir.' Y le dio al pájaro el fruto más rojo y dulce.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Fruitti dijo: <strong>¡Por supuesto! Los frutos son para compartir.</strong> Y le dio al pájaro el fruto más rojo y dulce.<br><br><em>Fruitti said: 'Of course! The fruits are for sharing.' And she gave the bird the reddest, sweetest fruit.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f39c12 0%, #e67e22 100%)",
+      "narration": "El pájaro cantó una canción de agradecimiento y voló feliz. Pronto, más animales llegaron: una ardilla, un conejo y un ciervo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "El pájaro cantó una canción de agradecimiento y voló feliz. Pronto llegaron más animales: una ardilla, un conejo y un ciervo.<br><br><em>The bird sang a thank you song and flew happy. Soon more animals came: a squirrel, a rabbit, and a deer.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #27ae60 100%)",
+      "narration": "Fruitti compartió frutos con todos. Cada animal que comía, dejaba una semilla en la tierra alrededor del árbol.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Fruitti compartió frutos con todos. <strong>Cada animal que comía, dejaba una semilla</strong> en la tierra alrededor del árbol.<br><br><em>Fruitti shared fruits with everyone. Each animal that ate left a seed in the soil around the tree.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #27ae60 0%, #8e44ad 100%)",
+      "narration": "Con el tiempo, las semillas crecieron y se convirtieron en nuevos árboles. ¡El bosque se llenó de árboles frutales!",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Con el tiempo, las semillas crecieron y se convirtieron en nuevos árboles. <strong>¡El bosque se llenó de árboles frutales!</strong><br><br><em>Over time, the seeds grew and became new trees. The forest filled with fruit trees!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #27ae60 100%)",
+      "narration": "Fruitti entendió que compartir no significa tener menos, sino crear un mundo más abundante para todos.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "<strong>Fruitti aprendió:</strong> compartir no significa tener menos, sino crear un mundo más abundante para todos.<br><br><em>Fruitti learned: sharing doesn't mean having less, but creating a more abundant world for everyone.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el árbol?",
+            "options": [
+              { "text": "Fruitti" },
+              { "text": "Arbolito" },
+              { "text": "Frutal" },
+              { "text": "Verde" }
+            ],
+            "correctIndex": 0,
+            "feedback": { "correct": "¡Correcto! El árbol se llamaba Fruitti.", "incorrect": "La respuesta correcta es Fruitti." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué pasaron los animales después de comer?",
+            "options": [
+              { "text": "Dejaban basura" },
+              { "text": "Dejaban semillas" },
+              { "text": "Cantaban" },
+              { "text": "Nada" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! Dejaban semillas que se convertían en nuevos árboles.", "incorrect": "La respuesta correcta es dejaban semillas." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Fruitti sobre compartir?",
+            "options": [
+              { "text": "Que es mejor guardar todo" },
+              { "text": "Que compartir crea abundancia" },
+              { "text": "Que los animales no merecen" },
+              { "text": "Que los frutos no importan" }
+            ],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Muy bien! Compartir crea un mundo más abundante.", "incorrect": "La respuesta correcta es que compartir crea abundancia." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #27ae60 0%, #2ecc71 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: compartir hace que todos tengamos más.<br><br><em>Remember: sharing makes everyone have more.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre compartir", "en": "Talking about sharing" },
+      "content": { "es": "Practica compartir con tu hijo: comparte tus galletas o juguetes y explica cómo se siente bien.", "en": "Practice sharing with your child: share your cookies or toys and explain how it feels good." },
+      "icon": "🍎"
+    },
+    {
+      "title": { "es": "Actividad: Plantar una semilla", "en": "Activity: Planting a seed" },
+      "content": { "es": "Planta una semilla con tu hijo y cuida juntos que crezca. Así entenderán el ciclo de la vida.", "en": "Plant a seed with your child and take care of it together. They'll understand the cycle of life." },
+      "icon": "🌱"
+    }
+  ]
+}

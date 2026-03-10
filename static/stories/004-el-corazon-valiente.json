@@ -1,0 +1,248 @@
+{
+  "id": "004",
+  "meta": {
+    "title": {
+      "es": "El Corazón Valiente",
+      "en": "The Brave Heart"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      4,
+      7
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #ff9966 0%, #ff5e62 100%)",
+      "primaryColor": "#ff9966"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Corazón Valiente",
+        "en": "The Brave Heart"
+      },
+      "heroImage": "Un niño pequeño con cabello rizado y ojos brillantes, sosteniendo un corazón rojo brillante en sus manos, surrounded by amigos del barrio, en un atardecer naranja",
+      "background": "linear-gradient(135deg, #ff9966 0%, #ff5e62 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una casa颜色ada en una calle llena de árboles, vivía un niño llamado Mateo. Mateo tenía siete años y un corazón muy grande, pero a veces se sentía triste porque en su escuela había un niño más grande que siempre se burlaba de él. Le decía cosas feas y Mateo no sabía qué hacer. Un día, decidió hablar con su abuela sobre lo que estaba pasando.",
+        "en": "In a colorful house on a street full of trees, there lived a boy named Mateo. Mateo was seven years old and had a very big heart, but sometimes he felt sad because at his school there was an older boy who always made fun of him. He said mean things and Mateo didn't know what to do. One day, he decided to talk to his grandmother about what was happening."
+      },
+      "image": {
+        "src": "Niño triste en su habitación, mirando por la ventana, con su abuela entrando suavemente",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una casa colorida...",
+        "en": "In a colorful house..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Su abuela, que se llamaba Rosa, era muy sabia. Lo abrazó fuerte y le dijo: 'Mateo, las personas que se burlan de otros generalmente lo hacen porque no se sienten bien consigo mismas. Tú eres un niño especial, con un corazón valiente y bondadoso. No permitas que nadie te haga sentir mal contigo mismo. Cuando alguien te hace daño, recuerda que tú vales mucho'.",
+        "en": "His grandmother, whose name was Rosa, was very wise. She hugged him tightly and said: 'Mateo, people who make fun of others usually do it because they don't feel good about themselves. You are a special child, with a brave and kind heart. Don't let anyone make you feel bad about yourself. When someone hurts you, remember that you are worth a lot'."
+      },
+      "image": {
+        "src": "Abuela abrazando a su nieto, con expresión de amor y sabiduría, en una cocina acogedora",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Su abuela, que se llamaba Rosa...",
+        "en": "His grandmother, whose name was Rosa..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Mateo pensó mucho en las palabras de su abuela. Al día siguiente, cuando el niño grande comenzó a burlarse de él, Mateo respiró profundo y le dijo con voz tranquila: 'No me gusta que me hables así. Yo no te hago daño, así que te pido que me respetes'. El otro niño se quedó sorprendido porque nunca nadie le había respondido así. Por primera vez, se quedó en silencio.",
+        "en": "Mateo thought a lot about his grandmother's words. The next day, when the older boy started making fun of him, Mateo took a deep breath and said calmly: 'I don't like you talking to me like that. I don't hurt you, so I ask you to respect me.' The other boy was surprised because no one had ever responded to him like that. For the first time, he fell silent."
+      },
+      "image": {
+        "src": "Niño defendiéndose pacíficamente del matón, con otros niños mirando sorprendidos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Mateo pensó mucho...",
+        "en": "Mateo thought a lot..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "En los días siguientes, Mateo continuó siendo amable con todos, pero también mantuvo su actitud valiente. Poco a poco, el niño que se burlaba comenzó a cambiar. Empezó a sentarse cerca de Mateo y un día le pidió perdón. 'No sabía que mis palabras te lastimaban', dijo. Mateo sonrió y le respondió: 'Está bien, ahora podemos ser amigos'. Y así fue como nació una nueva amistad.",
+        "en": "In the following days, Mateo continued being kind to everyone, but he also kept his brave attitude. Little by little, the boy who made fun of him began to change. He started sitting near Mateo and one day he asked for forgiveness. 'I didn't know my words hurt you,' he said. Mateo smiled and responded: 'It's okay, now we can be friends.' And that's how a new friendship was born."
+      },
+      "image": {
+        "src": "Dos niños jugando juntos en el patio de la escuela, riendo y siendo amigos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En los días siguientes...",
+        "en": "In the following days..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Mateo aprendió una lección muy importante: defenderse no significa hacer daño, sino mantener la dignidad y el respeto propio. También aprendió que a veces las personas que parece que no nos quieren son las que más necesitan amor y comprensión. Y lo más importante: siempre debemos creer en nosotros mismos y en nuestro valor, porque somos únicos y especiales.",
+        "en": "Mateo learned a very important lesson: defending ourselves doesn't mean doing harm, but maintaining our dignity and self-respect. He also learned that sometimes people who seem to not like us are the ones who need love and understanding the most. And most importantly: we must always believe in ourselves and our worth, because we are unique and special."
+      },
+      "image": {
+        "src": "Niño mirando al horizonte con determinación, con un corazón brillante en su pecho",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Mateo aprendió una lección...",
+        "en": "Mateo learned a lesson..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué le aconsejó la abuela Rosa a Mateo?",
+              "en": "What did Grandma Rosa advise Mateo?"
+            },
+            "options": [
+              {
+                "es": "Que se vengara del niño",
+                "en": "To get revenge on the boy"
+              },
+              {
+                "es": "Que no le importara lo que digan",
+                "en": "To not care what people say"
+              },
+              {
+                "es": "Que recordara su valor y se defendiera con respeto",
+                "en": "To remember his worth and defend himself with respect"
+              },
+              {
+                "es": "Que evitara al niño",
+                "en": "To avoid the boy"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "es": "¡Correcto! La abuela le dijo que recordara su valor y se defendiera con respeto.",
+              "en": "Correct! His grandmother told him to remember his worth and defend himself with respect."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué nos enseña la historia sobre el amor propio?",
+              "en": "What does the story teach us about self-love?"
+            },
+            "options": [
+              {
+                "es": "Que no debemos valorarnos",
+                "en": "That we shouldn't value ourselves"
+              },
+              {
+                "es": "Que debemos creer en nosotros mismos",
+                "en": "That we should believe in ourselves"
+              },
+              {
+                "es": "Que somos perfectos",
+                "en": "That we are perfect"
+              },
+              {
+                "es": "Que no importa lo que hagamos",
+                "en": "That nothing we do matters"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Siempre debemos creer en nosotros mismos.",
+              "en": "Very well! We should always believe in ourselves."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "grandma",
+            "content": "👵",
+            "matchId": "grandma"
+          },
+          {
+            "id": "friend",
+            "content": "👫",
+            "matchId": "friend"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

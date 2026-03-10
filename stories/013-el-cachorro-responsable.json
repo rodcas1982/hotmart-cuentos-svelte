@@ -1,0 +1,211 @@
+{
+  "id": "013",
+  "meta": {
+    "title": {
+      "es": "El Cachorro Responsable",
+      "en": "The Responsible Puppy"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)",
+      "primaryColor": "#a8e063"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Cachorro Responsable",
+        "en": "The Responsible Puppy"
+      },
+      "heroImage": "Un cachorro dorado muy tierno, sentado frente a su platos de comida y agua, con expresión de responsabilidad, en una casa acogedora",
+      "background": "linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una casa con un pequeño jardín, vivía un lindo cachorro golden retriever chamado Rocky. El tenía tres meses y era muy juguetón. A Rocky le encantaba correr, morder sus juguetes y ladrar a las mariposas. Pero había un problema: siempre olvidaba hacer sus necesidades fuera de casa y le gustaba mucho molestar a los vecinos con sus ladridos.",
+        "en": "In a house with a small garden, there lived a cute golden retriever puppy named Rocky. He was three months old and was very playful. Rocky loved to run, chew his toys, and bark at the butterflies. But there was a problem: he always forgot to do his business outside the house and liked to bother the neighbors with his barks."
+      },
+      "image": {
+        "src": "Cachorro dorado jugando en el jardín, con expresión traviesa",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una casa con un pequeño jardín...",
+        "en": "In a house with a small garden..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, el dueño de Rocky, un niño llamado Carlos de ocho años, se sentó con él y le habló seriamente: 'Rocky, eres parte de nuestra familia ahora. Los perros responsables hacen sus necesidades afuera y no molestan a los vecinos. Si quieres que te queramos mucho, debes aprender a ser responsável'. Rocky inclinó la cabeza como si entendiera.",
+        "en": "One day, Rocky's owner, a boy named Carlos who was eight years old, sat down with him and talked seriously: 'Rocky, you are part of our family now. Responsible dogs do their business outside and don't bother the neighbors. If you want us to love you very much, you must learn to be responsible.' Rocky tilted his head as if understanding."
+      },
+      "image": {
+        "src": "Niño conversando con su cachorro, con expresiones serias pero cariñosas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, el dueño de Rocky...",
+        "en": "One day, Rocky's owner..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "A partir de ese día, Carlos se levantó temprano para llevar a Rocky al jardín. El cachorro aprendió rápido: cuando necesitaba hacer sus necesidades, iba a la puerta y ladraba suavemente. Carlos lo recompensaba con cariños y golosinas. En dos semanas, Rocky ya no hacía desastres dentro de casa. ¡Ambos estaban muy felices!",
+        "en": "From that day on, Carlos got up early to take Rocky to the garden. The puppy learned quickly: when he needed to do his business, he went to the door and barked softly. Carlos rewarded him with affection and treats. In two weeks, Rocky no longer made messes in the house. Both were very happy!"
+      },
+      "image": {
+        "src": "Cachorro haciendo sus necesidades en el jardín, con el niño Felicitándolo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "A partir de ese día...",
+        "en": "From that day on..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Pero aún quedaba el problema de los ladridos. Rocky ladraba a todo el que pasaba por la calle: delivery men, otros perros, incluso las hojas secas que se movían con el viento. Carlos pensó en una solución: entrenó a Rocky para que solo ladrara cuando alguien tocara la puerta. ¡Y funcionó! Ahora Rocky era elperro más tranquilo del vecindario.",
+        "en": "But there was still the problem of the barking. Rocky barked at everyone who passed by the street: delivery men, other dogs, even dry leaves moving in the wind. Carlos thought of a solution: he trained Rocky to only bark when someone knocked on the door. And it worked! Now Rocky was the calmest dog in the neighborhood."
+      },
+      "image": {
+        "src": "Cachorro sentado tranquilamente, con el niño acariciándolo, vecindario silencioso",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Pero aún quedaba el problema...",
+        "en": "But there was still the problem..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Los vecinos notaron el cambio y comenzaron a halagar a Rocky y a Carlos. 'Qué buenperro tienes', le decían. Carlos sonreía y contestaba: 'No es solo mérito mío, Rocky también trabajó duro para aprender. Los perros, como las personas, pueden aprender a ser responsables cuando alguien los guía con amor y paciencia'.",
+        "en": "The neighbors noticed the change and began to praise Rocky and Carlos. 'What a good dog you have,' they said. Carlos smiled and replied: 'It's not only my credit, Rocky also worked hard to learn. Dogs, like people, can learn to be responsible when someone guides them with love and patience.'"
+      },
+      "image": {
+        "src": "Vecinos acariciando al cachorro, con el niño orgulloso al lado",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Los vecinos notaron el cambio...",
+        "en": "The neighbors noticed the change..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué debe aprender un perro responsable?",
+              "en": "What must a responsible dog learn?"
+            },
+            "options": [
+              {
+                "es": "Hacer sus necesidades dentro de casa",
+                "en": "To do its business inside the house"
+              },
+              {
+                "es": "Hacer sus necesidades afuera y no molestar a los vecinos",
+                "en": "To do its business outside and not bother the neighbors"
+              },
+              {
+                "es": "Ladrar todo el tiempo",
+                "en": "To bark all the time"
+              },
+              {
+                "es": "No comer nada",
+                "en": "To not eat anything"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Un perro responsable hace sus necesidades afuera y no molesta.",
+              "en": "Correct! A responsible dog does its business outside and doesn't bother others."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "dog",
+            "content": "🐕",
+            "matchId": "dog"
+          },
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "house",
+            "content": "🏠",
+            "matchId": "house"
+          },
+          {
+            "id": "bone",
+            "content": "🦴",
+            "matchId": "bone"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

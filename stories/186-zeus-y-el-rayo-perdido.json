@@ -1,0 +1,188 @@
+{
+  "id": "186-zeus-y-el-rayo-perdido",
+  "version": "1.0",
+  "meta": {
+    "title": "Zeus y el Rayo Perdido",
+    "subtitle": "El rey de los dioses",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#9b59b6",
+      "secondaryColor": "#8e44ad",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #9b59b6 0%, #8e44ad 50%, #9b59b6 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/186-zeus.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Zeus y el Rayo Perdido",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.5em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "El rey de los dioses",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.3em", "opacity": "0.95"}
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #8e44ad 100%)",
+      "narration": "<strong>Zeus</strong> era el rey de los dioses del Monte Olimpo. Tenía un rayo mágico que le daba su poder. Un día, el rayo desapareció y el cielo se puso muy oscuro.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "<strong>Zeus</strong> era el rey de los dioses del Monte Olimpo. Tenía un rayo mágico que le daba su poder. Un día, el rayo desapareció.<br><br><em>Zeus was the king of the gods on Mount Olympus. He had a magic thunderbolt that gave him his power. One day, the thunderbolt disappeared.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 100%)",
+      "narration": "Sin su rayo, Zeus no podía hacer truenos ni relámpagos. Los dioses estaban preocupados. Una pequeña nube llamada <strong>Nievecita</strong> ofreció ayudar a buscarlo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Sin su rayo, no había truenos. Los dioses estaban preocupados. Una pequeña nube llamada <strong>Nievecita</strong> ofreció ayudar.<br><br><em>Without his thunderbolt, there were no thunder. The gods were worried. A small cloud named Nievecita offered to help.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #3498db 100%)",
+      "narration": "Nievecita voló por todo el cielo buscando el rayo. Lo encontró en una nube oscura donde un pequeño dragón de tormenta lo había tomado para jugar.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Nievecita voló por todo el cielo. <strong>Lo encontró en una nube oscura</strong> donde un pequeño dragón de tormenta lo había tomado para jugar.<br><br><em>Nievecita flew all over the sky. She found it in a dark cloud where a small storm dragon had taken it to play.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #9b59b6 100%)",
+      "narration": "El pequeño dragón no sabía que el rayo era importante. Nievecita le explico con paciencia que sin él, no habría tormentas para regar las plantas.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "El dragón no sabía que el rayo era importante. <strong>Nievecita le explicó con paciencia</strong> que sin él no habría tormentas para regar.<br><br><em>The dragon didn't know the thunderbolt was important. Nievecita patiently explained that without it, there would be no storms to water the plants.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #8e44ad 100%)",
+      "narration": "El dragón devolvió el rayo y desde ese día, Nievecita se convirtió en la amiga del dragón. Juntas Traían lluvias suaves y hermosos arcoíris.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "El dragón devolvió el rayo. <strong>Desde entonces, Nievecita y el dragón eran amigos</strong> y juntos Traían lluvias y arcoíris.<br><br><em>The dragon returned the thunderbolt. From then on, Nievecita and the dragon were friends and together brought rain and rainbows.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Quién era el rey de los dioses?",
+            "options": [{"text": "Apolo"}, {"text": "Zeus"}, {"text": "Ares"}, {"text": "Poseidón"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! Era Zeus.", "incorrect": "La respuesta correcta es Zeus."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Cómo se llamaba la pequeña nube?",
+            "options": [{"text": "Nievecita"}, {"text": "Lluvia"}, {"text": "Nube"}, {"text": "Burbuja"}],
+            "correctIndex": 0,
+            "feedback": {"correct": "¡Exacto! Era Nievecita.", "incorrect": "La respuesta correcta es Nievecita."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "lightning", "content": "⚡", "matchId": "lightning"},
+          {"id": "cloud", "content": "☁️", "matchId": "cloud"},
+          {"id": "dragon", "content": "🐉", "matchId": "dragon"},
+          {"id": "rainbow", "content": "🌈", "matchId": "rainbow"},
+          {"id": "thunder", "content": "⛈️", "matchId": "thunder"},
+          {"id": "mountain", "content": "🏔️", "matchId": "mountain"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "La-amistad puede florecer en los lugares más inesperados.<br><em>Friendship can bloom in the most unexpected places.</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Mitología griega", "en": "Greek mythology"},
+      "content": {"es": "Cuenta a tu hijo sobre los dioses griegos y sus aventuras.", "en": "Tell your child about the Greek gods and their adventures."},
+      "icon": "⚡"
+    }
+  ]
+}

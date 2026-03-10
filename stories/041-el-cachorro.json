@@ -1,0 +1,343 @@
+{
+  "id": "041-el-cachorro",
+  "version": "1.0",
+  "meta": {
+    "title": "El cachorro que no quería comer",
+    "subtitle": "A story about responsibility and healthy eating",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e67e22",
+      "secondaryColor": "#f39c12",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 50%, #f39c12 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #d35400 0%, #e67e22 50%, #f39c12 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/041-cachorro.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El cachorro que no quería comer",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre responsabilidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #e67e22 100%)",
+      "narration": "En una casa llena de amor, vivía un lindo cachorro llamado Bruno. Era pequeño, peludo y tenía unos ojos brillantes como dos caramelos. Pero Bruno tenía un problema: no quería comer su comida.",
+      "elements": [
+        {
+          "id": "puppy-img",
+          "type": "image",
+          "src": "images/041-cachorro.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una casa llena de amor, vivía un lindo cachorro llamado <strong>Bruno</strong>. Era pequeño, peludo y tenía ojos brillantes como dos caramelos. Pero Bruno no quería comer su comida.<br><br><em>In a house full of love, there lived a cute puppy named Bruno. He was small, fluffy, and had bright eyes like two candies. But Bruno didn't want to eat his food.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e67e22 0%, #d35400 100%)",
+      "narration": "Cada vez que su dueña le ponía el plato de comida, Bruno lo olía y se alejaba. Prefería esperar a que le dieran galletas o restos de comida de la mesa. ¡Pero eso no era sano para un cachorrito!",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Cada vez que su dueña le ponía el plato de comida, Bruno lo olía y se alejaba. <strong>Prefería esperar galletas o restos de la mesa.</strong> ¡Pero eso no era sano para un cachorrito!<br><br><em>Every time his owner put down his food bowl, Bruno would smell it and walk away. He preferred waiting for cookies or table scraps. But that wasn't healthy for a puppy!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d35400 0%, #c0392b 100%)",
+      "narration": "Un día, Bruno se sintió muy débil. No tenía energía para jugar con su pelota favorita. Su dueña lo llevó al veterinario, quien le explicó que debía comer su comida especial para cachorros, rica en nutrientes.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Bruno se sintió muy débil. No tenía energía para jugar. El veterinario le explicó que debía comer su comida especial para cachorros, rica en nutrientes.<br><br><em>One day, Bruno felt very weak. He had no energy to play. The vet explained that he needed to eat his special puppy food, rich in nutrients.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #e74c3c 100%)",
+      "narration": "Bruno entendió que cuidar su alimentación era su responsabilidad. Empezó a comer su comida con gusto y descubrió que también le hacía sentir fuerte y feliz. Ahora corría y jugaba más que nunca.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "<strong>Bruno entendió que cuidar su alimentación era su responsabilidad.</strong> Empezó a comer su comida y descubrió que le hacía sentir fuerte y feliz. ¡Ahora corría más que nunca!<br><br><em>Bruno understood that taking care of his nutrition was his responsibility. He started eating his food and discovered it made him feel strong and happy.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e74c3c 0%, #f39c12 100%)",
+      "narration": "Desde ese día, Bruno comía feliz su comida de cachorro. Entendió que ser responsable de su salud significaba comer bien, no solo cuando tenía hambre de galletas. ¡Y su cola no paraba de moverse de alegría!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Desde ese día, Bruno comía feliz su comida. Entendió que ser responsable de su salud significaba <strong>comer bien siempre</strong>, no solo cuando quería galletas. ¡Su cola no paraba de moverse de alegría!<br><br><em>From that day on, Bruno happily ate his food. He understood that being responsible for his health meant eating well always, not just when he wanted cookies.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el cachorro?",
+            "options": [
+              {
+                "text": "Max"
+              },
+              {
+                "text": "Bruno"
+              },
+              {
+                "text": "Luna"
+              },
+              {
+                "text": "Rocky"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El cachorro se llamaba Bruno.",
+              "incorrect": "La respuesta correcta es Bruno."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué prefería comer Bruno al principio?",
+            "options": [
+              {
+                "text": "Su comida de cachorro"
+              },
+              {
+                "text": "Galletas y restos de mesa"
+              },
+              {
+                "text": "Frutas"
+              },
+              {
+                "text": "Verduras"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Prefería galletas y restos de comida.",
+              "incorrect": "La respuesta correcta es galletas y restos de mesa."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Bruno sobre la responsabilidad?",
+            "options": [
+              {
+                "text": "Que no importa lo que come"
+              },
+              {
+                "text": "Que debe comer su comida saludable"
+              },
+              {
+                "text": "Que solo debe comer galletas"
+              },
+              {
+                "text": "Que no necesita comer"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Aprendió que debe comer su comida saludable.",
+              "incorrect": "La respuesta correcta es que debe comer su comida saludable."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e67e22 0%, #f39c12 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "puppy",
+            "content": "🐶",
+            "matchId": "puppy"
+          },
+          {
+            "id": "bone",
+            "content": "🦴",
+            "matchId": "bone"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "food",
+            "content": "🍖",
+            "matchId": "food"
+          },
+          {
+            "id": "ball",
+            "content": "⚽",
+            "matchId": "ball"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #d35400 0%, #f39c12 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Eating healthy food helps us grow strong and happy!<br><strong>¡Remember!</strong> ¡Comer comida saludable nos ayuda a crecer fuertes y felices!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

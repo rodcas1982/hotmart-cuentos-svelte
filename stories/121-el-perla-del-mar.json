@@ -1,0 +1,417 @@
+{
+  "id": "121-el-perla-del-mar",
+  "version": "1.0",
+  "meta": {
+    "title": "El Perla del Mar",
+    "subtitle": "A story about gratitude",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#3498db",
+      "secondaryColor": "#2980b9",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #0c4a6e 0%, #0369a1 50%, #0c4a6e 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/121-perla-mar.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Perla del Mar",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.8em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la gratitud",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0c4a6e 0%, #0369a1 100%)",
+      "narration": "En las profundidades del océano Azul vivía una pequeña ostra llamada <strong>Perla</strong>. Era una ostra muy especial, con una concha brillante que reflejaba la luz de las estrellas.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En las profundidades del océano Azul vivía una pequeña ostra llamada <strong>Perla</strong>. Era muy especial, con una concha brillante que reflejaba la luz de las estrellas.<br><br><em>Deep in the Blue Ocean lived a little oyster named Pearl. She was very special, with a shiny shell that reflected starlight.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0369a1 0%, #0284c7 100%)",
+      "narration": "Perla vivía sola en una cueva de coral. Cada día, un pez pequeño llamado <strong>Nemo</strong> le traía migas de comida y le contaba historias del mundo exterior.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Perla vivía sola en una cueva de coral. Cada día, un pez pequeño llamado <strong>Nemo</strong> le traía migas de comida y le contaba historias del mundo exterior.<br><br><em>Pearl lived alone in a coral cave. Every day, a little fish named Nemo brought her food crumbs and told her stories of the outside world.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0284c7 0%, #0ea5e9 100%)",
+      "narration": "Un día, una fuerte tormenta azotó el océano. Las olas eramuy grandes y peligrosas. Perla estava asustada, pero sintió que algo golpeaba su concha.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, una fuerte tormenta azotó el océano. Las olas eran muy grandes y peligrosas. Perla estava asustada, pero sintió que algo golpeaba su concha.<br><br><em>One day, a strong storm hit the ocean. The waves were very big and dangerous. Pearl was scared, but she felt something hitting her shell.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0ea5e9 0%, #38bdf8 100%)",
+      "narration": "Era <strong>Nemo</strong>, herido y agotado. Había nadado contra la tormenta para llegar hasta ella. -¡Perla! ¡Te buscaba para darte esto! -dijo, mostrando una hermosa piedra brillante.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Era <strong>Nemo</strong>, herido y agotado. Había nadado contra la tormenta para llegar hasta ella. -¡Perla! ¡Te buscaba para darte esto! -dijo, mostrando una hermosa piedra brillante.<br><br><em>It was Nemo, wounded and exhausted. He had swum against the storm to reach her. -Pearl! I was looking for you to give you this! -he said, showing a beautiful shiny stone.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #38bdf8 0%, #0284c7 100%)",
+      "narration": "Perla abrió su concha con cuidado y encontró dentro una pequeña perla dorada que Nemo había encontrado años atrás. -Gracias, amigo mío. Pero ¿por qué me das algo tan valioso? -preguntó Perla.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Perla abrió su concha con cuidado y encontró dentro una pequeña perla dorada. -Gracias, amigo mío. Pero ¿por qué me das algo tan valioso? -preguntó Perla.<br><br><em>Pearl opened her shell carefully and found inside a small golden pearl. -Thank you, my friend. But why do you give me something so valuable? -asked Pearl.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0284c7 0%, #0369a1 100%)",
+      "narration": "-Porque tú siempre me diste tu tiempo y tu compañía cuando nadie más lo hacía. Esto es para agradecerte por todo lo que has hecho por mí -respondió Nemo con una sonrisa.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "-Porque tú siempre me diste tu tiempo y tu compañía cuando nadie más lo hacía. Esto es para agradecerte por todo lo que has hecho por mí -respondió Nemo con una sonrisa.<br><br><em>Because you always gave me your time and company when no one else did. This is to thank you for everything you've done for me -replied Nemo with a smile.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0369a1 0%, #0c4a6e 100%)",
+      "narration": "Perla sintió lágrimas correr por su mejilla. Nunca nadie había sido tan amable con ella. -Ahora entiendo -dijo- la gratitud no es solo decir gracias, es recordar quienes nos quisieron cuando nadie más lo hacía.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Perla sintió lágrimas correr por su mejilla. Nunca nadie había sido tan amable. -Ahora entiendo -dijo- la gratitud es recordar quienes nos quisieron cuando nadie más lo hacía.<br><br><em>Pearl felt tears run down her cheek. No one had ever been so kind to her. -Now I understand -she said- gratitude is remembering those who loved us when no one else did.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0c4a6e 0%, #38bdf8 100%)",
+      "narration": "Desde ese día, Perla y Nemo fueron inseparables. Cada noche, miraban las estrellas juntos y Perla le contaba a Nemo historias sobre los tesoros del fondo del mar.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Desde ese día, <strong>Perla y Nemo fueron inseparables</strong>. Cada noche, miraban las estrellas juntos y Perla le contaba historias sobre los tesoros del fondo del mar.<br><br><em>From that day on, Pearl and Nemo were inseparable. Every night, they watched the stars together and Pearl told him stories about the treasures at the bottom of the sea.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #38bdf8 0%, #0ea5e9 100%)",
+      "narration": "Y así, en el fondo del océano, dos amigos aprendieron que la gratitud es el tesoro más valioso de todos. Porque un amigo verdadero vale más que cualquier perla del mar.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Y así, en el fondo del océano, dos amigos aprendieron que <strong>la gratitud es el tesoro más valioso</strong>. Un amigo verdadero vale más que cualquier perla del mar.<br><br><em>And so, at the bottom of the ocean, two friends learned that gratitude is the most valuable treasure of all. A true friend is worth more than any pearl from the sea.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0ea5e9 0%, #0284c7 100%)",
+      "narration": "La próxima vez que veas el mar, recuerda la historia de Perla y Nemo. Y no olvides agradecer a quienes te quieren, porque ellos son tus verdaderos tesoros.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "La próxima vez que veas el mar, recuerda la historia de Perla y Nemo. <strong>No olvides agradecer a quienes te quieren</strong>, porque ellos son tus verdaderos tesoros.<br><br><em>Next time you see the sea, remember the story of Pearl and Nemo. Don't forget to thank those who love you, because they are your true treasures.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la ostra protagonista?",
+            "options": [
+              {
+                "text": "Luna"
+              },
+              {
+                "text": "Nemo"
+              },
+              {
+                "text": "Perla"
+              },
+              {
+                "text": "Estrella"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Correcto! La ostra se llamaba Perla.",
+              "incorrect": "La respuesta correcta es Perla."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le regaló Nemo a Perla?",
+            "options": [
+              {
+                "text": "Una estrella de mar"
+              },
+              {
+                "text": "Una perla dorada"
+              },
+              {
+                "text": "Un coral"
+              },
+              {
+                "text": "Una concha"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Le regaló una perla dorada.",
+              "incorrect": "La respuesta correcta es una perla dorada."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué es la gratitud según la historia?",
+            "options": [
+              {
+                "text": "Comprar regalos caros"
+              },
+              {
+                "text": "Recordar a quienes nos quisieron cuando nadie más lo hacía"
+              },
+              {
+                "text": "Decir gracias una vez"
+              },
+              {
+                "text": "No necesitar a nadie"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! La gratitud es recordar a quienes nos quisieron cuando nadie más lo hacía.",
+              "incorrect": "La respuesta correcta es recordar a quienes nos quisieron cuando nadie más lo hacía."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "oyster",
+            "content": "🐚",
+            "matchId": "oyster"
+          },
+          {
+            "id": "fish",
+            "content": "🐠",
+            "matchId": "fish"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "pearl",
+            "content": "🔮",
+            "matchId": "pearl"
+          },
+          {
+            "id": "wave",
+            "content": "🌊",
+            "matchId": "wave"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #0284c7 0%, #0369a1 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: siempre agradécele a quienes te quieren y te cuidan. La gratitud hace nuestro corazón más grande y el mundo más hermoso.<br><br><em>Remember: always thank those who love and care for you. Gratitude makes our hearts bigger and the world more beautiful.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}
