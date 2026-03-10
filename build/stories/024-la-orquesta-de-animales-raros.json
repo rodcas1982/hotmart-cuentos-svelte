@@ -1,0 +1,318 @@
+{
+  "id": "024-la-orquesta-de-animales-raros",
+  "version": "1.0",
+  "meta": {
+    "title": "La orquesta de los animales raros",
+    "subtitle": "Un cuento sobre la inclusión y la música",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#6c5ce7",
+      "secondaryColor": "#00cec9",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #a29bfe 0%, #81ecec 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #6c5ce7 0%, #00cec9 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/024-orquesta-animales.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La orquesta de los animales raros",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "1.9em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Cuando los diferentes se unen, sale música mágica",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #81ecec 100%)",
+      "narration": "En el bosque Encantado, todos los animales soñaban con formar una orquesta.",
+      "elements": [
+        {
+          "id": "forest-img",
+          "type": "image",
+          "src": "images/024-orquesta-animales.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el bosque <strong>Encantado</strong>, todos los animales soñaban con formar una orquesta. 🎵<br><br>El maestro<b> Búho Sabio</b> anunció:<br><br>—¡Quiero formar la mejor orquesta del bosque! Necesito: violín, flauta, tambor y piano.<br><br>Muchos animales levantó la mano, pero algunos se quedaron callados...<br><br>In the Enchanted Forest, all the animals dreamed of forming an orchestra."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #81ecec 0%, #a29bfe 100%)",
+      "narration": "Los animales \"normales\" fueron seleccionados rápidamente.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Los animales \"normales\" fueron seleccionados rápidamente: 🎻<br><br>🐰 <strong>Claudia</strong> la coneja → Violín (sus orejas eran perfectas para escuchar)<br>🦌 <strong>Diego</strong> el ciervo → Flauta (sus patas eran largas y ágiles)<br>🐻 <strong>Bruno</strong> el oso → Tambor (¡tenía fuerza!)<br><br>Pero todavía faltaba el piano...<br><br>The 'normal' animals were selected quickly."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #81ecec 100%)",
+      "narration": "Nadie se atrevía a tocar el piano hasta que llegó un pequeño participante.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Nadie se atrevía a tocar el piano. 😰<br><br>Era muy grande para los animalitos del bosque. hasta que llegó <strong>Paco</strong>, un pequeño ratón con orejas enormes.<br><br>—Yo puedo intentarlo —dijo bajito.<br><br>Algunos animals rieron:<br>—¿Un ratón tocando piano? ¡Imposible!<br><br>Pero el maestro Búho sonrió: —¡Todos merecen una oportunidad!<br><br>No one dared to play the piano until a small participant arrived."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #81ecec 0%, #a29bfe 100%)",
+      "narration": "Paco descubrió que sus grandes orejas le帮助aban de una manera especial.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "¡Paco demostró que todos estaban equivocados! 🎹<br><br>Con sus grandes orejas, podía escuchar las notas más sutiles. ¡Su música sonaba celestial!<br><br>🎵 <em>Titirititititititititití!</em><br><br>Los otros animales quedaron惊讶.<br><br>—¡Es la música más hermosa que hemos escuchado! —dijeron.<br><br>Paco discovered that his big ears helped him in a special way."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #81ecec 100%)",
+      "narration": "La orquesta necesitaba más \"animales raros\" y ahora todos querían participar.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "La orquesta necesitaba más instrumentos y ahora todos querían participar. 🌟<br><br>🦔 <strong>Púas</strong> → Maracas (¡sus púas sonaban como sacudidas!)<br>🐢 <strong>Lenta</strong> → Metrónomo (¡su ritmo era perfecto!)<br>🦇 <strong>Sombra</strong> → Tambor viento (¡sus alas hacían el mejor sonido!)<br><br>—¡Cuando los diferentes se unen, sale música mágica! —dijo el maestro Búho.<br><br>The orchestra needed more 'strange animals' and now everyone wanted to participate."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #81ecec 0%, #a29bfe 100%)",
+      "narration": "Llegó el día del gran concerto y el bosque se llenó de música.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "¡Llegó el día del gran concerto! 🎶🎤<br><br>Todo el bosque vino a escuchar:<br><br>🎻 Claudia tocaba hermoso<br>🎵 Diego hacía melodías mágicas<br>🥁 Bruno daba ritmo很强<br>🎹 Paco hacía lágrimas de alegría<br><br>¡La orquesta de los animales raros era la mejor del mundo!<br><br>The big concert day arrived and the forest filled with music."
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a29bfe 0%, #81ecec 100%)",
+      "narration": "Desde ese día, nadie en el bosqueENCANTADO discriminaba a nadie por ser diferente.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Desde ese día, nadie en el bosque discriminaba a nadie. 💜<br><br>🌈 Aprendieron que cada ser tiene talentos únicos<br>🌈 Las diferencias nos hacen especiales<br>🌈 La música unites a todos<br><br>Y el maestro Búho siempre decía:<br><br>—<em>\"No juzgues por las apariencias. El animal más pequeño puede tener el talento más grande.\"</em><br><br>From that day on, no one in the forest discriminated against anyone for being different."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué animal tocaba el piano en la orquesta?",
+            "options": [
+              {
+                "text": "Un oso llamado Bruno"
+              },
+              {
+                "text": "Un ratón llamado Paco"
+              },
+              {
+                "text": "Un ciervo llamado Diego"
+              },
+              {
+                "text": "Una coneja llamada Claudia"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Paco el ratón tocaba el piano.",
+              "incorrect": "¡Ups! La respuesta correcta es Paco el ratón."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué aprendieron los animales del bosque?",
+            "options": [
+              {
+                "text": "Que solo los animales normales pueden hacer música"
+              },
+              {
+                "text": "Que las diferencias nos hacen especiales y únicos"
+              },
+              {
+                "text": "Que los ratones no pueden tocar instrumentos"
+              },
+              {
+                "text": "Que es mejor no formar orquesta"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Las diferencias nos hacen especiales y únicos.",
+              "incorrect": "La respuesta correcta es que las diferencias nos hacen especiales."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #6c5ce7 0%, #00cec9 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "violin",
+            "content": "🎻",
+            "matchId": "violin"
+          },
+          {
+            "id": "flute",
+            "content": "🎵",
+            "matchId": "flute"
+          },
+          {
+            "id": "drum",
+            "content": "🥁",
+            "matchId": "drum"
+          },
+          {
+            "id": "piano",
+            "content": "🎹",
+            "matchId": "piano"
+          },
+          {
+            "id": "music",
+            "content": "🎼",
+            "matchId": "music"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #6c5ce7 0%, #00cec9 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: no juzgues a nadie por su apariencia. Cada persona tiene talentos únicos. ¡Cuando nos unite mos, hacemos música mágica! 🎵💜<br><br>Remember: Don't judge anyone by their appearance. Everyone has unique talents. When we unite, we make magical music!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

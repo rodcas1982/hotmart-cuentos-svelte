@@ -1,0 +1,252 @@
+{
+  "id": "152-luna-exploradora-espacial",
+  "version": "1.0",
+  "meta": {
+    "title": "Luna Exploradora Espacial",
+    "subtitle": "A story about dreams and exploration",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#4c1d95",
+      "secondaryColor": "#5b21b6",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #4c1d95 0%, #5b21b6 50%, #1e1b4b 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/152-luna-espacio.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Luna Exploradora Espacial",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.6em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre sueños y exploración",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0f172a 0%, #1e1b4b 100%)",
+      "narration": "En un pequeño pueblo entre montañas, vivía una niña llamada <strong>Luna</strong>. Cada noche, miraba las estrellas y soñaba con visitarlas.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un pequeño pueblo entre montañas, vivía una niña llamada <strong>Luna</strong>. Cada noche, miraba las estrellas y soñaba con visitarlas.<br><br><em>In a small village between mountains, there lived a girl named Luna. Every night, she looked at the stars and dreamed of visiting them.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1e1b4b 0%, #312e81 100%)",
+      "narration": "'Un día iré al espacio', decía Luna a su oso de peluche Estrellita. '¡Lo sé!', respondía el oso, como si pudiera hablar.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "'Un día iré al espacio', decía Luna a su oso de peluche Estrellita. '¡Lo sé!', respondía el oso, como si pudiera hablar.<br><br><em>'One day I'll go to space,' Luna told her stuffed bear Estrellita. 'I know!' replied the bear, as if he could speak.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #312e81 0%, #3730a3 100%)",
+      "narration": "Un día, llegó un cohete al pueblo. Era el cohete de la Doctora Sofía, una astrónauta famosa. Buscaba una niña valiente para su misión especial.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, llegó un cohete al pueblo. Era el cohete de la Doctora Sofía, una astrónauta famosa. Buscaba una niña valiente para su misión especial.<br><br><em>One day, a rocket arrived in the village. It was Dr. Sofía's rocket, a famous astronaut. She was looking for a brave girl for her special mission.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3730a3 0%, #4338ca 100%)",
+      "narration": "La Doctora Sofía vio a Luna mirando el cohete con ojos brillantes. '¿Te gustaría explorar el espacio conmigo?', preguntó sonriendo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "La Doctora Sofía vio a Luna mirando el cohete con ojos brillantes. '¿Te gustaría explorar el espacio conmigo?', preguntó sonriendo.<br><br><em>Dr. Sofía saw Luna looking at the rocket with shining eyes. 'Would you like to explore space with me?' she asked smiling.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4338ca 0%, #4f46e5 100%)",
+      "narration": "Luna no podía creerlo. ¡Iría al espacio de verdad! Empacó su mochila con su oso Estrellita y subió al cohete.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Luna no podía creerlo. ¡Iría al espacio de verdad! Empacó su mochila con su oso Estrellita y subió al cohete.<br><br><em>Luna couldn't believe it. She would go to space for real! She packed her backpack with her bear Estrellita and got on the rocket.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4f46e5 0%, #6366f1 100%)",
+      "narration": "El cohete empezó a temblar. '¡3, 2, 1, despegue!', gritó la Doctora Sofía. Y en un instante, estaban volando hacia las estrellas.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "El cohete empezó a temblar. '¡3, 2, 1, despegue!', gritó la Doctora Sofía. Y en un instante, estaban volando hacia las estrellas.<br><br><em>The rocket started to shake. '3, 2, 1, takeoff!' shouted Dr. Sofía. And in an instant, they were flying toward the stars.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6366f1 0%, #818cf8 100%)",
+      "narration": "Luna vio la Tierra desde arriba. ¡Era tan azul y hermosa! 'Es como un mármol azul', dijo con asombro.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Luna vio la Tierra desde arriba. ¡Era tan azul y hermosa! 'Es como un mármol azul', dijo con asombro.<br><br><em>Luna saw Earth from above. It was so blue and beautiful! 'It's like a blue marble,' she said in amazement.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #818cf8 0%, #a5b4fc 100%)",
+      "narration": "Visitaron la Luna primero. Luna caminó sobre su superficie y dejó sus huellas. 'Son las primeras huellas de una niña soñadora', pensó feliz.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Visitaron la Luna primero. Luna caminó sobre su surface and left her footprints. 'These are the first footprints of a dreamy girl,' she thought happily.<br><br><em>They visited the Moon first. Luna walked on its surface and left her footprints. 'These are the first footprints of a dreamy girl,' she thought happily.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #a5b4fc 0%, #c7d2fe 100%)",
+      "narration": "Después fueron a Marte, el planeta rojo. Luna vio montañas enormes y canyons profundos. 'Es wie una aventura de verdad', exclamó emocionada.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Después fueron a Marte, el planeta rojo. Luna vio montañas enormes y cañones profundos. 'Es wie una aventura de verdad', exclamó emocionada.<br><br><em>Then they went to Mars, the red planet. Luna saw huge mountains and deep canyons. 'It's like a real adventure,' she exclaimed excitedly.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6366f1 0%, #4f46e5 100%)",
+      "narration": "Cuando fue hora de volver, Luna miró las estrellas una última vez. Ahora sabía que <strong>los sueños pueden hacerse realidad si crees en ellos</strong>.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Cuando fue hora de volver, Luna miró las estrellas una última vez. Ahora sabía que <strong>los sueños pueden hacerse realidad si crees en ellos</strong>.<br><br><em>When it was time to go back, Luna looked at the stars one last time. Now she knew that dreams can come true if you believe in them.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la niña protagonista?",
+            "options": [{"text": "Estrella"}, {"text": "Luna"}, {"text": "Sofía"}, {"text": "Nube"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! Se llamaba Luna.", "incorrect": "La respuesta correcta es Luna."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué animal de peluche llevaba Luna?",
+            "options": [{"text": "Un gato"}, {"text": "Un oso llamado Estrellita"}, {"text": "Un perro"}, {"text": "Un conejo"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Llevaba un oso llamado Estrellita.", "incorrect": "La respuesta correcta es un oso llamado Estrellita."}
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Luna al final?",
+            "options": [{"text": "Que el espacio es peligroso"}, {"text": "Que los sueños pueden hacerse realidad si crees en ellos"}, {"text": "Que no quiere ser astronauta"}, {"text": "Que prefiere la Tierra"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Muy bien! Los sueños pueden hacerse realidad si crees en ellos.", "incorrect": "La respuesta correcta es que los sueños pueden hacerse realidad si crees en ellos."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #4c1d95 0%, #1e1b4b 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: nunca dejes de soñar. Tú también puedes lograr anything que te propongas si crees en ti mismo.<br><br><em>Remember: never stop dreaming. You can also achieve anything you set your mind to if you believe in yourself.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Momento de lectura", "en": "Reading time"},
+      "content": {"es": "Habla con tu niño sobre qué le gustaría ser de grande y por qué.", "en": "Talk to your child about what they would like to be when they grow up and why."},
+      "icon": "📚"
+    },
+    {
+      "title": {"es": "Inspiración espacial", "en": "Space inspiration"},
+      "content": {"es": "Vean juntos fotos de astronautas y el espacio.", "en": "Look at photos of astronauts and space together."},
+      "icon": "🚀"
+    }
+  ]
+}

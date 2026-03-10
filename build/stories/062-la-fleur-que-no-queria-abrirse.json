@@ -1,0 +1,427 @@
+{
+  "id": "062-la-fleur-que-no-queria-abrirse",
+  "version": "1.0",
+  "meta": {
+    "title": "La Fleur Que No Quería Abrirse",
+    "subtitle": "A story about perseverance",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e91e63",
+      "secondaryColor": "#f48fb1",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #c2185b 0%, #e91e63 50%, #f48fb1 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e91e63 0%, #f48fb1 50%, #e91e63 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/062-fleur.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Fleur Que No Quería Abrirse",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la perseverancia",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c2185b 0%, #e91e63 100%)",
+      "narration": "En un jardín mágico donde las flores cantaban y bailaban con el viento, había un pequeño capullo rosa llamado Rosita. Era el capullo más pequeño del jardín y tenía miedo de abrirse.",
+      "elements": [
+        {
+          "id": "img-1",
+          "type": "image",
+          "src": "images/062-fleur.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un jardín mágico donde las flores cantaban y bailaban con el viento, había un pequeño capullo rosa llamado <strong>Rosita</strong>. Era el capullo más pequeño del jardín y tenía miedo de abrirse.<br><br><em>In a magical garden where flowers sang and danced with the wind, there was a small pink bud named Rosita. She was the smallest bud in the garden and was afraid to open up.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #c2185b 100%)",
+      "narration": "'¿Qué pasa si me abro y no soy lo suficientemente bonita?' pensaba Rosita todas las noches. Las otras flores eran tan hermosas y brillantes, mientras ella solo era un pequeño capullo cerrada.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "'¿Qué pasa si me abro y no soy lo suficientemente bonita?' pensaba Rosita todas las noches. <strong>Las otras flores eran tan hermosas y brillantes, mientras ella solo era un pequeño capullo cerrado.</strong><br><br><em>'What if I open up and I'm not pretty enough?' Rosita thought every night. The other flowers were so beautiful and bright, while she was just a small closed bud.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c2185b 0%, #ad1457 100%)",
+      "narration": "Un día, una vieja margarita llamada Margarita vio a Rosita temblando de miedo. Se acercó lentamente y le preguntó: '¿Por qué tienes tanto miedo, pequeña?'.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, una vieja margarita llamada Margarita vio a Rosita temblando de miedo. Se acercó y le preguntó: '<strong>¿Por qué tienes tanto miedo, pequeña?</strong>'<br><br><em>One day, an old daisy named Margarita saw Rosita trembling with fear. She approached and asked: 'Why are you so scared, little one?'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ad1457 0%, #c2185b 100%)",
+      "narration": "'Tengo miedo de no ser hermosa como las demás', susurró Rosita. 'Tengo miedo de que me miren y se rían de mí'. Margarita sonrió con ternura y le contó su historia.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "'Tengo miedo de no ser hermosa como las demás', susurró Rosita. Margarita sonrió con ternura y le contó su historia. <strong>Ella también había sido un capullo pequeño alguna vez.</strong><br><br><em>'I'm afraid I'm not beautiful like the others,' Rosita whispered. Margarita smiled tenderly and told her story. She had also been a small bud once.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c2185b 0%, #e91e63 100%)",
+      "narration": "'Pero tú no entiendes', insistió Rosita. 'Las otras flores ya están abiertas y yo sigo aquí, cerrada. Nadie me espera'. Margarita le tomó la mano y le enseñó algo importante.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "'Pero tú no entiendes', insistió Rosita. 'Las otras flores ya están abiertas y yo sigo aquí, cerrada'. Margarita le tomó la mano y le enseñó algo importante. <strong>Cada flor tiene su propio tiempo.</strong><br><br><em>'But you don't understand,' Rosita insisted. 'The other flowers are already open and I'm still here, closed.' Margarita took her hand and taught her something important. Every flower has its own time.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #f48fb1 100%)",
+      "narration": "Esa noche, Rosita decidió intentar algo nuevo. En lugar de tener miedo, empezó a push hacia arriba con toda su fuerza. <strong>Sus pétalos comenzaron a temblar y luego, poco a poco, a separarse</strong>.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Esa noche, Rosita decidió intentar algo nuevo. En lugar de tener miedo, empezó a empujar hacia arriba con toda su fuerza. <strong>Sus pétalos comenzaron a temblar y luego, poco a poco, a separarse.</strong><br><br><em>That night, Rosita decided to try something new. Instead of being afraid, she started pushing upward with all her force. Her petals began to tremble and then, little by little, to separate.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f48fb1 0%, #e91e63 100%)",
+      "narration": "El primer rayo de sol que toc sus pétalos la hizo brillar como nunca antes. Era un rosa suave y delicado, con motas de satélashimmering que parecían estrellas escondidas entre sus pétalos.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "El primer rayo de sol que tocó sus pétalos la hizo brillar como nunca antes. <strong>Era un rosa suave y delicado, con motas que brillaban como estrellas.</strong> Las otras flores quedaron en silencio al verla.<br><br><em>The first ray of sun that touched her petals made her shine like never before. She was a soft, delicate pink, with specks that glittered like stars. The other flowers fell silent seeing her.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #c2185b 100%)",
+      "narration": "Una pequeña abeja voló hacia ella y le dijo: 'Eres la flor más hermosa que he visto nunca. Tu color es único y tu perfume es maravilloso'. Rosita sonrió por primera vez.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Una pequeña abeja voló hacia ella y le dijo: '<strong>Eres la flor más hermosa que he visto nunca.</strong> Tu color es único y tu perfume es maravilloso'. Rosita sonrió por primera vez.<br><br><em>A little bee flew toward her and said: 'You are the most beautiful flower I've ever seen. Your color is unique and your perfume is wonderful.' Rosita smiled for the first time.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c2185b 0%, #e91e63 100%)",
+      "narration": "Desde ese día, Rosita entendió algo muy importante: <strong>no importa cuándo te abras, lo que importa es que lo hagas con todo tu corazón</strong>. Cada persona y cada flor tiene su propio momento perfecto.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Desde ese día, Rosita entendió algo muy importante: <strong>no importa cuándo te abras, lo que importa es que lo hagas con todo tu corazón.</strong> Cada persona y cada flor tiene su propio momento perfecto.<br><br><em>From that day on, Rosita understood something very important: it doesn't matter when you bloom, what matters is that you do it with all your heart. Every person and every flower has their own perfect moment.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #c2185b 100%)",
+      "narration": "Y cuando las otras flores le preguntaban cómo había logrado ser tan hermosa, Rosita siempre respondía: '<strong>Simplemente seguí intentando, un pétalo a la vez, hasta que estuve lista</strong>'.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Y cuando las otras flores le preguntaban cómo había logrado ser tan hermosa, Rosita siempre respondía: '<strong>Simplemente seguí intentando, un pétalo a la vez, hasta que estuve lista</strong>'.<br><br><em>And when other flowers asked how she had managed to be so beautiful, Rosita always replied: 'I just kept trying, one petal at a time, until I was ready.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el capullo protagonista?",
+            "options": [
+              {
+                "text": "Rosa"
+              },
+              {
+                "text": "Rosita"
+              },
+              {
+                "text": "Mari"
+              },
+              {
+                "text": "Lila"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El capullo se llamaba Rosita.",
+              "incorrect": "La respuesta correcta es Rosita."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le enseñó Margarita a Rosita?",
+            "options": [
+              {
+                "text": "Que todas las flores son iguales"
+              },
+              {
+                "text": "Que cada flor tiene su propio tiempo"
+              },
+              {
+                "text": "Que no debe abrirse nunca"
+              },
+              {
+                "text": "Que debe tener miedo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Le enseñó que cada flor tiene su propio tiempo.",
+              "incorrect": "La respuesta correcta es que cada flor tiene su propio tiempo."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué dijo la abeja sobre Rosita?",
+            "options": [
+              {
+                "text": "Era la flor más pequeña"
+              },
+              {
+                "text": "Era la flor más hermosa que había visto"
+              },
+              {
+                "text": "No le gustaba su color"
+              },
+              {
+                "text": "No tenía perfume"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! La abeja dijo que era la flor más hermosa que había visto.",
+              "incorrect": "La respuesta correcta es que era la flor más hermosa que había visto."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e91e63 0%, #f48fb1 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "flower",
+            "content": "🌸",
+            "matchId": "flower"
+          },
+          {
+            "id": "bee",
+            "content": "🐝",
+            "matchId": "bee"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "rainbow",
+            "content": "🌈",
+            "matchId": "rainbow"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e91e63 0%, #f48fb1 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: cada flor tiene su momento. Persevera y eventualmente brillarás.<br><br><em>Remember: every flower has its moment. Persevere and eventually you will shine.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

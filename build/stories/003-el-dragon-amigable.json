@@ -1,0 +1,232 @@
+{
+  "id": "003",
+  "meta": {
+    "title": {
+      "es": "El Dragón Amigable",
+      "en": "The Friendly Dragon"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #eb3349 0%, #f45c43 100%)",
+      "primaryColor": "#eb3349"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Dragón Amigable",
+        "en": "The Friendly Dragon"
+      },
+      "heroImage": "Un pequeño dragón verde con alas Coloridas y ojos tiernos, sentado en una colline con flores, sonriendo amigablemente con pequeños corazónes a su alrededor",
+      "background": "linear-gradient(135deg, #eb3349 0%, #f45c43 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En lo alto de una montaña cubierta de nubes blancas, vivía un pequeño dragón llamado Ember. A diferencia de los otros dragones de su familia que eran grandes y temibles, Ember era pequeño y tenía un corazón muy bondadoso. Mientras sus hermanos praticaban rugidos impresionantes, Ember prefería cuidar de las flores y ayudar a los animalitos del bosque.",
+        "en": "High up on a mountain covered with white clouds, there lived a little dragon named Ember. Unlike the other dragons in his family who were big and fearsome, Ember was small and had a very kind heart. While his brothers practiced impressive roars, Ember preferred caring for flowers and helping the little animals in the forest."
+      },
+      "image": {
+        "src": "Pequeño dragón verde en una montaña con nubes, cuidando flores de colores",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En lo alto de una montaña...",
+        "en": "High up on a mountain..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, un terrible granizo cayó sobre el valle y muchos animalitos quedaron atrapados sin poder llegar a sus hogares. Los padres de los animalitos lloraban preocupados. Cuando Ember vio esta situación, no lo pensó dos veces. Voló con sus pequeñas alas hasta donde estaban los animalitos y los protegió bajo su vientre, usando su calor para mantenerlos warmsitos y seguros.",
+        "en": "One day, a terrible hailstorm fell on the valley and many little animals got trapped without being able to reach their homes. The parents of the animals cried worriedly. When Ember saw this situation, he didn't think twice. He flew with his little wings to where the animals were and protected them under his belly, using his warmth to keep them warm and safe."
+      },
+      "image": {
+        "src": "Dragón verde protegiendo a varios animalitos pequeños bajo su vientre durante una tormenta de granizo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, un terrible granizo...",
+        "en": "One day, a terrible hailstorm..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Cuando la tormenta terminó, todos los animalitos estaban a salvo gracias a Ember. Salieron de su escondite y comenzaron a abrazarlo y darle besitos en la nariz. El pequeño dragón se sentía muy feliz de haber podido ayudar. En ese momento, apareció el rey del valle, un anciano muy sabio, y le dijo a Ember: 'Tú eres el dragón más valiente de todos, porque usas tu poder para ayudar a otros'.",
+        "en": "When the storm ended, all the little animals were safe thanks to Ember. They came out of their hiding place and started hugging him and giving little kisses on his nose. The little dragon felt very happy to have been able to help. At that moment, the king of the valley, a very wise old man, appeared and said to Ember: 'You are the bravest dragon of all, because you use your power to help others'."
+      },
+      "image": {
+        "src": "Animalitos abrazando al dragón, con el rey del valle sonriente al fondo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Cuando la tormenta terminó...",
+        "en": "When the storm ended..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Desde ese día, Ember se convirtió en el protector del valle. Los villagers ya no le temían porque sabían que era un dragón bueno y bondadoso. Los niños jugaban cerca de él sin miedo, y Ember los vigilaba desde lo alto de la montaña. El pequeño dragón había aprendido que no importa qué tan pequeño seas, siempre puedes hacer una gran diferencia en el mundo siendo amable y ayuda.",
+        "en": "From that day on, Ember became the protector of the valley. The villagers were no longer afraid of him because they knew he was a kind and good dragon. The children played near him without fear, and Ember watched over them from high up on the mountain. The little dragon had learned that no matter how small you are, you can always make a big difference in the world by being kind and helpful."
+      },
+      "image": {
+        "src": "Dragón verde volando sobre un valle con casas, protegiendo a los villagers desde el cielo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Desde ese día...",
+        "en": "From that day on..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Cómo se llamaba el pequeño dragón?",
+              "en": "What was the little dragon's name?"
+            },
+            "options": [
+              {
+                "es": "Fuego",
+                "en": "Fuego"
+              },
+              {
+                "es": "Ember",
+                "en": "Ember"
+              },
+              {
+                "es": "Rayo",
+                "en": "Rayo"
+              },
+              {
+                "es": "Thor",
+                "en": "Thor"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! El dragón se llamaba Ember.",
+              "en": "Correct! The dragon's name was Ember."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué nos enseña la historia?",
+              "en": "What does the story teach us?"
+            },
+            "options": [
+              {
+                "es": "Que los dragones son malos",
+                "en": "That dragons are bad"
+              },
+              {
+                "es": "Que podemos ayudar sin importar qué tan pequeños seamos",
+                "en": "That we can help no matter how small we are"
+              },
+              {
+                "es": "Que es mejor estar solo",
+                "en": "That it's better to be alone"
+              },
+              {
+                "es": "Que no debemos cuidar a los demás",
+                "en": "That we shouldn't care for others"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Podemos ayudar sin importar qué tan pequeños seamos.",
+              "en": "Very well! We can help no matter how small we are."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "dragon",
+            "content": "🐉",
+            "matchId": "dragon"
+          },
+          {
+            "id": "flower",
+            "content": "🌸",
+            "matchId": "flower"
+          },
+          {
+            "id": "cloud",
+            "content": "☁️",
+            "matchId": "cloud"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

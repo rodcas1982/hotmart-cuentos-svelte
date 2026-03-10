@@ -1,0 +1,343 @@
+{
+  "id": "049-las-frutas-del-mundo",
+  "version": "1.0",
+  "meta": {
+    "title": "Las frutas del mundo",
+    "subtitle": "A story about trying new things from different cultures",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#ff5722",
+      "secondaryColor": "#ff8a65",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #d84315 0%, #ff5722 50%, #ffab91 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #d84315 0%, #ff5722 50%, #ffab91 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/049-frutas.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Las frutas del mundo",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre diversidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d84315 0%, #ff5722 100%)",
+      "narration": "En el mercado del barrio había un stand especial llamado 'Frutas del Mundo'. Cada semana llegaban frutas de países diferentes. Ese día había: mango de México, kiwi de Nueva Zelanda, papaya de Brasil y una fruta extraño: ¡rambutan de Tailandia!",
+      "elements": [
+        {
+          "id": "fruits-img",
+          "type": "image",
+          "src": "images/049-frutas.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el mercado había un stand especial llamado 'Frutas del Mundo'. Ese día había: <strong>mango de México, kiwi de Nueva Zelanda, papaya de Brasil</strong> y una fruta extraño: ¡rambutan de Tailandia!<br><br><em>In the market there was a special stand called 'Fruits of the World.' That day there were: mango from Mexico, kiwi from New Zealand, papaya from Brazil, and a strange fruit: rambutan from Thailand!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff5722 0%, #d84315 100%)",
+      "narration": "Los niños del barrio miraban las frutas con curiosidad. Algunos reconocían el mango y el kiwi, pero nadie conocía la papaya ni la extraño rambutan con su piel roja y peluda. '¡Parece un erizo!', dijo Lucas.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Los niños miraban las frutas con curiosidad. Algunos reconocían el mango y el kiwi, pero nadie conocía la papaya ni la extraño rambutan con su piel roja y peluda. <strong>'¡Parece un erizo!'</strong>, dijo Lucas.<br><br><em>The children looked at the fruits with curiosity. Some recognized mango and kiwi, but no one knew papaya or the strange rambutan with its red hairy skin. 'It looks like a hedgehog!' said Lucas.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d84315 0%, #ffeb3b 100%)",
+      "narration": "La señora del stand sonrió y les contó: 'Cada fruta viene de un lugar diferente y tiene un sabor único. El mango es dulce y jugoso. La papaya es suave y cremosa. ¿Quieren probar?'. Los niños se miraron indecisos.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "La señora del stand sonrió y les contó: <strong>'Cada fruta viene de un lugar diferente y tiene un sabor único.'</strong> ¿Quieren probar?<br><br><em>The lady at the stand smiled and told them: 'Each fruit comes from a different place and has a unique taste.' Do you want to try?</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffeb3b 0%, #ff5722 100%)",
+      "narration": "Valentina, la más valiente, probó primero un pedacito de papaya. '¡Está buenísimo!', exclamó. Luego todos probaron un poco de cada fruta. ¡Hasta la rara rambutan sabía a una mezcla de uva y melón!",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "<strong>Valentina probó primero la papaya.</strong> '¡Está buenísimo!', exclamó. ¡Todos probaron y hasta la rara rambutan sabía a una mezcla de uva y melón!<br><br><em>Valentina tried the papaya first. 'It's delicious!' she exclaimed. Everyone tried and even the strange rambutan tasted like a mix of grapes and melon!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff5722 0%, #ffab91 100%)",
+      "narration": "Los niños aprendieron algo importante: probar cosas nuevas de otras culturas nos ayuda a entender mejor el mundo. ¡Y ahora cada semana esperaban con ilusión las frutas del mundo!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Los niños aprendieron algo importante: <strong>probar cosas nuevas de otras culturas nos ayuda a entender mejor el mundo.</strong> ¡Ahora cada semana esperaban las frutas del mundo!<br><br><em>The children learned something important: trying new things from other cultures helps us understand the world better. Now they looked forward to the fruits of the world every week!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿De dónde venía el mango?",
+            "options": [
+              {
+                "text": "Nueva Zelanda"
+              },
+              {
+                "text": "Brasil"
+              },
+              {
+                "text": "México"
+              },
+              {
+                "text": "Tailandia"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Correcto! El mango venía de México.",
+              "incorrect": "La respuesta correcta es México."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué fruta parecía un erizo?",
+            "options": [
+              {
+                "text": "El kiwi"
+              },
+              {
+                "text": "La papaya"
+              },
+              {
+                "text": "El mango"
+              },
+              {
+                "text": "La rambutan"
+              }
+            ],
+            "correctIndex": 3,
+            "feedback": {
+              "correct": "¡Exacto! La rambutan parecía un erizo.",
+              "incorrect": "La respuesta correcta es la rambutan."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendieron los niños?",
+            "options": [
+              {
+                "text": "Que las frutas son iguales"
+              },
+              {
+                "text": "Que probar cosas nuevas nos ayuda a entender el mundo"
+              },
+              {
+                "text": "Que solo deben comer manzanas"
+              },
+              {
+                "text": "Que las frutas extrañas son malas"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Probar cosas nuevas nos ayuda a entender el mundo.",
+              "incorrect": "La respuesta correcta es que probar cosas nuevas nos ayuda a entender el mundo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #ff5722 0%, #ffab91 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "mango",
+            "content": "🥭",
+            "matchId": "mango"
+          },
+          {
+            "id": "kiwi",
+            "content": "🥝",
+            "matchId": "kiwi"
+          },
+          {
+            "id": "papaya",
+            "content": "🍈",
+            "matchId": "papaya"
+          },
+          {
+            "id": "grape",
+            "content": "🍇",
+            "matchId": "grape"
+          },
+          {
+            "id": "world",
+            "content": "🌏",
+            "matchId": "world"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #d84315 0%, #ffab91 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Trying new things opens our minds to the world!<br><strong>¡Remember!</strong> ¡Probar cosas nuevas abre nuestra mente al mundo!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

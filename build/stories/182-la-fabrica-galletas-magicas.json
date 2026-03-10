@@ -1,0 +1,188 @@
+{
+  "id": "182-la-fabrica-galletas-magicas",
+  "version": "1.0",
+  "meta": {
+    "title": "La Fábrica de Galletas Mágicas",
+    "subtitle": "Galletas que traen alegría",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e91e63",
+      "secondaryColor": "#f06292",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #e91e63 0%, #f06292 50%, #e91e63 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/182-galletas.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Fábrica de Galletas Mágicas",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.5em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Galletas que traen alegría",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.3em", "opacity": "0.95"}
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #f06292 100%)",
+      "narration": "En el centro del bosque mágico había una fábrica de galletas especiales. No eran galletas normales, tenían poderes mágicos.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el centro del bosque mágico había una fábrica de galletas especiales. <strong>No eran galletas normales, tenían poderes mágicos.</strong><br><br><em>In the center of the magic forest there was a factory of special cookies. They weren't normal cookies, they had magic powers.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #f06292 0%, #e91e63 100%)",
+      "narration": "La abuela Rosa era la pastelera mágica. Hacía galletas doradas que hacían reír, galletas azules que ayudaban a dormir, y galletas rosadas que daba energía para jugar.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "La abuela <strong>Rosa</strong> era la pastelera mágica. Hacía galletas doradas que hacían reír, azules que ayudaban a dormir, y rosadas que daba energía.<br><br><em>Grandma Rosa was the magical pastry chef. She made golden cookies that made you laugh, blue ones that helped you sleep, and pink ones that gave you energy.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #ff9800 100%)",
+      "narration": "Un día, un pequeño oso llamado Baldomero llegó triste a la fábrica. No podía dormir porque extrañaba a su mamá.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, un pequeño oso llamado <strong>Baldomero</strong> llegó triste a la fábrica. No podía dormir porque extrañaba a su mamá.<br><br><em>One day, a little bear named Baldomero arrived sad at the factory. He couldn't sleep because he missed his mom.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff9800 0%, #e91e63 100%)",
+      "narration": "La abuela Rosa le dio una galleta azul celestial. Baldomero la comió y inmediatamente sintió sueño. Esa noche durmió muy tranquilo y tuvo un sueño bonito de su mamá.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "La abuela le dio una galleta azul celestial. <strong>Baldomero la comió y sintió sueño.</strong> Durmió tranquilo y tuvo un sueño bonito de su mamá.<br><br><em>Grandma Rosa gave him a celestial blue cookie. Baldomero ate it and immediately felt sleepy. He slept peacefully and had a nice dream about his mom.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #f06292 100%)",
+      "narration": "Baldomero volvió muchos días a la fábrica. Ahora era el ayudante de la abuela Rosa y juntos creaban galletas mágicas para todos los animales del bosque.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Baldomero volvió muchos días. <strong>Ahora era el ayudante de la abuela Rosa</strong> y juntos creaban galletas mágicas para todos los animales.<br><br><em>Baldomero returned many days. Now he was Grandma Rosa's helper and together they created magic cookies for all the animals.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué hacía la abuela Rosa?",
+            "options": [{"text": "Panadería"}, {"text": "Pastelera mágica"}, {"text": "Doctora"}, {"text": "Maestra"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! Era pastelera mágica.", "incorrect": "La respuesta correcta es pastelera mágica."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué animal era Baldomero?",
+            "options": [{"text": "Un conejo"}, {"text": "Un oso"}, {"text": "Un gato"}, {"text": "Un perro"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Era un oso.", "incorrect": "La respuesta correcta es un oso."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e91e63 0%, #f06292 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "cookie", "content": "🍪", "matchId": "cookie"},
+          {"id": "heart", "content": "❤️", "matchId": "heart"},
+          {"id": "moon", "content": "🌙", "matchId": "moon"},
+          {"id": "star", "content": "⭐", "matchId": "star"},
+          {"id": "bear", "content": "🐻", "matchId": "bear"},
+          {"id": "magic", "content": "✨", "matchId": "magic"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #e91e63 0%, #f06292 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Las mejores recetas incluyen amor y magia.<br><br><em>The best recipes include love and magic.</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Hornear juntos", "en": "Baking together"},
+      "content": {"es": "Prepara galletas con tu hijo y añadid juntos ingredientes mágicos como chocolatín y chispas de colores.", "en": "Bake cookies together with your child and add magical ingredients like chocolate and colorful sprinkles."},
+      "icon": "🍪"
+    }
+  ]
+}

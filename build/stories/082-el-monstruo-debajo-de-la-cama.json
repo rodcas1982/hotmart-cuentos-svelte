@@ -1,0 +1,391 @@
+{
+  "id": "082-el-monstruo-debajo-de-la-cama",
+  "version": "1.0",
+  "meta": {
+    "title": "El Monstruo Debajo de la Cama",
+    "subtitle": "A story about confronting fears",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#4a148c",
+      "secondaryColor": "#7b1fa2",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #1a0a2e 0%, #2d1b4e 50%, #1a0a2e 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #1a0a2e 0%, #4a148c 50%, #2d1b4e 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/082-monstruo-cama.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Monstruo Debajo de la Cama",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.4em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.6)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre enfrentar nuestros miedos",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a0a2e 0%, #2d1b4e 100%)",
+      "narration": "Sofía tenía cinco años y estaba segura de que había un monstruo debajo de su cama. Cada noche escuchaba un ruido extraño y rápidamente se tapaba con las sábanas.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Sofía tenía cinco años y estaba segura de que había un <strong>monstruo</strong> debajo de su cama. Cada noche escuchaba un ruido extraño y rápidamente se tapaba con las sábanas.<br><br><em>Sofia was five years old and was sure there was a monster under her bed. Every night she heard a strange noise and quickly covered herself with the sheets.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2d1b4e 0%, #4a148c 100%)",
+      "narration": "—Hay un monstruo, mami —decía Sofía temblando. Su mamá le daba un abrazo y le decía que no había nada ahí, pero Sofía seguía teniendo miedo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "—Hay un monstruo, mami —decía Sofía temblando. Su mamá le daba un abrazo y le decía que no había nada ahí, pero Sofía seguía teniendo miedo.<br><br><em>—There's a monster, mommy —Sofia said shivering. Her mom gave her a hug and told her there was nothing there, but Sofia kept being scared.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4a148c 0%, #6a1b9a 100%)",
+      "narration": "Un día, Sofía decidió ser valentía. Tomó su linterna y se asomó despacito debajo de la cama. ¡Y sabes qué encontró? ¡No era un monstruo!",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Sofía decidió ser valientE. Tomó su linterna y se asomó despacito debajo de la cama. ¡Y sabes qué encontró? ¡No era un monstruo! Era su gatito Pelusa buscándola.<br><br><em>One day, Sofia decided to be brave. She took her flashlight and peeked under the bed. And do you know what she found? It wasn't a monster! It was her kitten Pelusa looking for her.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6a1b9a 0%, #4a148c 100%)",
+      "narration": "—¡Pelusa! —exclamó Sofía很高兴—. ¡Eras tú todo el tiempo! El gatito maulló y se frotó contra Sofia, quien rápidamente lo abrazó.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "—¡Pelusa! —exclamó Sofía—. ¡Eras tú todo el tiempo! El gatito maulló y se frotó contra Sofia, quien rápidamente lo abrazó y lo subió a su cama.<br><br><em>—Pelusa! —exclaimed Sofia—. It was you the whole time! The kitten meowed and rubbed against Sofia, who quickly hugged him and put him on her bed.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4a148c 0%, #2d1b4e 100%)",
+      "narration": "Esa noche, Sofía no tuvo miedo. Sabía que el \"monstruo\" era solo su pobre gatito que quería dormir con ella. Ahora Pelusa dormía every night a los pies de su cama.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Esa noche, Sofía no tuvo miedo. Sabía que el \"monstruo\" era solo su pobre gatito que quería dormir con ella. Ahora Pelusa dormía every night a los pies de su cama.<br><br><em>That night, Sofia was not afraid. She knew the \"monster\" was just her poor kitten who wanted to sleep with her. Now Pelusa slept at the foot of her bed every night.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2d1b4e 0%, #1a0a2e 100%)",
+      "narration": "Sofía aprendió algo muy importante: a veces los miedos que tenemos resultan ser cosas que no conocíamos bien. Cuando investigamos, solemos descubrir que no eran tan scary.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "<strong>Sofía aprendió algo muy importante:</strong> a veces los miedos que tenemos resultan ser cosas que no conocíamos bien. Cuando investigamos, solemos descubrir que no eran tan miedo como pensábamos.<br><br><em>Sofia learned something very important: sometimes the fears we have turn out to be things we didn't know well. When we investigate, we usually discover they weren't as scary as we thought.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué creía Sofía que había debajo de su cama?",
+            "options": [
+              {
+                "text": "Un gato"
+              },
+              {
+                "text": "Un monstruo"
+              },
+              {
+                "text": "Un juguete"
+              },
+              {
+                "text": "Un libro"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Sofía creía que había un monstruo.",
+              "incorrect": "La respuesta correcta es un monstruo."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué era en realidad el \"monstruo\"?",
+            "options": [
+              {
+                "text": "Un dragón pequeño"
+              },
+              {
+                "text": "Su gatito Pelusa"
+              },
+              {
+                "text": "Una sombra"
+              },
+              {
+                "text": "Un vecino"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Era su gatito Pelusa.",
+              "incorrect": "La respuesta correcta es su gatito Pelusa."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Sofía sobre sus miedos?",
+            "options": [
+              {
+                "text": "Que siempre son ciertos"
+              },
+              {
+                "text": "Que son imposibles de superar"
+              },
+              {
+                "text": "Que a veces resultan ser otras cosas"
+              },
+              {
+                "text": "Que no debe tener miedo"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Muy bien! Sofía aprendió que a veces los miedos resultan ser otras cosas.",
+              "incorrect": "La respuesta correcta es que a veces resultan ser otras cosas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #1a0a2e 0%, #4a148c 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "find-pet",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "cat-hiding-1",
+            "content": "🛏️",
+            "matchId": "cat",
+            "isMatch": false
+          },
+          {
+            "id": "cat-hiding-2",
+            "content": "🐱",
+            "matchId": "cat",
+            "isMatch": true
+          },
+          {
+            "id": "toy-1",
+            "content": "🧸",
+            "matchId": "toy",
+            "isMatch": false
+          },
+          {
+            "id": "toy-2",
+            "content": "🎮",
+            "matchId": "toy",
+            "isMatch": false
+          },
+          {
+            "id": "cat-hiding-3",
+            "content": "🐈",
+            "matchId": "cat",
+            "isMatch": true
+          },
+          {
+            "id": "monster-toy",
+            "content": "👾",
+            "matchId": "monster",
+            "isMatch": false
+          },
+          {
+            "id": "book",
+            "content": "📚",
+            "matchId": "book",
+            "isMatch": false
+          },
+          {
+            "id": "cat-hiding-4",
+            "content": "🐈‍⬛",
+            "matchId": "cat",
+            "isMatch": true
+          },
+          {
+            "id": "lamp",
+            "content": "💡",
+            "matchId": "lamp",
+            "isMatch": false
+          },
+          {
+            "id": "blanket",
+            "content": "🛌",
+            "matchId": "blanket",
+            "isMatch": false
+          },
+          {
+            "id": "cat-hiding-5",
+            "content": "😺",
+            "matchId": "cat",
+            "isMatch": true
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star",
+            "isMatch": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #2d1b4e 0%, #6a1b9a 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: a veces el \"monstruo\" resulta ser tu mejor amigo peludo esperándote. ¡No tengas miedo de mirar!<br><br><em>Remember: sometimes the \"monster\" turns out to be your furry best friend waiting for you. Don't be afraid to look!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

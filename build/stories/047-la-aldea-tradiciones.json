@@ -1,0 +1,343 @@
+{
+  "id": "047-la-aldea-tradiciones",
+  "version": "1.0",
+  "meta": {
+    "title": "La aldea de las tradiciones",
+    "subtitle": "A story about respecting different cultural traditions",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#9c27b0",
+      "secondaryColor": "#ba68c8",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #6a1b9a 0%, #9c27b0 50%, #ce93d8 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #6a1b9a 0%, #9c27b0 50%, #ce93d8 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/047-aldea.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La aldea de las tradiciones",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre diversidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6a1b9a 0%, #9c27b0 100%)",
+      "narration": "Había una aldea mágica donde vivían tres familias muy distintas. Los López celebraban el Festival de la Lluvia con danzas y colores. Los Tanaka celebraban el Festival de las Linternas con luces suaves. Los Singh celebraban el Festival de las Flores con pétalos por todas partes.",
+      "elements": [
+        {
+          "id": "village-img",
+          "type": "image",
+          "src": "images/047-aldea.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Había una aldea donde vivían tres familias muy distintas. Los <strong>López</strong> celebraban el Festival de la Lluvia. Los <strong>Tanaka</strong> celebraban el Festival de las Linternas. Los <strong>Singh</strong> celebraban el Festival de las Flores.<br><br><em>There was a village where three very different families lived. The López celebrated the Rain Festival. The Tanaka celebrated the Lantern Festival. The Singh celebrated the Flower Festival.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9c27b0 0%, #6a1b9a 100%)",
+      "narration": "Un día, el niño Lucas López dijo: 'Mi festival es el más bonito'. Y la niña Yuki Tanaka respondió: '¡No, el mío!'. Soon there was a discussion about which tradition was better.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, Lucas dijo: 'Mi festival es el más bonito'. Y Yuki respondió: '¡No, el mío!'. <strong>Soon began una discusión sobre qué tradición era mejor.</strong><br><br><em>One day, Lucas said: 'My festival is the prettiest.' And Yuki responded: 'No, mine!' Soon there was a discussion about which tradition was better.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6a1b9a 0%, #c62828 100%)",
+      "narration": "El anciano del pueblo, el Abuelo Mateo, los llamó a todos y les contó una historia. 'Hace mucho tiempo', dijo, 'cada familia trajo sus tradiciones a esta aldea. Juntas, hacen nuestra comunidad más rica y bella'.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "El anciano del pueblo, el Abuelo Mateo, los llamó y les contó una historia. <strong>'Cada familia trajo sus tradiciones. Juntas, hacen nuestra comunidad más rica y bella.'</strong><br><br><em>The elder of the town, Grandfather Mateo, called them all and told them a story. 'Each family brought their traditions. Together, they make our community richer and more beautiful.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c62828 0%, #9c27b0 100%)",
+      "narration": "Los niños entendieron que no había un festival 'mejor' o 'peor'. Cada tradición tenía su belleza y su significado. Decidieron celebrar todos los festivales juntos, aprendiendo unos de otros.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Los niños entendieron que no había un festival 'mejor' o 'peor'. <strong>Cada tradición tenía su belleza y su significado.</strong> Decidieron celebrarlos todos juntos.<br><br><em>The children understood that there was no 'better' or 'worse' festival. Each tradition had its beauty and meaning. They decided to celebrate all the festivals together, learning from each other.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9c27b0 0%, #ce93d8 100%)",
+      "narration": "Desde entonces, la aldea de las tradiciones era la más feliz del mundo. Todos respetaban las costumbres de los demás y celebraban juntos. ¡Y así aprendieron que la diversidad hace más fuerte a la comunidad!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Desde entonces, la aldea era la más feliz. <strong>Todos respetaban las costumbres de los demás y celebraban juntos.</strong> ¡La diversidad hace más fuerte a la comunidad!<br><br><em>From then on, the village was the happiest in the world. Everyone respected each other's customs and celebrated together. Diversity makes the community stronger!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué celebraban los López?",
+            "options": [
+              {
+                "text": "Festival de las Linternas"
+              },
+              {
+                "text": "Festival de la Lluvia"
+              },
+              {
+                "text": "Festival de las Flores"
+              },
+              {
+                "text": "Festival del Sol"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! Los López celebraban el Festival de la Lluvia.",
+              "incorrect": "La respuesta correcta es el Festival de la Lluvia."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué les enseñó el Abuelo Mateo?",
+            "options": [
+              {
+                "text": "Que solo un festival es bueno"
+              },
+              {
+                "text": "Que todas las tradiciones son valiosas"
+              },
+              {
+                "text": "Que no deben celebrar nada"
+              },
+              {
+                "text": "Que solo deben celebrar el suyo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Les enseñó que todas las tradiciones son valiosas.",
+              "incorrect": "La respuesta correcta es que todas las tradiciones son valiosas."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendieron los niños?",
+            "options": [
+              {
+                "text": "Que la diversidad divide"
+              },
+              {
+                "text": "Que la diversidad hace más fuerte a la comunidad"
+              },
+              {
+                "text": "Que deben competir siempre"
+              },
+              {
+                "text": "Que no hay nada que aprender"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! La diversidad hace más fuerte a la comunidad.",
+              "incorrect": "La respuesta correcta es que la diversidad hace más fuerte a la comunidad."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #9c27b0 0%, #ce93d8 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "village",
+            "content": "🏘️",
+            "matchId": "village"
+          },
+          {
+            "id": "rain",
+            "content": "🌧️",
+            "matchId": "rain"
+          },
+          {
+            "id": "lantern",
+            "content": "🏮",
+            "matchId": "lantern"
+          },
+          {
+            "id": "flower",
+            "content": "🌺",
+            "matchId": "flower"
+          },
+          {
+            "id": "respect",
+            "content": "🤝",
+            "matchId": "respect"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #6a1b9a 0%, #ce93d8 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> All traditions are valuable and deserve respect!<br><strong>¡Remember!</strong> ¡Todas las tradiciones son valiosas y merecen respeto!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

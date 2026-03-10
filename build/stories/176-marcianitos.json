@@ -1,0 +1,228 @@
+{
+  "id": "176-marcianitos",
+  "version": "1.0",
+  "meta": {
+    "title": "Los Marcianitos del Planeta Azul",
+    "subtitle": "Una aventura espacial",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#8e44ad",
+      "secondaryColor": "#9b59b6",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #0c0c3d 0%, #1a1a4d 50%, #0c0c3d 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/176-marcianitos.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Los Marcianitos del Planeta Azul",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una aventura espacial",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0c0c3d 0%, #1a1a4d 100%)",
+      "narration": "En un planeta muy lejano llamado Zog, vivían los Marcianitos: pequeñas criaturas verdes con ojos enormes y antenas brilhantes. Eran los seres más curiosos del universo.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un planeta muy lejano llamado <strong>Zog</strong>, vivían los Marcianitos: pequeñas criaturas verdes con ojos enormes y antenas brilhantes. <strong>Eran los seres más curiosos del universo.</strong><br><br><em>On a faraway planet called Zog, little creatures called Martianites lived: small green beings with huge eyes and sparkling antennae. They were the most curious beings in the universe.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a4d 0%, #2c3e50 100%)",
+      "narration": "Un día, Zipo el más pequeño de los Marcianitos descubrió algo increíble: ¡un planeta azul brillante llamado Tierra! Nunca habían visto algo tan hermoso.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, <strong>Zipo</strong>, el más pequeño de los Marcianitos, descubrió algo increíble: ¡un planeta azul brillante llamado <strong>Tierra</strong>! Nunca habían visto algo tan hermoso.<br><br><em>One day, Zipo, the smallest of the Martianites, discovered something incredible: a bright blue planet called Earth! They had never seen anything so beautiful.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2c3e50 0%, #3498db 100%)",
+      "narration": "Los Marcianitos viajaron en su nave espacial para conocer la Tierra. Cuando llegaron, vieron niños jugando en un parque. Los niños no tenían antenas ni eran verdes, pero eran muy amigables.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Los Marcianitos viajaron en su nave espacial para conocer la Tierra. Cuando llegaron, vieron niños jugando en un parque. <strong>Los niños no tenían antenas pero eran muy amigables.</strong><br><br><em>The Martianites traveled in their spaceship to learn about Earth. When they arrived, they saw children playing in a park. The children had no antennae but were very friendly.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #2980b9 100%)",
+      "narration": "Un niño llamado Lucas vio a los Marcianitos y no tuvo miedo. Les enseñó su merienda y los llevó a conocer a sus amigos. Los Marcianitos estaban muy felices.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Un niño llamado <strong>Lucas</strong> vio a los Marcianitos y no tuvo miedo. Les enseñó su merienda y los llevó a conocer a sus amigos. <strong>¡Los Marcianitos estaban muy felices!</strong><br><br><em>A boy named Lucas saw the Martianites and wasn't afraid. He showed them his snack and introduced them to his friends. The Martianites were very happy!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2980b9 0%, #8e44ad 100%)",
+      "narration": "Los Marcianitos enseñaron a los niños juegos de su planeta y los niños enseñaron a los Marcianitos a saltar la cuerda. ¡Todos se divirtieron mucho!",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Los Marcianitos enseñaron a los niños juegos de su planeta y los niños enseñaron a los Marcianitos a saltar la cuerda. <strong>¡Todos se divirtieron mucho!</strong><br><br><em>The Martianites taught the children games from their planet, and the children taught the Martianites to jump rope. Everyone had a lot of fun!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 100%)",
+      "narration": "Cuando llegó la noche, los Marcianitos tuvieron que volver a su planeta. Lucas los despidió con la mano y les prometió que volverían a verse.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Cuando llegó la noche, los Marcianitos tuvieron que volver a su planeta. Lucas los despidió con la mano y les prometió: <strong>¡Volveremos a vernos!</strong><br><br><em>When night came, the Martianites had to return to their planet. Lucas waved goodbye and promised: We'll see each other again!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #0c0c3d 100%)",
+      "narration": "Desde ese día, los Marcianitosvisitaban la Tierra a menudo. Y Lucas aprendió que la amistad no tiene límites... ¡ni siquiera entre estrellas!",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Desde ese día, los Marcianitos visitaban la Tierra a menudo. Y Lucas aprendió que <strong>la amistad no tiene límites... ¡ni siquiera entre estrellas!</strong><br><br><em>From that day on, the Martianites visited Earth often. And Lucas learned that friendship has no limits... not even between stars!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el planeta de los Marcianitos?",
+            "options": [{"text": "Tierra"}, {"text": "Zog"}, {"text": "Marte"}, {"text": "Luna"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Correcto! El planeta se llamaba Zog.", "incorrect": "La respuesta correcta es Zog." }
+          },
+          {
+            "id": "q2",
+            "question": "¿Cómo se llamaba el niño que conoció a los Marcianitos?",
+            "options": [{"text": "Pedro"}, {"text": "Lucas"}, {"text": "Carlos"}, {"text": "Mario"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! Era Lucas.", "incorrect": "La respuesta correcta es Lucas." }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué颜色 eran los Marcianitos?",
+            "options": [{"text": "Azules"}, {"text": "Rojos"}, {"text": "Verdes"}, {"text": "Amarillos"}],
+            "correctIndex": 2,
+            "feedback": { "correct": "¡Muy bien! Eran verdes.", "incorrect": "La respuesta correcta es verdes." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "alien", "content": "👽", "matchId": "alien"},
+          {"id": "rocket", "content": "🚀", "matchId": "rocket"},
+          {"id": "star", "content": "⭐", "matchId": "star"},
+          {"id": "planet", "content": "🌍", "matchId": "planet"},
+          {"id": "moon", "content": "🌙", "matchId": "moon"},
+          {"id": "friend", "content": "🤝", "matchId": "friend"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: la amistad puede encontrarte en los lugares más inesperados, ¡incluso en el espacio!<br><br><em>Remember: friendship can find you in the most unexpected places, even in space!</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "Hablando sobre el espacio", "en": "Talking about space" },
+      "content": { "es": "Después de leer, pregunta a tu hijo sobre las estrellas y los planetas. ¡Quizás puedan buscar juntos información sobre el espacio!", "en": "After reading, ask your child about stars and planets. You can even look up information about space together!" },
+      "icon": "🔭"
+    },
+    {
+      "title": { "es": "Dibuja tu propio marcianito", "en": "Draw your own Martianite" },
+      "content": { "es": "Dibuja con tu hijo un marcianito imaginario. ¿Cómo sería? ¿Qué color tendría? ¿Qué le gustaría comer?", "en": "Draw with your child an imaginary Martianite. What would it look like? What color would it be? What would it like to eat?" },
+      "icon": "🎨"
+    }
+  ]
+}

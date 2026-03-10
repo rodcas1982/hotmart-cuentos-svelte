@@ -1,0 +1,358 @@
+{
+  "id": "141",
+  "meta": {
+    "title": {
+      "es": "El Mejor Papá",
+      "en": "The Best Dad"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "primaryColor": "#4facfe"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Mejor Papá",
+        "en": "The Best Dad"
+      },
+      "heroImage": "Un padre温暖 con sonrisa radiante abrazando a su hijo en un campo de flores colorfuls, sol dorado en el cielo azul, butterflies volando alrededor",
+      "background": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "Era una mañana soleada y Martín despertó con una sonrisa porque era el Día del Padre. Saltó de la cama y corrió hacia la cocina donde su papá estaba preparando el desayuno. '¡Feliz Día del Padre!' gritó Martín abrazándolo fuerte. Su papá, Don Carlos, lo levantó en brazos y le dio un abrazo de oso que lo hizo reír sin parar.",
+        "en": "It was a sunny morning and Martín woke up with a smile because it was Father's Day. He jumped out of bed and ran to the kitchen where his dad was preparing breakfast. 'Happy Father's Day!' shouted Martín hugging him tightly. His father, Don Carlos, lifted him in his arms and gave him a bear hug that made him laugh non-stop."
+      },
+      "image": {
+        "src": "Niño abrazando a su padre en una cocina soleada con desayuno en la mesa, ventanas con luz dorada",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Era una mañana soleada y Martín despertó...",
+        "en": "It was a sunny morning and Martín woke up..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Durante el desayuno, Martín le entregó un dibujo que había hecho en la escuela. Era una figura con cabeza redonda, cuerpo de palo y una gran sonrisa. 'Es un autorretrato de nosotros dos juntos', explicó Martín orgulloso. Su papá lo miró con ojos brillantes y dijo: 'Es el dibujo más hermoso que he recibido. Lo voy a enmarcar y poner en mi oficina'.",
+        "en": "During breakfast, Martín handed him a drawing he had made at school. It was a figure with a round head, stick body and a big smile. 'It's a self-portrait of us together,' explained Martín proudly. His dad looked at him with shining eyes and said: 'It's the most beautiful drawing I've ever received. I'm going to frame it and put it in my office.'"
+      },
+      "image": {
+        "src": "父子一起看画, padre sosteniendo el dibujo con orgullo, mesa con desayuno casero",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Durante el desayuno, Martín le entregó...",
+        "en": "During breakfast, Martín handed him..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Después del desayuno,шли padre e hijo al parque. Don Carlos llevó una pelota roja y un termo con chocolate caliente. '¿Vamos a jugar fútbol?', preguntó Martín con ojos llenos de ilusión. Su papá asintió y comenzaron a correr por el pasto verde, riendo y pateando la pelota. Martín descubrió que su papá era el mejor compañero de juegos.",
+        "en": "After breakfast, father and son went to the park. Don Carlos brought a red ball and a thermos with hot chocolate. 'Are we going to play soccer?' asked Martín with eyes full of hope. His dad nodded and they started running on the green grass, laughing and kicking the ball. Martín discovered that his dad was the best playmate."
+      },
+      "image": {
+        "src": "Padre e hijo jugando fútbol en un parque verde con árboles, sol brillante y nubes blancas",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Después del desayuno,шли padre e hijo...",
+        "en": "After breakfast, father and son went..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "De pronto, Martín tropezó con una piedra y cayó al suelo. Su rodilla estaba raspada y comenzó a llorar. Su papá corrió inmediatamente y lo levantó con cuidado. 'Vamos, eres fuerte', dijo Don Carlos mientras le limpiaba la herida con su pañuelo. Martín dejó de llorar porque la voz de su papá le dio valentía.",
+        "en": "Suddenly, Martín tripped on a stone and fell down. His knee was scraped and he started to cry. His dad ran immediately and lifted him carefully. 'Come on, you're strong,' said Don Carlos while cleaning the wound with his handkerchief. Martín stopped crying because his dad's voice gave him courage."
+      },
+      "image": {
+        "src": "Padre consolando a hijo caído en el parque, limpiando rodilla con pañuelo, expresión de cuidado",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "De pronto, Martín tropezó...",
+        "en": "Suddenly, Martín tripped..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "El papá de Martín lo cargó hasta un banco cercano y le dio un abrazo largo. '¿Sabes qué?, cada vez que te caes, te vuelves más fuerte', dijo suavemente. Martín sekund && asintió, y su dolor comenzó a desaparecer. Su papá siempre sabía qué decir para hacerlo sentir mejor. Era como tener un superpoder especial.",
+        "en": "Martín's dad carried him to a nearby bench and gave him a long hug. 'You know what? Every time you fall, you become stronger,' he said softly. Martín sniffled and nodded, and his pain began to disappear. His dad always knew what to say to make him feel better. It was like having a special superpower."
+      },
+      "image": {
+        "src": "父子坐在公园长椅上拥抱, 阳光照耀在他们身上, 背景是绿树",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "El papá de Martín lo cargó...",
+        "en": "Martín's dad carried him..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "story",
+      "text": {
+        "es": "Más tarde,шли a la heladería para celebrar. Martín eligió冰淇淋 de vainilla con chispas de colores, y su papá pidió café. Mientras comían, Don Carlos le contó a Martín sobre cuando él era niño y su propio papá lo llevaba a ese mismohelado. 'Los papás aprenden de sus papás a querer', explicó con una sonrisa.",
+        "en": "Later, they went to the ice cream shop to celebrate. Martín chose vanilla ice cream with colorful sprinkles, and his dad ordered coffee. While eating, Don Carlos told Martín about when he was a child and his own dad used to take him to that same ice cream shop. 'Dads learn from their dads how to love,' he explained with a smile."
+      },
+      "image": {
+        "src": "父子在冰淇淋店, 桌子上的冰淇淋和咖啡, 温暖的灯光",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Más tarde,шли a la heladería...",
+        "en": "Later, they went to the ice cream shop..."
+      }
+    },
+    {
+      "id": 8,
+      "type": "story",
+      "text": {
+        "es": "Cuando llegó la noche, Martín no quería dormirse. Quería que el día durara para siempre. Su papá lo arropó en su cama y le contó una historia sobre un caballero valiente que protectía a su reino. Martín bostezaba pero escuchaba cada palabra. La voz de su papá era la mejor nana del mundo.",
+        "en": "When night came, Martín didn't want to sleep. He wanted the day to last forever. His dad tucked him into bed and told him a story about a brave knight who protected his kingdom. Martín yawned but listened to every word. His dad's voice was the best lullaby in the world."
+      },
+      "image": {
+        "src": "父亲在孩子的卧室讲故事, 柔和的夜灯, 星星天花板",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Cuando llegó la noche...",
+        "en": "When night came..."
+      }
+    },
+    {
+      "id": 9,
+      "type": "story",
+      "text": {
+        "es": "Antes de apagar la luz, Martín le dijo: 'Papá, tú eres el mejor papá del mundo'. Don Carlos sintió su corazón lleno de amor y respondió: 'Martín, tú eres el mejor hijo que podría tener. Cada día me enseñas algo nuevo sobre el amor'. Se dieron un beso de buenas noches y Martín se durmió soñando con su papá.",
+        "en": "Before turning off the light, Martín said: 'Dad, you are the best dad in the world.' Don Carlos felt his heart full of love and replied: 'Martín, you are the best son I could have. Every day you teach me something new about love.' They gave each other a goodnight kiss and Martín fell asleep dreaming about his dad."
+      },
+      "image": {
+        "src": "父子晚安吻, 温暖的卧室, 月光从窗户照进来",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Antes de apagar la luz...",
+        "en": "Before turning off the light..."
+      }
+    },
+    {
+      "id": 10,
+      "type": "story",
+      "text": {
+        "es": "Martín aprendió ese día que un buen papá no es el que no comete errores, sino el que siempre está ahí para ti. Lo abrazas cuando tienes miedo, te levanta cuando te caes, juega contigo y te cuenta historias. Y lo más importante: te ama sin condición alguna. Ese fue el mejor Día del Padre de su vida.",
+        "en": "Martín learned that day that a good dad is not the one who doesn't make mistakes, but the one who is always there for you. He hugs you when you're afraid, picks you up when you fall, plays with you and tells you stories. And most importantly: he loves you unconditionally. That was the best Father's Day of his life."
+      },
+      "image": {
+        "src": "孩子睡着微笑, 父亲在门口看着, 墙上挂着一家人的照片",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Martín aprendió ese día...",
+        "en": "Martín learned that day..."
+      }
+    },
+    {
+      "id": 11,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué día era en la historia?",
+              "en": "What day was it in the story?"
+            },
+            "options": [
+              {
+                "es": "Día de la Madre",
+                "en": "Mother's Day"
+              },
+              {
+                "es": "Día del Padre",
+                "en": "Father's Day"
+              },
+              {
+                "es": "Cumpleaños",
+                "en": "Birthday"
+              },
+              {
+                "es": "Navidad",
+                "en": "Christmas"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Era el Día del Padre.",
+              "en": "Correct! It was Father's Day."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué le regaló Martín a su papá?",
+              "en": "What did Martín give to his dad as a gift?"
+            },
+            "options": [
+              {
+                "es": "Un juguete",
+                "en": "A toy"
+              },
+              {
+                "es": "Un dibujo",
+                "en": "A drawing"
+              },
+              {
+                "es": "Un libro",
+                "en": "A book"
+              },
+              {
+                "es": "Una tarjeta",
+                "en": "A card"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Le regaló un dibujo que había hecho en la escuela.",
+              "en": "Very well! He gave him a drawing he had made at school."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "dad",
+            "content": "👨",
+            "matchId": "dad"
+          },
+          {
+            "id": "son",
+            "content": "👦",
+            "matchId": "son"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "ball",
+            "content": "⚽",
+            "matchId": "ball"
+          },
+          {
+            "id": "icecream",
+            "content": "🍦",
+            "matchId": "icecream"
+          },
+          {
+            "id": "park",
+            "content": "🌳",
+            "matchId": "park"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "sequence",
+        "sequence": [
+          {
+            "id": "morning",
+            "content": "🌅",
+            "order": 1
+          },
+          {
+            "id": "breakfast",
+            "content": "🥐",
+            "order": 2
+          },
+          {
+            "id": "park",
+            "content": "⚽",
+            "order": 3
+          },
+          {
+            "id": "icecream",
+            "content": "🍦",
+            "order": 4
+          },
+          {
+            "id": "night",
+            "content": "🌙",
+            "order": 5
+          }
+        ],
+        "title": {
+          "es": "Ordena el día",
+          "en": "Order the day"
+        }
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento especial padre-hijo",
+        "en": "Special dad-child time"
+      },
+      "content": {
+        "es": "Dedica tiempo exclusivo cada semana para hacer algo juntos: jugar, leer, o simplemente conversar.",
+        "en": "Dedicate exclusive time each week to do something together: play, read, or just talk."
+      },
+      "icon": "👨‍👦"
+    },
+    {
+      "title": {
+        "es": "Celebrar errores como aprendizajes",
+        "en": "Celebrate mistakes as learnings"
+      },
+      "content": {
+        "es": "Cuando tu hijo cometa errores, úsalos como oportunidades para enseñar que fallar es parte de aprender.",
+        "en": "When your child makes mistakes, use them as opportunities to teach that failing is part of learning."
+      },
+      "icon": "🌟"
+    },
+    {
+      "title": {
+        "es": "Crear tradiciones familiares",
+        "en": "Create family traditions"
+      },
+      "content": {
+        "es": "Inventa pequeñas tradiciones especiales que solo tú y tu hijo compartan.",
+        "en": "Invent small special traditions that only you and your child share."
+      },
+      "icon": "🏠"
+    }
+  ]
+}

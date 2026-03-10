@@ -1,0 +1,427 @@
+{
+  "id": "063-el-nino-del-violin-roto",
+  "version": "1.0",
+  "meta": {
+    "title": "El Niño del Violín Roto",
+    "subtitle": "A story about perseverance",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#5e35b1",
+      "secondaryColor": "#9575cd",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #4527a0 0%, #5e35b1 50%, #9575cd 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #5e35b1 0%, #9575cd 50%, #5e35b1 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/063-violin.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Niño del Violín Roto",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la perseverancia",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4527a0 0%, #5e35b1 100%)",
+      "narration": "En una pequeña aldea entre montañas, vivía un niño llamado Daniel que amaba la música más que cualquier cosa en el mundo. Su mayor tesoro era un viejo violín que le había pertenecido a su abuelo.",
+      "elements": [
+        {
+          "id": "img-1",
+          "type": "image",
+          "src": "images/063-violin.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En una pequeña aldea entre montañas, vivía un niño llamado <strong>Daniel</strong> que amaba la música más que cualquier cosa en el mundo. Su mayor tesoro era un viejo violín que le había pertenecido a su abuelo.<br><br><em>In a small village between mountains, there lived a boy named Daniel who loved music more than anything in the world. His greatest treasure was an old violin that had belonged to his grandfather.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5e35b1 0%, #4527a0 100%)",
+      "narration": "Un día tormentoso, un rayo cayó cerca de la casa de Daniel. El ruido fue tan fuerte que el violín se cayó de su soporte y se rompió en pedazos. Daniel lloró desconsoladamente.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día tormentoso, un rayo cayó cerca de la casa de Daniel. El ruido fue tan fuerte que el violín se cayó y se rompió en pedazos. <strong>Daniel lloró desconsoladamente</strong>.<br><br><em>One stormy day, lightning struck near Daniel's house. The noise was so loud that the violin fell and broke into pieces. Daniel cried heartbrokenly.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4527a0 0%, #311b92 100%)",
+      "narration": "'Mi violín está destruido', sollozó Daniel. 'Nunca podré volver a tocar música'. Su abuela lo abrazó y le dijo: 'Los objetos se pueden reemplazar, pero el amor por la música nunca se rompe'.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "'Mi violín está destruido', sollozó Daniel. 'Nunca podré volver a tocar música'. Su abuela lo abrazó y le dijo: '<strong>Los objetos se pueden reemplazar, pero el amor por la música nunca se rompe</strong>'.<br><br><em>'My violin is destroyed,' Daniel sobbed. 'I'll never be able to play music again.' His grandmother hugged him and said: 'Objects can be replaced, but love for music never breaks.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #311b92 0%, #4527a0 100%)",
+      "narration": "Daniel pensó mucho en las palabras de su abuela. Finalmente, tomó una decisión: <strong>construiría su propio violín</strong>. Nadie le había enseñado, pero estaba dispuesto a aprender.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Daniel pensó mucho en las palabras de su abuela. Finalmente, tomó una decisión: <strong>construiría su propio violín</strong>. Nadie le había enseñado, pero estaba dispuesto a aprender.<br><br><em>Daniel thought a lot about his grandmother's words. Finally, he made a decision: he would build his own violin. No one had taught him, but he was willing to learn.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4527a0 0%, #5e35b1 100%)",
+      "narration": "Fue al bosque y recogió madera废弃ada. Investigo en libros viejos de la biblioteca del pueblo. Cada noche, después de cenar, tallaba y lijaba, probaba y ajustaba. Los primeros intentos sonaban terrible.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Fue al bosque y recogió madera abandonada. Investigó en libros viejos de la biblioteca. Cada noche, después de cenar, tallaba y lijaba. <strong>Los primeros intentos sonaban terrible</strong>.<br><br><em>He went to the forest and collected discarded wood. He researched in old books from the village library. Every night after dinner, he carved and sanded. The first attempts sounded terrible.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5e35b1 0%, #7e57c2 100%)",
+      "narration": "Pero Daniel no se rindió. Cada vez que el violín sonaba mal, tomaba notas y ajustaba algo diferente. <strong>Semana tras semana, el sonido mejoraba un poco más</strong>. Pronto, pudo tocar melodías simples.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Pero Daniel no se rindió. Cada vez que el violín sonaba mal, tomaba notas y ajustaba algo diferente. <strong>Semana tras semana, el sonido mejoraba un poco más.</strong> Pronto pudo tocar melodías simples.<br><br><em>But Daniel didn't give up. Every time the violin sounded bad, he took notes and adjusted something different. Week after week, the sound improved a little more. Soon, he could play simple melodies.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #7e57c2 0%, #5e35b1 100%)",
+      "narration": "Un día, un famoso músico que viajaba por la aldea escuchó a Daniel tocar. Quedó impresionado no solo por la música, sino por la historia del violín construido a mano.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Un día, un famoso músico que viajaba por la aldea escuchó a Daniel tocar. <strong>Quedó impresionado no solo por la música, sino por la historia del violín construido a mano.</strong><br><br><em>One day, a famous musician traveling through the village heard Daniel play. He was impressed not only by the music, but by the story of the hand-built violin.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5e35b1 0%, #4527a0 100%)",
+      "narration": "'¿Sabes qué es lo másremarkable de tu violín?', preguntó el músico. 'No es lo perfecto que suena, sino la historia que cuenta. Cada grieta y cada marca cuenta la historia de tu perseverancia'.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "'¿Sabes qué es lo más remarquable de tu violín?', preguntó el músico. '<strong>No es lo perfecto que suena, sino la historia que cuenta.</strong> Cada grieta y cada marca cuenta la historia de tu perseverancia'.<br><br><em>'Do you know what's most remarkable about your violin?' asked the musician. 'It's not how perfectly it sounds, but the story it tells. Every crack and mark tells the story of your perseverance.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #4527a0 0%, #5e35b1 100%)",
+      "narration": "Daniel sonrió, entendiendo finalmente el regalo que le había dado su abuela. <strong>No necesitaba un violín perfecto, necesitaba la perseverancia para crear algo único</strong>. Y eso era exactamente lo que tenía.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Daniel sonrió, entendiendo finalmente el regalo que le había dado su abuela. <strong>No necesitaba un violín perfecto, necesitaba la perseverancia para crear algo único.</strong> Y eso era exactamente lo que tenía.<br><br><em>Daniel smiled, finally understanding the gift his grandmother had given him. He didn't need a perfect violin, he needed perseverance to create something unique. And that's exactly what he had.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5e35b1 0%, #4527a0 100%)",
+      "narration": "Desde ese día, Daniel tocó su violín roto-construido-con-amor en cada festival de la aldea. Y cuando le preguntaban cómo había aprendido, respondía: '<strong>Con paciencia, práctica y beaucoup de intentos fallidos</strong>'.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Desde ese día, Daniel tocó su violín construido-con-amor en cada festival de la aldea. Y cuando le preguntaban cómo había aprendido, respondía: '<strong>Con paciencia, práctica y muchos intentos fallidos</strong>'.<br><br><em>From that day on, Daniel played his love-built violin at every village festival. And when asked how he had learned, he replied: 'With patience, practice, and lots of failed attempts.'</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el niño protagonista?",
+            "options": [
+              {
+                "text": "David"
+              },
+              {
+                "text": "Daniel"
+              },
+              {
+                "text": "Diego"
+              },
+              {
+                "text": "Dani"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El niño se llamaba Daniel.",
+              "incorrect": "La respuesta correcta es Daniel."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le pasó al violín de Daniel?",
+            "options": [
+              {
+                "text": "Se perdió"
+              },
+              {
+                "text": "Se rompió durante una tormenta"
+              },
+              {
+                "text": "Se lo robaron"
+              },
+              {
+                "text": "Se quemó"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Se rompió durante una tormenta.",
+              "incorrect": "La respuesta correcta es que se rompió durante una tormenta."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué decidió hacer Daniel después de que se rompiera el violín?",
+            "options": [
+              {
+                "text": "Dejar de tocar para siempre"
+              },
+              {
+                "text": "Construir su propio violín"
+              },
+              {
+                "text": "Pedir dinero para comprar uno nuevo"
+              },
+              {
+                "text": "Irse de la aldea"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Decidió construir su propio violín.",
+              "incorrect": "La respuesta correcta es construir su propio violín."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #5e35b1 0%, #9575cd 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "violin",
+            "content": "🎻",
+            "matchId": "violin"
+          },
+          {
+            "id": "music",
+            "content": "🎵",
+            "matchId": "music"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "tree",
+            "content": "🌳",
+            "matchId": "tree"
+          },
+          {
+            "id": "mountain",
+            "content": "⛰️",
+            "matchId": "mountain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #5e35b1 0%, #9575cd 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: los obstáculos pueden romperse, pero tu determinación nunca.<br><br><em>Remember: obstacles can break, but your determination never can.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

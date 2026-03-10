@@ -1,0 +1,211 @@
+{
+  "id": "009",
+  "meta": {
+    "title": {
+      "es": "El León que Temía Rugir",
+      "en": "The Lion Who Was Afraid to Roar"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #f7971e 0%, #ffd200 100%)",
+      "primaryColor": "#f7971e"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El León que Temía Rugir",
+        "en": "The Lion Who Was Afraid to Roar"
+      },
+      "heroImage": "Un pequeño león con melena rubia, sentado solitario en una roca, con expresión pérdica, en la sabana africana al atardecer",
+      "background": "linear-gradient(135deg, #f7971e 0%, #ffd200 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En la gran sabana africana, donde el sol brilla fuerte y los pastos se mueven con el viento, vivía un pequeño león llamado Simón. Simón tenía una hermosa melena dorada y ojos grandes y expresivos. Pero a diferencia de los otros leones de su manada, Simón tenía miedo de rugir. Cada vez que intentaba, su voz salía pequeña y temblorosa.",
+        "en": "In the great African savanna, where the sun shines brightly and the grasses move with the wind, there lived a little lion named Simón. Simón had beautiful golden mane and big, expressive eyes. But unlike the other lions in his pride, Simón was afraid to roar. Every time he tried, his voice came out small and trembling."
+      },
+      "image": {
+        "src": "Pequeño león intentando rugir sin éxito, con otros leones observándolo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En la gran sabana africana...",
+        "en": "In the great African savanna..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Los otros leones se reían de él y le decían: '¿Cómo puedes ser el rey de la selva si ni siquiera puedes rugir correctamente?' Simón se sentía muy triste y avergonzado. Empezó a creer que nunca sería un verdadero líder. Un día, decidió alejarse de la manada y caminar solo por la sabana, buscando respuestas.",
+        "en": "The other lions laughed at him and said: 'How can you be the king of the jungle if you can't even roar properly?' Simón felt very sad and embarrassed. He started to believe he would never be a true leader. One day, he decided to move away from the pride and walk alone through the savanna, looking for answers."
+      },
+      "image": {
+        "src": "León caminando solo por la sabana, con expresión melancólica y cabeza baja",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Los otros leones se reían...",
+        "en": "The other lions laughed..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Mientras caminaba, Simón escuchó un llanto vemendo de un arbusto. Se acercó con cuidado y encontró a una pequeña gacela atrapada entre unas ramas espinosas. Aunque el león normalmente come gacelas, Simón sintió lástima y decidió ayudarla. Con sus patas grandes y suaves, apartó las ramas hasta que la gacela pudo librarse.",
+        "en": "While walking, Simón heard crying coming from a bush. He approached carefully and found a little gazelle trapped between some thorny branches. Although lions normally eat gazelles, Simón felt sorry for her and decided to help her. With his big, soft paws, he moved the branches until the gazelle could free herself."
+      },
+      "image": {
+        "src": "León ayudando a una gacela atrapada, con expresión de compasión y cuidado",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Mientras caminaba...",
+        "en": "While walking..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "La gacela, chamada Luna, estaba muy agradecida. Miró a Simón con sus ojos grandes y brillantes y le dijo: 'Eres el león más valiente que he conocido. No me comiste y me ayudaste a pesar de que podrías haberlo hecho. Eso es verdadero coraje'. Simón se sintió cáldo por dentro y por primera vez, creyó en sí mismo.",
+        "en": "The gazelle, named Luna, was very grateful. She looked at Simón with her big, bright eyes and said: 'You are the bravest lion I have ever met. You didn't eat me and you helped me even though you could have. That is true courage.' Simón felt warm inside and for the first time, believed in himself."
+      },
+      "image": {
+        "src": "León y gacela juntos, mirándose con amistad y respeto, en la sabana",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "La gacela, chamada Luna...",
+        "en": "The gazelle, named Luna..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Simón regresó a su manada con una nueva confianza. Cuando los otros leones comenzaron a burlarse de él otra vez, respondió con calma: 'El verdadero coraje no es rugir fuerte, sino ayudar a quienes lo necesitan y ser honesto con uno mismo'. Todos quedaron en silencio, y desde ese día, comenzó a ser respetado por su bondad y sabiduría.",
+        "en": "Simón returned to his pride with new confidence. When the other lions started making fun of him again, he responded calmly: 'True courage is not roaring loudly, but helping those who need it and being honest with oneself.' Everyone fell silent, and from that day on, he began to be respected for his kindness and wisdom."
+      },
+      "image": {
+        "src": "León enseñando a la manada, con todos escuchando con respeto",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Simón regresó a su manada...",
+        "en": "Simón returned to his pride..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué le enseñó la gacela Luna a Simón?",
+              "en": "What did the gazelle Luna teach Simón?"
+            },
+            "options": [
+              {
+                "es": "Que rugir es lo más importante",
+                "en": "That roaring is the most important thing"
+              },
+              {
+                "es": "Que el verdadero coraje es ayudar a otros",
+                "en": "That true courage is helping others"
+              },
+              {
+                "es": "Que no rugiera más",
+                "en": "That he should never roar again"
+              },
+              {
+                "es": "Que huyera de la manada",
+                "en": "That he should run away from the pride"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! El verdadero coraje es ayudar a otros.",
+              "en": "Correct! True courage is helping others."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "lion",
+            "content": "🦁",
+            "matchId": "lion"
+          },
+          {
+            "id": "gazelle",
+            "content": "🦌",
+            "matchId": "gazelle"
+          },
+          {
+            "id": "sun",
+            "content": "☀️",
+            "matchId": "sun"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "tree",
+            "content": "🌳",
+            "matchId": "tree"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

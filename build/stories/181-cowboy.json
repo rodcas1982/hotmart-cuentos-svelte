@@ -1,0 +1,156 @@
+{
+  "id": "181-cowboy",
+  "version": "1.0",
+  "meta": {
+    "title": "El Cowboy Jake y su Gran Corazón",
+    "subtitle": "Una historia de amistad",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#d68910",
+      "secondaryColor": "#f39c12",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #6e4c1e 0%, #8b6914 50%, #6e4c1e 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #d68910 0%, #f39c12 50%, #d68910 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/181-cowboy.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Cowboy Jake",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Su gran corazón",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #6e4c1e 0%, #8b6914 100%)",
+      "narration": "En las vastas praderas de Arizona vivía un cowboy llamado Jake. Era conocido por su destreza montando caballos y por ayudar a todos los que lo necesitaban.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En las vastas praderas de Arizona vivía un cowboy llamado <strong>Jake</strong>. Era conocido por su destreza montando caballos y por ayudar a todos los que lo necesitaban.<br><br><em>In the vast prairies of Arizona lived a cowboy named Jake. He was known for his skill riding horses and for helping everyone who needed it.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8b6914 0%, #b7950b 100%)",
+      "narration": "Un día, Jake escuchó que la familia González había perdido su casa en un incendio. Sin pensarlo, recogió provisiones y fue a ayudarles a reconstruir su hogar.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Un día, Jake escuchó que la familia González había perdido su casa en un incendio. <strong>Sin pensarlo, fue a ayudarles a reconstruir su hogar.</strong><br><br><em>One day, Jake heard that the González family had lost their house in a fire. Without thinking, he gathered supplies and went to help them rebuild their home.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #b7950b 0%, #d68910 100%)",
+      "narration": "Los otros cowboys del pueblo quedaron impresionados. Preguntaban: '¿Por qué ayudas a otros si no obtienes nada a cambio?' Jake sonreía y decía: 'Ayudar es la mejor recompensa.'",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Los otros cowboys preguntaban: '¿Por qué ayudas si no obtienes nada?' Jake sonreía y decía: <strong>¡Ayudar es la mejor recompensa!</strong><br><br><em>The other cowboys asked: Why help others if you get nothing in return? Jake smiled and said: Helping is the best reward!</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d68910 0%, #f39c12 100%)",
+      "narration": "Con el tiempo, el pueblo de Jake se convirtió en el más unite del西部. Todos se ayudaban unos a otros, inspirados por el ejemplo del generoso cowboy.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Con el tiempo, el pueblo de Jake se convirtió en el más unite del西部. <strong>Todos se ayudaban unos a otros</strong>, inspirados por el ejemplo del generoso cowboy.<br><br><em>Over time, Jake's town became the most united in the West. Everyone helped each other, inspired by the generous cowboy's example.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el cowboy?",
+            "options": [{"text": "John"}, {"text": "Jake"}, {"text": "James"}, {"text": "Joe"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Correcto! Era Jake.", "incorrect": "La respuesta correcta es Jake." }
+          },
+          {
+            "id": "q2",
+            "question": "¿De dónde era Jake?",
+            "options": [{"text": "Texas"}, {"text": "Arizona"}, {"text": "California"}, {"text": "Nuevo México"}],
+            "correctIndex": 1,
+            "feedback": { "correct": "¡Exacto! Era de Arizona.", "incorrect": "La respuesta correcta es Arizona." }
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #d68910 0%, #f39c12 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": { "type": "pulse" }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: ayudar a otros nos hace más ricos por dentro.<br><br><em>Remember: helping others makes us richer inside.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.2em" }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": { "es": "La generosidad", "en": "Generosity" },
+      "content": { "es": "Habla con tu hijo sobre la importancia de ayudar a los demás.", "en": "Talk to your child about the importance of helping others." },
+      "icon": "🤝"
+    }
+  ]
+}

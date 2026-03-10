@@ -1,0 +1,248 @@
+{
+  "id": "007",
+  "meta": {
+    "title": {
+      "es": "El Pequeño Inventor",
+      "en": "The Little Inventor"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      5,
+      9
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%)",
+      "primaryColor": "#8e2de2"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Pequeño Inventor",
+        "en": "The Little Inventor"
+      },
+      "heroImage": "Un niño genio con gafas y cabello desordenado, en su cuarto lleno de herramientas y inventos extraños, sosteniendo un robot pequeño con antenas",
+      "background": "linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una pequeña casa de la ciudad, vivía un niño de ocho años llamado Tomás. Él tenía un cuarto muy especial lleno de cosas堆叠: engranajes, cables, cajas de herramientas y muchos libros de ciencia. A Tomás le encantaba inventar cosas nuevas. Un día, miró por la ventana y vio que el jardinero del vecindario cortaba la hierba manualmente. Pensó: '¡Debo inventar algo que facilite este trabajo!'.",
+        "en": "In a small house in the city, there lived an eight-year-old boy named Tomás. He had a very special room filled with stacked things: gears, cables, tool boxes, and many science books. Tomás loved inventing new things. One day, he looked out the window and saw the neighborhood gardener cutting the grass manually. He thought: 'I must invent something to make this work easier!'"
+      },
+      "image": {
+        "src": "Niño mirando por la ventana con expresiones de concentración, surrounded by sus inventos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una pequeña casa...",
+        "en": "In a small house..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Tomás pasó varias semanas trabajando en su invención. Primero hizo muchos dibujos en su cuaderno, luego comenzó a construir piezas con materiales que encontró en su casa. Usó un viejo motor de un juguete roto, Algunas ruedas de un carrinho de madera, y cables de un ratón de computadora que ya no funcionaba. Su madre a veces se preocupaba por el desorden, pero siempre lo apoyaba.",
+        "en": "Tomás spent several weeks working on his invention. First, he made many drawings in his notebook, then he started building pieces with materials he found in his house. He used an old motor from a broken toy, some wheels from a wooden cart, and cables from a computer mouse that no longer worked. His mother sometimes worried about the mess, but she always supported him."
+      },
+      "image": {
+        "src": "Niño concentrado construyendo un invento con varias herramientas y materiales",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Tomás pasó varias semanas...",
+        "en": "Tomás spent several weeks..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Un día, después de muchos intentos fallidos, Tomás finalmente logró crear su máquina cortadora de pasto automática. La probó en el jardín de su casa y ¡funcionaba perfectamente! El pasto quedó parejas y hermosamente cortado. El vecino, al ver esto, quedó impresionado y le pidió a Tomás que le ayudará a cortar el pasto de su jardín también.",
+        "en": "One day, after many failed attempts, Tomás finally managed to create his automatic grass cutter machine. He tested it in his garden and it worked perfectly! The grass came out even and beautifully cut. The neighbor, seeing this, was impressed and asked Tomás to help cut his garden grass too."
+      },
+      "image": {
+        "src": "Invento funcionando en el jardín, con niño orgulloso y vecinos impresionados",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, después de muchos intentos...",
+        "en": "One day, after many failed attempts..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "Pero Tomás no se detuvo ahí. Siguieron inventando más cosas útiles: un Robot que recogía juguetes, una lampara que se encendía sola cuando oscurecía, y hasta un sistema de riego automático para las plantas. Cada invención resolvia un problema diferente. Tomás aprendió que la creatividad no tiene límites y que los problemas son oportunidades para crear soluciones.",
+        "en": "But Tomás didn't stop there. He kept inventing more useful things: a robot that picked up toys, a lamp that turned on by itself when it got dark, and even an automatic watering system for plants. Each invention solved a different problem. Tomás learned that creativity has no limits and that problems are opportunities to create solutions."
+      },
+      "image": {
+        "src": "Niño mostrando varios inventos diferentes en su cuarto, con expresión de orgullo",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Pero Tomás no se detuvo ahí...",
+        "en": "But Tomás didn't stop there..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Un día, una empresa grande de tecnología se enteró de los inventos de Tomás y lo invitaron a展示会 su creación más importante: una máquina que reciclaba plásticos y los convertía en materiales nuevos. Tomás estaba nervioso pero también muy emocionado. Subió al escenario frente a mucha gente y explicó cómo funcionaba su invención. ¡Todos aplaudieron con entusiasmo!",
+        "en": "One day, a big technology company heard about Tomás's inventions and invited him to showcase his most important creation: a machine that recycled plastics and turned them into new materials. Tomás was nervous but also very excited. He got on stage in front of many people and explained how his invention worked. Everyone applauded enthusiastically!"
+      },
+      "image": {
+        "src": "Niño en un escenario grande presentando su invento a una audiencia de adultos",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, una empresa grande...",
+        "en": "One day, a big company..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué aprendió Tomás sobre la creatividad?",
+              "en": "What did Tomás learn about creativity?"
+            },
+            "options": [
+              {
+                "es": "Que es mejor copiar las ideas de otros",
+                "en": "That it's better to copy others' ideas"
+              },
+              {
+                "es": "Que los problemas son oportunidades para crear soluciones",
+                "en": "That problems are opportunities to create solutions"
+              },
+              {
+                "es": "Que no hay que intentar inventar nada",
+                "en": "That we shouldn't try to invent anything"
+              },
+              {
+                "es": "Que los niños no pueden inventar",
+                "en": "That children can't invent"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Los problemas son oportunidades para crear soluciones.",
+              "en": "Correct! Problems are opportunities to create solutions."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué materiales usó Tomás para su primer invento?",
+              "en": "What materials did Tomás use for his first invention?"
+            },
+            "options": [
+              {
+                "es": "Solo cosas nuevas compradas en la tienda",
+                "en": "Only new things bought at the store"
+              },
+              {
+                "es": "Un motor viejo, ruedas y cables viejos",
+                "en": "An old motor, old wheels, and old cables"
+              },
+              {
+                "es": "No usó ningún material",
+                "en": "He didn't use any materials"
+              },
+              {
+                "es": "Solo materiales de la escuela",
+                "en": "Only materials from school"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Muy bien! Usó cosas que ya no servían para crear algo nuevo.",
+              "en": "Very well! He used things that no longer worked to create something new."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "robot",
+            "content": "🤖",
+            "matchId": "robot"
+          },
+          {
+            "id": "lightbulb",
+            "content": "💡",
+            "matchId": "lightbulb"
+          },
+          {
+            "id": "gear",
+            "content": "⚙️",
+            "matchId": "gear"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "book",
+            "content": "📚",
+            "matchId": "book"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

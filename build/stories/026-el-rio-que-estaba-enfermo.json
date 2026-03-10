@@ -1,0 +1,305 @@
+{
+  "id": "026-el-rio-que-estaba-enfermo",
+  "version": "1.0",
+  "meta": {
+    "title": "El río que estaba enfermo",
+    "subtitle": "Un cuento sobre cuidar el medio ambiente",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#00b894",
+      "secondaryColor": "#0984e3",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(135deg, #55efc4 0%, #74b9ff 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #00b894 0%, #0984e3 100%)",
+      "elements": [
+        {
+          "id": "hero-img",
+          "type": "image",
+          "src": "images/026-rio-enfermo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "220px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El río que estaba enfermo",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.3)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Aprende a cuidar nuestros ríos y oceans",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.1em",
+            "opacity": "0.9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #74b9ff 100%)",
+      "narration": "El río Lucero era el más hermoso del bosque, pero algo malo estaba pasando.",
+      "elements": [
+        {
+          "id": "river-img",
+          "type": "image",
+          "src": "images/026-rio-enfermo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "El río <strong>Lucero</strong> era el más hermoso del bosque. 💧<br><br>Sus aguas eran cristalinas y los peces nadaban felices. Los animales bebían de él y las flores crecían en sus orillas.<br><br>Pero un día, el río comenzó a sentirse mal...<br><br>The Lucero River was the most beautiful in the forest, but something bad was happening."
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #74b9ff 0%, #55efc4 100%)",
+      "narration": "El río Lucero empezó a sentirse sucio y enfermo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "—¡Ay, ay, ay! —gimió el río.<br><br>Las aguas ya no eran cristalinas. Ahora eran marrones y olían mal. 😢<br><br>Los peces no podían respirar bien.<br>Las plantas en las orillas se estaban muriendo.<br>Los animales ya no podían beber su agua.<br><br>—¿Qué me está pasando? —preguntó el río triste.<br><br>The Lucero River started to feel dirty and sick."
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #74b9ff 100%)",
+      "narration": "Los animales del bosque se reunió para descubrir qué le pasaba al río.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Los animales del bosque se reunió para ayudar. 🦊🐰🦊<br><br>—¡El río está enfermo! —dijo la ardilla.<br><br>El viejo búho investigó y encontró la causa:<br><br>🗑️<b> Botellas de plástico</b> flotando en el agua<br>🗑️<b> Bolsas</b> atoradas en las piedras<br>🗑️<b> Comida podrida</b> que alguien tiró<br><br>—¡Esto es contaminación! —exclamó el búho.<br><br>The animals of the forest gathered to discover what was wrong with the river."
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #74b9ff 0%, #55efc4 100%)",
+      "narration": "Los animales decidieron limpiar el río juntos.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "—¡Tenemos que ayudar al río! —gritó el conejo.<br><br>Todos trabajó juntos para limpiar: 🧤<br><br>🐟 Los peces sacaron la basura del fondo<br>🦦 Las nutrias empujaron las botellas a la orilla<br>🦅 Las águilas reportaron dónde había más basura<br>🐢 Las tortugas recogeron los papeles<br><br>¡Fue un gran trabajo en equipo!<br><br>The animals decided to clean the river together."
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #55efc4 0%, #74b9ff 100%)",
+      "narration": "Poco a poco, el río fue recuperando su salud.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "¡Poco a poco, el río fue mejorando! 🌟<br><br>Las aguas volvieron a ser cristalinas.<br>Los peces pudieron respirar de nuevo.<br>Las flores volvieron a crecer en las orillas.<br><br>—¡Gracias, amigos! —dijo el río feliz—. ¡Me siento mucho mejor!<br><br>💧 <em>\"El agua limpia es vida. Cuidemos nuestros ríos.\"</em><br><br>Little by little, the river was recovering its health."
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #74b9ff 0%, #55efc4 100%)",
+      "narration": "Los animales aprendieron una lección importante.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Los animales aprendieron algo muy importante: 💡<br><br>🚫 No tirar basura en el agua<br>♻️ Reciclar y reutilizar<br>🌱 Cuidar las plantas de las orillas<br>💧 Valorar el agua limpia<br><br>Y crearon un club llamado <strong>\"Guardianes del Río\"</strong> para cuidarlo siempre.<br><br>The animals learned an important lesson."
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué hacía que el río estuviera enfermo?",
+            "options": [
+              {
+                "text": "Demasiada agua"
+              },
+              {
+                "text": "La contaminación y basura en el agua"
+              },
+              {
+                "text": "Los peces"
+              },
+              {
+                "text": "El sol"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! La contaminación y basura en el agua hacía que el río estuviera enfermo.",
+              "incorrect": "¡Ups! La respuesta correcta es la contaminación y basura."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué pueden hacer los niños para cuidar los ríos?",
+            "options": [
+              {
+                "text": "Tirar basura al agua"
+              },
+              {
+                "text": "No tirar basura y cuidar el agua"
+              },
+              {
+                "text": "Usar mucha agua"
+              },
+              {
+                "text": "Pintar los ríos de otro color"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! No tirar basura y cuidar el agua.",
+              "incorrect": "La respuesta correcta es no tirar basura y cuidar el agua."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #00b894 0%, #0984e3 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "water",
+            "content": "💧",
+            "matchId": "water"
+          },
+          {
+            "id": "fish",
+            "content": "🐟",
+            "matchId": "fish"
+          },
+          {
+            "id": "tree",
+            "content": "🌳",
+            "matchId": "tree"
+          },
+          {
+            "id": "recycle",
+            "content": "♻️",
+            "matchId": "recycle"
+          },
+          {
+            "id": "clean",
+            "content": "🧤",
+            "matchId": "clean"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #00b894 0%, #0984e3 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: nuestros ríos y océanos necesitan nuestra ayuda. No tires basura, usa menos plástico y cuida el agua. ¡El planeta te lo agradecerá! 💧🌍<br><br>Remember: Our rivers and oceans need our help. Don't throw trash, use less plastic, and take care of water. The planet will thank you!"
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

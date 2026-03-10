@@ -1,0 +1,343 @@
+{
+  "id": "045-el-cuarto-desordenado",
+  "version": "1.0",
+  "meta": {
+    "title": "El cuarto desordenado",
+    "subtitle": "A story about responsibility and organization",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#3498db",
+      "secondaryColor": "#2980b9",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #2980b9 0%, #3498db 50%, #5dade2 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #2980b9 0%, #3498db 50%, #5dade2 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/045-cuarto.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El cuarto desordenado",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre responsabilidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2980b9 0%, #3498db 100%)",
+      "narration": "Martín tenía un cuarto que era un desastre total. Había juguetes tirados por todas partes, calcetines debajo de la cama, libros apilados sin orden y ropa limpia mezclada con la sucia. ¡No había dónde pisar!",
+      "elements": [
+        {
+          "id": "room-img",
+          "type": "image",
+          "src": "images/045-cuarto.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Martín tenía un cuarto que era un desastre total. Había juguetes tirados por todas partes, calcetines debajo de la cama, libros apilados sin orden y ropa limpia mezclada con la sucia. ¡No había dónde pisar!<br><br><em>Martín had a room that was a total mess. There were toys scattered everywhere, socks under the bed, books stacked in no order, and clean clothes mixed with dirty ones. There was no place to step!</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #2980b9 100%)",
+      "narration": "Cada mañana, su mamá le decía: 'Martín, ordena tu cuarto'. Y él respondía: '¡Ahora no, después!'. But 'después' nunca llegaba. El desorden se hacía cada vez más grande.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Cada mañana, su mamá le decía: 'Martín, ordena tu cuarto'. Y él respondía: <strong>'¡Ahora no, después!'</strong> ¡Pero 'después' nunca llegaba!<br><br><em>Every morning, his mom said: 'Martín, clean your room.' And he replied: 'Not now, later!' But 'later' never came.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #2980b9 0%, #c0392b 100%)",
+      "narration": "Un día, Martín no encontró su juguete favorito: un dinosaurio de juguete. Buscó por todas partes entre el desorden. Tardó una hora buscando, y al final lo encontró ¡dentro de su zapato!",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, Martín no encontró su juguete favorito: un dinosaurio. <strong>Tardó una hora buscándolo entre el desorden.</strong> ¡Al final lo encontró dentro de su zapato!<br><br><em>One day, Martín couldn't find his favorite toy: a dinosaur. He spent an hour searching through the mess. In the end, he found it inside his shoe!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c0392b 0%, #3498db 100%)",
+      "narration": "Entonces Martín entendió: mantener ordenado su cuarto era su responsabilidad. Si lo ordenaba todos los días, no perdería tiempo buscando sus cosas. Cogió una canasta y empezó a organizar todo.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Entonces Martín entendió: <strong>mantener ordenado su cuarto era su responsabilidad.</strong> Si lo ordenaba todos los días, no perdería tiempo buscando sus cosas.<br><br><em>Then Martín understood: keeping his room organized was his responsibility. If he cleaned it every day, he wouldn't waste time looking for his things.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #5dade2 100%)",
+      "narration": "En solo una hora, su cuarto estaba limpio y ordenado. Los juguetes en su caja, los libros en la estantería, la ropa en el armario. ¡Ahora podía encontrar todo fácilmente! Y su mamá estaba muy orgullosa.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "En solo una hora, su cuarto estaba limpio y ordenado. <strong>Los juguetes en su caja, los libros en la estantería, la ropa en el armario.</strong> ¡Ahora podía encontrar todo fácilmente!<br><br><em>In just one hour, his room was clean and organized. Toys in their box, books on the shelf, clothes in the closet. Now he could find everything easily!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo estaba el cuarto de Martín?",
+            "options": [
+              {
+                "text": "Limpio y ordenado"
+              },
+              {
+                "text": "Un desastre total"
+              },
+              {
+                "text": "Solo tenía juguetes"
+              },
+              {
+                "text": "Vacío"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El cuarto estaba desordenado.",
+              "incorrect": "La respuesta correcta es que estaba un desastre total."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué le pasó a Martín un día?",
+            "options": [
+              {
+                "text": "No encontró su juguete favorito"
+              },
+              {
+                "text": "Se mudó de casa"
+              },
+              {
+                "text": "Perdió su cama"
+              },
+              {
+                "text": "Encontró dinero"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "correct": "¡Exacto! No encontró su juguete favorito.",
+              "incorrect": "La respuesta correcta es que no encontró su juguete favorito."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Martín?",
+            "options": [
+              {
+                "text": "Que el desorden es bueno"
+              },
+              {
+                "text": "Que ordenar su cuarto es su responsabilidad"
+              },
+              {
+                "text": "Que no debe tener juguetes"
+              },
+              {
+                "text": "Que su mamá debe ordenar"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Ordenar su cuarto es su responsabilidad.",
+              "incorrect": "La respuesta correcta es que ordenar su cuarto es su responsabilidad."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #3498db 0%, #5dade2 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "room",
+            "content": "🏠",
+            "matchId": "room"
+          },
+          {
+            "id": "toy",
+            "content": "🧸",
+            "matchId": "toy"
+          },
+          {
+            "id": "book",
+            "content": "📚",
+            "matchId": "book"
+          },
+          {
+            "id": "clean",
+            "content": "🧹",
+            "matchId": "clean"
+          },
+          {
+            "id": "box",
+            "content": "📦",
+            "matchId": "box"
+          },
+          {
+            "id": "happy",
+            "content": "😊",
+            "matchId": "happy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #2980b9 0%, #5dade2 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Keeping our space organized helps us find things easily!<br><strong>¡Remember!</strong> ¡Mantener nuestro espacio organizado nos ayuda a encontrar las cosas fácilmente!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

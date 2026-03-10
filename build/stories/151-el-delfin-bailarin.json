@@ -1,0 +1,252 @@
+{
+  "id": "151-el-delfin-bailarin",
+  "version": "1.0",
+  "meta": {
+    "title": "El Delfín Bailarín",
+    "subtitle": "A story about friendship and music",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#0ea5e9",
+      "secondaryColor": "#0284c7",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #0c4a6e 0%, #0369a1 50%, #0c4a6e 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/151-delfin.jpg",
+          "position": { "x": "center", "y": "top", "width": "280px" }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Delfín Bailarín",
+          "position": { "x": "center", "y": "center" },
+          "style": { "fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)" }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre la amistad y la música",
+          "position": { "x": "center", "y": "bottom" },
+          "style": { "fontSize": "1.3em", "opacity": "0.95" }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0c4a6e 0%, #0369a1 100%)",
+      "narration": "En el vasto océano Pacífico vivía un delfín llamado <strong>Marino</strong>. Marino era diferente a los demás delfines: le encantaba bailar al ritmo de las olas.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el vasto océano Pacífico vivía un delfín llamado <strong>Marino</strong>. Marino era diferente a los demás delfines: le encantaba bailar al ritmo de las olas.<br><br><em>In the vast Pacific Ocean lived a dolphin named Marino. Marino was different from other dolphins: he loved to dance to the rhythm of the waves.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0369a1 0%, #0284c7 100%)",
+      "narration": "Cada mañana, cuando el sol salía, Marino saltaba fuera del agua y giraba en el aire. Los peces lo miraban asombrados desde abajo.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Cada mañana, cuando el sol salía, Marino saltaba fuera del agua y giraba en el aire. Los peces lo miraban asombrados desde abajo.<br><br><em>Every morning, when the sun rose, Marino jumped out of the water and spun in the air. The fish watched him amazed from below.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0284c7 0%, #0ea5e9 100%)",
+      "narration": "Un día, una ballena llamada <strong>Canto</strong> se acercó a Marino. '¿Por qué bailas così?', preguntó curiosa. 'Porque la música vive en mi corazón', respondió Marino sonriendo.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, una ballena llamada <strong>Canto</strong> se acercó a Marino. '¿Por qué bailas così?', preguntó curiosa. 'Porque la música vive en mi corazón', respondió Marino sonriendo.<br><br><em>One day, a whale named Canto approached Marino. 'Why do you dance like that?' asked curiously. 'Because music lives in my heart,' replied Marino smiling.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0ea5e9 0%, #38bdf8 100%)",
+      "narration": "Canto tenía la voz más hermosa de todo el océano. Cantaba canciones antiguas que emocionaban a todos los animales marinos.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Canto tenía la voz más hermosa de todo el océano. Cantaba canciones antiguas que emocionaban a todos los animales marinos.<br><br><em>Canto had the most beautiful voice in the entire ocean. She sang ancient songs that moved all the sea animals.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #38bdf8 0%, #0ea5e9 100%)",
+      "narration": "Marino y Canto decidieron hacer un show juntos. Marino bailaría mientras Canto cantaría su melodía más bonita.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Marino y Canto decidieron hacer un show juntos. Marino bailaría mientras Canto cantaría su melodía más bonita.<br><br><em>Marino and Canto decided to put on a show together. Marino would dance while Canto would sing her prettiest melody.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0ea5e9 0%, #0284c7 100%)",
+      "narration": "Invitaron a todos sus amigos: estrellas de mar, pulpos, tortugas y peces de colores. El Gran Evento Musical del Océano estaba por comenzar.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Invitaron a todos sus amigos: estrellas de mar, pulpos, tortugas y peces de colores. El Gran Evento Musical del Océano estaba por comenzar.<br><br><em>They invited all their friends: starfish, octopuses, turtles, and colorful fish. The Great Ocean Musical Event was about to begin.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0284c7 0%, #0369a1 100%)",
+      "narration": "Cuando el sol estuvo en lo alto, Canto comenzó a cantar. Su voz era tan hermosa que hasta las olas se detuvieron para escucharla.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "Cuando el sol estuvo en lo alto, Canto comenzó a cantar. Su voz era tan hermosa que hasta las olas se detuvieron para escucharla.<br><br><em>When the sun was high, Canto began to sing. Her voice was so beautiful that even the waves stopped to listen.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-8",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0369a1 0%, #0c4a6e 100%)",
+      "narration": "Marino empezó a bailar. Giraba, saltaba y trazaba figuras en el aire. Los espectadores aplaudían con sus aletas.",
+      "elements": [
+        {
+          "id": "text-8",
+          "type": "text",
+          "content": "Marino empezó a bailar. Giraba, saltaba y trazaba figuras en el aire. Los espectadores aplaudían con sus aletas.<br><br><em>Marino began to dance. He spun, jumped, and traced figures in the air. The audience applauded with their fins.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-9",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0c4a6e 0%, #0369a1 100%)",
+      "narration": "Fue el espectáculo más hermoso que el océano había presenciado. Y ese día, Marino y Canto descubrieron algo importante: los amigos hacen todo más divertido.",
+      "elements": [
+        {
+          "id": "text-9",
+          "type": "text",
+          "content": "Fue el espectáculo más hermoso que el océano había presenciado. Y ese día, Marino y Canto descubrieron algo importante: <strong>los amigos hacen todo más divertido</strong>.<br><br><em>It was the most beautiful show the ocean had ever witnessed. And that day, Marino and Canto discovered something important: friends make everything more fun.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "page-10",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0369a1 0%, #0284c7 100%)",
+      "narration": "Desde entonces, Marino y Canto bailaban y cantaban juntos cada atardecer. Y todos en el océano aprendieron que la música y la amistad son los mayores tesoros.",
+      "elements": [
+        {
+          "id": "text-10",
+          "type": "text",
+          "content": "Desde entonces, Marino y Canto bailaban y cantaban juntos cada atardecer. Y todos en el océano aprendieron que <strong>la música y la amistad son los mayores tesoros</strong>.<br><br><em>From then on, Marino and Canto danced and sang together every sunset. And everyone in the ocean learned that music and friendship are the greatest treasures.</em>",
+          "position": { "x": "center", "y": "center" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el delfín protagonista?",
+            "options": [{"text": "Canto"}, {"text": "Marino"}, {"text": "Salto"}, {"text": "Onda"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! El delfín se llamaba Marino.", "incorrect": "La respuesta correcta es Marino."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué animal cantaba con voz hermosa?",
+            "options": [{"text": "Una tortuga"}, {"text": "Una ballena"}, {"text": "Un pulpo"}, {"text": "Una estrella de mar"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Era una ballena llamada Canto.", "incorrect": "La respuesta correcta es una ballena."}
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué descubrieron Marino y Canto?",
+            "options": [{"text": "Que los delfines nadan rápido"}, {"text": "Que los amigos hacen todo más divertido"}, {"text": "Que el océano es grande"}, {"text": "Que las ballenas cantan"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Muy bien! Descubrieron que los amigos hacen todo más divertido.", "incorrect": "La respuesta correcta es que los amigos hacen todo más divertido."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #0284c7 0%, #0369a1 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": { "x": "center", "y": "center" },
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: baila, canta y celebra la música con tus amigos. La amistad hace nuestra vida más colorida y feliz.<br><br><em>Remember: dance, sing, and celebrate music with your friends. Friendship makes our lives more colorful and happy.</em>",
+          "position": { "x": "center", "y": "bottom" },
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Momento de lectura", "en": "Reading time"},
+      "content": {"es": "Lee esta historia antes de dormir y pregunta a tu niño qué le gustaría bailar.", "en": "Read this story before bedtime and ask your child what they would like to dance to."},
+      "icon": "📚"
+    },
+    {
+      "title": {"es": "Actividad musical", "en": "Musical activity"},
+      "content": {"es": "Ponen música y bailen juntos en familia.", "en": "Play music and dance together as a family."},
+      "icon": "🎵"
+    }
+  ]
+}

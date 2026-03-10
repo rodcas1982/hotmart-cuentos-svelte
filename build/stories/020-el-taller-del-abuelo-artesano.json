@@ -1,0 +1,211 @@
+{
+  "id": "020",
+  "meta": {
+    "title": {
+      "es": "El Taller del Abuelo Artesano",
+      "en": "Grandfather's Craft Workshop"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      5,
+      9
+    ],
+    "language": "es",
+    "theme": {
+      "background": "linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)",
+      "primaryColor": "#d4fc79"
+    }
+  },
+  "pages": [
+    {
+      "id": 1,
+      "type": "cover",
+      "title": {
+        "es": "El Taller del Abuelo Artesano",
+        "en": "Grandfather's Craft Workshop"
+      },
+      "heroImage": "Abuelo condelable blanco haciendo manualidades en un taller lleno de herramientas y madera, con su nieto observándolo",
+      "background": "linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)"
+    },
+    {
+      "id": 2,
+      "type": "story",
+      "text": {
+        "es": "En una pequeña aldea, había un taller muy especial donde vivía el abuelo Miguel, un artesano famoso por hacer los juguetes más Hermosos de la región. Cada día,锯木头, lijaba piezas, y creaba magique. Su nieto Alejandro, de siete años, loved visiting el taller para aprender los secretos del oficio de su abuelo.",
+        "en": "In a small village, there was a very special workshop where Grandfather Miguel lived, a craftsman famous for making the most beautiful toys in the region. Every day, he sawed wood, sanded pieces, and created magic. His grandson Alejandro, who was seven years old, loved visiting the workshop to learn the secrets of his grandfather's craft."
+      },
+      "image": {
+        "src": "Abuelo trabajando en el taller con su nieto mirando con curiosidad",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "En una pequeña aldea...",
+        "en": "In a small village..."
+      }
+    },
+    {
+      "id": 3,
+      "type": "story",
+      "text": {
+        "es": "Un día, Alejandro le preguntó a su abuelo: 'Abuelo, ¿cómo aprendiste a hacer cosas tan bonitas?' El abuelo sonrió y respondió: 'Mijo, cuando tenía tu edad, no sabía hacer nada. Pero un día conocí a un maestro que me enseñó que la clave está en la paciencia y la práctica. Cada error es una oportunidad de aprender'.",
+        "en": "One day, Alejandro asked his grandfather: 'Grandpa, how did you learn to make such beautiful things?' The grandfather smiled and replied: 'Son, when I was your age, I didn't know how to make anything. But one day I met a master who taught me that the key is patience and practice. Every mistake is an opportunity to learn.'"
+      },
+      "image": {
+        "src": "Abuelo conversando con su nieto, con expresiones sabias",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Un día, Alejandro le preguntó...",
+        "en": "One day, Alejandro asked..."
+      }
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "text": {
+        "es": "Alejandro decidió probar hacer su propio juguete. El abuelo le dio un trozo de madera y herramientas pequeñas. El niño comenzó a锯 pero很快 se dio cuenta de que no era tan fácil como parecía. La madera no salía como él quería y começou a fárm frustado. '¡Es muy difícil!', exclamó.",
+        "en": "Alejandro decided to try making his own toy. The grandfather gave him a piece of wood and small tools. The child began to saw but quickly realized it wasn't as easy as it looked. The wood didn't come out as he wanted and he started to get frustrated. 'It's very difficult!' he exclaimed."
+      },
+      "image": {
+        "src": "Niño frustrado fallando en su manualidad, con madera problemática",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Alejandro decidió probar...",
+        "en": "Alejandro decided to try..."
+      }
+    },
+    {
+      "id": 5,
+      "type": "story",
+      "text": {
+        "es": "El abuelo se acercó y le dijo con cariño: 'Recuerdas lo que te dije: cada error es una oportunidad. Mira, esta pieza parece mal, pero puede convertirse en algo diferente y también hermoso'. El abuelo tomó la pieza 'fallida' y la transformó en un pequeño barco. ¡Era perfecto! Alejandro aprendió una lección valiosa.",
+        "en": "The grandfather approached and said lovingly: 'Remember what I told you: every mistake is an opportunity. Look, this piece seems wrong, but it can become something different and also beautiful.' The grandfather took the 'failed' piece and transformed it into a small boat. It was perfect! Alejandro learned a valuable lesson."
+      },
+      "image": {
+        "src": "Abuelo convirtiendo un error en un hermoso barco, nieto observando sorprendido",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "El abuelo se acercó...",
+        "en": "The grandfather approached..."
+      }
+    },
+    {
+      "id": 6,
+      "type": "story",
+      "text": {
+        "es": "Con el tiempo, Alejandro se volvió muy habilidoso. No porque dejara de cometer errores, sino porque aprendió a verlos de otra manera. Sus juguetes se venden hoy en día en la aldea, y la gente dice que tienen un toque especial. Alejandro sabe que eso es porque cada juguete está hecho con amor, paciencia y aceptación de la imperfección.",
+        "en": "Over time, Alejandro became very skillful. Not because he stopped making mistakes, but because he learned to see them differently. His toys are now sold in the village, and people say they have a special touch. Alejandro knows that's because each toy is made with love, patience, and acceptance of imperfection."
+      },
+      "image": {
+        "src": "Niño mayor creando juguetes hermosamente, con el abuelo sonriendo在旁边",
+        "position": "bottom"
+      },
+      "narration": {
+        "es": "Con el tiempo...",
+        "en": "Over time..."
+      }
+    },
+    {
+      "id": 7,
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué nos enseña el abuelo sobre los errores?",
+              "en": "What does the grandfather teach us about mistakes?"
+            },
+            "options": [
+              {
+                "es": "Que son el fin del mundo",
+                "en": "That they are the end of the world"
+              },
+              {
+                "es": "Que son oportunidades de aprender",
+                "en": "That they are opportunities to learn"
+              },
+              {
+                "es": "Que no debemos intentar nada",
+                "en": "That we shouldn't try anything"
+              },
+              {
+                "es": "Que los adultos no cometen errores",
+                "en": "That adults don't make mistakes"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "es": "¡Correcto! Los errores son oportunidades de aprender y crecer.",
+              "en": "Correct! Mistakes are opportunities to learn and grow."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "game",
+      "gameConfig": {
+        "gameType": "memory",
+        "items": [
+          {
+            "id": "grandpa",
+            "content": "👴",
+            "matchId": "grandpa"
+          },
+          {
+            "id": "boy",
+            "content": "👦",
+            "matchId": "boy"
+          },
+          {
+            "id": "tool",
+            "content": "🔨",
+            "matchId": "tool"
+          },
+          {
+            "id": "wood",
+            "content": "🪵",
+            "matchId": "wood"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

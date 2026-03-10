@@ -1,0 +1,352 @@
+{
+  "id": "087-la-mascota-que-enfermo",
+  "version": "1.0",
+  "meta": {
+    "title": "La Mascota que Enfermó",
+    "subtitle": "A story about caring for sick pets",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#ef6c00",
+      "secondaryColor": "#ffb74d",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #ffe0b2 0%, #ffcc80 50%, #ffb74d 100%)",
+      "textColor": "#4e342e"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #ffe0b2 0%, #ffb74d 50%, #ffcc80 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/087-mascota-enferma.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "La Mascota que Enfermó",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.2)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre cuidar a nuestros amigos",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffe0b2 0%, #ffcc80 100%)",
+      "narration": "Ana tenía un perrito golden llamado Max que era su mejor amigo. Jugaban juntos todos los días y Max siempre la esperaba en la puerta con la cola moviéndose.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Ana tenía un perrito golden llamado <strong>Max</strong> que era su mejor amigo. Jugaban juntos todos los días y Max siempre la esperaba en la puerta con la cola moviéndose 🐕.<br><br><em>Ana had a golden puppy named Max who was her best friend. They played together every day and Max always waited for her at the door wagging his tail.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffcc80 0%, #ffb74d 100%)",
+      "narration": "Pero un día, Max no levantó la cabeza cuando Ana llegó. No quería comer su comida favorita y solo se acostaba en su rincón.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Pero un día, Max no levantó la cabeza cuando Ana llegó. No quería comer su comida favorita y solo se acostaba en su rincón 😢.<br><br><em>But one day, Max didn't lift his head when Ana came home. He didn't want to eat his favorite food and just lay down in his corner.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffb74d 0%, #ff9800 100%)",
+      "narration": "—Max, ¿qué te pasa? —preguntó Ana preocupada. Llevó a Max al veterinario, quien dijo que Max estaba enfermo y necesitaba medicina y mucho descanso.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "—Max, ¿qué te pasa? —preguntó Ana preocupada. Llevó a Max al veterinario 🏥, quien dijo que Max estaba enfermo y necesitaba medicina y mucho descanso.<br><br><em>—Max, what's wrong? —Ana asked worried. She took Max to the vet, who said Max was sick and needed medicine and lots of rest.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ff9800 0%, #ef6c00 100%)",
+      "narration": "Ana cuidó de Max con mucho amor. Le daba su medicina dos veces al día, le preparaba comida suave y le hablaba suavemente.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Ana cuidó de Max con mucho amor ❤️. Le daba su medicina dos veces al día 💊, le preparaba comida suave y le hablaba suavemente.<br><br><em>Ana took care of Max with lots of love. She gave him his medicine twice a day, made him soft food, and talked to him gently.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ef6c00 0%, #8bc34a 100%)",
+      "narration": "Después de una semana, Max comenzó a sentirse mejor. Ya podía caminar un poco y hasta movió la cola cuando Ana llegó del escuela.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Después de una semana, Max comenzó a sentirse mejor. Ya podía caminar un poco y hasta movió la cola cuando Ana llegó de la escuela 🎒.<br><br><em>After a week, Max started to feel better. He could already walk a little and even wagged his tail when Ana came home from school.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #8bc34a 0%, #4caf50 100%)",
+      "narration": "Max se recuperó completamente. Ana aprendió que cuidar a una mascota es una gran responsabilidad, pero también es una forma de demostrar amor verdadero.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Max se recuperó completamente. Ana aprendió que cuidar a una mascota es una gran responsabilidad, pero también es una forma de demostrar amor verdadero 💕.<br><br><em>Max recovered completely. Ana learned that taking care of a pet is a big responsibility, but it's also a way to show true love.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el perrito de Ana?",
+            "options": [
+              {
+                "text": "Rex"
+              },
+              {
+                "text": "Max"
+              },
+              {
+                "text": "Bobby"
+              },
+              {
+                "text": "Toby"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El perrito se llamaba Max.",
+              "incorrect": "La respuesta correcta es Max."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿A dónde llevó Ana a Max cuando se enfermó?",
+            "options": [
+              {
+                "text": "Al parque"
+              },
+              {
+                "text": "Al veterinario"
+              },
+              {
+                "text": "A la tienda"
+              },
+              {
+                "text": "A la escuela"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Lo llevó al veterinario.",
+              "incorrect": "La respuesta correcta es al veterinario."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Ana sobre las mascotas?",
+            "options": [
+              {
+                "text": "Que no necesitan cuidados"
+              },
+              {
+                "text": "Que son una responsabilidad y amor"
+              },
+              {
+                "text": "Que son fáciles de tener"
+              },
+              {
+                "text": "Que no se enferman"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Ana aprendió que cuidar mascotas es una responsabilidad y una forma de demostrar amor.",
+              "incorrect": "La respuesta correcta es que son una responsabilidad y amor."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #ffcc80 0%, #8bc34a 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "care-pattern",
+        "sequence": [
+          "medicina",
+          "comida",
+          "agua",
+          "abrazos",
+          "descanso"
+        ],
+        "steps": [
+          {
+            "id": "step-1",
+            "content": "💊",
+            "name": "Dar medicina",
+            "order": 1
+          },
+          {
+            "id": "step-2",
+            "content": "🍖",
+            "name": "Dar comida",
+            "order": 2
+          },
+          {
+            "id": "step-3",
+            "content": "💧",
+            "name": "Dar agua",
+            "order": 3
+          },
+          {
+            "id": "step-4",
+            "content": "🤗",
+            "name": "Dar abrazos",
+            "order": 4
+          },
+          {
+            "id": "step-5",
+            "content": "😴",
+            "name": "Permitir descansar",
+            "order": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #8bc34a 0%, #4caf50 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: nuestros amigos peludos dependen de nosotros. Cuidarlos es un acto de amor que nos da mucha felicidad.<br><br><em>Remember: our furry friends depend on us. Taking care of them is an act of love that gives us lots of happiness.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

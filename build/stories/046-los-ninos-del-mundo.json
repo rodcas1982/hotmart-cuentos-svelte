@@ -1,0 +1,343 @@
+{
+  "id": "046-los-ninos-del-mundo",
+  "version": "1.0",
+  "meta": {
+    "title": "Los niños del mundo",
+    "subtitle": "A story about diversity and friendship around the world",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#e91e63",
+      "secondaryColor": "#f06292",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #ad1457 0%, #e91e63 50%, #f48fb1 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #ad1457 0%, #e91e63 50%, #f48fb1 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/046-ninos-mundo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "Los niños del mundo",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre diversidad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.3em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ad1457 0%, #e91e63 100%)",
+      "narration": "En un pueblo pequeño llamado Arcoíris, vivían niños de muchos lugares diferentes. María tenía la piel morena y venía de México. Kenji tenía ojos rasgados y venía de Japón. Todos eran diferentes, pero los unite something special.",
+      "elements": [
+        {
+          "id": "kids-img",
+          "type": "image",
+          "src": "images/046-ninos-mundo.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "180px"
+          },
+          "animation": {
+            "type": "bounce",
+            "delay": 300
+          }
+        },
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un pueblo llamado Arcoíris, vivían niños de muchos lugares diferentes. <strong>María</strong> tenía la piel morena y venía de México. <strong>Kenji</strong> tenía ojos rasgados y venía de Japón. ¡Todos eran diferentes, pero los unía algo especial!<br><br><em>In a town called Rainbow, children from many different places lived together. María had brown skin and came from Mexico. Kenji had slanted eyes and came from Japan. They were all different, but something special united them.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #ad1457 100%)",
+      "narration": "Amara tenía el cabello rizado y negro como la noche, y venía de Kenia. Liam tenía el cabello rubio y ojos azules, y venía de Suecia. Cada niño traía historias únicas de sus países lejanos.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "<strong>Amara</strong> tenía el cabello rizado y negro como la noche, y venía de Kenia. <strong>Liam</strong> tenía el cabello rubio y ojos azules, y venía de Suecia. ¡Cada niño traía historias únicas!<br><br><em>Amara had curly black hair like the night, and came from Kenya. Liam had blonde hair and blue eyes, and came from Sweden. Each child brought unique stories from their distant countries.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ad1457 0%, #7b1fa2 100%)",
+      "narration": "Un día, la maestra les pidió que cada uno enseñara algo de su cultura. María enseñó a bailar mariachi. Kenji mostró origami. Amara compartió una canción en su idioma. ¡Todos aprendieron cosas maravillosas!",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, la maestra les pidió que cada uno enseñara algo de su cultura. <strong>María enseñó a bailar mariachi. Kenji mostró origami.</strong> ¡Todos aprendieron cosas maravillosas!<br><br><em>One day, the teacher asked each child to teach something from their culture. María taught them to dance mariachi. Kenji showed origami. Everyone learned wonderful things!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #7b1fa2 0%, #e91e63 100%)",
+      "narration": "Los niños descubrieron que aunque vengan de lugares distintos, todos comparten los mismos sentimientos: alegría, tristeza, amor y esperanza. ¡La diversidad los hacía más ricos como amigos!",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Los niños descubrieron que aunque vengan de lugares distintos, <strong>todos comparten los mismos sentimientos:</strong> alegría, tristeza, amor y esperanza. ¡La diversidad los hacía más ricos como amigos!<br><br><em>The children discovered that although they come from different places, they all share the same feelings: joy, sadness, love, and hope. Diversity made them richer as friends!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e91e63 0%, #f48fb1 100%)",
+      "narration": "Desde ese día, los niños de Arcoíris entendieron algo hermoso: ser diferentes nos hace únicos y especiales. Cuando nos respetamos y queremos, formamos un mundo más colorido y feliz para todos.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Desde ese día, entendieron algo hermoso: <strong>ser diferentes nos hace únicos y especiales.</strong> Cuando nos respetamos, formamos un mundo más colorido y feliz.<br><br><em>From that day on, they understood something beautiful: being different makes us unique and special. When we respect each other, we create a more colorful and happy world for everyone.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿De dónde venía María?",
+            "options": [
+              {
+                "text": "Japón"
+              },
+              {
+                "text": "México"
+              },
+              {
+                "text": "Suecia"
+              },
+              {
+                "text": "Kenia"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! María venía de México.",
+              "incorrect": "La respuesta correcta es México."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué ensañó Kenji?",
+            "options": [
+              {
+                "text": "Bailar mariachi"
+              },
+              {
+                "text": "Origami"
+              },
+              {
+                "text": "Cantar"
+              },
+              {
+                "text": "Pintar"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Kenji enseñó origami.",
+              "incorrect": "La respuesta correcta es origami."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué descubrieron los niños?",
+            "options": [
+              {
+                "text": "Que todos somos iguales"
+              },
+              {
+                "text": "Que compartir los hace mejores amigos"
+              },
+              {
+                "text": "Que no deben hablar de sus países"
+              },
+              {
+                "text": "Que la diversidad no importa"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Descubrieron que compartir los hace mejores amigos.",
+              "incorrect": "La respuesta correcta es que compartir los hace mejores amigos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #e91e63 0%, #f48fb1 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [
+          4,
+          3
+        ],
+        "items": [
+          {
+            "id": "globe",
+            "content": "🌍",
+            "matchId": "globe"
+          },
+          {
+            "id": "heart",
+            "content": "❤️",
+            "matchId": "heart"
+          },
+          {
+            "id": "friends",
+            "content": "👫",
+            "matchId": "friends"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "matchId": "star"
+          },
+          {
+            "id": "rainbow",
+            "content": "🌈",
+            "matchId": "rainbow"
+          },
+          {
+            "id": "music",
+            "content": "🎵",
+            "matchId": "music"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #ad1457 0%, #f48fb1 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "<strong>¡Remember!</strong> Our differences make the world beautiful!<br><strong>¡Remember!</strong> ¡Nuestras diferencias hacen hermoso el mundo!",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

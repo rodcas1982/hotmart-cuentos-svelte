@@ -1,0 +1,392 @@
+{
+  "id": "085-el-payaso-que-daba-miedo",
+  "version": "1.0",
+  "meta": {
+    "title": "El Payaso que Daba Miedo",
+    "subtitle": "A story about understanding others",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#c62828",
+      "secondaryColor": "#ef5350",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #b71c1c 0%, #d32f2f 50%, #c62828 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #b71c1c 0%, #ef5350 50%, #c62828 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/085-payaso.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Payaso que Daba Miedo",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.4em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.6)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre juzgar por apariencias",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #b71c1c 0%, #c62828 100%)",
+      "narration": "En el circo havia un payaso llamado Pompero. Pero los niños le tenían mucho miedo porque su cara pintada y su nariz roja les parecían extraños.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En el circo había un payaso llamado <strong>Pompero</strong>. Pero los niños le tenían mucho miedo porque su cara pintada y su nariz roja les parecían extraños.<br><br><em>There was a clown named Pompero in the circus. But children were very scared of him because his painted face and red nose seemed strange to them.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #c62828 0%, #d32f2f 100%)",
+      "narration": "—¡Que miedo! —gritaba un niño al ver a Pompero. Otro lloraba. Pero Pompero solo sonreía, aunque por dentro se sentía triste.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "—¡Qué miedo! —gritaba un niño al ver a Pompero. Otro lloraba. Pero Pompero solo sonreía, aunque por dentro se sentía triste porque nadie quería ser su amigo.<br><br><em>—So scary! —a child shouted when seeing Pompero. Another cried. But Pompero only smiled, although inside he felt sad because no one wanted to be his friend.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #d32f2f 0%, #ef5350 100%)",
+      "narration": "Un día, una niña llamada Lucía no le tuvo miedo. Se acercó a Pompero y le preguntó: —¿Por qué estás siempre triste debajo de toda esa pintura?",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Un día, una niña llamada Lucía no le tuvo miedo. Se acercó a Pompero y le preguntó: —¿Por qué estás siempre triste debajo de toda esa pintura?<br><br><em>One day, a girl named Lucia wasn't afraid of him. She approached Pompero and asked: —Why are you always sad underneath all that paint?</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ef5350 0%, #ffcdd2 100%)",
+      "narration": "Pompero se sorprende. Nadie nunca le había hablado así. —Porque nadie quiere ser mi amigo —respondió con los ojos moist.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Pompero se sorprende. —Porque nadie quiere ser mi amigo —respondió con los ojos llenos de lágrimas. Lucía entonces le dio un abrazo y dijo: —Yo seré tu amiga.<br><br><em>Pompero was surprised. —Because no one wants to be my friend —he replied with tears in his eyes. Lucia then gave him a hug and said: —I'll be your friend.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ffcdd2 0%, #ef9a9a 100%)",
+      "narration": "Lucía le presentó a Pompero a sus amigos. Les contó que Pompero era bueno y que solo quería hacerlos reír. Los demás niños comenzaron a entender.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Lucía le presentó a Pompero a sus amigos. Les contó que Pompero era bueno y que solo quería hacerlos reír 😄. Los demás niños comenzaron a entender.<br><br><em>Lucia introduced Pompero to her friends. She told them that Pompero was good and just wanted to make them laugh. The other children began to understand.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #ef9a9a 0%, #e57373 100%)",
+      "narration": "Desde ese día, Pompero se convirtió en el payaso favorito de todos. Los niños ya no le tenían miedo porque conocían su corazón bondadoso.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Desde ese día, Pompero se convirtió en el payaso favorito de todos. Los niños ya no le tenían miedo porque conocían su corazón bondadoso ❤️.<br><br><em>From that day on, Pompero became everyone's favorite clown. The children were no longer afraid of him because they knew his kind heart.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #e57373 0%, #81c784 100%)",
+      "narration": "Pompero y Lucía aprendieron algo importante: no debemos juzgar a las personas por cómo se ven. Primero debemos conocer su corazón.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "<strong>Aprendieron algo importante:</strong> no debemos juzgar a las personas por cómo se ven. Primero debemos conocer su corazón. Las apariencias engañan.<br><br><em>They learned something important: we should not judge people by how they look. First we must know their heart. Appearances can be deceiving.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el payaso?",
+            "options": [
+              {
+                "text": "Pipo"
+              },
+              {
+                "text": "Pompero"
+              },
+              {
+                "text": "Pepo"
+              },
+              {
+                "text": "Papo"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El payaso se llamaba Pompero.",
+              "incorrect": "La respuesta correcta es Pompero."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Quién le tuvo miedo a Pompero al principio?",
+            "options": [
+              {
+                "text": "Nadie"
+              },
+              {
+                "text": "Todos los niños"
+              },
+              {
+                "text": "Solo las niñas"
+              },
+              {
+                "text": "Los adultos"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Los niños le tenían miedo al principio.",
+              "incorrect": "La respuesta correcta es todos los niños."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendieron sobre juzgar a otros?",
+            "options": [
+              {
+                "text": "Que siempre estamos bien"
+              },
+              {
+                "text": "Que las apariencias engañan"
+              },
+              {
+                "text": "Que los payasos dan miedo"
+              },
+              {
+                "text": "Que no importa"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Muy bien! Aprendieron que las apariencias engañan y debemos conocer el corazón de las personas.",
+              "incorrect": "La respuesta correcta es que las apariencias engañan."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #c62828 0%, #ef5350 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "find-friends",
+        "gridSize": [
+          3,
+          3
+        ],
+        "items": [
+          {
+            "id": "clown-nice",
+            "content": "🤡",
+            "name": "Pompero",
+            "type": "friend",
+            "description": "El payaso amigable"
+          },
+          {
+            "id": "clown-scary",
+            "content": "😱",
+            "name": "Falso miedo",
+            "type": "not-real"
+          },
+          {
+            "id": "kid-1",
+            "content": "👧",
+            "name": "Lucía",
+            "type": "friend"
+          },
+          {
+            "id": "balloon",
+            "content": "🎈",
+            "name": "Globo",
+            "type": "item"
+          },
+          {
+            "id": "kid-2",
+            "content": "👦",
+            "name": "Amigo",
+            "type": "friend"
+          },
+          {
+            "id": "confetti",
+            "content": "🎉",
+            "name": "Confeti",
+            "type": "item"
+          },
+          {
+            "id": "kid-3",
+            "content": "🧒",
+            "name": "Niño",
+            "type": "friend"
+          },
+          {
+            "id": "rainbow",
+            "content": "🌈",
+            "name": "Arcoíris",
+            "type": "item"
+          },
+          {
+            "id": "star",
+            "content": "⭐",
+            "name": "Estrella",
+            "type": "item"
+          }
+        ],
+        "task": "Encuentra a los verdaderos amigos de Pompero"
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #ef5350 0%, #81c784 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: no juzgues a nadie por su apariencia. Todo el mundo merece una oportunidad de mostrar quién es realmente.<br><br><em>Remember: don't judge anyone by their appearance. Everyone deserves a chance to show who they really are.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

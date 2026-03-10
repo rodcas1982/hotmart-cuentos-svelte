@@ -1,0 +1,372 @@
+{
+  "id": "081-el-nino-temia-oscuridad",
+  "version": "1.0",
+  "meta": {
+    "title": "El Niño que Temía la Oscuridad",
+    "subtitle": "A story about overcoming the fear of the dark",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#2c3e50",
+      "secondaryColor": "#34495e",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/081-nino-oscuridad.jpg",
+          "position": {
+            "x": "center",
+            "y": "top",
+            "width": "280px"
+          }
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Niño que Temía la Oscuridad",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "style": {
+            "fontSize": "2.5em",
+            "fontWeight": "bold",
+            "textShadow": "3px 3px 6px rgba(0,0,0,0.6)"
+          }
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Una historia sobre superar el miedo a la oscuridad",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em",
+            "opacity": "0.95"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a2e 0%, #16213e 100%)",
+      "narration": "Había una vez un niño llamado Lucas que tenía mucho miedo de la oscuridad. Cada noche, cuando sus papás apagaban la luz, Lucas sentía que cosas feas se escondían en su cuarto.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "Había una vez un niño llamado <strong>Lucas</strong> que tenía mucho miedo de la oscuridad. Cada noche, cuando sus papás apagaban la luz, Lucas sentía que cosas feas se escondían en su cuarto.<br><br><em>Once upon a time there was a boy named Lucas who was very afraid of the dark. Every night, when his parents turned off the light, Lucas felt that ugly things were hiding in his room.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #16213e 0%, #0f3460 100%)",
+      "narration": "—¡Mami, prende la luz! —gritaba Lucas cada noche. Su mamá iba a su cuarto y le explicaba que no había nada malo en la oscuridad, pero Lucas no le creía.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "—¡Mami, prende la luz! —gritaba Lucas cada noche. Su mamá iba a su cuarto y le explicaba que no había nada malo en la oscuridad, pero Lucas no le creía.<br><br><em>—Mommy, turn on the light! —Lucas shouted every night. His mom would go to his room and explain that there was nothing bad in the dark, but Lucas didn't believe her.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0f3460 0%, #1a1a2e 100%)",
+      "narration": "Una noche, Lucas decidió ser valiente. En vez de gritar, tomó su linterna y la encendió. ¡Pero entonces descubrió algo mágico! Las sombras en la pared podían parecer animales divertidos.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "Una noche, Lucas decidió ser valiente. Tomó su linterna y la encendió. ¡Entonces descubrió algo mágico! Las sombras en la pared podían parecer animales divertidos: un conejo, un perro, ¡hasta un elefante!<br><br><em>One night, Lucas decided to be brave. Instead of shouting, he took his flashlight and turned it on. Then he discovered something magical! The shadows on the wall could look like fun animals: a rabbit, a dog, even an elephant!</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a2e 0%, #e94560 50%, #0f3460 100%)",
+      "narration": "Lucas comenzó a hacer sombras con sus manos. Un conejo, un perro, una mariposa. ¡La oscuridad ya no le daba miedo! Ahora era un mundo de magia y creatividad.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "Lucas comenzó a hacer sombras con sus manos. Un conejo 🐰, un perro 🐕, una mariposa 🦋. ¡La oscuridad ya no le daba miedo! Ahora era un mundo de magia y creatividad.<br><br><em>Lucas started making shadows with his hands. A rabbit, a dog, a butterfly. The dark was no longer scary to him! Now it was a world of magic and creativity.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #0f3460 0%, #16213e 100%)",
+      "narration": "Al día siguiente, Lucas le contó a su amigo Miguel lo que había descubierto. —¿Puedes enseñarme? —preguntó Miguel emocionado.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Al día siguiente, Lucas le contó a su amigo Miguel lo que había descubierto. —¿Puedes enseñarme? —preguntó Miguel emocionado. Lucas asintió feliz de compartir su descubrimiento.<br><br><em>The next day, Lucas told his friend Miguel what he had discovered. —Can you teach me? —asked Miguel excitedly. Lucas nodded, happy to share his discovery.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-6",
+      "type": "story",
+      "background": "linear-gradient(180deg, #16213e 0%, #1a1a2e 100%)",
+      "narration": "Esa noche, Lucas no le tuvo miedo a la oscuridad. Cerró los ojos pensando en los animalitos de sombras que había creado. Cuando despertó, era de día y el sol brillaba en su ventana.",
+      "elements": [
+        {
+          "id": "text-6",
+          "type": "text",
+          "content": "Esa noche, Lucas no le tuvo miedo a la oscuridad. Cerró los ojos pensando en los animalitos de sombras que había creado. ¡Cuando despertó, era de día y el sol brillaba en su ventana!<br><br><em>That night, Lucas was not afraid of the dark. He closed his eyes thinking about the little shadow animals he had created. When he woke up, it was day and the sun was shining in his window.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-7",
+      "type": "story",
+      "background": "linear-gradient(180deg, #1a1a2e 0%, #ffd700 100%)",
+      "narration": "Lucas aprendió algo muy importante: a veces los miedos parecen muy grandes, pero cuando los enfrentamos con valentía, descubrimos que no eran tan terribles después de todo.",
+      "elements": [
+        {
+          "id": "text-7",
+          "type": "text",
+          "content": "<strong>Lucas aprendió algo muy importante:</strong> a veces los miedos parecen muy grandes, pero cuando los enfrentamos con valentía, descubrimos que no eran tan terribles después de todo.<br><br><em>Lucas learned something very important: sometimes fears seem very big, but when we face them with bravery, we discover they weren't so terrible after all.</em>",
+          "position": {
+            "x": "center",
+            "y": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba el niño que le temía a la oscuridad?",
+            "options": [
+              {
+                "text": "Miguel"
+              },
+              {
+                "text": "Lucas"
+              },
+              {
+                "text": "Pedro"
+              },
+              {
+                "text": "Carlos"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Correcto! El niño se llamaba Lucas.",
+              "incorrect": "La respuesta correcta es Lucas."
+            }
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué descubrió Lucas en la oscuridad?",
+            "options": [
+              {
+                "text": "Un monstruo"
+              },
+              {
+                "text": "Animales de sombras"
+              },
+              {
+                "text": "Un tesoro"
+              },
+              {
+                "text": "Una puerta secreta"
+              }
+            ],
+            "correctIndex": 1,
+            "feedback": {
+              "correct": "¡Exacto! Descubrió que podía hacer sombras de animales con sus manos.",
+              "incorrect": "La respuesta correcta es animales de sombras."
+            }
+          },
+          {
+            "id": "q3",
+            "question": "¿Qué aprendió Lucas sobre el miedo?",
+            "options": [
+              {
+                "text": "Que es bueno tener miedo"
+              },
+              {
+                "text": "Que los miedos siempre son reales"
+              },
+              {
+                "text": "Que enfrentándolos descubrimos que no son tan terribles"
+              },
+              {
+                "text": "Que no se puede superar"
+              }
+            ],
+            "correctIndex": 2,
+            "feedback": {
+              "correct": "¡Muy bien! Lucas aprendió que enfrentando el miedo descubrimos que no es tan terrible.",
+              "incorrect": "La respuesta correcta es que enfrentándolos descubrimos que no son tan terribles."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "shadow-matching",
+        "gridSize": [
+          3,
+          2
+        ],
+        "items": [
+          {
+            "id": "rabbit",
+            "content": "🐰",
+            "matchId": "rabbit-shadow",
+            "hint": "Un animal de orejitas"
+          },
+          {
+            "id": "dog",
+            "content": "🐕",
+            "matchId": "dog-shadow",
+            "hint": "El mejor amigo del hombre"
+          },
+          {
+            "id": "butterfly",
+            "content": "🦋",
+            "matchId": "butterfly-shadow",
+            "hint": "Vuela con alas coloridas"
+          },
+          {
+            "id": "elephant",
+            "content": "🐘",
+            "matchId": "elephant-shadow",
+            "hint": "Es muy grande y tiene trompa"
+          },
+          {
+            "id": "cat",
+            "content": "🐱",
+            "matchId": "cat-shadow",
+            "hint": "Dice miau"
+          },
+          {
+            "id": "bird",
+            "content": "🐦",
+            "matchId": "bird-shadow",
+            "hint": "Vuela en el cielo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #16213e 0%, #0f3460 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "pulse"
+          }
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Recuerda: la oscuridad no es scary, es un lienzo mágico donde tu imaginación puede dibujar lo que quieras.<br><br><em>Remember: the dark is not scary, it's a magical canvas where your imagination can draw anything you want.</em>",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "style": {
+            "fontSize": "1.2em"
+          }
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento de lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Establece un momento固定的 para leer juntos cada día.",
+        "en": "Set a fixed time to read together every day."
+      },
+      "icon": "📚"
+    },
+    {
+      "title": {
+        "es": "Preguntas de comprensión",
+        "en": "Comprehension questions"
+      },
+      "content": {
+        "es": "Después de leer, haz preguntas simples sobre la historia.",
+        "en": "After reading, ask simple questions about the story."
+      },
+      "icon": "❓"
+    }
+  ]
+}

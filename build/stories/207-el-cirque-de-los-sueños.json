@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": {
+      "es": "El cirque de los sueños",
+      "en": "El cirque de los sueños"
+    },
+    "author": "Gerardo Rodríguez",
+    "ageRange": [
+      3,
+      6
+    ],
+    "theme": {
+      "background": "linear-gradient(180deg, #667eea 0%, #764ba2 100%)",
+      "primaryColor": "#FFD700"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "title": {
+        "es": "Titulo ES",
+        "en": "Title EN"
+      },
+      "background": "linear-gradient(180deg, #667eea 0%, #764ba2 100%)"
+    },
+    {
+      "id": "2",
+      "type": "story",
+      "text": {
+        "es": "Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. ",
+        "en": "Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. "
+      },
+      "image": {
+        "src": "descripción imagen página 2",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "3",
+      "type": "story",
+      "text": {
+        "es": "Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. ",
+        "en": "Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. "
+      },
+      "image": {
+        "src": "descripción imagen página 3",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "4",
+      "type": "story",
+      "text": {
+        "es": "Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. ",
+        "en": "Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. "
+      },
+      "image": {
+        "src": "descripción imagen página 4",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "5",
+      "type": "story",
+      "text": {
+        "es": "Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. ",
+        "en": "Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. "
+      },
+      "image": {
+        "src": "descripción imagen página 5",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "6",
+      "type": "story",
+      "text": {
+        "es": "Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. ",
+        "en": "Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. "
+      },
+      "image": {
+        "src": "descripción imagen página 6",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "7",
+      "type": "story",
+      "text": {
+        "es": "Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. Había una vez el cirque de los sueños. Era una historia mágica sobre magia. Los personajes eram incrediblemente maravillosos y aprenden siempre algo nuevo cada día. ",
+        "en": "Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. Once upon a time there was el cirque de los sueños. It was a magical story about magia. The characters were incredibly wonderful and always learn something new each day. "
+      },
+      "image": {
+        "src": "descripción imagen página 7",
+        "position": "bottom"
+      }
+    },
+    {
+      "id": "quiz1",
+      "type": "quiz",
+      "quizConfig": {
+        "questions": [
+          {
+            "question": {
+              "es": "¿Qué aprendiste?",
+              "en": "What did you learn?"
+            },
+            "options": [
+              {
+                "es": "Ser buen amigo",
+                "en": "To be a good friend"
+              },
+              {
+                "es": "Nada",
+                "en": "Nothing"
+              }
+            ],
+            "correctIndex": 0,
+            "feedback": {
+              "es": "¡Muy bien!",
+              "en": "Great!"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {
+        "es": "Momento lectura",
+        "en": "Reading time"
+      },
+      "content": {
+        "es": "Lee cada noche",
+        "en": "Read each night"
+      },
+      "icon": "📚"
+    }
+  ],
+  "id": "207-el-cirque-de-los-sueños"
+}

@@ -1,0 +1,188 @@
+{
+  "id": "183-el-tren-de-las-nubes",
+  "version": "1.0",
+  "meta": {
+    "title": "El Tren de las Nubes",
+    "subtitle": "Un viaje mágico por el cielo",
+    "author": "Gerardo Rodríguez",
+    "ageRange": [3, 6],
+    "language": "es",
+    "theme": {
+      "primaryColor": "#3498db",
+      "secondaryColor": "#5dade2",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, 'Comic Sans MS', cursive",
+      "background": "linear-gradient(180deg, #8e44ad 0%, #9b59b6 50%, #8e44ad 100%)",
+      "textColor": "#fff"
+    }
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "background": "linear-gradient(135deg, #3498db 0%, #5dade2 50%, #3498db 100%)",
+      "elements": [
+        {
+          "id": "cover-img",
+          "type": "image",
+          "src": "images/183-tren-nubes.jpg",
+          "position": {"x": "center", "y": "top", "width": "280px"}
+        },
+        {
+          "id": "title",
+          "type": "text",
+          "content": "El Tren de las Nubes",
+          "position": {"x": "center", "y": "center"},
+          "style": {"fontSize": "2.8em", "fontWeight": "bold", "textShadow": "3px 3px 6px rgba(0,0,0,0.4)"}
+        },
+        {
+          "id": "subtitle",
+          "type": "text",
+          "content": "Un viaje mágico por el cielo",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.3em", "opacity": "0.95"}
+        }
+      ]
+    },
+    {
+      "id": "page-1",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #5dade2 100%)",
+      "narration": "En un pequeño pueblo entre montañas, vivía una niña llamada <strong>Luna</strong>. Cada noche miraba las estrellas y soñaba con tocarlas.",
+      "elements": [
+        {
+          "id": "text-1",
+          "type": "text",
+          "content": "En un pequeño pueblo entre montañas, vivía una niña llamada <strong>Luna</strong>. Cada noche miraba las estrellas y soñaba con tocarlas.<br><br><em>In a small village between mountains lived a girl named Luna. Every night she looked at the stars and dreamed of touching them.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-2",
+      "type": "story",
+      "background": "linear-gradient(180deg, #5dade2 0%, #3498db 100%)",
+      "narration": "Una noche mágica, un tren brillante apareció en el cielo. No tenía ruedas, flotaba sobre las nubes. El conductor era un anciano sonriente que invitó a Luna a subir.",
+      "elements": [
+        {
+          "id": "text-2",
+          "type": "text",
+          "content": "Una noche mágica, un tren brillante apareció en el cielo. <strong>No tenía ruedas, flotaba sobre las nubes.</strong> El conductor invitó a Luna a subir.<br><br><em>One magical night, a bright train appeared in the sky. It had no wheels, it floated on the clouds. The conductor invited Luna to get on.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-3",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #9b59b6 100%)",
+      "narration": "El tren voló sobre ciudades brillantes, montañas nevadas y océanos de nubes. Luna vio delfines saltar entre las nubes y puentes de arcoíris.",
+      "elements": [
+        {
+          "id": "text-3",
+          "type": "text",
+          "content": "El tren voló sobre ciudades brillantes y montañas nevadas. <strong>Luna vio delfines saltar entre las nubes</strong> y puentes de arcoíris.<br><br><em>The train flew over bright cities and snowy mountains. Luna saw dolphins jump between clouds and rainbow bridges.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-4",
+      "type": "story",
+      "background": "linear-gradient(180deg, #9b59b6 0%, #3498db 100%)",
+      "narration": "El tren se detuvo en una estación de estrellas. Las estrellas eran tan cercanas que Luna pudo tocarlas. Eran cálidas y brillaban con alegría.",
+      "elements": [
+        {
+          "id": "text-4",
+          "type": "text",
+          "content": "El tren se detuvo en una estación de estrellas. <strong>Luna pudo tocarlas</strong>, eran cálidas y brillaban con alegría.<br><br><em>The train stopped at a star station. Luna could touch the stars, they were warm and sparkled with joy.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "page-5",
+      "type": "story",
+      "background": "linear-gradient(180deg, #3498db 0%, #5dade2 100%)",
+      "narration": "Antes de volver a casa, el conductor le regaló una pequeña estrella. Luna sabía que siempre podría volver a viajar en el tren de las nubes.",
+      "elements": [
+        {
+          "id": "text-5",
+          "type": "text",
+          "content": "Antes de volver, el conductor le regaló una pequeña estrella. <strong>Luna sabía que siempre podría volver</strong> al tren de las nubes.<br><br><em>Before returning home, the conductor gave her a small star. Luna knew she could always return to the Cloud Train.</em>",
+          "position": {"x": "center", "y": "center"}
+        }
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "elements": [],
+      "quizConfig": {
+        "showFeedback": true,
+        "allowRetry": true,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Cómo se llamaba la niña protagonista?",
+            "options": [{"text": "Sofía"}, {"text": "Luna"}, {"text": "Estrella"}, {"text": "María"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Correcto! La niña se llamaba Luna.", "incorrect": "La respuesta correcta es Luna."}
+          },
+          {
+            "id": "q2",
+            "question": "¿Qué medio de transporte vio Luna en el cielo?",
+            "options": [{"text": "Un avión"}, {"text": "Un tren de nubes"}, {"text": "Un cohete"}, {"text": "Un globo"}],
+            "correctIndex": 1,
+            "feedback": {"correct": "¡Exacto! Era un tren de nubes.", "incorrect": "La respuesta correcta es un tren de nubes."}
+          }
+        ]
+      }
+    },
+    {
+      "id": "game-1",
+      "type": "game",
+      "background": "linear-gradient(135deg, #3498db 0%, #5dade2 100%)",
+      "elements": [],
+      "gameConfig": {
+        "gameType": "memory",
+        "gridSize": [4, 3],
+        "items": [
+          {"id": "train", "content": "🚂", "matchId": "train"},
+          {"id": "cloud", "content": "☁️", "matchId": "cloud"},
+          {"id": "star", "content": "⭐", "matchId": "star"},
+          {"id": "moon", "content": "🌙", "matchId": "moon"},
+          {"id": "rainbow", "content": "🌈", "matchId": "rainbow"},
+          {"id": "heart", "content": "❤️", "matchId": "heart"}
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "type": "story",
+      "background": "linear-gradient(135deg, #3498db 0%, #5dade2 100%)",
+      "elements": [
+        {
+          "id": "end-title",
+          "type": "text",
+          "content": "🌟 <strong>Fin</strong> 🌟",
+          "position": {"x": "center", "y": "center"},
+          "animation": {"type": "pulse"}
+        },
+        {
+          "id": "end-message",
+          "type": "text",
+          "content": "Los sueños pueden hacerse realidad si crees en la magia.<br><em>Dreams can come true if you believe in magic.</em>",
+          "position": {"x": "center", "y": "bottom"},
+          "style": {"fontSize": "1.2em"}
+        }
+      ]
+    }
+  ],
+  "parentTips": [
+    {
+      "title": {"es": "Mirar las estrellas", "en": "Stargazing"},
+      "content": {"es": "Sal con tu hijo una noche clara a observar las estrellas. Pídele que imagine qué hay en el cielo.", "en": "Go out with your child on a clear night to observe the stars. Ask him to imagine what's in the sky."},
+      "icon": "⭐"
+    }
+  ]
+}
