@@ -10,14 +10,12 @@ const config = {
 			precompress: false,
 			strict: false
 		}),
-		paths: {
-			base: '/hotmart-cuentos-svelte'
-		},
 		version: {
 			pollInterval: 300000
 		},
 		prerender: {
-			handleHttpError: 'warn'
+			handleHttpError: 'warn',
+			handleUnseenRoutes: 'warn'
 		}
 	}
 };
